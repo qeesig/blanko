@@ -1,0 +1,160 @@
+.pageWrapper {
+  padding: 70px;
+  overflow: auto;
+}
+
+.filters {
+  width: 1104px;
+  margin: auto;
+}
+
+.primaryFilter {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-top: 1px solid #222531;
+  border-bottom: 1px solid #222531;
+  margin-bottom: 31px;
+}
+
+.secondaryFilter {
+  display: grid;
+  grid-template-columns: 317px 1fr;
+  column-gap: 20px;
+}
+
+.sortByFilter {
+  display: none;
+}
+
+.table {
+  width: 1104px;
+  margin: 30px auto 0px auto;
+}
+
+.headerMaintext {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 1104px;
+  margin: 0 auto 20px auto;
+}
+
+.headerSubtext {
+  color: white;
+  font-size: 14px;
+  width: 1104px;
+  margin: -10px auto 25px auto;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+  .headerMaintext {
+    width: 919px;
+  }
+
+  .headerSubtext {
+    width: 919px;
+  }
+
+  .filters {
+    width: 919px;
+  }
+
+  .table {
+    width: 919px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pageWrapper {
+    padding: 40px;
+  }
+
+  .headerMaintext {
+    width: 709px;
+  }
+
+  .headerSubtext {
+    width: 709px;
+    line-height: 22px;
+  }
+
+  .filters {
+    width: 709px;
+  }
+
+  .table {
+    width: 709px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .headerMaintext {
+    width: 529px;
+  }
+
+  .headerSubtext {
+    width: 529px;
+  }
+
+  .filters {
+    width: 529px;
+  }
+
+  .table {
+    width: 529px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .pageWrapper {
+    padding: 15px;
+  }
+
+  .headerMaintext {
+    width: 317px;
+    margin-top: 15px;
+  }
+
+  .headerSubtext {
+    width: 317px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    line-height: 18px;
+  }
+
+  .filters {
+    width: 317px;
+  }
+
+  .searchField {
+    grid-area: searchField;
+    width: 317px;
+  }
+
+  .seasonFilter {
+    grid-area: seasonFilter;
+    width: 156px;
+    margin-top: 14px;
+  }
+
+  .sortByFilter {
+    display: grid;
+    width: 106px;
+    margin-top: 14px;
+  }
+
+  .secondaryFilter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 14px;
+    grid-template-areas:
+      "searchField searchField"
+      "seasonFilter sortbyFilter";
+  }
+
+  .table {
+    width: 317px;
+  }
+}
