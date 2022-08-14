@@ -24,27 +24,19 @@ a {
 ::-webkit-scrollbar {
   width: 6px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #2e2e32;
   border-radius: 10px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #262628;
   border-radius: 10px;
-}
-
-/* table */
-.css-o6viek-Table {
-  border-radius: 6px;
 }
 
 /* table header */
@@ -62,119 +54,86 @@ a {
   border-bottom: 1px solid #222531 !important;
 }
 
-/* only works in dev */
-
-/* base pop up menu */
-.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
-  background-color: #222531 !important;
-  color: white !important;
+/* pop up menu */
+.MuiPaper-elevation1 {
+  background-color: #222531;
+  color: white;
 }
 
-/* base pop up menu */
-.css-6hp17o-MuiList-root-MuiMenu-list > li:hover {
-  background-color: #323546 !important;
+/* .MuiTypography-root {
+  font-size: 16px;
+} */
+
+/* pop up menu items */
+.MuiList-root.MuiMenu-list > li:hover {
+  background-color: #323546;
 }
 
-/* season pop up menu */
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
-  background-color: transparent !important;
+/* pop up menu selected item */
+.MuiButtonBase-root.MuiMenuItem-root.Mui-selected {
+  background-color: transparent;
 }
 
-/* pagination size pop up menu */
-.css-10by3a5-MuiButtonBase-root-MuiMenuItem-root-MuiTablePagination-menuItem.Mui-selected {
-  background-color: transparent !important;
+/* pagination rows per page text*/
+.MuiTablePagination-selectLabel {
+  font-size: 14px;
+  padding-top: 2px;
 }
 
-/* only works in prod */
-
-/* base pop up menu */
-.css-177ic5c {
-  background-color: #222531 !important;
-  color: white !important;
+/* pagination size container */
+.MuiTablePagination-root .MuiInputBase-colorPrimary {
+  font-size: 14px;
 }
 
-/* base pop up menu */
-.css-r8u8y9 > li:hover {
-  background-color: #323546 !important;
+/* pagination size text*/
+.MuiInputBase-root .MuiTablePagination-select {
+  margin-top: 4px;
 }
 
-/* season pop up menu */
-.css-1km1ehz.Mui-selected {
-  background-color: transparent !important;
-}
-
-/* pagination size pop up menu */
-.css-1gs62wq.Mui-selected {
-  background-color: transparent !important;
+/* pagination rows */
+.MuiTablePagination-displayedRows {
+  font-size: 14px;
+  margin-top: 18px;
 }
 
 @media screen and (max-width: 620px) {
   html,
   body {
-    font-size: 12px !important;
+    font-size: 12px;
   }
 
-  /* pagination bar */
-  .css-1w9iq3g-MuiTablePagination-root .MuiTablePagination-toolbar {
-    padding-left: 0 !important;
+  /* pagination */
+  .MuiTablePagination-root .MuiTablePagination-toolbar {
+    padding-left: 0;
+    margin-top: 10px;
   }
 
-  /* pagination size */
-  .css-16c50h-MuiInputBase-root-MuiTablePagination-select {
-    margin-left: 0 !important;
-    margin-top: 2px !important;
+  /* pagination rows per page text*/
+  .MuiTablePagination-selectLabel {
+    font-size: 12px;
+    padding-top: 1px;
   }
 
-  /*only works in prod */
-
-  /* filters */
-  /* .css-vamspm {
-    display: grid !important;
-    grid-template-columns: 148px 148px;
-    column-gap: 20px;
-    grid-template-areas:
-      "search search"
-      "season sortby";
+  /* pagination size container */
+  .MuiTablePagination-root .MuiInputBase-colorPrimary {
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 15px;
   }
 
-  .css-vamspm > :not(style) + :not(style) {
-    margin-top: 20px !important;
-    margin-left: 0px !important;
+  /* pagination size text*/
+  .MuiInputBase-root .MuiTablePagination-select {
+    margin-top: 3px;
   }
 
-  .css-vamspm > :first-child {
-    grid-area: search;
-    margin-top: 30px !important;
+  /* pagination rows */
+  .MuiTablePagination-displayedRows {
+    font-size: 12px;
+    margin-top: 14px;
   }
 
-  .css-vamspm > :nth-child(2) {
-    grid-area: season;
+  /* pagination prev next button */
+  .MuiTablePagination-toolbar .MuiTablePagination-actions {
+    margin-left: 10px;
   }
-
-  .css-vamspm > :nth-child(3) {
-    grid-area: sortby;
-    display: grid;
-  }
-
-  /* search bar */
-  /* .css-s6e70o input {
-    padding-left: 36px !important;
-    width: 100% !important;
-  } */
-
-  /* pagination bar */
-  .css-8nphli {
-    padding-left: 0 !important;
-  }
-
-  /* pagination size */
-  .css-rmmij8 {
-    margin-left: 0 !important;
-    margin-top: 2px !important;
-  }
-
-  /* footer */
-  /* .css-7ozcit {
-    text-align: center !important;
-  } */
 }
