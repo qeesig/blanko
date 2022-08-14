@@ -55,7 +55,6 @@ import Footer from "../components/footer";
 
 export default function Home() {
   //styles
-
   const ITEM_HEIGHT = 48;
   const ITEM_PADDING_TOP = 8;
   const MenuProps = {
@@ -288,41 +287,36 @@ export default function Home() {
     };
   }, []);
 
-  const [viewPort, setViewPort] = useState({
-    x: 0,
-    y: 0,
-  });
+  const [viewPort, setViewPort] = useState(0);
 
-  const updateViewPort = useCallback(
-    () =>
-      setViewPort({
-        x: window.innerWidth,
-        y: window.innerHeight,
-      }),
-    []
-  );
+  const handleWindowResize = () => {
+    setViewPort(window.innerWidth);
+  };
 
   useEffect(() => {
-    window.onresize = updateViewPort;
-    updateViewPort();
-  }, [updateViewPort]);
+    // component is mounted and window is available
+    handleWindowResize();
+    window.addEventListener("resize", handleWindowResize);
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
 
   useEffect(() => {
-    if (viewPort.x <= 620) {
+    if (viewPort <= 620) {
       setCustomTable(
         "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
       );
-    } else if (viewPort.x <= 780) {
+    } else if (viewPort <= 780) {
       //-Burned -Mint Price
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 150px !important;"
       );
-    } else if (viewPort.x <= 1024) {
+    } else if (viewPort <= 1024) {
       //-Mint Date -Season
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 100px !important;"
       );
-    } else if (viewPort.x <= 1300) {
+    } else if (viewPort <= 1300) {
       //-Artist
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 100px !important;"
@@ -333,7 +327,7 @@ export default function Home() {
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 185px 100px !important;"
       );
     }
-  }, [viewPort.x]);
+  }, [viewPort]);
 
   const [hiddenColumns, setHiddenColumns] = useState(["MINTED"]);
 
@@ -351,9 +345,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={styles.pageWrapper}>
+    <div className={styles.pageContainer}>
       <Head>
-        <title>Explorer - Blankos Block Party</title>
+        <title>Blankos - BlankoDrops</title>
         <meta
           property="twitter:title"
           content="Browse all blankos from Blankos Block Party"
@@ -361,7 +355,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://qeesig.github.io/blanko-explorer/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/cardimage.jpg"
           key="twimage"
         />
         <meta name="twitter:creator" content="@qeesig" key="twhandle" />
@@ -370,7 +364,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://qeesig.github.io/blanko-explorer/"
+          content="https://qeesig.github.io/blanko/"
           key="ogurl"
         />
         <meta
@@ -384,7 +378,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://qeesig.github.io/blanko-explorer/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/cardimage.jpg"
           key="ogimage"
         />
         <meta
@@ -396,24 +390,22 @@ export default function Home() {
           name="description"
           content="Love Blankos Block Party? Get information of all blankos in a tabular format."
         />
-        <link
-          rel="icon"
-          href="https://qeesig.github.io/blanko-explorer/favicon.ico"
-        />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       {!spinner && (
         <header>
-          <p className={styles.headerMaintext}>BLANKOS</p>
+          <Navbar />
+          <p className={styles.headerMaintext}>Blankos</p>
           <p className={styles.headerSubtext}>
             Explore all blankos from{" "}
             <Link
               href="https://blankos.com/"
               target="_blank"
               sx={{
-                color: "#c775ff",
+                color: "#4a9ff4",
                 fontWeight: "bold",
                 textDecoration: "none",
-                "&:hover": { color: "#dba6ff" },
+                "&:hover": { color: "#81c0ff" },
               }}
             >
               Blankos Block Party.
@@ -421,7 +413,7 @@ export default function Home() {
           </p>
         </header>
       )}
-      <div className={styles.filters}>
+      <div className={styles.filterContainer}>
         {!spinner && (
           <>
             <div className={styles.primaryFilter}>
@@ -481,12 +473,12 @@ export default function Home() {
                     },
 
                     "&.Mui-selected": {
-                      backgroundColor: "#892CDC",
+                      backgroundColor: "#1976d2",
                       color: "white",
                       textDecorationColor: "white",
 
                       "&:hover": {
-                        backgroundColor: "#892CDC",
+                        backgroundColor: "#1976d2",
                         textDecorationColor: "white",
                       },
                     },
@@ -565,7 +557,7 @@ export default function Home() {
                       },
 
                       "&.Mui-focused fieldset": {
-                        borderColor: "#dba6ff",
+                        borderColor: "#4a9ff4",
                       },
                     },
                   }}
@@ -605,7 +597,7 @@ export default function Home() {
                     },
 
                     "&.Mui-focused fieldset": {
-                      borderColor: "#dba6ff",
+                      borderColor: "#4a9ff4",
                     },
                   },
                 }}
@@ -659,7 +651,7 @@ export default function Home() {
                     },
 
                     "&.Mui-focused fieldset": {
-                      borderColor: "#dba6ff",
+                      borderColor: "#4a9ff4",
                     },
                   },
                 }}
@@ -700,7 +692,7 @@ export default function Home() {
                       <HeaderCell css={styledHeader}></HeaderCell>
                       <HeaderCellSort
                         hide={
-                          viewPort.x <= 620
+                          viewPort <= 620
                             ? !hiddenColumns.includes("MINTED")
                             : ""
                         }
@@ -711,7 +703,7 @@ export default function Home() {
                       </HeaderCellSort>
                       <HeaderCellSort
                         hide={
-                          viewPort.x <= 780
+                          viewPort <= 780
                             ? !hiddenColumns.includes("BURNED")
                             : ""
                         }
@@ -722,7 +714,7 @@ export default function Home() {
                       </HeaderCellSort>
                       <HeaderCellSort
                         hide={
-                          viewPort.x <= 1024
+                          viewPort <= 1024
                             ? !hiddenColumns.includes("MINTDATE")
                             : ""
                         }
@@ -733,7 +725,7 @@ export default function Home() {
                       </HeaderCellSort>
                       <HeaderCellSort
                         hide={
-                          viewPort.x <= 780
+                          viewPort <= 780
                             ? !hiddenColumns.includes("MINTPRICE")
                             : ""
                         }
@@ -744,7 +736,7 @@ export default function Home() {
                       </HeaderCellSort>
                       <HeaderCell
                         hide={
-                          viewPort.x <= 1024
+                          viewPort <= 1024
                             ? !hiddenColumns.includes("SEASON")
                             : ""
                         }
@@ -757,7 +749,7 @@ export default function Home() {
                       </HeaderCell>
                       <HeaderCell
                         hide={
-                          viewPort.x <= 1300
+                          viewPort <= 1300
                             ? !hiddenColumns.includes("ARTIST")
                             : ""
                         }
@@ -770,7 +762,7 @@ export default function Home() {
                       </HeaderCell>
                       <HeaderCell
                         hide={
-                          viewPort.x <= 620
+                          viewPort <= 620
                             ? !hiddenColumns.includes("STATUS")
                             : ""
                         }
@@ -807,7 +799,7 @@ export default function Home() {
                         >
                           <Image
                             src={item.imgPath}
-                            alt="Picture of the author"
+                            alt={`Picture of ${item.name}`}
                             width={54}
                             height={54}
                             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
@@ -826,7 +818,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 620
+                            viewPort <= 620
                               ? !hiddenColumns.includes("MINTED")
                               : ""
                           }
@@ -843,7 +835,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 780
+                            viewPort <= 780
                               ? !hiddenColumns.includes("BURNED")
                               : ""
                           }
@@ -860,7 +852,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 1024
+                            viewPort <= 1024
                               ? !hiddenColumns.includes("MINTDATE")
                               : ""
                           }
@@ -877,7 +869,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 780
+                            viewPort <= 780
                               ? !hiddenColumns.includes("MINTPRICE")
                               : ""
                           }
@@ -895,7 +887,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 1024
+                            viewPort <= 1024
                               ? !hiddenColumns.includes("SEASON")
                               : ""
                           }
@@ -908,7 +900,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 1300
+                            viewPort <= 1300
                               ? !hiddenColumns.includes("ARTIST")
                               : ""
                           }
@@ -918,7 +910,7 @@ export default function Home() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort.x <= 620
+                            viewPort <= 620
                               ? !hiddenColumns.includes("STATUS")
                               : ""
                           }
