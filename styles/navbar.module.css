@@ -1,0 +1,54 @@
+.navContainer {
+  width: 1104px;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.drawerContainer {
+  color: white;
+}
+
+.drawerItem > span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #222531;
+}
+
+.openDrawer {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 20px;
+}
+
+.openDrawer > span {
+  margin-top: 2px !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .navContainer {
+    width: 919px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navContainer {
+    width: 709px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .navContainer {
+    width: 529px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .navContainer {
+    width: 100%;
+    margin-left: 18px;
+  }
+}
