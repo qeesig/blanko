@@ -1,9 +1,9 @@
-.pageWrapper {
-  padding: 70px;
+.pageContainer {
+  padding: 120px 70px 70px 70px;
   overflow: auto;
 }
 
-.filters {
+.filterContainer {
   width: 1104px;
   margin: auto;
 }
@@ -57,7 +57,7 @@
     width: 919px;
   }
 
-  .filters {
+  .filterContainer {
     width: 919px;
   }
 
@@ -67,8 +67,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .pageWrapper {
-    padding: 40px;
+  .pageContainer {
+    padding: 120px 40px 40px 40px;
   }
 
   .headerMaintext {
@@ -80,7 +80,7 @@
     line-height: 22px;
   }
 
-  .filters {
+  .filterContainer {
     width: 709px;
   }
 
@@ -98,7 +98,7 @@
     width: 529px;
   }
 
-  .filters {
+  .filterContainer {
     width: 529px;
   }
 
@@ -108,8 +108,8 @@
 }
 
 @media screen and (max-width: 620px) {
-  .pageWrapper {
-    padding: 15px;
+  .pageContainer {
+    padding: 80px 15px 15px 15px;
   }
 
   .headerMaintext {
@@ -124,7 +124,7 @@
     line-height: 18px;
   }
 
-  .filters {
+  .filterContainer {
     width: 317px;
   }
 
