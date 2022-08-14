@@ -1,24 +1,23 @@
 import { Box, Link } from "@mui/material";
+import styles from "../styles/footer.module.css";
 
 export default function Footer() {
   return (
-    <footer>
-      <Box sx={{ color: "white", marginTop: "30px", textAlign: "right" }}>
-        Made by{" "}
-        <Link
-          href="https://twitter.com/qeesig"
-          target="_blank"
-          sx={{
-            color: "#c775ff",
-            fontWeight: "bold",
-            textDecoration: "none",
-            "&:hover": { color: "#dba6ff" },
-          }}
-        >
-          qeesig
-        </Link>{" "}
-        🦇
-      </Box>
+    <footer className={styles.footer}>
+      Made by{" "}
+      <Link
+        href="https://twitter.com/qeesig"
+        target="_blank"
+        sx={{
+          color: "#4a9ff4",
+          fontWeight: "bold",
+          textDecoration: "none",
+          "&:hover": { color: "#81c0ff" },
+        }}
+      >
+        qeesig
+      </Link>{" "}
+      🦇
     </footer>
   );
 }
