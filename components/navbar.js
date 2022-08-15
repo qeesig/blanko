@@ -1,5 +1,7 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import Image from "next/image";
+import Link from "next/link";
 
 import {
   AppBar,
@@ -18,11 +20,8 @@ import {
 
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
-
-import styles from "../styles/navbar.module.css";
-
-import Image from "next/image";
 import logo from "../public/blankodrops.png";
+import styles from "../styles/navbar.module.css";
 
 function DrawerAppBar(props) {
   const [drawerWidth, setDrawerWidth] = useState(0);
@@ -44,6 +43,11 @@ function DrawerAppBar(props) {
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
+  };
+
+  const clearSessionStorage = (event) => {
+    sessionStorage.removeItem("primaryFilter");
+    sessionStorage.removeItem("pageNumber");
   };
 
   const drawer = (
@@ -76,26 +80,44 @@ function DrawerAppBar(props) {
         >
           <CloseIcon />
         </IconButton>
-        <Image src={logo} layout="fixed" alt="Logo of BlankosDrop" />
+        <Image
+          src={`/${logo.src}`}
+          layout="fixed"
+          width="126px"
+          height="26px"
+          alt="Logo of BlankosDrop"
+        />
       </Typography>
       <Divider sx={{ borderColor: "transparent" }} />
       <List>
-        <ListItem disablePadding>
-          <ListItemButton
-            sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
-          >
-            <ListItemText className={styles.drawerItem}>Blankos</ListItemText>
-          </ListItemButton>
-        </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton
-            sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
-          >
-            <ListItemText className={styles.drawerItem}>
-              Accessories
-            </ListItemText>
-          </ListItemButton>
-        </ListItem>
+        <Link href="/">
+          <a>
+            <ListItem disablePadding>
+              <ListItemButton
+                onClick={clearSessionStorage}
+                sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
+              >
+                <ListItemText className={styles.drawerItem}>
+                  Blankos
+                </ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </a>
+        </Link>
+        <Link href="/accessories">
+          <a>
+            <ListItem disablePadding>
+              <ListItemButton
+                onClick={clearSessionStorage}
+                sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
+              >
+                <ListItemText className={styles.drawerItem}>
+                  Accessories
+                </ListItemText>
+              </ListItemButton>
+            </ListItem>
+          </a>
+        </Link>
       </List>
     </Box>
   );
@@ -123,7 +145,13 @@ function DrawerAppBar(props) {
             >
               <MenuIcon />
             </IconButton>
-            <Image src={logo} layout="fixed" alt="Logo of BlankosDrop" />
+            <Image
+              src={`/${logo.src}`}
+              layout="fixed"
+              alt="Logo of BlankosDrop"
+              width="126px"
+              height="26px"
+            />
           </div>
 
           <Box
@@ -133,26 +161,36 @@ function DrawerAppBar(props) {
               marginLeft: "110px",
             }}
           >
-            <Button
-              sx={{
-                color: "#fff",
-                fontSize: "14px",
-                textTransform: "capitalize",
-                paddingTop: "10px",
-              }}
-            >
-              Blankos
-            </Button>
-            <Button
-              sx={{
-                color: "#fff",
-                fontSize: "14px",
-                textTransform: "capitalize",
-                paddingTop: "10px",
-              }}
-            >
-              Accessories
-            </Button>
+            <Link href="/">
+              <a>
+                <Button
+                  onClick={clearSessionStorage}
+                  sx={{
+                    color: "#fff",
+                    fontSize: "14px",
+                    textTransform: "capitalize",
+                    paddingTop: "10px",
+                  }}
+                >
+                  Blankos
+                </Button>
+              </a>
+            </Link>
+            <Link href="/accessories">
+              <a>
+                <Button
+                  onClick={clearSessionStorage}
+                  sx={{
+                    color: "#fff",
+                    fontSize: "14px",
+                    textTransform: "capitalize",
+                    paddingTop: "10px",
+                  }}
+                >
+                  Accessories
+                </Button>
+              </a>
+            </Link>
           </Box>
         </Toolbar>
       </AppBar>
