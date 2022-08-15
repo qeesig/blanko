@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  // basePath: "/blanko-explorer",
-  // assetPrefix: "/blanko-explorer",
+  basePath: "/blanko",
+  assetPrefix: "/blanko",
   trailingSlash: true,
 };
 
