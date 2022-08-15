@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import {
@@ -53,7 +53,7 @@ import { css } from "@emotion/react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
-export default function Home() {
+export default function Blankos() {
   //styles
   const ITEM_HEIGHT = 48;
   const ITEM_PADDING_TOP = 8;
@@ -167,7 +167,6 @@ export default function Home() {
   const theme = useTheme([materialTheme, customTheme]);
 
   //FILTERS
-
   //toggle button filters (All, Party Pass, Gem Rush)
   const [primaryFilter, setPrimaryFilter] = useState("All");
 
