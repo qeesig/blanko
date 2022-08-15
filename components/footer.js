@@ -1,4 +1,4 @@
-import { Box, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import styles from "../styles/footer.module.css";
 
 export default function Footer() {
