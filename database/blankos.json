@@ -422,7 +422,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Snack Attack+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/honey-bun.png"
   },
@@ -481,7 +481,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Summer Camp Slam+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/tenderfoot.png"
   },
@@ -646,7 +646,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Summer Camp Slam+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/counselor-blaze.png"
   },
@@ -718,7 +718,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Blankos Brawlers+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/south-paw.png"
   },
@@ -749,7 +749,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Summer Camp Slam",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/lead-counselor-sage.png"
   },
@@ -809,7 +809,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Grave Rave+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/astrid-havoc.png"
   },
@@ -979,7 +979,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Blankos Brawlers",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/katana.png"
   },
@@ -1009,7 +1009,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Blankos Brawlers+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/nelson.png"
   },
@@ -1025,7 +1025,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Hustle & Glow",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/cabinet-man-exe.png"
   },
@@ -1083,7 +1083,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Grave Rave",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/mumford.png"
   },
@@ -1113,7 +1113,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Manila Chill+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/manila-killa.png"
   },
@@ -1129,7 +1129,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Get Lucky+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/grandmaster-jin.png"
   },
@@ -1415,7 +1415,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Get Lucky",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/scarlet-crash.png"
   },
@@ -1491,7 +1491,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Grave Rave+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/deadward.png"
   },
@@ -1595,7 +1595,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Get Lucky+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/tygra.png"
   },
@@ -1611,7 +1611,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass",
+    "tag": "Manila Chill",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/gelid-zero.png"
   },
@@ -1684,7 +1684,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Party Pass+",
+    "tag": "Manila Chill+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/mach-63.png"
   },
