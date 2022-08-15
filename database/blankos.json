@@ -11,20 +11,22 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/golden-ticket.png"
   },
   {
     "rank": 2,
     "name": "Billy Six Bones",
-    "minted": 11,
+    "minted": 13,
     "burned": 0,
     "mintDate": "2018-12-20T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
     "artist": "Jnok",
-    "status": "CLOSED",
+    "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 Pre-launch",
+    "tag": "Giveaway",
     "imgPath": "/blanko-img/billy-six-bones.png"
   },
   {
@@ -39,14 +41,14 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "GM",
+    "tag": "Gem Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/el-grand-quetzalcoatl.png"
   },
   {
     "rank": 4,
     "name": "Ultra B Dino",
-    "minted": 31,
+    "minted": 32,
     "burned": 0,
     "mintDate": "2022-03-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -55,7 +57,7 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "GM",
+    "tag": "Gem Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/ultra-b-dino.png"
   },
@@ -71,12 +73,13 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/terry.png"
   },
   {
     "rank": 6,
     "name": "Puguillo Tranquilo",
-    "minted": 54,
+    "minted": 57,
     "burned": 0,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -85,7 +88,7 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "GM",
+    "tag": "Gem Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/puguillo-tranquilo.png"
   },
@@ -101,12 +104,13 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/i-am-rare.png"
   },
   {
     "rank": 8,
     "name": "El Xiuhcoatl",
-    "minted": 90,
+    "minted": 93,
     "burned": 48,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -115,15 +119,15 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "MT",
+    "tag": "Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/el-xiuhcoatl.png"
   },
   {
     "rank": 9,
     "name": "Chemical B Dino",
-    "minted": 108,
-    "burned": 62,
+    "minted": 111,
+    "burned": 64,
     "mintDate": "2022-03-17T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -131,7 +135,7 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "MT",
+    "tag": "Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/chemical-b-dino.png"
   },
@@ -147,6 +151,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/orson-rex.png"
   },
   {
@@ -161,6 +166,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/billy-bones-flip.png"
   },
   {
@@ -189,15 +195,15 @@
     "status": "CLOSED",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "GM",
+    "tag": "Gem Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/at0m-atn-km.png"
   },
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 204,
-    "burned": 108,
+    "minted": 210,
+    "burned": 114,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -205,14 +211,14 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "MT",
+    "tag": "Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/don-puguillo.png"
   },
   {
     "rank": 15,
     "name": "Harlekin",
-    "minted": 269,
+    "minted": 270,
     "burned": 0,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -221,7 +227,7 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "GM",
+    "tag": "Gem Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/harlekin.png"
   },
@@ -251,7 +257,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "OS Drop • 0.25 eth",
+    "tag": "0.25Ξ OpenSea",
     "imgPath": "/blanko-img/lavamouth.png"
   },
   {
@@ -282,6 +288,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 Pre-launch",
+    "tag": "Giveaway",
     "imgPath": "/blanko-img/camo-j.png"
   },
   {
@@ -296,6 +303,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
@@ -310,6 +318,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 Alpha",
+    "tag": "Giveaway",
     "imgPath": "/blanko-img/billy-a-bones.png"
   },
   {
@@ -324,7 +333,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/sergeant-poppy.png"
   },
@@ -340,6 +349,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/mythical-camo.png"
   },
   {
@@ -368,6 +378,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/el-cha-texas.png"
   },
   {
@@ -382,25 +393,11 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "OS Drop • 0.15 eth",
+    "tag": "0.15Ξ OpenSea",
     "imgPath": "/blanko-img/icebuddy.png"
   },
   {
     "rank": 27,
-    "name": "Roxx",
-    "minted": 696,
-    "burned": 0,
-    "mintDate": "2022-08-05T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Andrea Kang",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "imgPath": "/blanko-img/roxx.png"
-  },
-  {
-    "rank": 28,
     "name": "Kijo",
     "minted": 700,
     "burned": 0,
@@ -414,9 +411,9 @@
     "imgPath": "/blanko-img/kijo.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Honey Bun",
-    "minted": 712,
+    "minted": 726,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -425,9 +422,23 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/honey-bun.png"
+  },
+  {
+    "rank": 29,
+    "name": "Roxx",
+    "minted": 728,
+    "burned": 0,
+    "mintDate": "2022-08-05T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Andrea Kang",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "imgPath": "/blanko-img/roxx.png"
   },
   {
     "rank": 30,
@@ -441,6 +452,7 @@
     "status": "MINTING",
     "gemRush": false,
     "seasonFilter": "00 SXSW 2019",
+    "tag": "SXSW",
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
@@ -469,7 +481,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/tenderfoot.png"
   },
@@ -490,8 +502,8 @@
   {
     "rank": 34,
     "name": "Skivvy Klown",
-    "minted": 788,
-    "burned": 538,
+    "minted": 795,
+    "burned": 540,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -499,7 +511,7 @@
     "status": "MINTING",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "MT",
+    "tag": "Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/skivvy-klown.png"
   },
@@ -545,7 +557,7 @@
     "status": "CLOSED",
     "gemRush": true,
     "seasonFilter": "00 Early Access",
-    "tag": "MT",
+    "tag": "Mint",
     "tagFilter": "Gem Rush",
     "imgPath": "/blanko-img/at0m-atn-err.png"
   },
@@ -591,7 +603,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "OS Drop • 0.075 eth",
+    "tag": "0.075Ξ OpenSea",
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
@@ -634,7 +646,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/counselor-blaze.png"
   },
@@ -706,7 +718,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/south-paw.png"
   },
@@ -714,7 +726,7 @@
     "rank": 48,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 180,
+    "burned": 186,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
     "season": "00",
@@ -737,7 +749,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/lead-counselor-sage.png"
   },
@@ -797,7 +809,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/astrid-havoc.png"
   },
@@ -967,7 +979,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/katana.png"
   },
@@ -997,7 +1009,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/nelson.png"
   },
@@ -1013,7 +1025,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/cabinet-man-exe.png"
   },
@@ -1071,7 +1083,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/mumford.png"
   },
@@ -1101,7 +1113,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/manila-killa.png"
   },
@@ -1117,7 +1129,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/grandmaster-jin.png"
   },
@@ -1403,7 +1415,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/scarlet-crash.png"
   },
@@ -1425,7 +1437,7 @@
     "rank": 98,
     "name": "Boss Dino",
     "minted": 3500,
-    "burned": 216,
+    "burned": 222,
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 149.99,
     "season": "00",
@@ -1456,15 +1468,15 @@
     "name": "Visage",
     "minted": 3506,
     "burned": 0,
-    "mintDate": "2022-06-11T07:00:00.000Z",
+    "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
     "artist": "Surell",
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "Community Design",
-    "tagFilter": "Community Design",
+    "tag": "Community Event",
+    "tagFilter": "Community Event",
     "imgPath": "/blanko-img/visage.png"
   },
   {
@@ -1479,7 +1491,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/deadward.png"
   },
@@ -1583,7 +1595,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/tygra.png"
   },
@@ -1599,7 +1611,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP",
+    "tag": "Party Pass",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/gelid-zero.png"
   },
@@ -1621,7 +1633,7 @@
     "rank": 111,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 406,
+    "burned": 418,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
@@ -1672,7 +1684,7 @@
     "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
-    "tag": "PP+",
+    "tag": "Party Pass+",
     "tagFilter": "Party Pass",
     "imgPath": "/blanko-img/mach-63.png"
   },
@@ -1767,7 +1779,7 @@
     "rank": 121,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1576,
+    "burned": 1590,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
