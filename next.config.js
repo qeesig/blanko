@@ -7,7 +7,6 @@ const nextConfig = {
     path: "",
   },
   basePath: "/blanko",
-  assetPrefix: "/blanko",
   trailingSlash: true,
 };
 
