@@ -55,15 +55,11 @@ function DrawerAppBar(props) {
       <Typography
         variant="h6"
         sx={{
-          padding: "14px 20px 12px 18px",
+          padding: "14px 18px 12px 18px",
           backgroundColor: "#1976d2",
           display: "grid",
           gridTemplateColumns: "40px 1fr",
           columnGap: "20px",
-
-          span: {
-            marginTop: "2px !important",
-          },
         }}
       >
         <IconButton
@@ -80,13 +76,6 @@ function DrawerAppBar(props) {
         >
           <CloseIcon />
         </IconButton>
-        {/* <Image
-          src={`/${logo.src}`}
-          layout="fixed"
-          width="126px"
-          height="26px"
-          alt="Logo of BlankosDrop"
-        /> */}
         <Logo style={{ width: "126px", height: "26px", marginTop: "2px" }} />
       </Typography>
       <Divider sx={{ borderColor: "transparent" }} />
@@ -156,13 +145,6 @@ function DrawerAppBar(props) {
             >
               <MenuIcon />
             </IconButton>
-            {/* <Image
-              src={`/${logo.src}`}
-              layout="fixed"
-              width="126px"
-              height="26px"
-              alt="Logo of BlankosDrop"
-            /> */}
             <Logo
               style={{ width: "126px", height: "26px", marginTop: "2px" }}
             />
@@ -170,13 +152,12 @@ function DrawerAppBar(props) {
 
           <Box
             sx={{
-              // flexGrow: 1,
               display: { xs: "none", sm: "block" },
               marginLeft: "110px",
             }}
           >
             <Link href="/">
-              <a>
+              <a style={{ marginRight: "12px" }}>
                 <Button
                   onClick={clearSessionStorage}
                   sx={{
