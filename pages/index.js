@@ -54,7 +54,6 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 export default function Blankos() {
-  //styles
   const ITEM_HEIGHT = 48;
   const ITEM_PADDING_TOP = 8;
   const MenuProps = {
@@ -166,8 +165,6 @@ export default function Blankos() {
 
   const theme = useTheme([materialTheme, customTheme]);
 
-  //FILTERS
-  //toggle button filters (All, Party Pass, Gem Rush)
   const [primaryFilter, setPrimaryFilter] = useState("All");
 
   const primaryFilterValue = (event) => {
@@ -189,7 +186,6 @@ export default function Blankos() {
     };
   }
 
-  //search
   const [search, setSearch] = useState("");
   data = {
     nodes: data.nodes.filter(
@@ -203,7 +199,6 @@ export default function Blankos() {
     pagination.fns.onSetPage(0);
   };
 
-  //season
   const [season, setSeason] = useState("");
   const seasonChange = (event) => {
     setSeason(event.target.value);
@@ -215,7 +210,6 @@ export default function Blankos() {
     ),
   };
 
-  //sort
   const sort = useSort(
     data,
     {
@@ -243,17 +237,14 @@ export default function Blankos() {
     }
   );
 
-  function onSortChange(action, state) {
-    // console.log(action, state);
+  function onSortChange() {
     pagination.fns.onSetPage(0);
   }
 
-  //scroll reset
   const scrollReset = () => {
     window.scrollTo(0, 0);
   };
 
-  //pagination
   const [pageNumber, setPageNumber] = useState(0);
   const [pageSize, setPageSize] = useState(25);
 
@@ -271,14 +262,13 @@ export default function Blankos() {
     scrollReset();
   }
 
-  //render delay
-  const [spinner, setSpinner] = useState(true);
+  const [renderDelay, setRenderDelay] = useState(true);
 
   useEffect(() => {
     removeFbclid();
 
     const timeoutID = setTimeout(() => {
-      setSpinner(false);
+      setRenderDelay(false);
     }, 25);
 
     return () => {
@@ -305,23 +295,23 @@ export default function Blankos() {
       setCustomTable(
         "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
       );
+      // minted, status
     } else if (viewPort <= 780) {
-      //-Burned -Mint Price
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 150px !important;"
       );
+      // minted, burned, mt price, status
     } else if (viewPort <= 1024) {
-      //-Mint Date -Season
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 100px !important;"
       );
+      // minted, burned, mt date, mt price, season, status
     } else if (viewPort <= 1300) {
-      //-Artist
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 100px !important;"
       );
+      // default
     } else {
-      //default
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 185px 100px !important;"
       );
@@ -346,7 +336,7 @@ export default function Blankos() {
   return (
     <div className={styles.pageContainer}>
       <Head>
-        <title>Blankos - BlankoDrops</title>
+        <title>blankodrops / Blankos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
@@ -355,7 +345,7 @@ export default function Blankos() {
         />
         <meta
           property="twitter:image"
-          content="https://qeesig.github.io/blanko/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/blanko-card-img.jpg"
           key="twimage"
         />
         <meta name="twitter:creator" content="@qeesig" key="twhandle" />
@@ -378,7 +368,7 @@ export default function Blankos() {
         />
         <meta
           property="og:image"
-          content="https://qeesig.github.io/blanko/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/blanko-card-img.jpg"
           key="ogimage"
         />
         <meta
@@ -390,9 +380,9 @@ export default function Blankos() {
           name="description"
           content="Love Blankos Block Party? Here you can find information of blankos in an engaging and easy to read manner."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://qeesig.github.io/blanko/favicon.ico" />
       </Head>
-      {!spinner && (
+      {!renderDelay && (
         <header>
           <Navbar />
           <p className={styles.headerMaintext}>Blankos</p>
@@ -414,7 +404,7 @@ export default function Blankos() {
         </header>
       )}
       <div className={styles.filterContainer}>
-        {!spinner && (
+        {!renderDelay && (
           <>
             <div className={styles.primaryFilter}>
               <ToggleButtonGroup
@@ -687,7 +677,7 @@ export default function Blankos() {
       </div>
 
       <div className={styles.table}>
-        {!spinner && (
+        {!renderDelay && (
           <>
             <Table
               data={data}
@@ -816,7 +806,7 @@ export default function Blankos() {
                             width={54}
                             height={54}
                             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            placeholder="blur" // Optional blur-up while loading
+                            placeholder="blur"
                           />
                         </Cell>
                         <Cell
@@ -827,7 +817,9 @@ export default function Blankos() {
                           }}
                         >
                           <Name className={styles.blankoName}>{item.name}</Name>
-                          <Tag tag={item.tag}>{item.tag}</Tag>
+                          <Tag className={styles.blankoTag} tag={item.tag}>
+                            {item.tag}
+                          </Tag>
                         </Cell>
                         <Cell
                           hide={

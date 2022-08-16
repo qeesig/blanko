@@ -195,8 +195,6 @@ export default function Accessories() {
 
   const theme = useTheme([materialTheme, customTheme]);
 
-  //FILTERS
-  //toggle button filters (Attachment Type)
   const [primaryFilter, setPrimaryFilter] = useState("All");
 
   const primaryFilterValue = (event) => {
@@ -218,7 +216,6 @@ export default function Accessories() {
     };
   }
 
-  //search
   const [search, setSearch] = useState("");
   data = {
     nodes: data.nodes.filter((item) =>
@@ -230,7 +227,6 @@ export default function Accessories() {
     pagination.fns.onSetPage(0);
   };
 
-  //season
   const [season, setSeason] = useState("");
   const seasonChange = (event) => {
     setSeason(event.target.value);
@@ -242,7 +238,6 @@ export default function Accessories() {
     ),
   };
 
-  //sort
   const sort = useSort(
     data,
     {
@@ -270,17 +265,14 @@ export default function Accessories() {
     }
   );
 
-  function onSortChange(action, state) {
-    // console.log(action, state);
+  function onSortChange() {
     pagination.fns.onSetPage(0);
   }
 
-  //scroll reset
   const scrollReset = () => {
     window.scrollTo(0, 0);
   };
 
-  //pagination
   const [pageNumber, setPageNumber] = useState(0);
   const [pageSize, setPageSize] = useState(25);
 
@@ -298,14 +290,13 @@ export default function Accessories() {
     scrollReset();
   }
 
-  //render delay
-  const [spinner, setSpinner] = useState(true);
+  const [renderDelay, setRenderDelay] = useState(true);
 
   useEffect(() => {
     removeFbclid();
 
     const timeoutID = setTimeout(() => {
-      setSpinner(false);
+      setRenderDelay(false);
     }, 25);
 
     return () => {
@@ -332,23 +323,23 @@ export default function Accessories() {
       setCustomTable(
         "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
       );
+      // minted, status
     } else if (viewPort <= 780) {
-      //-Burned -Mint Price
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 230px 95px 100px !important;"
       );
+      // minted, mt price, status
     } else if (viewPort <= 1024) {
-      //-Mint Date -Season
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 260px 115px 130px 100px !important;"
       );
+      // minted, burned, mt date, mt price, status
     } else if (viewPort <= 1300) {
-      //-Season
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 260px 115px 100px 130px 110px 100px !important;"
       );
+      // default
     } else {
-      //default
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 260px 130px 115px 145px 125px 105px 120px !important;"
       );
@@ -373,7 +364,7 @@ export default function Accessories() {
   return (
     <div className={styles.pageContainer}>
       <Head>
-        <title>Accessories - BlankoDrops</title>
+        <title>blankodrops / Accessories</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
@@ -382,7 +373,7 @@ export default function Accessories() {
         />
         <meta
           property="twitter:image"
-          content="https://qeesig.github.io/blanko/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/accessory-card-img.jpg"
           key="twimage"
         />
         <meta name="twitter:creator" content="@qeesig" key="twhandle" />
@@ -391,7 +382,7 @@ export default function Accessories() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://qeesig.github.io/blanko/"
+          content="https://qeesig.github.io/blanko/accessories"
           key="ogurl"
         />
         <meta
@@ -405,7 +396,7 @@ export default function Accessories() {
         />
         <meta
           property="og:image"
-          content="https://qeesig.github.io/blanko/cardimage.jpg"
+          content="https://qeesig.github.io/blanko/accessory-card-img.jpg"
           key="ogimage"
         />
         <meta
@@ -417,9 +408,9 @@ export default function Accessories() {
           name="description"
           content="Love Blankos Block Party? Here you can find information of accessories in an engaging and easy to read manner."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://qeesig.github.io/blanko/favicon.ico" />
       </Head>
-      {!spinner && (
+      {!renderDelay && (
         <header>
           <Navbar />
           <p className={styles.headerMaintext}>Accessories</p>
@@ -441,7 +432,7 @@ export default function Accessories() {
         </header>
       )}
       <div className={styles.filterContainer}>
-        {!spinner && (
+        {!renderDelay && (
           <>
             <div className={styles.primaryFilter}>
               <ToggleButtonGroup
@@ -766,7 +757,7 @@ export default function Accessories() {
       </div>
 
       <div className={styles.table}>
-        {!spinner && (
+        {!renderDelay && (
           <>
             <Table
               data={data}
@@ -882,7 +873,7 @@ export default function Accessories() {
                             width={54}
                             height={54}
                             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            placeholder="blur" // Optional blur-up while loading
+                            placeholder="blur"
                           />
                         </Cell>
                         <Cell
@@ -895,7 +886,9 @@ export default function Accessories() {
                           <Name className={styles.accessoryName}>
                             {item.name}
                           </Name>
-                          <Tag tag={item.tag}>{item.tag}</Tag>
+                          <Tag className={styles.accessoryTag} tag={item.tag}>
+                            {item.tag}
+                          </Tag>
                         </Cell>
                         <Cell
                           hide={
