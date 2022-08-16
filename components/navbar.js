@@ -95,7 +95,12 @@ function DrawerAppBar(props) {
             <ListItem disablePadding>
               <ListItemButton
                 onClick={clearSessionStorage}
-                sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
+                sx={{
+                  textAlign: "left",
+                  margin: "0 20px",
+                  padding: "8px 0 14px 0",
+                  borderBottom: "1px solid #222531",
+                }}
               >
                 <ListItemText className={styles.drawerItem}>
                   Blankos
@@ -109,7 +114,12 @@ function DrawerAppBar(props) {
             <ListItem disablePadding>
               <ListItemButton
                 onClick={clearSessionStorage}
-                sx={{ textAlign: "left", paddingTop: "8px", paddingBottom: 0 }}
+                sx={{
+                  textAlign: "left",
+                  margin: "0 20px",
+                  padding: "14px 0",
+                  borderBottom: "1px solid #222531",
+                }}
               >
                 <ListItemText className={styles.drawerItem}>
                   Accessories
