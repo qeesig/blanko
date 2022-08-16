@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 210,
+    "minted": 214,
     "burned": 114,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -218,7 +218,7 @@
   {
     "rank": 15,
     "name": "Harlekin",
-    "minted": 270,
+    "minted": 271,
     "burned": 0,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -413,7 +413,7 @@
   {
     "rank": 28,
     "name": "Honey Bun",
-    "minted": 726,
+    "minted": 734,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -428,20 +428,6 @@
   },
   {
     "rank": 29,
-    "name": "Roxx",
-    "minted": 728,
-    "burned": 0,
-    "mintDate": "2022-08-05T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Andrea Kang",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "imgPath": "/blanko-img/roxx.png"
-  },
-  {
-    "rank": 30,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -456,7 +442,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 31,
+    "rank": 30,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -470,7 +456,7 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Tenderfoot",
     "minted": 750,
     "burned": 0,
@@ -486,7 +472,7 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Sharky B.",
     "minted": 750,
     "burned": 0,
@@ -500,10 +486,24 @@
     "imgPath": "/blanko-img/sharky-b.png"
   },
   {
+    "rank": 33,
+    "name": "Roxx",
+    "minted": 751,
+    "burned": 0,
+    "mintDate": "2022-08-05T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Andrea Kang",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "imgPath": "/blanko-img/roxx.png"
+  },
+  {
     "rank": 34,
     "name": "Skivvy Klown",
-    "minted": 795,
-    "burned": 540,
+    "minted": 798,
+    "burned": 542,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -756,7 +756,7 @@
   {
     "rank": 51,
     "name": "Zeta",
-    "minted": 1467,
+    "minted": 1481,
     "burned": 0,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1633,7 +1633,7 @@
     "rank": 111,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 418,
+    "burned": 426,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
@@ -1779,7 +1779,7 @@
     "rank": 121,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1590,
+    "burned": 1596,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
