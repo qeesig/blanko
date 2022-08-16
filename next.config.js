@@ -6,7 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/",
+  // basePath: "/blanko",
+  // assetPrefix: "/blanko",
   trailingSlash: true,
 };
 
