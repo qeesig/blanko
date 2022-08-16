@@ -6,7 +6,7 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/blanko",
+  basePath: "/",
   trailingSlash: true,
 };
 
