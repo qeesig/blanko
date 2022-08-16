@@ -374,6 +374,7 @@ export default function Accessories() {
     <div className={styles.pageContainer}>
       <Head>
         <title>Accessories - BlankoDrops</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
           content="Browse all accessories from Blankos Block Party"

@@ -347,6 +347,7 @@ export default function Blankos() {
     <div className={styles.pageContainer}>
       <Head>
         <title>Blankos - BlankoDrops</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
           content="Browse all blankos from Blankos Block Party"
