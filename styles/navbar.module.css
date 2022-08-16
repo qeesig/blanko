@@ -20,6 +20,30 @@
   column-gap: 20px;
 }
 
+.activeLink > button {
+  color: white;
+}
+
+.inActiveLink > button {
+  color: #8cbcec;
+}
+
+.inActiveLink > button:hover {
+  color: white;
+}
+
+.drawerActiveLink > span {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.drawerInActiveLink > span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a5c;
+}
+
 @media screen and (max-width: 1300px) {
   .navContainer {
     width: 919px;

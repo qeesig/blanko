@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import {
   AppBar,
@@ -24,6 +24,7 @@ import Logo from "../public/blankodrops.svg";
 import styles from "../styles/navbar.module.css";
 
 function DrawerAppBar(props) {
+  const router = useRouter();
   const [drawerWidth, setDrawerWidth] = useState(0);
 
   const handleWindowResize = () => {
@@ -89,7 +90,7 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider sx={{ borderColor: "transparent" }} />
       <List>
-        <Link href="/">
+        <Link href="/" passHref>
           <a>
             <ListItem disablePadding>
               <ListItemButton
@@ -101,14 +102,20 @@ function DrawerAppBar(props) {
                   borderBottom: "1px solid #222531",
                 }}
               >
-                <ListItemText className={styles.drawerItem}>
+                <ListItemText
+                  className={
+                    router.pathname == "/"
+                      ? styles.drawerActiveLink
+                      : styles.drawerInActiveLink
+                  }
+                >
                   Blankos
                 </ListItemText>
               </ListItemButton>
             </ListItem>
           </a>
         </Link>
-        <Link href="/accessories">
+        <Link href="/accessories" passHref>
           <a>
             <ListItem disablePadding>
               <ListItemButton
@@ -120,7 +127,13 @@ function DrawerAppBar(props) {
                   borderBottom: "1px solid #222531",
                 }}
               >
-                <ListItemText className={styles.drawerItem}>
+                <ListItemText
+                  className={
+                    router.pathname == "/accessories"
+                      ? styles.drawerActiveLink
+                      : styles.drawerInActiveLink
+                  }
+                >
                   Accessories
                 </ListItemText>
               </ListItemButton>
@@ -155,13 +168,13 @@ function DrawerAppBar(props) {
             >
               <MenuIcon />
             </IconButton>
-            <Link href="/">
+            <Link href="/" passHref>
               <a>
                 <Logo
                   style={{
                     width: "126px",
                     height: "26px",
-                    marginTop: ".19rem",
+                    marginTop: ".22rem",
                   }}
                 />
               </a>
@@ -173,8 +186,15 @@ function DrawerAppBar(props) {
               marginLeft: "110px",
             }}
           >
-            <Link href="/">
-              <a style={{ marginRight: "12px" }}>
+            <Link href="/" passHref>
+              <a
+                className={
+                  router.pathname == "/"
+                    ? styles.activeLink
+                    : styles.inActiveLink
+                }
+                style={{ marginRight: "12px" }}
+              >
                 <Button
                   onClick={clearSessionStorage}
                   sx={{
@@ -187,8 +207,14 @@ function DrawerAppBar(props) {
                 </Button>
               </a>
             </Link>
-            <Link href="/accessories">
-              <a>
+            <Link href="/accessories" passHref>
+              <a
+                className={
+                  router.pathname == "/accessories"
+                    ? styles.activeLink
+                    : styles.inActiveLink
+                }
+              >
                 <Button
                   onClick={clearSessionStorage}
                   sx={{
