@@ -150,6 +150,7 @@ function DrawerAppBar(props) {
                 border: "2px solid rgba(255,255,255, .15)",
                 borderRadius: "6px",
                 display: { sm: "none" },
+                height: "32px",
               }}
             >
               <MenuIcon />
