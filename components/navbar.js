@@ -20,7 +20,7 @@ import {
 
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
-import logo from "../public/blankodrops.png";
+import Logo from "../public/blankodrops.svg";
 import styles from "../styles/navbar.module.css";
 
 function DrawerAppBar(props) {
@@ -80,13 +80,14 @@ function DrawerAppBar(props) {
         >
           <CloseIcon />
         </IconButton>
-        <Image
+        {/* <Image
           src={`/${logo.src}`}
           layout="fixed"
           width="126px"
           height="26px"
           alt="Logo of BlankosDrop"
-        />
+        /> */}
+        <Logo style={{ width: "126px", height: "26px", marginTop: "2px" }} />
       </Typography>
       <Divider sx={{ borderColor: "transparent" }} />
       <List>
@@ -155,18 +156,21 @@ function DrawerAppBar(props) {
             >
               <MenuIcon />
             </IconButton>
-            <Image
+            {/* <Image
               src={`/${logo.src}`}
               layout="fixed"
               width="126px"
               height="26px"
               alt="Logo of BlankosDrop"
+            /> */}
+            <Logo
+              style={{ width: "126px", height: "26px", marginTop: "2px" }}
             />
           </div>
 
           <Box
             sx={{
-              flexGrow: 2,
+              // flexGrow: 1,
               display: { xs: "none", sm: "block" },
               marginLeft: "110px",
             }}
