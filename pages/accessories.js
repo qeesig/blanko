@@ -876,7 +876,7 @@ export default function Accessories() {
                           }}
                         >
                           <Image
-                            src={`/accessories/${item.imgPath}`}
+                            src={item.imgPath}
                             alt={`Picture of ${item.name}`}
                             width={54}
                             height={54}
