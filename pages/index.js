@@ -161,6 +161,13 @@ export default function Blankos() {
     Table: `
       ${customTable}
     `,
+    Row: `
+      &:hover {
+        .td:nth-of-type(n) {
+          background-color: #191a26;
+        }
+      }
+    `,
   };
 
   const theme = useTheme([materialTheme, customTheme]);
@@ -336,7 +343,7 @@ export default function Blankos() {
   return (
     <div className={styles.pageContainer}>
       <Head>
-        <title>blankodrops / Blankos</title>
+        <title>blankos / Blankodrops</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
@@ -810,10 +817,9 @@ export default function Blankos() {
                           />
                         </Cell>
                         <Cell
+                          css={styledCell}
                           style={{
                             paddingLeft: 0,
-                            height: 54,
-                            backgroundColor: "#17171a",
                           }}
                         >
                           <Name className={styles.blankoName}>{item.name}</Name>

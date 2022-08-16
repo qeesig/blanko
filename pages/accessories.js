@@ -191,6 +191,13 @@ export default function Accessories() {
     Table: `
       ${customTable}
     `,
+    Row: `
+      &:hover {
+        .td:nth-of-type(n) {
+          background-color: #191a26;
+        }
+      }
+    `,
   };
 
   const theme = useTheme([materialTheme, customTheme]);
@@ -364,7 +371,7 @@ export default function Accessories() {
   return (
     <div className={styles.pageContainer}>
       <Head>
-        <title>blankodrops / Accessories</title>
+        <title>accessories / Blankodrops</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
@@ -877,10 +884,9 @@ export default function Accessories() {
                           />
                         </Cell>
                         <Cell
+                          css={styledCell}
                           style={{
                             paddingLeft: 0,
-                            height: 54,
-                            backgroundColor: "#17171a",
                           }}
                         >
                           <Name className={styles.accessoryName}>
