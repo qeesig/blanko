@@ -704,8 +704,6 @@ export default function Accessories() {
                   MenuProps={MenuProps}
                 >
                   <MenuItem value="">All Season</MenuItem>
-                  <MenuItem value="00 Pre-launch">00 Pre-launch</MenuItem>
-                  <MenuItem value="00 SXSW 2019">00 SXSW 2019</MenuItem>
                   <MenuItem value="00 Alpha">00 Alpha</MenuItem>
                   <MenuItem value="00 Private Beta">00 Private Beta</MenuItem>
                   <MenuItem value="00 Open Beta">00 Open Beta</MenuItem>
@@ -878,7 +876,7 @@ export default function Accessories() {
                           }}
                         >
                           <Image
-                            src={item.imgPath}
+                            src={`/accessories/${item.imgPath}`}
                             alt={`Picture of ${item.name}`}
                             width={54}
                             height={54}
