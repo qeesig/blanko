@@ -43,6 +43,7 @@ import {
   TiArrowSortedDown,
 } from "react-icons/ti";
 import SearchIcon from "@mui/icons-material/Search";
+import CloseIcon from "@mui/icons-material/Close";
 
 import nodes from "../database/accessories.json";
 
@@ -375,7 +376,7 @@ export default function Accessories() {
         <title>Accessories - BlankoDrops</title>
         <meta
           property="twitter:title"
-          content="Browse all blankos from Blankos Block Party"
+          content="Browse all accessories from Blankos Block Party"
           key="twtitle"
         />
         <meta
@@ -394,11 +395,11 @@ export default function Accessories() {
         />
         <meta
           property="og:site_name"
-          content="Browse all blankos from Blankos Block Party"
+          content="Browse all accessories from Blankos Block Party"
         />
         <meta
           property="og:title"
-          content="Browse all blankos from Blankos Block Party"
+          content="Browse all accessories from Blankos Block Party"
           key="ogtitle"
         />
         <meta
@@ -408,12 +409,12 @@ export default function Accessories() {
         />
         <meta
           property="og:description"
-          content="Love Blankos Block Party? Get information of all blankos in a tabular format."
+          content="Love Blankos Block Party? Here you can find information of accessories in an engaging and easy to read manner."
           key="ogdescription"
         />
         <meta
           name="description"
-          content="Love Blankos Block Party? Get information of all blankos in a tabular format."
+          content="Love Blankos Block Party? Here you can find information of accessories in an engaging and easy to read manner."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -478,19 +479,55 @@ export default function Accessories() {
                     "&:nth-of-type(1)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "40px",
+                      minWidth: "44px",
                     },
 
                     "&:nth-of-type(2)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "88px",
+                      minWidth: "48px",
                     },
 
                     "&:nth-of-type(3)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "88px",
+                      minWidth: "58px",
+                    },
+
+                    "&:nth-of-type(4)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "60px",
+                    },
+
+                    "&:nth-of-type(5)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "50px",
+                    },
+
+                    "&:nth-of-type(6)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "54px",
+                    },
+
+                    "&:nth-of-type(7)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "62px",
+                    },
+
+                    "&:nth-of-type(8)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "74px",
+                    },
+
+                    "&:nth-of-type(9)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "62px",
                     },
 
                     ".MuiTouchRipple-child": {
@@ -521,8 +558,29 @@ export default function Accessories() {
                 <ToggleButton sx={{ color: "white" }} value="All">
                   All
                 </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Hat">
+                  Hat
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Mask">
+                  Mask
+                </ToggleButton>
                 <ToggleButton sx={{ color: "white" }} value="Collar">
                   Collar
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Belt">
+                  Belt
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Back">
+                  Back
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Wrists">
+                  Wrists
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Offhand">
+                  Offhand
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="Shoes">
+                  Shoes
                 </ToggleButton>
               </ToggleButtonGroup>
             </div>
@@ -542,6 +600,19 @@ export default function Accessories() {
                     zIndex: 2,
                   }}
                 />
+                <CloseIcon
+                  fill="#666b7c"
+                  aria-label="close"
+                  sx={{
+                    color: "#666b7c",
+                    ml: 36.25,
+                    my: 1,
+                    position: "absolute",
+                    width: "15px",
+                    zIndex: 2,
+                  }}
+                  onClick={() => setSearch("")}
+                />
                 <TextField
                   hiddenLabel
                   placeholder="Search Accessories"
@@ -554,6 +625,7 @@ export default function Accessories() {
                       backgroundColor: "#222531",
                       borderRadius: "5px",
                       paddingLeft: "36px",
+                      paddingRight: "36px",
 
                       "&::placeholder": {
                         color: "white",
