@@ -17,7 +17,6 @@ import {
 } from "@table-library/react-table-library/material-ui";
 import { usePagination } from "@table-library/react-table-library/pagination";
 import {
-  Stack,
   TablePagination,
   TextField,
   Box,
@@ -382,12 +381,12 @@ export default function Blankos() {
         />
         <meta
           property="og:description"
-          content="Love Blankos Block Party? Get information of all blankos in a tabular format."
+          content="Love Blankos Block Party? Here you can find information of blankos in an engaging and easy to read manner."
           key="ogdescription"
         />
         <meta
           name="description"
-          content="Love Blankos Block Party? Get information of all blankos in a tabular format."
+          content="Love Blankos Block Party? Here you can find information of blankos in an engaging and easy to read manner."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -452,7 +451,7 @@ export default function Blankos() {
                     "&:nth-of-type(1)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "40px",
+                      minWidth: "44px",
                     },
 
                     "&:nth-of-type(2)": {
@@ -464,7 +463,7 @@ export default function Blankos() {
                     "&:nth-of-type(3)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "88px",
+                      minWidth: "86px",
                     },
 
                     ".MuiTouchRipple-child": {
@@ -797,7 +796,7 @@ export default function Blankos() {
                           }}
                         >
                           <Image
-                            src={item.imgPath}
+                            src={`/${item.imgPath}`}
                             alt={`Picture of ${item.name}`}
                             width={54}
                             height={54}
@@ -812,7 +811,7 @@ export default function Blankos() {
                             backgroundColor: "#17171a",
                           }}
                         >
-                          <Name>{item.name}</Name>
+                          <Name className={styles.blankoName}>{item.name}</Name>
                           <Tag tag={item.tag}>{item.tag}</Tag>
                         </Cell>
                         <Cell
