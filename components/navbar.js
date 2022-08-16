@@ -69,6 +69,7 @@ function DrawerAppBar(props) {
           edge="start"
           onClick={handleDrawerToggle}
           sx={{
+            padding: "4px 0",
             marginLeft: 0,
             marginTop: "2px",
             border: "2px solid rgba(255,255,255, .15)",
