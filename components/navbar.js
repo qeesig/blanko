@@ -158,9 +158,9 @@ function DrawerAppBar(props) {
             <Image
               src={`/${logo.src}`}
               layout="fixed"
-              alt="Logo of BlankosDrop"
               width="126px"
               height="26px"
+              alt="Logo of BlankosDrop"
             />
           </div>
 
