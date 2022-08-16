@@ -184,6 +184,7 @@ function DrawerAppBar(props) {
             sx={{
               display: { xs: "none", sm: "block" },
               marginLeft: "110px",
+              marginTop: "2px",
             }}
           >
             <Link href="/" passHref>
