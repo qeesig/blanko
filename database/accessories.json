@@ -2,12 +2,12 @@
   {
     "rank": 1,
     "name": "Community Chrome",
-    "minted": 5,
+    "minted": 19,
     "burned": 0,
     "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "status": "MINTING",
     "seasonFilter": "00 Early Access",
     "tag": "Community Event",
     "attachmentType": "Collar",
@@ -232,7 +232,7 @@
   {
     "rank": 18,
     "name": "Strawberry Short-Steps",
-    "minted": 445,
+    "minted": 452,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -367,7 +367,7 @@
   {
     "rank": 28,
     "name": "Sweet Bun Beret",
-    "minted": 623,
+    "minted": 625,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -724,7 +724,7 @@
   {
     "rank": 55,
     "name": "Savory Side Swag",
-    "minted": 1427,
+    "minted": 1434,
     "burned": 0,
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
@@ -1045,7 +1045,7 @@
   {
     "rank": 79,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2269,
+    "minted": 2280,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
