@@ -48,6 +48,11 @@
   line-height: 24px;
 }
 
+.blankoName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 1300px) {
   .headerMaintext {
     width: 919px;
