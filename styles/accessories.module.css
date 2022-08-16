@@ -48,6 +48,16 @@
   line-height: 24px;
 }
 
+.accessoryName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.accessoryTag {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 1300px) {
   .pageContainer {
     padding: 120px 30px 40px 30px;
@@ -156,10 +166,5 @@
 
   .table {
     width: 317px;
-  }
-
-  .accessoryName {
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 }

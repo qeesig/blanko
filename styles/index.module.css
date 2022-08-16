@@ -53,6 +53,11 @@
   text-overflow: ellipsis;
 }
 
+.blankoTag {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 1300px) {
   .headerMaintext {
     width: 919px;

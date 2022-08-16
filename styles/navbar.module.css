@@ -10,18 +10,14 @@
 }
 
 .drawerItem > span {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .openDrawer {
   display: grid;
   grid-template-columns: 40px 1fr;
   column-gap: 20px;
-}
-
-.openDrawer > span {
-  margin-top: 2px !important;
 }
 
 @media screen and (max-width: 1300px) {
