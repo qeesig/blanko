@@ -796,7 +796,7 @@ export default function Blankos() {
                           }}
                         >
                           <Image
-                            src={`/${item.imgPath}`}
+                            src={item.imgPath}
                             alt={`Picture of ${item.name}`}
                             width={54}
                             height={54}
