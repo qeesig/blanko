@@ -42,6 +42,7 @@ import {
   TiArrowSortedDown,
 } from "react-icons/ti";
 import SearchIcon from "@mui/icons-material/Search";
+import { IoClose } from "react-icons/io5";
 
 import nodes from "../database/blankos.json";
 
@@ -512,12 +513,25 @@ export default function Blankos() {
                   fill="white"
                   sx={{
                     color: "white",
-                    ml: 1.25,
+                    ml: 1.05,
                     my: 1,
                     position: "absolute",
                     zIndex: 2,
                   }}
                 />
+                {search && (
+                  <IoClose
+                    fill="#4a9ff4"
+                    fontSize="medium"
+                    style={{
+                      position: "absolute",
+                      zIndex: 2,
+                      marginLeft: "290px",
+                      marginTop: ".72rem",
+                    }}
+                    onClick={() => setSearch("")}
+                  />
+                )}
                 <TextField
                   hiddenLabel
                   placeholder="Search Blankos, Artists..."

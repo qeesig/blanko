@@ -43,7 +43,7 @@ import {
   TiArrowSortedDown,
 } from "react-icons/ti";
 import SearchIcon from "@mui/icons-material/Search";
-import CloseIcon from "@mui/icons-material/Close";
+import { IoClose } from "react-icons/io5";
 
 import nodes from "../database/accessories.json";
 
@@ -594,25 +594,25 @@ export default function Accessories() {
                   fill="white"
                   sx={{
                     color: "white",
-                    ml: 1.25,
+                    ml: 1.05,
                     my: 1,
                     position: "absolute",
                     zIndex: 2,
                   }}
                 />
-                <CloseIcon
-                  fill="#666b7c"
-                  aria-label="close"
-                  sx={{
-                    color: "#666b7c",
-                    ml: 36.25,
-                    my: 1,
-                    position: "absolute",
-                    width: "15px",
-                    zIndex: 2,
-                  }}
-                  onClick={() => setSearch("")}
-                />
+                {search && (
+                  <IoClose
+                    fill="#4a9ff4"
+                    fontSize="medium"
+                    style={{
+                      position: "absolute",
+                      zIndex: 2,
+                      marginLeft: "290px",
+                      marginTop: ".72rem",
+                    }}
+                    onClick={() => setSearch("")}
+                  />
+                )}
                 <TextField
                   hiddenLabel
                   placeholder="Search Accessories"
@@ -625,7 +625,7 @@ export default function Accessories() {
                       backgroundColor: "#222531",
                       borderRadius: "5px",
                       paddingLeft: "36px",
-                      paddingRight: "36px",
+                      paddingRight: "33px",
 
                       "&::placeholder": {
                         color: "white",
