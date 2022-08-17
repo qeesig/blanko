@@ -459,6 +459,20 @@
   },
   {
     "rank": 35,
+    "name": "Roasted Mallow Rocket Pack",
+    "minted": 850,
+    "burned": 0,
+    "mintDate": "2022-06-21T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "CLOSED",
+    "seasonFilter": "00 Early Access",
+    "tag": "Summer Camp Slam+",
+    "attachmentType": "Back",
+    "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
+  },
+  {
+    "rank": 36,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -471,7 +485,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -484,7 +498,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -497,7 +511,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -510,7 +524,7 @@
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "name": "Tenderfoot’s Crocket Cap",
     "minted": 910,
     "burned": 0,
@@ -524,7 +538,7 @@
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "name": "Spiked Choker",
     "minted": 941,
     "burned": 0,
@@ -537,7 +551,7 @@
     "imgPath": "/accessory-img/spiked-choker.png"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "name": "Tenderfoot's Squidgeon Pal",
     "minted": 998,
     "burned": 0,
@@ -551,7 +565,7 @@
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "name": "Frostbyte Beanie",
     "minted": 1000,
     "burned": 0,
@@ -565,7 +579,7 @@
     "imgPath": "/accessory-img/frostbyte-beanie.png"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "name": "Ghost Gang Spray Cannon",
     "minted": 1018,
     "burned": 0,
@@ -578,7 +592,7 @@
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "name": "War Pony Whirlwind Mask",
     "minted": 1022,
     "burned": 0,
@@ -591,7 +605,7 @@
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "name": "Polly Wanna Rainbow Wings",
     "minted": 1033,
     "burned": 0,
@@ -604,7 +618,7 @@
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "name": "Blue Blaze Puckhead Mask",
     "minted": 1059,
     "burned": 0,
@@ -617,7 +631,7 @@
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "name": "Black Shoes",
     "minted": 1137,
     "burned": 0,
@@ -630,7 +644,7 @@
     "imgPath": "/accessory-img/black-shoes.png"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "name": "Heartbreaker’s Bubbly Booster",
     "minted": 1161,
     "burned": 0,
@@ -643,7 +657,7 @@
     "imgPath": "/accessory-img/heartbreakers-bubbly-booster.png"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -656,7 +670,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 50,
+    "rank": 51,
     "name": "Bulletpunk Mask [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -669,7 +683,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
   },
   {
-    "rank": 51,
+    "rank": 52,
     "name": "Black Bandana",
     "minted": 1271,
     "burned": 0,
@@ -682,7 +696,7 @@
     "imgPath": "/accessory-img/black-bandana.png"
   },
   {
-    "rank": 52,
+    "rank": 53,
     "name": "Beanie of the Embalmed",
     "minted": 1321,
     "burned": 0,
@@ -696,7 +710,7 @@
     "imgPath": "/accessory-img/beanie-of-the-embalmed.png"
   },
   {
-    "rank": 53,
+    "rank": 54,
     "name": "Emo Gloves",
     "minted": 1343,
     "burned": 0,
@@ -709,7 +723,7 @@
     "imgPath": "/accessory-img/emo-gloves.png"
   },
   {
-    "rank": 54,
+    "rank": 55,
     "name": "R. Blankeoptera Wings",
     "minted": 1369,
     "burned": 0,
@@ -722,7 +736,7 @@
     "imgPath": "/accessory-img/r-blankeoptera-wings.png"
   },
   {
-    "rank": 55,
+    "rank": 56,
     "name": "Heartbreaker's Cotton Tail",
     "minted": 1435,
     "burned": 0,
@@ -735,7 +749,7 @@
     "imgPath": "/accessory-img/heartbreakers-cotton-tail.png"
   },
   {
-    "rank": 56,
+    "rank": 57,
     "name": "Savory Side Swag",
     "minted": 1447,
     "burned": 0,
@@ -749,7 +763,7 @@
     "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
-    "rank": 57,
+    "rank": 58,
     "name": "Pre-Frontal Hemorrhage Hat",
     "minted": 1451,
     "burned": 0,
@@ -762,7 +776,7 @@
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
   },
   {
-    "rank": 58,
+    "rank": 59,
     "name": "Punch Up Parachute",
     "minted": 1458,
     "burned": 0,
@@ -776,7 +790,7 @@
     "imgPath": "/accessory-img/punch-up-parachute.png"
   },
   {
-    "rank": 59,
+    "rank": 60,
     "name": "Burberry® Jetpack",
     "minted": 1500,
     "burned": 0,
@@ -789,7 +803,7 @@
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
-    "rank": 60,
+    "rank": 61,
     "name": "TMC Flag Bucket Hat - Red",
     "minted": 1500,
     "burned": 0,
@@ -802,7 +816,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
-    "rank": 61,
+    "rank": 62,
     "name": "TMC Flag Bucket Hat - Stealth",
     "minted": 1500,
     "burned": 0,
@@ -815,7 +829,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
   },
   {
-    "rank": 62,
+    "rank": 63,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -828,7 +842,7 @@
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
   },
   {
-    "rank": 63,
+    "rank": 64,
     "name": "Brawl Champ Belt",
     "minted": 1564,
     "burned": 0,
@@ -842,7 +856,7 @@
     "imgPath": "/accessory-img/brawl-champ-belt.png"
   },
   {
-    "rank": 64,
+    "rank": 65,
     "name": "T.O.A.S.T. Jetpack",
     "minted": 1600,
     "burned": 0,
@@ -856,7 +870,7 @@
     "imgPath": "/accessory-img/toast-jetpack.png"
   },
   {
-    "rank": 65,
+    "rank": 66,
     "name": "In Stitches Armbands",
     "minted": 1637,
     "burned": 0,
@@ -869,7 +883,7 @@
     "imgPath": "/accessory-img/in-stitches-armbands.png"
   },
   {
-    "rank": 66,
+    "rank": 67,
     "name": "Red Bolt Hockey Mask",
     "minted": 1650,
     "burned": 0,
@@ -882,7 +896,7 @@
     "imgPath": "/accessory-img/red-bolt-hockey-mask.png"
   },
   {
-    "rank": 67,
+    "rank": 68,
     "name": "Bi-Amp Booster",
     "minted": 1654,
     "burned": 0,
@@ -895,7 +909,7 @@
     "imgPath": "/accessory-img/bi-amp-booster.png"
   },
   {
-    "rank": 68,
+    "rank": 69,
     "name": "Burberry® Armbands",
     "minted": 1662,
     "burned": 0,
@@ -908,7 +922,7 @@
     "imgPath": "/accessory-img/burberry-armbands.png"
   },
   {
-    "rank": 69,
+    "rank": 70,
     "name": "That Thing",
     "minted": 1678,
     "burned": 0,
@@ -921,7 +935,7 @@
     "imgPath": "/accessory-img/that-thing.png"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Prism of Pride Tail",
     "minted": 1688,
     "burned": 0,
@@ -934,7 +948,7 @@
     "imgPath": "/accessory-img/prism-of-pride-tail.png"
   },
   {
-    "rank": 71,
+    "rank": 72,
     "name": "South Paw Sneaks",
     "minted": 1719,
     "burned": 0,
@@ -948,7 +962,7 @@
     "imgPath": "/accessory-img/south-paw-sneaks.png"
   },
   {
-    "rank": 72,
+    "rank": 73,
     "name": "Burberry® Pool Shoes",
     "minted": 1786,
     "burned": 0,
@@ -961,7 +975,7 @@
     "imgPath": "/accessory-img/burberry-pool-shoes.png"
   },
   {
-    "rank": 73,
+    "rank": 74,
     "name": "Camp Craft Flower Crown",
     "minted": 1848,
     "burned": 0,
@@ -975,7 +989,7 @@
     "imgPath": "/accessory-img/camp-craft-flower-crown.png"
   },
   {
-    "rank": 74,
+    "rank": 75,
     "name": "The Bodysnatcher",
     "minted": 1997,
     "burned": 0,
@@ -989,7 +1003,7 @@
     "imgPath": "/accessory-img/the-bodysnatcher.png"
   },
   {
-    "rank": 75,
+    "rank": 76,
     "name": "Mau5 Ear5",
     "minted": 2000,
     "burned": 0,
@@ -1002,7 +1016,7 @@
     "imgPath": "/accessory-img/mau5-ear5.png"
   },
   {
-    "rank": 76,
+    "rank": 77,
     "name": "The Canopic Cruiser",
     "minted": 2000,
     "burned": 0,
@@ -1015,7 +1029,7 @@
     "imgPath": "/accessory-img/the-canopic-cruiser.png"
   },
   {
-    "rank": 77,
+    "rank": 78,
     "name": "Gelid’s Horns",
     "minted": 2040,
     "burned": 0,
@@ -1029,7 +1043,7 @@
     "imgPath": "/accessory-img/gelids-horns.png"
   },
   {
-    "rank": 78,
+    "rank": 79,
     "name": "Wreak Havoc Kicks",
     "minted": 2204,
     "burned": 0,
@@ -1043,7 +1057,7 @@
     "imgPath": "/accessory-img/wreak-havoc-kicks.png"
   },
   {
-    "rank": 79,
+    "rank": 80,
     "name": "Honey Bun’s Sweet Jimmies",
     "minted": 2289,
     "burned": 0,
@@ -1057,7 +1071,7 @@
     "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Gelid’s Gale Tactical Vest",
     "minted": 2466,
     "burned": 0,
@@ -1070,7 +1084,7 @@
     "imgPath": "/accessory-img/gelids-gale-tactical-vest.png"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Hustle & Glow Glider",
     "minted": 2479,
     "burned": 0,
@@ -1084,7 +1098,7 @@
     "imgPath": "/accessory-img/hustle-glow-glider.png"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Tako Cuttlefish Jetpack",
     "minted": 2589,
     "burned": 0,
@@ -1098,7 +1112,7 @@
     "imgPath": "/accessory-img/tako-cuttlefish-jetpack.png"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Tako Squid Tooth Bracelet",
     "minted": 2589,
     "burned": 0,
@@ -1112,7 +1126,7 @@
     "imgPath": "/accessory-img/tako-squid-tooth-bracelet.png"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "Katana’s Hachimaki",
     "minted": 2618,
     "burned": 0,
@@ -1126,7 +1140,7 @@
     "imgPath": "/accessory-img/katanas-hachimaki.png"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "BCF Bracelets",
     "minted": 2633,
     "burned": 0,
@@ -1140,7 +1154,7 @@
     "imgPath": "/accessory-img/bcf-bracelets.png"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Bite Me Billy Armor",
     "minted": 2699,
     "burned": 0,
@@ -1154,7 +1168,7 @@
     "imgPath": "/accessory-img/bite-me-billy-armor.png"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Bite Me Billy Arms",
     "minted": 2699,
     "burned": 0,
@@ -1168,7 +1182,7 @@
     "imgPath": "/accessory-img/bite-me-billy-arms.png"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "Bite Me Billy Horns",
     "minted": 2699,
     "burned": 0,
@@ -1182,7 +1196,7 @@
     "imgPath": "/accessory-img/bite-me-billy-horns.png"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Bite Me Billy Mask",
     "minted": 2699,
     "burned": 0,
@@ -1196,7 +1210,7 @@
     "imgPath": "/accessory-img/bite-me-billy-mask.png"
   },
   {
-    "rank": 90,
+    "rank": 91,
     "name": "Bite Me Billy Shoes",
     "minted": 2699,
     "burned": 0,
@@ -1210,7 +1224,7 @@
     "imgPath": "/accessory-img/bite-me-billy-shoes.png"
   },
   {
-    "rank": 91,
+    "rank": 92,
     "name": "Bite Me Billy Wings",
     "minted": 2699,
     "burned": 0,
@@ -1224,7 +1238,7 @@
     "imgPath": "/accessory-img/bite-me-billy-wings.png"
   },
   {
-    "rank": 92,
+    "rank": 93,
     "name": "Frankenbeanie",
     "minted": 2778,
     "burned": 0,
@@ -1238,7 +1252,7 @@
     "imgPath": "/accessory-img/frankenbeanie.png"
   },
   {
-    "rank": 93,
+    "rank": 94,
     "name": "Feelin' Lucky Bracelet",
     "minted": 2860,
     "burned": 0,
@@ -1251,7 +1265,7 @@
     "imgPath": "/accessory-img/feelin-lucky-bracelet.png"
   },
   {
-    "rank": 94,
+    "rank": 95,
     "name": "Gelid’s Gale Tactical Mask",
     "minted": 2896,
     "burned": 0,
@@ -1264,7 +1278,7 @@
     "imgPath": "/accessory-img/gelids-gale-tactical-mask.png"
   },
   {
-    "rank": 95,
+    "rank": 96,
     "name": "The Grandmaster Rocket",
     "minted": 2908,
     "burned": 0,
@@ -1278,7 +1292,7 @@
     "imgPath": "/accessory-img/the-grandmaster-rocket.png"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "Luster Buckle Beanie",
     "minted": 3057,
     "burned": 0,
@@ -1292,7 +1306,7 @@
     "imgPath": "/accessory-img/luster-buckle-beanie.png"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Jin’s Lucky Kicks",
     "minted": 3120,
     "burned": 0,
@@ -1306,7 +1320,7 @@
     "imgPath": "/accessory-img/jins-lucky-kicks.png"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Mach-63 Light Striker Glider",
     "minted": 3281,
     "burned": 0,
@@ -1320,7 +1334,7 @@
     "imgPath": "/accessory-img/mach-63-light-striker-glider.png"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Fanny Pack in Fuchsia",
     "minted": 3382,
     "burned": 0,
@@ -1333,7 +1347,7 @@
     "imgPath": "/accessory-img/fanny-pack-in-fuchsia.png"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Jin’s Lucky Koi Amulet",
     "minted": 3486,
     "burned": 0,
@@ -1347,7 +1361,7 @@
     "imgPath": "/accessory-img/jins-lucky-koi-amulet.png"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Boss's First Buck Necklace",
     "minted": 3497,
     "burned": 0,
@@ -1361,7 +1375,7 @@
     "imgPath": "/accessory-img/boss-first-buck-necklace.png"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Ptero-glider",
     "minted": 3497,
     "burned": 0,
@@ -1375,7 +1389,7 @@
     "imgPath": "/accessory-img/ptero-glider.png"
   },
   {
-    "rank": 103,
+    "rank": 104,
     "name": "UV Sneaks",
     "minted": 3516,
     "burned": 0,
@@ -1389,7 +1403,7 @@
     "imgPath": "/accessory-img/uv-sneaks.png"
   },
   {
-    "rank": 104,
+    "rank": 105,
     "name": "Mach-63 Lodi Kicks",
     "minted": 3644,
     "burned": 0,
@@ -1403,7 +1417,7 @@
     "imgPath": "/accessory-img/mach-63-lodi-kicks.png"
   },
   {
-    "rank": 105,
+    "rank": 106,
     "name": "Green Bandana",
     "minted": 3690,
     "burned": 0,
@@ -1416,7 +1430,7 @@
     "imgPath": "/accessory-img/green-bandana.png"
   },
   {
-    "rank": 106,
+    "rank": 107,
     "name": "Lolli's Goggles",
     "minted": 3770,
     "burned": 0,
@@ -1430,7 +1444,7 @@
     "imgPath": "/accessory-img/lollis-goggles.png"
   },
   {
-    "rank": 107,
+    "rank": 108,
     "name": "Lolli's Lick 'Em Bracelet",
     "minted": 3770,
     "burned": 0,
@@ -1444,7 +1458,7 @@
     "imgPath": "/accessory-img/lollis-lick-em-bracelet.png"
   },
   {
-    "rank": 108,
+    "rank": 109,
     "name": "Lolli's Rocket Pop Jet Pack",
     "minted": 3770,
     "burned": 0,
@@ -1458,7 +1472,7 @@
     "imgPath": "/accessory-img/lollis-rocket-pop-jet-pack.png"
   },
   {
-    "rank": 109,
+    "rank": 110,
     "name": "Knockout Chest Guard",
     "minted": 4003,
     "burned": 0,
@@ -1472,7 +1486,7 @@
     "imgPath": "/accessory-img/knockout-chest-guard.png"
   },
   {
-    "rank": 110,
+    "rank": 111,
     "name": "Incandescent Shades",
     "minted": 4008,
     "burned": 0,
@@ -1486,7 +1500,7 @@
     "imgPath": "/accessory-img/incandescent-shades.png"
   },
   {
-    "rank": 111,
+    "rank": 112,
     "name": "Sage’s S'more Trekkers",
     "minted": 4179,
     "burned": 0,
@@ -1500,7 +1514,7 @@
     "imgPath": "/accessory-img/sages-smore-trekkers.png"
   },
   {
-    "rank": 112,
+    "rank": 113,
     "name": "Egyptian Cotton Belt",
     "minted": 4252,
     "burned": 0,
@@ -1514,7 +1528,7 @@
     "imgPath": "/accessory-img/egyptian-cotton-belt.png"
   },
   {
-    "rank": 113,
+    "rank": 114,
     "name": "Lucky Red Kerchief",
     "minted": 4286,
     "burned": 0,
@@ -1528,7 +1542,7 @@
     "imgPath": "/accessory-img/lucky-red-kerchief.png"
   },
   {
-    "rank": 114,
+    "rank": 115,
     "name": "Mach-63 Gauntlet",
     "minted": 4428,
     "burned": 0,
@@ -1542,7 +1556,7 @@
     "imgPath": "/accessory-img/mach-63-gauntlet.png"
   },
   {
-    "rank": 115,
+    "rank": 116,
     "name": "Electric Green Crossbody Bag",
     "minted": 4628,
     "burned": 0,
@@ -1556,7 +1570,7 @@
     "imgPath": "/accessory-img/electric-green-crossbody-bag.png"
   },
   {
-    "rank": 116,
+    "rank": 117,
     "name": "Tundra Trainers",
     "minted": 4878,
     "burned": 0,
@@ -1569,7 +1583,7 @@
     "imgPath": "/accessory-img/tundra-trainers.png"
   },
   {
-    "rank": 117,
+    "rank": 118,
     "name": "Neon Prong Bracelet",
     "minted": 5752,
     "burned": 0,
@@ -1583,7 +1597,7 @@
     "imgPath": "/accessory-img/neon-prong-bracelet.png"
   },
   {
-    "rank": 118,
+    "rank": 119,
     "name": "Scarlet’s Nian Mask",
     "minted": 6087,
     "burned": 0,
@@ -1597,7 +1611,7 @@
     "imgPath": "/accessory-img/scarlets-nian-mask.png"
   },
   {
-    "rank": 119,
+    "rank": 120,
     "name": "Brawler’s Hand Wraps",
     "minted": 6790,
     "burned": 0,
@@ -1611,7 +1625,7 @@
     "imgPath": "/accessory-img/brawlers-hand-wraps.png"
   },
   {
-    "rank": 120,
+    "rank": 121,
     "name": "Mummy Mitts",
     "minted": 7027,
     "burned": 0,
@@ -1625,7 +1639,7 @@
     "imgPath": "/accessory-img/mummy-mitts.png"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Astrid Havoc’s Hare Hat",
     "minted": 8000,
     "burned": 0,
@@ -1639,7 +1653,7 @@
     "imgPath": "/accessory-img/astrid-havocs-hare-hat.png"
   },
   {
-    "rank": 122,
+    "rank": 123,
     "name": "Grave Rave Night Shades",
     "minted": 8000,
     "burned": 0,
@@ -1653,7 +1667,7 @@
     "imgPath": "/accessory-img/grave-rave-night-shades.png"
   },
   {
-    "rank": 123,
+    "rank": 124,
     "name": "Havoc’s Highlighter High-Tops",
     "minted": 8000,
     "burned": 0,
@@ -1667,7 +1681,7 @@
     "imgPath": "/accessory-img/havocs-highlighter-high-tops.png"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Gelid’s Honor",
     "minted": 8112,
     "burned": 0,
@@ -1681,7 +1695,7 @@
     "imgPath": "/accessory-img/gelids-hornor.png"
   },
   {
-    "rank": 125,
+    "rank": 126,
     "name": "Scarlet’s Nian Cape",
     "minted": 8516,
     "burned": 0,
@@ -1695,7 +1709,7 @@
     "imgPath": "/accessory-img/scarlets-nian-cape.png"
   },
   {
-    "rank": 126,
+    "rank": 127,
     "name": "Gelid’s Blessing",
     "minted": 17370,
     "burned": 0,
@@ -1709,7 +1723,7 @@
     "imgPath": "/accessory-img/gelids-blessing.png"
   },
   {
-    "rank": 127,
+    "rank": 128,
     "name": "Bananecklace",
     "minted": 20104,
     "burned": 0,
@@ -1723,7 +1737,7 @@
     "imgPath": "/accessory-img/bananecklace.png"
   },
   {
-    "rank": 128,
+    "rank": 129,
     "name": "King Karat Bananaclava",
     "minted": 26862,
     "burned": 0,
@@ -1737,7 +1751,7 @@
     "imgPath": "/accessory-img/king-karat-bananaclava.png"
   },
   {
-    "rank": 129,
+    "rank": 130,
     "name": "King Karat Banana Pack",
     "minted": 50986,
     "burned": 0,
