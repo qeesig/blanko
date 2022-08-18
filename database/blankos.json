@@ -32,7 +32,7 @@
   {
     "rank": 3,
     "name": "El Grand Quetzalcoatl",
-    "minted": 23,
+    "minted": 26,
     "burned": 0,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -111,7 +111,7 @@
     "rank": 8,
     "name": "El Xiuhcoatl",
     "minted": 93,
-    "burned": 48,
+    "burned": 52,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 216,
+    "minted": 219,
     "burned": 114,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -218,7 +218,7 @@
   {
     "rank": 15,
     "name": "Harlekin",
-    "minted": 271,
+    "minted": 273,
     "burned": 0,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -262,20 +262,6 @@
   },
   {
     "rank": 18,
-    "name": "Kub Totem",
-    "minted": 306,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 34.99,
-    "season": "00",
-    "artist": "Mike Fudge",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "imgPath": "/blanko-img/kub-totem.png"
-  },
-  {
-    "rank": 19,
     "name": "Lovesick Angeleno",
     "minted": 354,
     "burned": 0,
@@ -291,7 +277,7 @@
     "imgPath": "/blanko-img/lovesick-angeleno.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Camo J",
     "minted": 370,
     "burned": 0,
@@ -306,7 +292,7 @@
     "imgPath": "/blanko-img/camo-j.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Peanut FC",
     "minted": 374,
     "burned": 0,
@@ -321,7 +307,7 @@
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Billy A Bones",
     "minted": 384,
     "burned": 0,
@@ -336,7 +322,7 @@
     "imgPath": "/blanko-img/billy-a-bones.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Sergeant Poppy",
     "minted": 389,
     "burned": 0,
@@ -352,7 +338,7 @@
     "imgPath": "/blanko-img/sergeant-poppy.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Mythical Camo",
     "minted": 394,
     "burned": 0,
@@ -367,7 +353,7 @@
     "imgPath": "/blanko-img/mythical-camo.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Kitsune",
     "minted": 400,
     "burned": 0,
@@ -381,7 +367,7 @@
     "imgPath": "/blanko-img/kitsune.png"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "name": "El Cha Texas",
     "minted": 405,
     "burned": 0,
@@ -394,6 +380,20 @@
     "seasonFilter": "00 SXSW 2019",
     "tag": "SXSW",
     "imgPath": "/blanko-img/el-cha-texas.png"
+  },
+  {
+    "rank": 26,
+    "name": "Kub Totem",
+    "minted": 421,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 34.99,
+    "season": "00",
+    "artist": "Mike Fudge",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "imgPath": "/blanko-img/kub-totem.png"
   },
   {
     "rank": 27,
@@ -426,22 +426,6 @@
   },
   {
     "rank": 29,
-    "name": "Honey Bun",
-    "minted": 738,
-    "burned": 0,
-    "mintDate": "2022-07-21T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "tagFilter": "Party Pass",
-    "imgPath": "/blanko-img/honey-bun.png"
-  },
-  {
-    "rank": 30,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -456,7 +440,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 31,
+    "rank": 30,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -468,6 +452,22 @@
     "gemRush": false,
     "seasonFilter": "00 Early Access",
     "imgPath": "/blanko-img/guilty-gardener-474.png"
+  },
+  {
+    "rank": 31,
+    "name": "Honey Bun",
+    "minted": 748,
+    "burned": 0,
+    "mintDate": "2022-07-21T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "tagFilter": "Party Pass",
+    "imgPath": "/blanko-img/honey-bun.png"
   },
   {
     "rank": 32,
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Roxx",
-    "minted": 757,
+    "minted": 782,
     "burned": 0,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -516,8 +516,8 @@
   {
     "rank": 35,
     "name": "Skivvy Klown",
-    "minted": 798,
-    "burned": 542,
+    "minted": 802,
+    "burned": 546,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -769,22 +769,6 @@
   },
   {
     "rank": 53,
-    "name": "Zeta",
-    "minted": 1481,
-    "burned": 0,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "tag": "NFT NYC",
-    "tagFilter": "NFT NYC",
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 54,
     "name": "Menace",
     "minted": 1489,
     "burned": 0,
@@ -796,6 +780,22 @@
     "gemRush": false,
     "seasonFilter": "00 Early Access",
     "imgPath": "/blanko-img/menace.png"
+  },
+  {
+    "rank": 54,
+    "name": "Zeta",
+    "minted": 1497,
+    "burned": 0,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "tag": "NFT NYC",
+    "tagFilter": "NFT NYC",
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 52,
@@ -1647,7 +1647,7 @@
     "rank": 112,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 430,
+    "burned": 436,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
@@ -1793,7 +1793,7 @@
     "rank": 122,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1596,
+    "burned": 1604,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
