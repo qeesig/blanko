@@ -67,22 +67,21 @@
   },
   {
     "rank": 6,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 208,
+    "name": "Year of the Ox Bell",
+    "minted": 264,
     "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
+    "mintDate": "2021-02-02T08:00:00.000Z",
+    "mintPrice": 2.99,
     "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
+    "status": "CLOSED",
+    "seasonFilter": "00 Open Beta",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
     "rank": 7,
     "name": "Angel Food Wings",
-    "minted": 242,
+    "minted": 282,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -95,16 +94,17 @@
   },
   {
     "rank": 8,
-    "name": "Year of the Ox Bell",
-    "minted": 264,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 286,
     "burned": 0,
-    "mintDate": "2021-02-02T08:00:00.000Z",
-    "mintPrice": 2.99,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
-    "seasonFilter": "00 Open Beta",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/year-of-the-ox-bell.png"
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 9,
@@ -286,20 +286,6 @@
   },
   {
     "rank": 22,
-    "name": "Strawberry Short-Steps",
-    "minted": 494,
-    "burned": 0,
-    "mintDate": "2022-08-10T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Shoes",
-    "imgPath": "/accessory-img/strawberryshort-steps.png"
-  },
-  {
-    "rank": 23,
     "name": "Stupid Cupid Wings",
     "minted": 503,
     "burned": 0,
@@ -312,7 +298,7 @@
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Superstar Shades",
     "minted": 503,
     "burned": 0,
@@ -323,6 +309,20 @@
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Mask",
     "imgPath": "/accessory-img/superstar-shades.png"
+  },
+  {
+    "rank": 24,
+    "name": "Strawberry Short-Steps",
+    "minted": 504,
+    "burned": 0,
+    "mintDate": "2022-08-10T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Shoes",
+    "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
     "rank": 25,
@@ -395,7 +395,7 @@
   {
     "rank": 30,
     "name": "Sweet Bun Beret",
-    "minted": 641,
+    "minted": 644,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -805,20 +805,6 @@
   },
   {
     "rank": 61,
-    "name": "Savory Side Swag",
-    "minted": 1498,
-    "burned": 0,
-    "mintDate": "2022-08-03T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/savory-side-swag.png"
-  },
-  {
-    "rank": 62,
     "name": "Burberry® Jetpack",
     "minted": 1500,
     "burned": 0,
@@ -831,7 +817,7 @@
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
-    "rank": 63,
+    "rank": 62,
     "name": "TMC Flag Bucket Hat - Red",
     "minted": 1500,
     "burned": 0,
@@ -844,7 +830,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
-    "rank": 64,
+    "rank": 63,
     "name": "TMC Flag Bucket Hat - Stealth",
     "minted": 1500,
     "burned": 0,
@@ -855,6 +841,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
+  },
+  {
+    "rank": 64,
+    "name": "Savory Side Swag",
+    "minted": 1512,
+    "burned": 0,
+    "mintDate": "2022-08-03T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
     "rank": 65,
@@ -1087,7 +1087,7 @@
   {
     "rank": 82,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2327,
+    "minted": 2348,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
