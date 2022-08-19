@@ -384,13 +384,13 @@
   {
     "rank": 26,
     "name": "Kub Totem",
-    "minted": 474,
+    "minted": 500,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 34.99,
     "season": "00",
     "artist": "Mike Fudge",
-    "status": "MINTING",
+    "status": "CLOSED",
     "gemRush": false,
     "seasonFilter": "00 Early Access",
     "imgPath": "/blanko-img/kub-totem.png"
