@@ -110,7 +110,7 @@
   {
     "rank": 8,
     "name": "El Xiuhcoatl",
-    "minted": 95,
+    "minted": 96,
     "burned": 52,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -218,7 +218,7 @@
   {
     "rank": 15,
     "name": "Harlekin",
-    "minted": 274,
+    "minted": 275,
     "burned": 0,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -384,7 +384,7 @@
   {
     "rank": 26,
     "name": "Kub Totem",
-    "minted": 459,
+    "minted": 474,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 34.99,
@@ -486,7 +486,7 @@
   {
     "rank": 33,
     "name": "Honey Bun",
-    "minted": 752,
+    "minted": 754,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Roxx",
-    "minted": 792,
+    "minted": 795,
     "burned": 0,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -517,7 +517,7 @@
     "rank": 35,
     "name": "Skivvy Klown",
     "minted": 803,
-    "burned": 548,
+    "burned": 550,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -740,7 +740,7 @@
     "rank": 50,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 190,
+    "burned": 192,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
     "season": "00",
