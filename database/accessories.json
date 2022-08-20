@@ -93,20 +93,6 @@
   },
   {
     "rank": 8,
-    "name": "Angel Food Wings",
-    "minted": 346,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Back",
-    "imgPath": "/accessory-img/angel-food-wings.png"
-  },
-  {
-    "rank": 9,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -119,7 +105,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -131,6 +117,20 @@
     "tag": "Day of the deadmau5",
     "attachmentType": "Collar",
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
+  },
+  {
+    "rank": 10,
+    "name": "Angel Food Wings",
+    "minted": 361,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Back",
+    "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
     "rank": 11,
@@ -218,20 +218,6 @@
   },
   {
     "rank": 17,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 391,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 18,
     "name": "Deadmau5 Kandi Kuffs",
     "minted": 422,
     "burned": 0,
@@ -245,7 +231,7 @@
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "Reindeer Antlers",
     "minted": 433,
     "burned": 0,
@@ -256,6 +242,20 @@
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
     "imgPath": "/accessory-img/reindeer-antlers.png"
+  },
+  {
+    "rank": 19,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 459,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 20,
@@ -313,7 +313,7 @@
   {
     "rank": 24,
     "name": "Strawberry Short-Steps",
-    "minted": 524,
+    "minted": 528,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -408,7 +408,7 @@
   {
     "rank": 31,
     "name": "Sweet Bun Beret",
-    "minted": 649,
+    "minted": 651,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -845,7 +845,7 @@
   {
     "rank": 64,
     "name": "Savory Side Swag",
-    "minted": 1534,
+    "minted": 1541,
     "burned": 0,
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
@@ -1087,7 +1087,7 @@
   {
     "rank": 82,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2370,
+    "minted": 2395,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
