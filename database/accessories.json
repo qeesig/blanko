@@ -121,7 +121,7 @@
   {
     "rank": 10,
     "name": "Angel Food Wings",
-    "minted": 361,
+    "minted": 376,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -245,20 +245,6 @@
   },
   {
     "rank": 19,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 459,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 20,
     "name": "Candy Cane Shoes",
     "minted": 466,
     "burned": 0,
@@ -271,7 +257,7 @@
     "imgPath": "/accessory-img/candy-cane-shoes.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Deadmau5 VIP Pass",
     "minted": 473,
     "burned": 0,
@@ -285,7 +271,7 @@
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Stupid Cupid Wings",
     "minted": 503,
     "burned": 0,
@@ -298,7 +284,7 @@
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Superstar Shades",
     "minted": 503,
     "burned": 0,
@@ -311,9 +297,23 @@
     "imgPath": "/accessory-img/superstar-shades.png"
   },
   {
+    "rank": 23,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 517,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
+  },
+  {
     "rank": 24,
     "name": "Strawberry Short-Steps",
-    "minted": 528,
+    "minted": 534,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -407,20 +407,6 @@
   },
   {
     "rank": 31,
-    "name": "Sweet Bun Beret",
-    "minted": 651,
-    "burned": 0,
-    "mintDate": "2022-07-27T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Hat",
-    "imgPath": "/accessory-img/sweet-bun-beret.png"
-  },
-  {
-    "rank": 32,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -431,6 +417,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
     "imgPath": "/accessory-img/island-time-sunnies.png"
+  },
+  {
+    "rank": 32,
+    "name": "Sweet Bun Beret",
+    "minted": 655,
+    "burned": 0,
+    "mintDate": "2022-07-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Hat",
+    "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
     "rank": 33,
@@ -844,20 +844,6 @@
   },
   {
     "rank": 64,
-    "name": "Savory Side Swag",
-    "minted": 1541,
-    "burned": 0,
-    "mintDate": "2022-08-03T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/savory-side-swag.png"
-  },
-  {
-    "rank": 65,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -868,6 +854,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
+  },
+  {
+    "rank": 65,
+    "name": "Savory Side Swag",
+    "minted": 1552,
+    "burned": 0,
+    "mintDate": "2022-08-03T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
     "rank": 66,
@@ -1087,7 +1087,7 @@
   {
     "rank": 82,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2395,
+    "minted": 2416,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,

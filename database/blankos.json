@@ -486,7 +486,7 @@
   {
     "rank": 33,
     "name": "Honey Bun",
-    "minted": 761,
+    "minted": 764,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Skivvy Klown",
-    "minted": 807,
+    "minted": 810,
     "burned": 552,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -517,20 +517,6 @@
   },
   {
     "rank": 35,
-    "name": "Roxx",
-    "minted": 821,
-    "burned": 0,
-    "mintDate": "2022-08-05T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Andrea Kang",
-    "status": "MINTING",
-    "gemRush": false,
-    "seasonFilter": "00 Early Access",
-    "imgPath": "/blanko-img/roxx.png"
-  },
-  {
-    "rank": 36,
     "name": "GrassGnome",
     "minted": 832,
     "burned": 0,
@@ -544,6 +530,20 @@
     "tag": "Airdrop",
     "tagFilter": "Airdrop",
     "imgPath": "/blanko-img/grassgnome.png"
+  },
+  {
+    "rank": 36,
+    "name": "Roxx",
+    "minted": 833,
+    "burned": 0,
+    "mintDate": "2022-08-05T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Andrea Kang",
+    "status": "MINTING",
+    "gemRush": false,
+    "seasonFilter": "00 Early Access",
+    "imgPath": "/blanko-img/roxx.png"
   },
   {
     "rank": 37,
@@ -1793,7 +1793,7 @@
     "rank": 122,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1614,
+    "burned": 1620,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
