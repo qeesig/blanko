@@ -486,7 +486,7 @@
   {
     "rank": 33,
     "name": "Honey Bun",
-    "minted": 764,
+    "minted": 765,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Skivvy Klown",
-    "minted": 810,
+    "minted": 813,
     "burned": 552,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -534,7 +534,7 @@
   {
     "rank": 36,
     "name": "Roxx",
-    "minted": 833,
+    "minted": 836,
     "burned": 0,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -1793,7 +1793,7 @@
     "rank": 122,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1620,
+    "burned": 1626,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
