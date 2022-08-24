@@ -232,7 +232,7 @@
   {
     "rank": 18,
     "name": "Angel Food Wings",
-    "minted": 444,
+    "minted": 465,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -299,7 +299,7 @@
   {
     "rank": 23,
     "name": "Strawberry Short-Steps",
-    "minted": 563,
+    "minted": 577,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -407,7 +407,7 @@
   {
     "rank": 31,
     "name": "Sweet Bun Beret",
-    "minted": 679,
+    "minted": 684,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -420,20 +420,6 @@
   },
   {
     "rank": 32,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 684,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 33,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -446,7 +432,7 @@
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -460,7 +446,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 35,
+    "rank": 34,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -471,6 +457,20 @@
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
     "imgPath": "/accessory-img/blue-greaser-hair.png"
+  },
+  {
+    "rank": 35,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 757,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 36,
@@ -886,7 +886,7 @@
   {
     "rank": 67,
     "name": "Savory Side Swag",
-    "minted": 1609,
+    "minted": 1630,
     "burned": 0,
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
@@ -1114,7 +1114,7 @@
   {
     "rank": 84,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2506,
+    "minted": 2545,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
