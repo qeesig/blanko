@@ -231,20 +231,6 @@
   },
   {
     "rank": 18,
-    "name": "Angel Food Wings",
-    "minted": 465,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Back",
-    "imgPath": "/accessory-img/angel-food-wings.png"
-  },
-  {
-    "rank": 19,
     "name": "Candy Cane Shoes",
     "minted": 466,
     "burned": 0,
@@ -257,7 +243,7 @@
     "imgPath": "/accessory-img/candy-cane-shoes.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Deadmau5 VIP Pass",
     "minted": 473,
     "burned": 0,
@@ -269,6 +255,20 @@
     "tag": "Day of the deadmau5",
     "attachmentType": "Collar",
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
+  },
+  {
+    "rank": 20,
+    "name": "Angel Food Wings",
+    "minted": 494,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Back",
+    "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
     "rank": 21,
@@ -298,20 +298,6 @@
   },
   {
     "rank": 23,
-    "name": "Strawberry Short-Steps",
-    "minted": 577,
-    "burned": 0,
-    "mintDate": "2022-08-10T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Shoes",
-    "imgPath": "/accessory-img/strawberryshort-steps.png"
-  },
-  {
-    "rank": 24,
     "name": "Cherries Bracelet",
     "minted": 578,
     "burned": 0,
@@ -324,7 +310,7 @@
     "imgPath": "/accessory-img/cherries-bracelet.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Deadmau5 Beat Blaster",
     "minted": 583,
     "burned": 0,
@@ -336,6 +322,20 @@
     "tag": "Day of the deadmau5",
     "attachmentType": "Back",
     "imgPath": "/accessory-img/deadmau5-beat-blaster.png"
+  },
+  {
+    "rank": 25,
+    "name": "Strawberry Short-Steps",
+    "minted": 589,
+    "burned": 0,
+    "mintDate": "2022-08-10T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Shoes",
+    "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
     "rank": 26,
@@ -407,7 +407,7 @@
   {
     "rank": 31,
     "name": "Sweet Bun Beret",
-    "minted": 684,
+    "minted": 695,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -460,20 +460,6 @@
   },
   {
     "rank": 35,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 757,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 36,
     "name": "GG Nozzle Cap",
     "minted": 834,
     "burned": 0,
@@ -486,7 +472,7 @@
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Roasted Mallow Rocket Pack",
     "minted": 850,
     "burned": 0,
@@ -500,7 +486,7 @@
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -513,7 +499,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -526,7 +512,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -539,7 +525,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -550,6 +536,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
+  },
+  {
+    "rank": 41,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 876,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 42,
@@ -885,20 +885,6 @@
   },
   {
     "rank": 67,
-    "name": "Savory Side Swag",
-    "minted": 1630,
-    "burned": 0,
-    "mintDate": "2022-08-03T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/savory-side-swag.png"
-  },
-  {
-    "rank": 68,
     "name": "In Stitches Armbands",
     "minted": 1637,
     "burned": 0,
@@ -911,7 +897,7 @@
     "imgPath": "/accessory-img/in-stitches-armbands.png"
   },
   {
-    "rank": 69,
+    "rank": 68,
     "name": "Red Bolt Hockey Mask",
     "minted": 1650,
     "burned": 0,
@@ -924,7 +910,7 @@
     "imgPath": "/accessory-img/red-bolt-hockey-mask.png"
   },
   {
-    "rank": 70,
+    "rank": 69,
     "name": "Bi-Amp Booster",
     "minted": 1654,
     "burned": 0,
@@ -937,7 +923,7 @@
     "imgPath": "/accessory-img/bi-amp-booster.png"
   },
   {
-    "rank": 71,
+    "rank": 70,
     "name": "Burberry® Armbands",
     "minted": 1662,
     "burned": 0,
@@ -948,6 +934,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
     "imgPath": "/accessory-img/burberry-armbands.png"
+  },
+  {
+    "rank": 71,
+    "name": "Savory Side Swag",
+    "minted": 1667,
+    "burned": 0,
+    "mintDate": "2022-08-03T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
     "rank": 72,
@@ -1114,7 +1114,7 @@
   {
     "rank": 84,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2545,
+    "minted": 2578,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
