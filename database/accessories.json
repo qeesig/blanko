@@ -2,7 +2,7 @@
   {
     "rank": 1,
     "name": "Community Chrome",
-    "minted": 51,
+    "minted": 53,
     "burned": 0,
     "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
@@ -285,7 +285,7 @@
   {
     "rank": 22,
     "name": "Angel Food Wings",
-    "minted": 510,
+    "minted": 517,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -367,7 +367,7 @@
   {
     "rank": 28,
     "name": "Strawberry Short-Steps",
-    "minted": 596,
+    "minted": 603,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -407,7 +407,7 @@
   {
     "rank": 31,
     "name": "Sweet Bun Beret",
-    "minted": 700,
+    "minted": 703,
     "burned": 0,
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -566,20 +566,6 @@
   },
   {
     "rank": 43,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 957,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 44,
     "name": "Tenderfoot's Squidgeon Pal",
     "minted": 998,
     "burned": 0,
@@ -593,7 +579,7 @@
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "name": "Frostbyte Beanie",
     "minted": 1000,
     "burned": 0,
@@ -607,7 +593,7 @@
     "imgPath": "/accessory-img/frostbyte-beanie.png"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "name": "Ghost Gang Spray Cannon",
     "minted": 1018,
     "burned": 0,
@@ -620,7 +606,7 @@
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "name": "War Pony Whirlwind Mask",
     "minted": 1022,
     "burned": 0,
@@ -631,6 +617,20 @@
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Mask",
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
+  },
+  {
+    "rank": 47,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 1027,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 48,
@@ -950,20 +950,6 @@
   },
   {
     "rank": 72,
-    "name": "Savory Side Swag",
-    "minted": 1679,
-    "burned": 0,
-    "mintDate": "2022-08-03T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/savory-side-swag.png"
-  },
-  {
-    "rank": 73,
     "name": "Prism of Pride Tail",
     "minted": 1688,
     "burned": 0,
@@ -974,6 +960,20 @@
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
     "imgPath": "/accessory-img/prism-of-pride-tail.png"
+  },
+  {
+    "rank": 73,
+    "name": "Savory Side Swag",
+    "minted": 1697,
+    "burned": 0,
+    "mintDate": "2022-08-03T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
     "rank": 74,
@@ -1142,7 +1142,7 @@
   {
     "rank": 86,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2593,
+    "minted": 2611,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
