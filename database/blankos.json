@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 236,
+    "minted": 237,
     "burned": 126,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -263,7 +263,7 @@
   {
     "rank": 18,
     "name": "Sweet Gaze",
-    "minted": 302,
+    "minted": 319,
     "burned": 0,
     "mintDate": "2022-08-24T07:00:00.000Z",
     "mintPrice": 0,
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Honey Bun",
-    "minted": 818,
+    "minted": 822,
     "burned": 0,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
@@ -518,7 +518,7 @@
   {
     "rank": 35,
     "name": "Skivvy Klown",
-    "minted": 826,
+    "minted": 827,
     "burned": 566,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -564,7 +564,7 @@
   {
     "rank": 38,
     "name": "Roxx",
-    "minted": 878,
+    "minted": 889,
     "burned": 0,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -1496,7 +1496,7 @@
   {
     "rank": 102,
     "name": "Visage",
-    "minted": 3559,
+    "minted": 3560,
     "burned": 0,
     "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
@@ -1663,7 +1663,7 @@
     "rank": 113,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 470,
+    "burned": 472,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
@@ -1809,7 +1809,7 @@
     "rank": 123,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1652,
+    "burned": 1654,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",

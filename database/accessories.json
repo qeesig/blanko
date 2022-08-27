@@ -285,7 +285,7 @@
   {
     "rank": 22,
     "name": "Angel Food Wings",
-    "minted": 517,
+    "minted": 537,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -367,7 +367,7 @@
   {
     "rank": 28,
     "name": "Strawberry Short-Steps",
-    "minted": 603,
+    "minted": 614,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -406,20 +406,6 @@
   },
   {
     "rank": 31,
-    "name": "Sweet Bun Beret",
-    "minted": 703,
-    "burned": 0,
-    "mintDate": "2022-07-27T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Hat",
-    "imgPath": "/accessory-img/sweet-bun-beret.png"
-  },
-  {
-    "rank": 32,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -430,6 +416,20 @@
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Wrists",
     "imgPath": "/accessory-img/peep-that-bracelet.png"
+  },
+  {
+    "rank": 32,
+    "name": "Sweet Bun Beret",
+    "minted": 711,
+    "burned": 0,
+    "mintDate": "2022-07-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Hat",
+    "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
     "rank": 33,
@@ -620,20 +620,6 @@
   },
   {
     "rank": 47,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 1027,
-    "burned": 0,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Belt",
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 48,
     "name": "Polly Wanna Rainbow Wings",
     "minted": 1033,
     "burned": 0,
@@ -646,7 +632,7 @@
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "name": "Blue Blaze Puckhead Mask",
     "minted": 1059,
     "burned": 0,
@@ -657,6 +643,20 @@
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Mask",
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
+  },
+  {
+    "rank": 49,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 1081,
+    "burned": 0,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Belt",
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 50,
@@ -964,7 +964,7 @@
   {
     "rank": 73,
     "name": "Savory Side Swag",
-    "minted": 1697,
+    "minted": 1717,
     "burned": 0,
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
@@ -1141,20 +1141,6 @@
   },
   {
     "rank": 86,
-    "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2611,
-    "burned": 0,
-    "mintDate": "2022-07-20T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Wrists",
-    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
-  },
-  {
-    "rank": 87,
     "name": "Katana’s Hachimaki",
     "minted": 2618,
     "burned": 0,
@@ -1168,7 +1154,7 @@
     "imgPath": "/accessory-img/katanas-hachimaki.png"
   },
   {
-    "rank": 88,
+    "rank": 87,
     "name": "BCF Bracelets",
     "minted": 2633,
     "burned": 0,
@@ -1180,6 +1166,20 @@
     "tag": "Summer Camp Slam",
     "attachmentType": "Wrists",
     "imgPath": "/accessory-img/bcf-bracelets.png"
+  },
+  {
+    "rank": 88,
+    "name": "Honey Bun’s Sweet Jimmies",
+    "minted": 2639,
+    "burned": 0,
+    "mintDate": "2022-07-20T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Wrists",
+    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
     "rank": 89,
