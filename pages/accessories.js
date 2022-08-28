@@ -166,7 +166,7 @@ export default function Accessories() {
       props.minting == true && props.functional == false
         ? "10px"
         : props.minting == true && props.functional == true
-        ? "4px"
+        ? "6px"
         : "0px"};
   `;
 
