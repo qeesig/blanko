@@ -47,7 +47,8 @@ function DrawerAppBar(props) {
   };
 
   const clearSessionStorage = (event) => {
-    sessionStorage.removeItem("primaryFilter");
+    sessionStorage.removeItem("accessoryPrimaryFilter");
+    sessionStorage.removeItem("blankoPrimaryFilter");
     sessionStorage.removeItem("pageNumber");
   };
 

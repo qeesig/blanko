@@ -142,34 +142,13 @@ export default function Accessories() {
       padding-left: 52px;
     }
 
+    @media screen and (max-width: 780px) {
+      padding-left: 20px;
+    }
+
     @media screen and (max-width: 620px) {
       padding-left: 10px;
     }
-  `;
-
-  const Badge = styled.div`
-    background-color: transparent;
-    border-color: ${(props) =>
-      props.status === "MINTING"
-        ? "#16cb69"
-        : props.status === "CLOSED"
-        ? "#a6b0c3"
-        : "transparent"};
-    color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 12px;
-    width: 60px;
-    margin: auto;
-    padding: 3px 5px 3px 5px;
-    font-size: 10px;
-    text-align: center;
-  `;
-
-  const Tag = styled.div`
-    margin-top: ${(props) => (props.tag == null ? "0" : "4px")};
-    color: #8e95ab;
-    font-size: 12px;
   `;
 
   const Name = styled.div`
@@ -182,9 +161,24 @@ export default function Accessories() {
     }
   `;
 
+  const Minting = styled.span`
+    margin-right: ${(props) =>
+      props.minting == true && props.functional == false
+        ? "10px"
+        : props.minting == true && props.functional == true
+        ? "4px"
+        : "0px"};
+  `;
+
+  const Tag = styled.div`
+    margin-top: ${(props) => (props.tag == null ? "0" : "4px")};
+    color: #8e95ab;
+    font-size: 12px;
+  `;
+
   const materialTheme = getTheme(DEFAULT_OPTIONS);
   const [customTable, setCustomTable] = useState(
-    "--data-table-library_grid-template-columns:  50px 54px 365px 95px 100px 130px 130px 80px 100px;"
+    "--data-table-library_grid-template-columns:  50px 54px 365px 95px 100px 130px 130px 80px;"
   );
 
   const customTheme = {
@@ -206,7 +200,7 @@ export default function Accessories() {
 
   const primaryFilterValue = (event) => {
     setPrimaryFilter(event.target.value);
-    sessionStorage.setItem("primaryFilter", event.target.value);
+    sessionStorage.setItem("accessoryPrimaryFilter", event.target.value);
     pagination.fns.onSetPage(0);
   };
 
@@ -330,17 +324,17 @@ export default function Accessories() {
       setCustomTable(
         "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
       );
-      // minted, status
+      // minted, mt price
     } else if (viewPort <= 780) {
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 230px 95px 100px !important;"
       );
-      // minted, mt price, status
+      // minted, mt price, season
     } else if (viewPort <= 1024) {
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 260px 115px 130px 100px !important;"
       );
-      // minted, burned, mt date, mt price, status
+      // minted, burned, mt date, mt price, season
     } else if (viewPort <= 1300) {
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 260px 115px 100px 130px 110px 100px !important;"
@@ -348,7 +342,7 @@ export default function Accessories() {
       // default
     } else {
       setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 260px 130px 115px 145px 125px 105px 120px !important;"
+        "--data-table-library_grid-template-columns:  50px 54px 380px 130px 115px 145px 125px 105px !important;"
       );
     }
   }, [viewPort]);
@@ -363,7 +357,7 @@ export default function Accessories() {
   };
 
   useEffect(() => {
-    setPrimaryFilter(sessionStorage.getItem("primaryFilter") || "All");
+    setPrimaryFilter(sessionStorage.getItem("accessoryPrimaryFilter") || "All");
     setPageNumber(parseInt(sessionStorage.getItem("pageNumber")));
     setPageSize(parseInt(sessionStorage.getItem("pageSize")));
   }, []);
@@ -754,6 +748,7 @@ export default function Accessories() {
                   onChange={(e) => toggleColumn(e.target.value)}
                 >
                   <MenuItem value="MINTED">Sort by Minted</MenuItem>
+                  <MenuItem value="BURNED">Sort by Burned</MenuItem>
                   <MenuItem value="MINTDATE">Sort by Mint Date</MenuItem>
                   <MenuItem value="MINTPRICE">Sort by Mint Price</MenuItem>
                 </Select>
@@ -766,6 +761,16 @@ export default function Accessories() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
+            <div className={styles.legendContainer}>
+              <div>
+                <span className={styles.mintingIcon}></span>
+                <span>Minting</span>
+              </div>
+              <div>
+                <span className={styles.functionalIcon}></span>
+                <span>Functional</span>
+              </div>
+            </div>
             <Table
               data={data}
               theme={theme}
@@ -815,7 +820,7 @@ export default function Accessories() {
                       </HeaderCellSort>
                       <HeaderCellSort
                         hide={
-                          viewPort <= 780
+                          viewPort <= 620
                             ? !hiddenColumns.includes("MINTPRICE")
                             : ""
                         }
@@ -826,7 +831,7 @@ export default function Accessories() {
                       </HeaderCellSort>
                       <HeaderCell
                         hide={
-                          viewPort <= 1300
+                          viewPort <= 780
                             ? !hiddenColumns.includes("SEASON")
                             : ""
                         }
@@ -836,19 +841,6 @@ export default function Accessories() {
                         }}
                       >
                         SEASON
-                      </HeaderCell>
-                      <HeaderCell
-                        hide={
-                          viewPort <= 620
-                            ? !hiddenColumns.includes("STATUS")
-                            : ""
-                        }
-                        css={styledHeader}
-                        style={{
-                          textAlign: "center",
-                        }}
-                      >
-                        STATUS
                       </HeaderCell>
                     </HeaderRow>
                   </Header>
@@ -892,6 +884,18 @@ export default function Accessories() {
                           <Name className={styles.accessoryName}>
                             {item.name}
                           </Name>
+                          <Minting
+                            className={
+                              item.minting == true ? styles.minting : ""
+                            }
+                            minting={item.minting}
+                            functional={item.functional}
+                          ></Minting>
+                          <span
+                            className={
+                              item.functional == true ? styles.functional : ""
+                            }
+                          ></span>
                           <Tag className={styles.accessoryTag} tag={item.tag}>
                             {item.tag}
                           </Tag>
@@ -949,7 +953,7 @@ export default function Accessories() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort <= 780
+                            viewPort <= 620
                               ? !hiddenColumns.includes("MINTPRICE")
                               : ""
                           }
@@ -967,7 +971,7 @@ export default function Accessories() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort <= 1300
+                            viewPort <= 780
                               ? !hiddenColumns.includes("SEASON")
                               : ""
                           }
@@ -977,16 +981,6 @@ export default function Accessories() {
                           }}
                         >
                           {item.season}
-                        </Cell>
-                        <Cell
-                          hide={
-                            viewPort <= 620
-                              ? !hiddenColumns.includes("STATUS")
-                              : ""
-                          }
-                          css={styledCell}
-                        >
-                          <Badge status={item.status}>{item.status}</Badge>
                         </Cell>
                       </Row>
                     ))}

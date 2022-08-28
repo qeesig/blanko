@@ -7,10 +7,11 @@
     "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Community Crew",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/community-chrome.png"
   },
   {
@@ -21,9 +22,10 @@
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 59.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-shellphone.png"
   },
   {
@@ -34,9 +36,10 @@
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 99.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Offhand",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-boombox.png"
   },
   {
@@ -47,9 +50,10 @@
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 64.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-monogram-slides.png"
   },
   {
@@ -60,9 +64,10 @@
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-horseshoe-chain.png"
   },
   {
@@ -73,9 +78,10 @@
     "mintDate": "2021-02-02T08:00:00.000Z",
     "mintPrice": 2.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
@@ -86,9 +92,10 @@
     "mintDate": "2021-02-02T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
   },
   {
@@ -99,9 +106,10 @@
     "mintDate": "2020-12-16T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
@@ -112,10 +120,11 @@
     "mintDate": "2021-10-29T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
   },
   {
@@ -126,10 +135,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/bite-me-batwings-mk1.png"
   },
   {
@@ -140,10 +150,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-body-armor-mk1.png"
   },
   {
@@ -154,10 +165,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-gloves-mk1.png"
   },
   {
@@ -168,10 +180,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-horns-mk1.png"
   },
   {
@@ -182,10 +195,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-mask-mk1.png"
   },
   {
@@ -196,10 +210,11 @@
     "mintDate": "2018-11-17T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Alpha",
     "tag": "Giveaway",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-shoes-mk1.png"
   },
   {
@@ -210,10 +225,11 @@
     "mintDate": "2021-10-27T07:00:00.000Z",
     "mintPrice": 24.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
   },
   {
@@ -224,9 +240,10 @@
     "mintDate": "2020-12-16T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/reindeer-antlers.png"
   },
   {
@@ -237,9 +254,10 @@
     "mintDate": "2020-12-16T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/candy-cane-shoes.png"
   },
   {
@@ -250,10 +268,11 @@
     "mintDate": "2021-10-27T07:00:00.000Z",
     "mintPrice": 34.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
   },
   {
@@ -264,9 +283,10 @@
     "mintDate": "2021-02-02T08:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
@@ -277,9 +297,10 @@
     "mintDate": "2021-05-12T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/superstar-shades.png"
   },
   {
@@ -290,10 +311,11 @@
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
@@ -304,9 +326,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/cherries-bracelet.png"
   },
   {
@@ -317,10 +340,11 @@
     "mintDate": "2021-10-27T07:00:00.000Z",
     "mintPrice": 149.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/deadmau5-beat-blaster.png"
   },
   {
@@ -331,9 +355,10 @@
     "mintDate": "2021-06-02T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/cast-anchor-cast.png"
   },
   {
@@ -344,10 +369,11 @@
     "mintDate": "2021-11-04T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/deadmau5-denver-vip-pass.png"
   },
   {
@@ -358,10 +384,11 @@
     "mintDate": "2021-10-27T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Day of the deadmau5",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/deadmau5-high-tops.png"
   },
   {
@@ -372,10 +399,11 @@
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack+",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
@@ -386,9 +414,10 @@
     "mintDate": "2021-05-12T07:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/trapper-cap.png"
   },
   {
@@ -399,9 +428,10 @@
     "mintDate": "2021-06-02T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/island-time-sunnies.png"
   },
   {
@@ -412,9 +442,10 @@
     "mintDate": "2021-03-02T08:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
@@ -425,10 +456,11 @@
     "mintDate": "2022-07-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack+",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
@@ -439,10 +471,11 @@
     "mintDate": "2022-06-29T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Airdrop",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
@@ -453,9 +486,10 @@
     "mintDate": "2021-04-07T07:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
@@ -466,9 +500,10 @@
     "mintDate": "2022-04-05T07:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
   },
   {
@@ -479,10 +514,11 @@
     "mintDate": "2022-06-21T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
   },
   {
@@ -493,9 +529,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 2.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
@@ -506,9 +543,10 @@
     "mintDate": "2021-06-30T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
@@ -519,9 +557,10 @@
     "mintDate": "2020-12-16T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
@@ -532,9 +571,10 @@
     "mintDate": "2021-06-30T07:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
   },
   {
@@ -545,10 +585,11 @@
     "mintDate": "2022-06-15T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam+",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
   },
   {
@@ -559,9 +600,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 2.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/spiked-choker.png"
   },
   {
@@ -572,10 +614,11 @@
     "mintDate": "2022-06-01T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam+",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
@@ -586,10 +629,11 @@
     "mintDate": "2020-12-18T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "tag": "In-game Event",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/frostbyte-beanie.png"
   },
   {
@@ -600,9 +644,10 @@
     "mintDate": "2022-04-05T07:00:00.000Z",
     "mintPrice": 7.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
@@ -613,9 +658,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
   },
   {
@@ -626,9 +672,10 @@
     "mintDate": "2021-06-02T07:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
@@ -639,9 +686,10 @@
     "mintDate": "2021-04-07T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
   },
   {
@@ -652,10 +700,11 @@
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
@@ -666,9 +715,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 4.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/black-shoes.png"
   },
   {
@@ -679,9 +729,10 @@
     "mintDate": "2022-02-03T08:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/heartbreakers-bubbly-booster.png"
   },
   {
@@ -692,9 +743,10 @@
     "mintDate": "2021-09-29T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
@@ -705,9 +757,10 @@
     "mintDate": "2021-09-29T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
   },
   {
@@ -718,9 +771,10 @@
     "mintDate": "2021-03-02T08:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Open Beta",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/black-bandana.png"
   },
   {
@@ -731,10 +785,11 @@
     "mintDate": "2021-11-24T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/beanie-of-the-embalmed.png"
   },
   {
@@ -745,9 +800,10 @@
     "mintDate": "2021-06-16T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/emo-gloves.png"
   },
   {
@@ -758,9 +814,10 @@
     "mintDate": "2021-06-30T07:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/r-blankeoptera-wings.png"
   },
   {
@@ -771,9 +828,10 @@
     "mintDate": "2022-02-03T08:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/heartbreakers-cotton-tail.png"
   },
   {
@@ -784,9 +842,10 @@
     "mintDate": "2021-10-13T07:00:00.000Z",
     "mintPrice": 14.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
   },
   {
@@ -797,10 +856,11 @@
     "mintDate": "2022-04-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/punch-up-parachute.png"
   },
   {
@@ -811,9 +871,10 @@
     "mintDate": "2021-08-11T07:00:00.000Z",
     "mintPrice": 99.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
@@ -824,9 +885,10 @@
     "mintDate": "2021-11-24T08:00:00.000Z",
     "mintPrice": 19.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
@@ -837,9 +899,10 @@
     "mintDate": "2021-11-24T08:00:00.000Z",
     "mintPrice": 19.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
   },
   {
@@ -850,9 +913,10 @@
     "mintDate": "2022-02-03T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
   },
   {
@@ -863,10 +927,11 @@
     "mintDate": "2022-04-20T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers+",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/brawl-champ-belt.png"
   },
   {
@@ -877,10 +942,11 @@
     "mintDate": "2021-08-09T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Party Pass",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/toast-jetpack.png"
   },
   {
@@ -891,9 +957,10 @@
     "mintDate": "2021-10-13T07:00:00.000Z",
     "mintPrice": 4.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/in-stitches-armbands.png"
   },
   {
@@ -904,9 +971,10 @@
     "mintDate": "2020-11-18T08:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Private Beta",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/red-bolt-hockey-mask.png"
   },
   {
@@ -917,9 +985,10 @@
     "mintDate": "2021-06-16T07:00:00.000Z",
     "mintPrice": 6.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/bi-amp-booster.png"
   },
   {
@@ -930,9 +999,10 @@
     "mintDate": "2021-08-11T07:00:00.000Z",
     "mintPrice": 29.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-armbands.png"
   },
   {
@@ -943,9 +1013,10 @@
     "mintDate": "2021-10-13T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/that-thing.png"
   },
   {
@@ -956,9 +1027,10 @@
     "mintDate": "2021-06-15T07:00:00.000Z",
     "mintPrice": 4.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/prism-of-pride-tail.png"
   },
   {
@@ -969,10 +1041,11 @@
     "mintDate": "2022-04-06T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers+",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/south-paw-sneaks.png"
   },
   {
@@ -983,10 +1056,11 @@
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
@@ -997,9 +1071,10 @@
     "mintDate": "2021-08-11T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/burberry-pool-shoes.png"
   },
   {
@@ -1010,10 +1085,11 @@
     "mintDate": "2022-06-21T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/camp-craft-flower-crown.png"
   },
   {
@@ -1024,10 +1100,11 @@
     "mintDate": "2021-11-03T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/the-bodysnatcher.png"
   },
   {
@@ -1038,9 +1115,10 @@
     "mintDate": "2021-07-07T07:00:00.000Z",
     "mintPrice": 39.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/mau5-ear5.png"
   },
   {
@@ -1051,9 +1129,10 @@
     "mintDate": "2021-10-13T07:00:00.000Z",
     "mintPrice": 24.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/the-canopic-cruiser.png"
   },
   {
@@ -1064,10 +1143,11 @@
     "mintDate": "2022-01-19T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manila Chill",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/gelids-horns.png"
   },
   {
@@ -1078,10 +1158,11 @@
     "mintDate": "2021-10-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave+",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/wreak-havoc-kicks.png"
   },
   {
@@ -1092,9 +1173,10 @@
     "mintDate": "2021-12-08T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/gelids-gale-tactical-vest.png"
   },
   {
@@ -1105,10 +1187,11 @@
     "mintDate": "2021-09-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/hustle-glow-glider.png"
   },
   {
@@ -1119,10 +1202,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Tako Founder's Pack",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/tako-cuttlefish-jetpack.png"
   },
   {
@@ -1133,10 +1217,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Tako Founder's Pack",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/tako-squid-tooth-bracelet.png"
   },
   {
@@ -1147,10 +1232,11 @@
     "mintDate": "2022-04-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/katanas-hachimaki.png"
   },
   {
@@ -1161,10 +1247,11 @@
     "mintDate": "2022-06-09T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/bcf-bracelets.png"
   },
   {
@@ -1175,10 +1262,11 @@
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "MINTING",
+    "minting": true,
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
@@ -1189,10 +1277,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-billy-armor.png"
   },
   {
@@ -1203,10 +1292,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-billy-arms.png"
   },
   {
@@ -1217,10 +1307,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-billy-horns.png"
   },
   {
@@ -1231,10 +1322,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-billy-mask.png"
   },
   {
@@ -1245,10 +1337,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/bite-me-billy-shoes.png"
   },
   {
@@ -1259,10 +1352,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Bite Me Founder's Pack",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/bite-me-billy-wings.png"
   },
   {
@@ -1273,10 +1367,11 @@
     "mintDate": "2021-10-13T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave+",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/frankenbeanie.png"
   },
   {
@@ -1287,9 +1382,10 @@
     "mintDate": "2021-08-18T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/feelin-lucky-bracelet.png"
   },
   {
@@ -1300,9 +1396,10 @@
     "mintDate": "2021-12-08T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/gelids-gale-tactical-mask.png"
   },
   {
@@ -1313,10 +1410,11 @@
     "mintDate": "2022-02-23T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/the-grandmaster-rocket.png"
   },
   {
@@ -1327,10 +1425,11 @@
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/luster-buckle-beanie.png"
   },
   {
@@ -1341,10 +1440,11 @@
     "mintDate": "2022-02-16T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky+",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/jins-lucky-kicks.png"
   },
   {
@@ -1355,10 +1455,11 @@
     "mintDate": "2021-12-29T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manilla Chill+",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/mach-63-light-striker-glider.png"
   },
   {
@@ -1369,9 +1470,10 @@
     "mintDate": "2021-08-18T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/fanny-pack-in-fuchsia.png"
   },
   {
@@ -1382,10 +1484,11 @@
     "mintDate": "2022-02-02T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky+",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/jins-lucky-koi-amulet.png"
   },
   {
@@ -1396,10 +1499,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Boss Dino Founder's Pack",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/boss-first-buck-necklace.png"
   },
   {
@@ -1410,10 +1514,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Alpha",
     "tag": "Boss Dino Founder's Pack",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/ptero-glider.png"
   },
   {
@@ -1424,10 +1529,11 @@
     "mintDate": "2021-09-07T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/uv-sneaks.png"
   },
   {
@@ -1438,10 +1544,11 @@
     "mintDate": "2021-12-22T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manilla Chill+",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/mach-63-lodi-kicks.png"
   },
   {
@@ -1452,9 +1559,10 @@
     "mintDate": "2021-08-18T07:00:00.000Z",
     "mintPrice": 3.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/green-bandana.png"
   },
   {
@@ -1465,10 +1573,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Ice Founder's Pack",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/lollis-goggles.png"
   },
   {
@@ -1479,10 +1588,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Ice Founder's Pack",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/lollis-lick-em-bracelet.png"
   },
   {
@@ -1493,10 +1603,11 @@
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Ice Founder's Pack",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/lollis-rocket-pop-jet-pack.png"
   },
   {
@@ -1507,10 +1618,11 @@
     "mintDate": "2022-04-13T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/knockout-chest-guard.png"
   },
   {
@@ -1521,10 +1633,11 @@
     "mintDate": "2021-09-07T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/incandescent-shades.png"
   },
   {
@@ -1535,10 +1648,11 @@
     "mintDate": "2022-05-25T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Summer Camp Slam",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/sages-smore-trekkers.png"
   },
   {
@@ -1549,10 +1663,11 @@
     "mintDate": "2021-10-20T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/egyptian-cotton-belt.png"
   },
   {
@@ -1563,10 +1678,11 @@
     "mintDate": "2022-03-02T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/lucky-red-kerchief.png"
   },
   {
@@ -1577,10 +1693,11 @@
     "mintDate": "2021-12-08T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manilla Chill+",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/mach-63-gauntlet.png"
   },
   {
@@ -1591,10 +1708,11 @@
     "mintDate": "2021-08-27T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Belt",
+    "functional": false,
     "imgPath": "/accessory-img/electric-green-crossbody-bag.png"
   },
   {
@@ -1605,9 +1723,10 @@
     "mintDate": "2021-12-08T08:00:00.000Z",
     "mintPrice": 4.99,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/tundra-trainers.png"
   },
   {
@@ -1618,10 +1737,11 @@
     "mintDate": "2021-08-25T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Hustle & Glow",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/neon-prong-bracelet.png"
   },
   {
@@ -1632,10 +1752,11 @@
     "mintDate": "2022-02-09T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky+",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/scarlets-nian-mask.png"
   },
   {
@@ -1646,10 +1767,11 @@
     "mintDate": "2022-03-30T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Blanko Brawlers",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/brawlers-hand-wraps.png"
   },
   {
@@ -1660,10 +1782,11 @@
     "mintDate": "2021-10-06T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Grave Rave",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/mummy-mitts.png"
   },
   {
@@ -1674,10 +1797,11 @@
     "mintDate": "2021-10-26T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Giveaway",
     "attachmentType": "Hat",
+    "functional": false,
     "imgPath": "/accessory-img/astrid-havocs-hare-hat.png"
   },
   {
@@ -1688,10 +1812,11 @@
     "mintDate": "2021-10-26T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Giveaway",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/grave-rave-night-shades.png"
   },
   {
@@ -1702,10 +1827,11 @@
     "mintDate": "2021-10-26T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Giveaway",
     "attachmentType": "Shoes",
+    "functional": false,
     "imgPath": "/accessory-img/havocs-highlighter-high-tops.png"
   },
   {
@@ -1716,10 +1842,11 @@
     "mintDate": "2021-12-01T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manila Chill",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/gelids-hornor.png"
   },
   {
@@ -1730,10 +1857,11 @@
     "mintDate": "2022-01-27T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Get Lucky",
     "attachmentType": "Back",
+    "functional": false,
     "imgPath": "/accessory-img/scarlets-nian-cape.png"
   },
   {
@@ -1744,10 +1872,11 @@
     "mintDate": "2021-12-01T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Manila Chill",
     "attachmentType": "Wrists",
+    "functional": false,
     "imgPath": "/accessory-img/gelids-blessing.png"
   },
   {
@@ -1758,10 +1887,11 @@
     "mintDate": "2022-02-15T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Prime Gaming",
     "attachmentType": "Collar",
+    "functional": false,
     "imgPath": "/accessory-img/bananecklace.png"
   },
   {
@@ -1772,10 +1902,11 @@
     "mintDate": "2022-02-01T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Prime Gaming",
     "attachmentType": "Mask",
+    "functional": false,
     "imgPath": "/accessory-img/king-karat-bananaclava.png"
   },
   {
@@ -1786,10 +1917,11 @@
     "mintDate": "2022-01-04T08:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
-    "status": "CLOSED",
+    "minting": false,
     "seasonFilter": "00 Early Access",
     "tag": "Prime Gaming",
     "attachmentType": "Back",
+    "functional": true,
     "imgPath": "/accessory-img/king-karat-banana-pack.png"
   }
 ]

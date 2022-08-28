@@ -112,34 +112,17 @@ export default function Blankos() {
     padding-right: 0px;
     padding-left: 55px;
 
+    @media screen and (max-width: 1024px) {
+      padding-left: 50px;
+    }
+
+    @media screen and (max-width: 780px) {
+      padding-left: 70px;
+    }
+
     @media screen and (max-width: 620px) {
       padding-left: 10px;
     }
-  `;
-
-  const Badge = styled.div`
-    background-color: transparent;
-    border-color: ${(props) =>
-      props.status === "MINTING"
-        ? "#16cb69"
-        : props.status === "CLOSED"
-        ? "#a6b0c3"
-        : "transparent"};
-    color: white;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 12px;
-    width: 60px;
-    margin: auto;
-    padding: 3px 5px 3px 5px;
-    font-size: 10px;
-    text-align: center;
-  `;
-
-  const Tag = styled.div`
-    margin-top: ${(props) => (props.tag == null ? "0" : "4px")};
-    color: #8e95ab;
-    font-size: 12px;
   `;
 
   const Name = styled.div`
@@ -152,9 +135,15 @@ export default function Blankos() {
     }
   `;
 
+  const Tag = styled.div`
+    margin-top: ${(props) => (props.tag == null ? "0" : "4px")};
+    color: #8e95ab;
+    font-size: 12px;
+  `;
+
   const materialTheme = getTheme(DEFAULT_OPTIONS);
   const [customTable, setCustomTable] = useState(
-    "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 185px 100px;"
+    "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 185px;"
   );
 
   const customTheme = {
@@ -176,7 +165,7 @@ export default function Blankos() {
 
   const primaryFilterValue = (event) => {
     setPrimaryFilter(event.target.value);
-    sessionStorage.setItem("primaryFilter", event.target.value);
+    sessionStorage.setItem("blankoPrimaryFilter", event.target.value);
     pagination.fns.onSetPage(0);
   };
 
@@ -302,25 +291,25 @@ export default function Blankos() {
       setCustomTable(
         "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
       );
-      // minted, status
+      // minted, mt price
     } else if (viewPort <= 780) {
       setCustomTable(
         "--data-table-library_grid-template-columns:  50px 54px 180px 95px 150px !important;"
       );
-      // minted, burned, mt price, status
+      // minted, burned, mt price, season
     } else if (viewPort <= 1024) {
       setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 100px !important;"
+        "--data-table-library_grid-template-columns:  50px 54px 200px 95px 100px 130px 80px !important;"
       );
-      // minted, burned, mt date, mt price, season, status
+      // minted, burned, mt date, mt price, season
     } else if (viewPort <= 1300) {
       setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 100px !important;"
+        "--data-table-library_grid-template-columns:  50px 54px 280px 95px 100px 130px 130px 80px !important;"
       );
       // default
     } else {
       setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 180px 95px 100px 130px 130px 80px 185px 100px !important;"
+        "--data-table-library_grid-template-columns:  50px 54px 280px 95px 100px 130px 130px 80px 185px !important;"
       );
     }
   }, [viewPort]);
@@ -335,7 +324,7 @@ export default function Blankos() {
   };
 
   useEffect(() => {
-    setPrimaryFilter(sessionStorage.getItem("primaryFilter") || "All");
+    setPrimaryFilter(sessionStorage.getItem("blankoPrimaryFilter") || "All");
     setPageNumber(parseInt(sessionStorage.getItem("pageNumber")));
     setPageSize(parseInt(sessionStorage.getItem("pageSize")));
   }, []);
@@ -686,6 +675,12 @@ export default function Blankos() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
+            <div className={styles.legendContainer}>
+              <div>
+                <span className={styles.mintingIcon}></span>
+                <span>Minting</span>
+              </div>
+            </div>
             <Table
               data={data}
               theme={theme}
@@ -735,7 +730,7 @@ export default function Blankos() {
                       </HeaderCellSort>
                       <HeaderCellSort
                         hide={
-                          viewPort <= 780
+                          viewPort <= 620
                             ? !hiddenColumns.includes("MINTPRICE")
                             : ""
                         }
@@ -746,7 +741,7 @@ export default function Blankos() {
                       </HeaderCellSort>
                       <HeaderCell
                         hide={
-                          viewPort <= 1024
+                          viewPort <= 780
                             ? !hiddenColumns.includes("SEASON")
                             : ""
                         }
@@ -770,22 +765,8 @@ export default function Blankos() {
                       >
                         ARTIST
                       </HeaderCell>
-                      <HeaderCell
-                        hide={
-                          viewPort <= 620
-                            ? !hiddenColumns.includes("STATUS")
-                            : ""
-                        }
-                        css={styledHeader}
-                        style={{
-                          textAlign: "center",
-                        }}
-                      >
-                        STATUS
-                      </HeaderCell>
                     </HeaderRow>
                   </Header>
-
                   <Body>
                     {blankoList.map((item, rank) => (
                       <Row key={item.rank} item={item}>
@@ -823,6 +804,11 @@ export default function Blankos() {
                           }}
                         >
                           <Name className={styles.blankoName}>{item.name}</Name>
+                          <span
+                            className={
+                              item.minting == true ? styles.minting : ""
+                            }
+                          ></span>
                           <Tag className={styles.blankoTag} tag={item.tag}>
                             {item.tag}
                           </Tag>
@@ -880,7 +866,7 @@ export default function Blankos() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort <= 780
+                            viewPort <= 620
                               ? !hiddenColumns.includes("MINTPRICE")
                               : ""
                           }
@@ -898,7 +884,7 @@ export default function Blankos() {
                         </Cell>
                         <Cell
                           hide={
-                            viewPort <= 1024
+                            viewPort <= 780
                               ? !hiddenColumns.includes("SEASON")
                               : ""
                           }
@@ -918,16 +904,6 @@ export default function Blankos() {
                           css={styledCell}
                         >
                           {item.artist}
-                        </Cell>
-                        <Cell
-                          hide={
-                            viewPort <= 620
-                              ? !hiddenColumns.includes("STATUS")
-                              : ""
-                          }
-                          css={styledCell}
-                        >
-                          <Badge status={item.status}>{item.status}</Badge>
                         </Cell>
                       </Row>
                     ))}
