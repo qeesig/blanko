@@ -285,7 +285,7 @@
   {
     "rank": 22,
     "name": "Angel Food Wings",
-    "minted": 537,
+    "minted": 541,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -367,7 +367,7 @@
   {
     "rank": 28,
     "name": "Strawberry Short-Steps",
-    "minted": 614,
+    "minted": 617,
     "burned": 0,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
@@ -647,7 +647,7 @@
   {
     "rank": 49,
     "name": "Sal’s Crispy Crossbody",
-    "minted": 1081,
+    "minted": 1115,
     "burned": 0,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -963,20 +963,6 @@
   },
   {
     "rank": 73,
-    "name": "Savory Side Swag",
-    "minted": 1717,
-    "burned": 0,
-    "mintDate": "2022-08-03T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "status": "MINTING",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Collar",
-    "imgPath": "/accessory-img/savory-side-swag.png"
-  },
-  {
-    "rank": 74,
     "name": "South Paw Sneaks",
     "minted": 1719,
     "burned": 0,
@@ -988,6 +974,20 @@
     "tag": "Blanko Brawlers+",
     "attachmentType": "Shoes",
     "imgPath": "/accessory-img/south-paw-sneaks.png"
+  },
+  {
+    "rank": 74,
+    "name": "Savory Side Swag",
+    "minted": 1727,
+    "burned": 0,
+    "mintDate": "2022-08-03T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "status": "MINTING",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Collar",
+    "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
     "rank": 75,
@@ -1170,7 +1170,7 @@
   {
     "rank": 88,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2639,
+    "minted": 2645,
     "burned": 0,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,

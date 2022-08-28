@@ -126,7 +126,7 @@
   {
     "rank": 9,
     "name": "Chemical B Dino",
-    "minted": 114,
+    "minted": 115,
     "burned": 66,
     "mintDate": "2022-03-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 237,
+    "minted": 238,
     "burned": 126,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -263,7 +263,7 @@
   {
     "rank": 18,
     "name": "Sweet Gaze",
-    "minted": 319,
+    "minted": 342,
     "burned": 0,
     "mintDate": "2022-08-24T07:00:00.000Z",
     "mintPrice": 0,
@@ -564,7 +564,7 @@
   {
     "rank": 38,
     "name": "Roxx",
-    "minted": 889,
+    "minted": 892,
     "burned": 0,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -1467,7 +1467,7 @@
     "rank": 100,
     "name": "Boss Dino",
     "minted": 3500,
-    "burned": 228,
+    "burned": 230,
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 149.99,
     "season": "00",
@@ -1663,7 +1663,7 @@
     "rank": 113,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 472,
+    "burned": 474,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
     "season": "00",
