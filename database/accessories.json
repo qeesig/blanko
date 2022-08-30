@@ -305,21 +305,6 @@
   },
   {
     "rank": 22,
-    "name": "Angel Food Wings",
-    "minted": 563,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Back",
-    "functional": true,
-    "imgPath": "/accessory-img/angel-food-wings.png"
-  },
-  {
-    "rank": 23,
     "name": "Cherries Bracelet",
     "minted": 578,
     "burned": 0,
@@ -331,6 +316,21 @@
     "attachmentType": "Wrists",
     "functional": false,
     "imgPath": "/accessory-img/cherries-bracelet.png"
+  },
+  {
+    "rank": 23,
+    "name": "Angel Food Wings",
+    "minted": 581,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Back",
+    "functional": true,
+    "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
     "rank": 24,
@@ -394,7 +394,7 @@
   {
     "rank": 28,
     "name": "Strawberry Short-Steps",
-    "minted": 622,
+    "minted": 628,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-10T07:00:00.000Z",
@@ -451,7 +451,7 @@
   {
     "rank": 32,
     "name": "Sweet Bun Beret",
-    "minted": 717,
+    "minted": 722,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-27T07:00:00.000Z",
@@ -722,21 +722,6 @@
   },
   {
     "rank": 51,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 1170,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Belt",
-    "functional": false,
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 52,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -750,7 +735,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 53,
+    "rank": 52,
     "name": "Bulletpunk Mask [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -762,6 +747,21 @@
     "attachmentType": "Mask",
     "functional": false,
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
+  },
+  {
+    "rank": 53,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 1218,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Belt",
+    "functional": false,
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 54,
@@ -1051,7 +1051,7 @@
   {
     "rank": 74,
     "name": "Savory Side Swag",
-    "minted": 1740,
+    "minted": 1762,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-03T07:00:00.000Z",
@@ -1256,21 +1256,6 @@
   },
   {
     "rank": 88,
-    "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 2666,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-07-20T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Wrists",
-    "functional": false,
-    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
-  },
-  {
-    "rank": 89,
     "name": "Bite Me Billy Armor",
     "minted": 2699,
     "burned": 0,
@@ -1285,7 +1270,7 @@
     "imgPath": "/accessory-img/bite-me-billy-armor.png"
   },
   {
-    "rank": 90,
+    "rank": 89,
     "name": "Bite Me Billy Arms",
     "minted": 2699,
     "burned": 0,
@@ -1300,7 +1285,7 @@
     "imgPath": "/accessory-img/bite-me-billy-arms.png"
   },
   {
-    "rank": 91,
+    "rank": 90,
     "name": "Bite Me Billy Horns",
     "minted": 2699,
     "burned": 0,
@@ -1315,7 +1300,7 @@
     "imgPath": "/accessory-img/bite-me-billy-horns.png"
   },
   {
-    "rank": 92,
+    "rank": 91,
     "name": "Bite Me Billy Mask",
     "minted": 2699,
     "burned": 0,
@@ -1330,7 +1315,7 @@
     "imgPath": "/accessory-img/bite-me-billy-mask.png"
   },
   {
-    "rank": 93,
+    "rank": 92,
     "name": "Bite Me Billy Shoes",
     "minted": 2699,
     "burned": 0,
@@ -1345,7 +1330,7 @@
     "imgPath": "/accessory-img/bite-me-billy-shoes.png"
   },
   {
-    "rank": 94,
+    "rank": 93,
     "name": "Bite Me Billy Wings",
     "minted": 2699,
     "burned": 0,
@@ -1358,6 +1343,21 @@
     "attachmentType": "Back",
     "functional": true,
     "imgPath": "/accessory-img/bite-me-billy-wings.png"
+  },
+  {
+    "rank": 94,
+    "name": "Honey Bun’s Sweet Jimmies",
+    "minted": 2702,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-07-20T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Wrists",
+    "functional": false,
+    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
     "rank": 95,
