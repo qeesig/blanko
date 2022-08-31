@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import {
-  Table,
-  Header,
-  HeaderRow,
   Body,
-  Row,
-  HeaderCell,
   Cell,
+  Header,
+  HeaderCell,
+  HeaderRow,
+  Row,
+  Table,
 } from "@table-library/react-table-library/table";
 import { useTheme } from "@table-library/react-table-library/theme";
 import {
@@ -17,15 +17,15 @@ import {
 } from "@table-library/react-table-library/material-ui";
 import { usePagination } from "@table-library/react-table-library/pagination";
 import {
-  TablePagination,
-  TextField,
   Box,
   FormControl,
+  Link,
   MenuItem,
   Select,
+  TablePagination,
+  TextField,
   ToggleButton,
   ToggleButtonGroup,
-  Link,
 } from "@mui/material";
 
 import {
@@ -531,6 +531,7 @@ export default function Blankos() {
                       backgroundColor: "#222531",
                       borderRadius: "5px",
                       paddingLeft: "36px",
+                      paddingRight: "34px",
 
                       "&::placeholder": {
                         color: "white",
