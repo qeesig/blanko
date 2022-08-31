@@ -39,6 +39,10 @@ a {
   border-radius: 10px;
 }
 
+.MuiButtonBase-root.MuiMenuItem-root {
+  min-height: 35px;
+}
+
 /* table header */
 .tr-header .th {
   border-top: 1px solid #222531;
@@ -62,12 +66,12 @@ a {
 
 /* pop up menu items */
 .MuiList-root.MuiMenu-list > li:hover {
-  background-color: #323546;
+  background-color: #282c42;
 }
 
 /* pop up menu selected item */
 .MuiButtonBase-root.MuiMenuItem-root.Mui-selected {
-  background-color: transparent;
+  background-color: #282c42;
 }
 
 /* pagination rows per page text*/
