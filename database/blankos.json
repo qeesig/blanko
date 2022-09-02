@@ -47,22 +47,6 @@
   },
   {
     "rank": 4,
-    "name": "Ultra B Dino",
-    "minted": 33,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-03-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "James Groman",
-    "seasonFilter": "00 Early Access",
-    "tag": "GM Grade",
-    "tagFilter": "Gem Rush",
-    "gemRush": true,
-    "imgPath": "/blanko-img/ultra-b-dino.png"
-  },
-  {
-    "rank": 5,
     "name": "Terry",
     "minted": 33,
     "burned": 0,
@@ -75,6 +59,22 @@
     "tag": "SXSW",
     "gemRush": false,
     "imgPath": "/blanko-img/terry.png"
+  },
+  {
+    "rank": 5,
+    "name": "Ultra B Dino",
+    "minted": 34,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-03-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "James Groman",
+    "seasonFilter": "00 Early Access",
+    "tag": "GM Grade",
+    "tagFilter": "Gem Rush",
+    "gemRush": true,
+    "imgPath": "/blanko-img/ultra-b-dino.png"
   },
   {
     "rank": 6,
@@ -127,7 +127,7 @@
     "rank": 9,
     "name": "Chemical B Dino",
     "minted": 115,
-    "burned": 66,
+    "burned": 68,
     "minting": true,
     "mintDate": "2022-03-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -217,22 +217,6 @@
   },
   {
     "rank": 15,
-    "name": "Pep",
-    "minted": 264,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-31T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/pep.png"
-  },
-  {
-    "rank": 16,
     "name": "Secret TEQ63",
     "minted": 278,
     "burned": 0,
@@ -246,9 +230,9 @@
     "imgPath": "/blanko-img/secret-teq63.png"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Harlekin",
-    "minted": 290,
+    "minted": 292,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -262,7 +246,7 @@
     "imgPath": "/blanko-img/harlekin.png"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "LavaMouth",
     "minted": 300,
     "burned": 0,
@@ -275,6 +259,22 @@
     "tag": "0.25Ξ OpenSea",
     "gemRush": false,
     "imgPath": "/blanko-img/lavamouth.png"
+  },
+  {
+    "rank": 18,
+    "name": "Pep",
+    "minted": 336,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-31T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/pep.png"
   },
   {
     "rank": 19,
@@ -399,22 +399,6 @@
   },
   {
     "rank": 27,
-    "name": "Sweet Gaze",
-    "minted": 479,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-24T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/sweet_gaze.png"
-  },
-  {
-    "rank": 28,
     "name": "Kub Totem",
     "minted": 500,
     "burned": 0,
@@ -428,7 +412,7 @@
     "imgPath": "/blanko-img/kub-totem.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "IceBuddy",
     "minted": 500,
     "burned": 0,
@@ -441,6 +425,22 @@
     "tag": "0.15Ξ OpenSea",
     "gemRush": false,
     "imgPath": "/blanko-img/icebuddy.png"
+  },
+  {
+    "rank": 29,
+    "name": "Sweet Gaze",
+    "minted": 504,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-24T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/sweet_gaze.png"
   },
   {
     "rank": 30,
@@ -534,8 +534,8 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 841,
-    "burned": 580,
+    "minted": 843,
+    "burned": 584,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -550,7 +550,7 @@
   {
     "rank": 37,
     "name": "Honey Bun",
-    "minted": 851,
+    "minted": 861,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-21T07:00:00.000Z",
@@ -580,7 +580,7 @@
   {
     "rank": 39,
     "name": "Roxx",
-    "minted": 919,
+    "minted": 924,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -1825,7 +1825,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1682,
+    "burned": 1686,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
