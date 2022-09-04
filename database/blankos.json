@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 66,
+    "minted": 67,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -202,8 +202,8 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 243,
-    "burned": 132,
+    "minted": 247,
+    "burned": 134,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -232,7 +232,7 @@
   {
     "rank": 16,
     "name": "Harlekin",
-    "minted": 293,
+    "minted": 296,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -293,22 +293,6 @@
   },
   {
     "rank": 20,
-    "name": "Pep",
-    "minted": 372,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-31T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/pep.png"
-  },
-  {
-    "rank": 21,
     "name": "Peanut FC",
     "minted": 374,
     "burned": 0,
@@ -323,7 +307,7 @@
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Billy A Bones",
     "minted": 384,
     "burned": 0,
@@ -338,7 +322,7 @@
     "imgPath": "/blanko-img/billy-a-bones.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Sergeant Poppy",
     "minted": 389,
     "burned": 0,
@@ -354,7 +338,7 @@
     "imgPath": "/blanko-img/sergeant-poppy.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Mythical Camo",
     "minted": 394,
     "burned": 0,
@@ -369,7 +353,7 @@
     "imgPath": "/blanko-img/mythical-camo.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Kitsune",
     "minted": 400,
     "burned": 0,
@@ -383,7 +367,7 @@
     "imgPath": "/blanko-img/kitsune.png"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "name": "El Cha Texas",
     "minted": 405,
     "burned": 0,
@@ -398,7 +382,7 @@
     "imgPath": "/blanko-img/el-cha-texas.png"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Kub Totem",
     "minted": 500,
     "burned": 0,
@@ -412,7 +396,7 @@
     "imgPath": "/blanko-img/kub-totem.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "IceBuddy",
     "minted": 500,
     "burned": 0,
@@ -427,9 +411,25 @@
     "imgPath": "/blanko-img/icebuddy.png"
   },
   {
+    "rank": 28,
+    "name": "Pep",
+    "minted": 509,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-31T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/pep.png"
+  },
+  {
     "rank": 29,
     "name": "Sweet Gaze",
-    "minted": 517,
+    "minted": 540,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-24T07:00:00.000Z",
@@ -534,8 +534,8 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 844,
-    "burned": 586,
+    "minted": 845,
+    "burned": 592,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -549,22 +549,6 @@
   },
   {
     "rank": 37,
-    "name": "Honey Bun",
-    "minted": 863,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-07-21T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/honey-bun.png"
-  },
-  {
-    "rank": 38,
     "name": "Roughen Tumble",
     "minted": 872,
     "burned": 0,
@@ -578,9 +562,25 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
+    "rank": 38,
+    "name": "Honey Bun",
+    "minted": 874,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-07-21T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/honey-bun.png"
+  },
+  {
     "rank": 39,
     "name": "Roxx",
-    "minted": 928,
+    "minted": 949,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -859,22 +859,6 @@
   },
   {
     "rank": 58,
-    "name": "Zeta",
-    "minted": 1712,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "seasonFilter": "00 Early Access",
-    "tag": "NFT NYC",
-    "tagFilter": "NFT NYC",
-    "gemRush": false,
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 59,
     "name": "Betty Yeti",
     "minted": 1713,
     "burned": 0,
@@ -886,6 +870,22 @@
     "seasonFilter": "00 Early Access",
     "gemRush": false,
     "imgPath": "/blanko-img/betty-yeti.png"
+  },
+  {
+    "rank": 59,
+    "name": "Zeta",
+    "minted": 1790,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "seasonFilter": "00 Early Access",
+    "tag": "NFT NYC",
+    "tagFilter": "NFT NYC",
+    "gemRush": false,
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 60,
@@ -1679,7 +1679,7 @@
     "rank": 114,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 484,
+    "burned": 492,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1825,7 +1825,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1688,
+    "burned": 1690,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
