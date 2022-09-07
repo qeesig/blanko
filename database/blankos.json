@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 67,
+    "minted": 69,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -202,8 +202,8 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 252,
-    "burned": 134,
+    "minted": 254,
+    "burned": 138,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -231,22 +231,6 @@
   },
   {
     "rank": 16,
-    "name": "Harlekin",
-    "minted": 297,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-04-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Kronk",
-    "seasonFilter": "00 Early Access",
-    "tag": "GM Grade",
-    "tagFilter": "Gem Rush",
-    "gemRush": true,
-    "imgPath": "/blanko-img/harlekin.png"
-  },
-  {
-    "rank": 17,
     "name": "LavaMouth",
     "minted": 300,
     "burned": 0,
@@ -259,6 +243,22 @@
     "tag": "0.25Ξ OpenSea",
     "gemRush": false,
     "imgPath": "/blanko-img/lavamouth.png"
+  },
+  {
+    "rank": 17,
+    "name": "Harlekin",
+    "minted": 301,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-04-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Kronk",
+    "seasonFilter": "00 Early Access",
+    "tag": "GM Grade",
+    "tagFilter": "Gem Rush",
+    "gemRush": true,
+    "imgPath": "/blanko-img/harlekin.png"
   },
   {
     "rank": 18,
@@ -413,7 +413,7 @@
   {
     "rank": 28,
     "name": "Sweet Gaze",
-    "minted": 565,
+    "minted": 574,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-24T07:00:00.000Z",
@@ -428,22 +428,6 @@
   },
   {
     "rank": 29,
-    "name": "Pep",
-    "minted": 689,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-31T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/pep.png"
-  },
-  {
-    "rank": 30,
     "name": "Kijo",
     "minted": 700,
     "burned": 0,
@@ -457,7 +441,7 @@
     "imgPath": "/blanko-img/kijo.png"
   },
   {
-    "rank": 31,
+    "rank": 30,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -472,7 +456,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -486,7 +470,7 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Tenderfoot",
     "minted": 750,
     "burned": 0,
@@ -502,7 +486,7 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Sharky B.",
     "minted": 750,
     "burned": 0,
@@ -514,6 +498,22 @@
     "seasonFilter": "00 Early Access",
     "gemRush": false,
     "imgPath": "/blanko-img/sharky-b.png"
+  },
+  {
+    "rank": 34,
+    "name": "Pep",
+    "minted": 755,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-31T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/pep.png"
   },
   {
     "rank": 35,
@@ -534,8 +534,8 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 849,
-    "burned": 594,
+    "minted": 851,
+    "burned": 602,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -564,7 +564,7 @@
   {
     "rank": 38,
     "name": "Honey Bun",
-    "minted": 893,
+    "minted": 898,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-21T07:00:00.000Z",
@@ -580,7 +580,7 @@
   {
     "rank": 39,
     "name": "Roxx",
-    "minted": 963,
+    "minted": 973,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -1679,7 +1679,7 @@
     "rank": 114,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 502,
+    "burned": 506,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1825,7 +1825,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1698,
+    "burned": 1702,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
