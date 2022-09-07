@@ -110,7 +110,7 @@
   {
     "rank": 8,
     "name": "El Xiuhcoatl",
-    "minted": 105,
+    "minted": 106,
     "burned": 60,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
@@ -413,7 +413,7 @@
   {
     "rank": 28,
     "name": "Sweet Gaze",
-    "minted": 574,
+    "minted": 585,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-24T07:00:00.000Z",
@@ -502,7 +502,7 @@
   {
     "rank": 34,
     "name": "Pep",
-    "minted": 755,
+    "minted": 821,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-31T07:00:00.000Z",
@@ -564,7 +564,7 @@
   {
     "rank": 38,
     "name": "Honey Bun",
-    "minted": 898,
+    "minted": 905,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-21T07:00:00.000Z",
@@ -580,7 +580,7 @@
   {
     "rank": 39,
     "name": "Roxx",
-    "minted": 973,
+    "minted": 976,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -772,7 +772,7 @@
     "rank": 53,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 210,
+    "burned": 212,
     "minting": false,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
