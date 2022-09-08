@@ -32,7 +32,7 @@
   {
     "rank": 3,
     "name": "El Grand Quetzalcoatl",
-    "minted": 30,
+    "minted": 31,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
@@ -110,8 +110,8 @@
   {
     "rank": 8,
     "name": "El Xiuhcoatl",
-    "minted": 106,
-    "burned": 60,
+    "minted": 108,
+    "burned": 62,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -413,7 +413,7 @@
   {
     "rank": 28,
     "name": "Sweet Gaze",
-    "minted": 585,
+    "minted": 597,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-24T07:00:00.000Z",
@@ -501,22 +501,6 @@
   },
   {
     "rank": 34,
-    "name": "Pep",
-    "minted": 821,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-31T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/pep.png"
-  },
-  {
-    "rank": 35,
     "name": "GrassGnome",
     "minted": 832,
     "burned": 0,
@@ -532,9 +516,9 @@
     "imgPath": "/blanko-img/grassgnome.png"
   },
   {
-    "rank": 36,
+    "rank": 35,
     "name": "Skivvy Klown",
-    "minted": 851,
+    "minted": 852,
     "burned": 602,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -548,7 +532,7 @@
     "imgPath": "/blanko-img/skivvy-klown.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Roughen Tumble",
     "minted": 872,
     "burned": 0,
@@ -562,9 +546,25 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
+    "rank": 37,
+    "name": "Pep",
+    "minted": 896,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-31T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/pep.png"
+  },
+  {
     "rank": 38,
     "name": "Honey Bun",
-    "minted": 905,
+    "minted": 910,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-21T07:00:00.000Z",
@@ -580,7 +580,7 @@
   {
     "rank": 39,
     "name": "Roxx",
-    "minted": 976,
+    "minted": 983,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -772,7 +772,7 @@
     "rank": 53,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 212,
+    "burned": 216,
     "minting": false,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
@@ -873,22 +873,6 @@
   },
   {
     "rank": 59,
-    "name": "Zeta",
-    "minted": 1790,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "seasonFilter": "00 Early Access",
-    "tag": "NFT NYC",
-    "tagFilter": "NFT NYC",
-    "gemRush": false,
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 60,
     "name": "Stupid Cupid",
     "minted": 1799,
     "burned": 0,
@@ -900,6 +884,22 @@
     "seasonFilter": "00 Open Beta",
     "gemRush": false,
     "imgPath": "/blanko-img/stupid-cupid.png"
+  },
+  {
+    "rank": 60,
+    "name": "Zeta",
+    "minted": 1806,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "seasonFilter": "00 Early Access",
+    "tag": "NFT NYC",
+    "tagFilter": "NFT NYC",
+    "gemRush": false,
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 61,
@@ -1825,7 +1825,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1702,
+    "burned": 1704,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
