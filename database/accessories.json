@@ -407,7 +407,7 @@
   {
     "rank": 29,
     "name": "Angel Food Wings",
-    "minted": 695,
+    "minted": 703,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-17T07:00:00.000Z",
@@ -436,7 +436,7 @@
   {
     "rank": 31,
     "name": "Strawberry Short-Steps",
-    "minted": 724,
+    "minted": 730,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-10T07:00:00.000Z",
@@ -480,7 +480,7 @@
   {
     "rank": 34,
     "name": "Sweet Bun Beret",
-    "minted": 816,
+    "minted": 820,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-27T07:00:00.000Z",
@@ -892,21 +892,6 @@
   },
   {
     "rank": 63,
-    "name": "Sal’s Crispy Crossbody",
-    "minted": 1530,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-17T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Belt",
-    "functional": false,
-    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
-  },
-  {
-    "rank": 64,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -918,6 +903,21 @@
     "attachmentType": "Hat",
     "functional": false,
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
+  },
+  {
+    "rank": 64,
+    "name": "Sal’s Crispy Crossbody",
+    "minted": 1559,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-17T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Belt",
+    "functional": false,
+    "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
     "rank": 65,
@@ -1138,7 +1138,7 @@
   {
     "rank": 80,
     "name": "Savory Side Swag",
-    "minted": 2043,
+    "minted": 2069,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-03T07:00:00.000Z",
@@ -1404,21 +1404,6 @@
   },
   {
     "rank": 98,
-    "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 3031,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-07-20T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Wrists",
-    "functional": false,
-    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
-  },
-  {
-    "rank": 99,
     "name": "Luster Buckle Beanie",
     "minted": 3057,
     "burned": 0,
@@ -1431,6 +1416,21 @@
     "attachmentType": "Hat",
     "functional": false,
     "imgPath": "/accessory-img/luster-buckle-beanie.png"
+  },
+  {
+    "rank": 99,
+    "name": "Honey Bun’s Sweet Jimmies",
+    "minted": 3075,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-07-20T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Wrists",
+    "functional": false,
+    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
     "rank": 100,
