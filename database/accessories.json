@@ -421,7 +421,7 @@
   {
     "rank": 30,
     "name": "Angel Food Wings",
-    "minted": 711,
+    "minted": 730,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-17T07:00:00.000Z",
@@ -435,21 +435,6 @@
   },
   {
     "rank": 31,
-    "name": "Strawberry Short-Steps",
-    "minted": 738,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-10T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Shoes",
-    "functional": false,
-    "imgPath": "/accessory-img/strawberryshort-steps.png"
-  },
-  {
-    "rank": 32,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -464,7 +449,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -478,22 +463,22 @@
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
-    "rank": 34,
-    "name": "Sweet Bun Beret",
-    "minted": 827,
+    "rank": 33,
+    "name": "Strawberry Short-Steps",
+    "minted": 755,
     "burned": 0,
     "minting": true,
-    "mintDate": "2022-07-27T07:00:00.000Z",
+    "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
     "seasonFilter": "00 Early Access",
     "tag": "Snack Attack+",
-    "attachmentType": "Hat",
+    "attachmentType": "Shoes",
     "functional": false,
-    "imgPath": "/accessory-img/sweet-bun-beret.png"
+    "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
-    "rank": 35,
+    "rank": 34,
     "name": "GG Nozzle Cap",
     "minted": 834,
     "burned": 0,
@@ -505,6 +490,21 @@
     "attachmentType": "Hat",
     "functional": false,
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
+  },
+  {
+    "rank": 35,
+    "name": "Sweet Bun Beret",
+    "minted": 845,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-07-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Hat",
+    "functional": false,
+    "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
     "rank": 36,
@@ -922,7 +922,7 @@
   {
     "rank": 65,
     "name": "Sal’s Crispy Crossbody",
-    "minted": 1571,
+    "minted": 1585,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-17T07:00:00.000Z",
@@ -1138,7 +1138,7 @@
   {
     "rank": 80,
     "name": "Savory Side Swag",
-    "minted": 2092,
+    "minted": 2109,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-03T07:00:00.000Z",
@@ -1419,21 +1419,6 @@
   },
   {
     "rank": 99,
-    "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 3109,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-07-20T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "attachmentType": "Wrists",
-    "functional": false,
-    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
-  },
-  {
-    "rank": 100,
     "name": "Jin’s Lucky Kicks",
     "minted": 3120,
     "burned": 0,
@@ -1446,6 +1431,21 @@
     "attachmentType": "Shoes",
     "functional": false,
     "imgPath": "/accessory-img/jins-lucky-kicks.png"
+  },
+  {
+    "rank": 100,
+    "name": "Honey Bun’s Sweet Jimmies",
+    "minted": 3149,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-07-20T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "attachmentType": "Wrists",
+    "functional": false,
+    "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
     "rank": 101,

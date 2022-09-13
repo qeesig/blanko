@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 255,
+    "minted": 256,
     "burned": 138,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -413,7 +413,7 @@
   {
     "rank": 28,
     "name": "Sweet Gaze",
-    "minted": 649,
+    "minted": 672,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-24T07:00:00.000Z",
@@ -518,7 +518,7 @@
   {
     "rank": 35,
     "name": "Skivvy Klown",
-    "minted": 863,
+    "minted": 864,
     "burned": 612,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -548,7 +548,7 @@
   {
     "rank": 37,
     "name": "Honey Bun",
-    "minted": 943,
+    "minted": 959,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-21T07:00:00.000Z",
@@ -639,7 +639,7 @@
   {
     "rank": 43,
     "name": "Roxx",
-    "minted": 1021,
+    "minted": 1028,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -724,22 +724,6 @@
   },
   {
     "rank": 48,
-    "name": "Pep",
-    "minted": 1236,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-08-31T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Mel Chang",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack",
-    "tagFilter": "Party Pass",
-    "gemRush": false,
-    "imgPath": "/blanko-img/pep.png"
-  },
-  {
-    "rank": 50,
     "name": "Square",
     "minted": 1266,
     "burned": 0,
@@ -751,6 +735,22 @@
     "seasonFilter": "00 Early Access",
     "gemRush": false,
     "imgPath": "/blanko-img/square.png"
+  },
+  {
+    "rank": 50,
+    "name": "Pep",
+    "minted": 1290,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-08-31T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack",
+    "tagFilter": "Party Pass",
+    "gemRush": false,
+    "imgPath": "/blanko-img/pep.png"
   },
   {
     "rank": 51,
@@ -1512,7 +1512,7 @@
   {
     "rank": 103,
     "name": "Visage",
-    "minted": 3562,
+    "minted": 3563,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -1679,7 +1679,7 @@
     "rank": 114,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 508,
+    "burned": 510,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1825,7 +1825,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1726,
+    "burned": 1728,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
