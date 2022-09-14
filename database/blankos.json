@@ -413,9 +413,9 @@
   {
     "rank": 28,
     "name": "Sweet Gaze",
-    "minted": 685,
+    "minted": 694,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-24T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -755,9 +755,9 @@
   {
     "rank": 51,
     "name": "Pep",
-    "minted": 1334,
+    "minted": 1347,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-31T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",

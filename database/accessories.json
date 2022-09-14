@@ -421,9 +421,9 @@
   {
     "rank": 30,
     "name": "Angel Food Wings",
-    "minted": 742,
+    "minted": 747,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -465,9 +465,9 @@
   {
     "rank": 33,
     "name": "Strawberry Short-Steps",
-    "minted": 777,
+    "minted": 783,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-10T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -508,21 +508,6 @@
   },
   {
     "rank": 36,
-    "name": "Sweet Bun Beret",
-    "minted": 859,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-07-27T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "seasonFilter": "00 Early Access",
-    "tag": "Snack Attack+",
-    "attachmentType": "Hat",
-    "functional": false,
-    "imgPath": "/accessory-img/sweet-bun-beret.png"
-  },
-  {
-    "rank": 37,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -536,7 +521,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -550,7 +535,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -564,7 +549,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -576,6 +561,21 @@
     "attachmentType": "Mask",
     "functional": false,
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
+  },
+  {
+    "rank": 40,
+    "name": "Sweet Bun Beret",
+    "minted": 865,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-07-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "seasonFilter": "00 Early Access",
+    "tag": "Snack Attack+",
+    "attachmentType": "Hat",
+    "functional": false,
+    "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
     "rank": 41,
@@ -937,9 +937,9 @@
   {
     "rank": 66,
     "name": "Sal’s Crispy Crossbody",
-    "minted": 1606,
+    "minted": 1616,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-17T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -1138,9 +1138,9 @@
   {
     "rank": 80,
     "name": "Savory Side Swag",
-    "minted": 2126,
+    "minted": 2144,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-03T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
@@ -1435,9 +1435,9 @@
   {
     "rank": 100,
     "name": "Honey Bun’s Sweet Jimmies",
-    "minted": 3183,
+    "minted": 3202,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-07-20T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
