@@ -548,9 +548,9 @@
   {
     "rank": 37,
     "name": "Honey Bun",
-    "minted": 966,
+    "minted": 976,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-07-21T07:00:00.000Z",
     "mintPrice": 0,
     "season": "00",
