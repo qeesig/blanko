@@ -676,6 +676,22 @@ export default function Blankos() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
+            <div className={styles.blankoResult}>
+              {data.nodes.length < 1 ? (
+                `No Result`
+              ) : data.nodes.length == 1 ? (
+                `${data.nodes.length} Blanko`
+              ) : (
+                <>
+                  <NumberFormat
+                    value={data.nodes.length}
+                    displayType={"text"}
+                    thousandSeparator={true}
+                    suffix=" Blankos"
+                  />
+                </>
+              )}
+            </div>
             <div className={styles.legendContainer}>
               <div>
                 <span className={styles.mintingIcon}></span>

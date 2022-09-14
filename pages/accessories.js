@@ -761,6 +761,22 @@ export default function Accessories() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
+            <div className={styles.accessoryResult}>
+              {data.nodes.length < 1 ? (
+                `No Result`
+              ) : data.nodes.length == 1 ? (
+                `${data.nodes.length} Accessory`
+              ) : (
+                <>
+                  <NumberFormat
+                    value={data.nodes.length}
+                    displayType={"text"}
+                    thousandSeparator={true}
+                    suffix=" Accessories"
+                  />
+                </>
+              )}
+            </div>
             <div className={styles.legendContainer}>
               <div>
                 <span className={styles.mintingIcon}></span>
