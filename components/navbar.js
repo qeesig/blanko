@@ -99,7 +99,7 @@ function DrawerAppBar(props) {
                 sx={{
                   textAlign: "left",
                   margin: "0 20px",
-                  padding: "8px 0 14px 0",
+                  padding: "14px 0 14px 0",
                   borderBottom: "1px solid #222531",
                 }}
               >

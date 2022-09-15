@@ -7,6 +7,11 @@
 
 .drawerContainer {
   color: white;
+  padding: 0;
+}
+
+.drawerContainer > ul {
+  padding: 0;
 }
 
 .drawerItem > span {
@@ -25,7 +30,7 @@
 }
 
 .inActiveLink > button {
-  color: #8cbcec;
+  color: #c4ddff;
 }
 
 .inActiveLink > button:hover {
@@ -41,7 +46,7 @@
 .drawerInActiveLink > span {
   font-size: 14px;
   font-weight: bold;
-  color: #4a4a5c;
+  color: #9ca9b3;
 }
 
 @media screen and (max-width: 1300px) {
