@@ -135,6 +135,15 @@ export default function Blankos() {
     }
   `;
 
+  const Minting = styled.span`
+    margin-right: ${(props) =>
+      props.minting == true && props.withdrawable == false
+        ? "10px"
+        : props.minting == true && props.withdrawable == true
+        ? "4px"
+        : "0px"};
+  `;
+
   const Tag = styled.div`
     margin-top: ${(props) => (props.tag == null ? "0" : "4px")};
     color: #8e95ab;
@@ -451,7 +460,13 @@ export default function Blankos() {
                     "&:nth-of-type(3)": {
                       marginRight: 0.8,
                       borderRadius: 6,
-                      minWidth: "86px",
+                      minWidth: "82px",
+                    },
+
+                    "&:nth-of-type(4)": {
+                      marginRight: 0.8,
+                      borderRadius: 6,
+                      minWidth: "82px",
                     },
 
                     ".MuiTouchRipple-child": {
@@ -485,8 +500,11 @@ export default function Blankos() {
                 <ToggleButton sx={{ color: "white" }} value="Party Pass">
                   Party Pass
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Gem Rush">
-                  Gem Rush
+                <ToggleButton sx={{ color: "white" }} value="GM Grade">
+                  GM Grade
+                </ToggleButton>
+                <ToggleButton sx={{ color: "white" }} value="MT Grade">
+                  MT Grade
                 </ToggleButton>
               </ToggleButtonGroup>
             </div>
@@ -664,8 +682,8 @@ export default function Blankos() {
                 >
                   <MenuItem value="MINTED">Sort by Minted</MenuItem>
                   <MenuItem value="BURNED">Sort by Burned</MenuItem>
-                  <MenuItem value="MINTDATE">Sort by Mint Date</MenuItem>
-                  <MenuItem value="MINTPRICE">Sort by Mint Price</MenuItem>
+                  <MenuItem value="MINTDATE">Sort by MT Date</MenuItem>
+                  <MenuItem value="MINTPRICE">Sort by MT Price</MenuItem>
                 </Select>
               </FormControl>
             </div>
@@ -694,8 +712,12 @@ export default function Blankos() {
             </div>
             <div className={styles.legendContainer}>
               <div>
-                <span className={styles.mintingIcon}></span>
+                <span className={styles.mintingIconLegend}></span>
                 <span>Minting</span>
+              </div>
+              <div>
+                <span className={styles.withdrawableIconLegend}>⬘</span>
+                <span>Withdrawable</span>
               </div>
             </div>
             <Table
@@ -821,11 +843,22 @@ export default function Blankos() {
                           }}
                         >
                           <Name className={styles.blankoName}>{item.name}</Name>
+                          <Minting
+                            className={
+                              item.minting == true ? styles.mintingIcon : ""
+                            }
+                            minting={item.minting}
+                            withdrawable={item.withdrawable}
+                          ></Minting>
                           <span
                             className={
-                              item.minting == true ? styles.minting : ""
+                              item.withdrawable == true
+                                ? styles.withdrawableIcon
+                                : ""
                             }
-                          ></span>
+                          >
+                            {item.withdrawable == true ? "⬘" : ""}
+                          </span>
                           <Tag className={styles.blankoTag} tag={item.tag}>
                             {item.tag}
                           </Tag>
