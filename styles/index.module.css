@@ -231,6 +231,10 @@
     font-size: 12px;
   }
 
+  .legendContainer > div:nth-of-type(1) {
+    margin-right: 20px;
+  }
+
   .table {
     width: 317px;
   }
