@@ -223,9 +223,17 @@
     font-size: 12px;
   }
 
+  .withdrawableIconLegend {
+    font-size: 12px;
+  }
+
   .mintingIcon {
     height: 9px;
     width: 9px;
+  }
+
+  .withdrawableIcon {
+    font-size: 10px;
   }
 
   .table {
