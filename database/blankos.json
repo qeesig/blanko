@@ -384,7 +384,7 @@
   {
     "rank": 26,
     "name": "Joystick",
-    "minted": 457,
+    "minted": 467,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -427,7 +427,7 @@
   {
     "rank": 29,
     "name": "Centipede",
-    "minted": 515,
+    "minted": 530,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -441,7 +441,7 @@
   {
     "rank": 30,
     "name": "Pong",
-    "minted": 520,
+    "minted": 532,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -455,7 +455,7 @@
   {
     "rank": 31,
     "name": "Tempest",
-    "minted": 531,
+    "minted": 542,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -695,9 +695,9 @@
   {
     "rank": 47,
     "name": "Roxx",
-    "minted": 1038,
+    "minted": 1091,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-08-05T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
