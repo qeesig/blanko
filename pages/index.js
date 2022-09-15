@@ -716,7 +716,7 @@ export default function Blankos() {
                 <span>Minting</span>
               </div>
               <div>
-                <span className={styles.withdrawableIconLegend}>⬘</span>
+                <span className={styles.withdrawableIconLegend}>🗳️</span>
                 <span>Withdrawable</span>
               </div>
             </div>
@@ -857,7 +857,7 @@ export default function Blankos() {
                                 : ""
                             }
                           >
-                            {item.withdrawable == true ? "⬘" : ""}
+                            {item.withdrawable == true ? "🗳️" : ""}
                           </span>
                           <Tag className={styles.blankoTag} tag={item.tag}>
                             {item.tag}
