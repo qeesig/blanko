@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 69,
+    "minted": 71,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -202,8 +202,8 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 260,
-    "burned": 138,
+    "minted": 262,
+    "burned": 142,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -247,7 +247,7 @@
   {
     "rank": 17,
     "name": "Harlekin",
-    "minted": 308,
+    "minted": 309,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -518,8 +518,8 @@
   {
     "rank": 35,
     "name": "Skivvy Klown",
-    "minted": 867,
-    "burned": 614,
+    "minted": 872,
+    "burned": 616,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -639,7 +639,7 @@
   {
     "rank": 43,
     "name": "Roxx",
-    "minted": 1031,
+    "minted": 1038,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-08-05T07:00:00.000Z",
@@ -886,22 +886,6 @@
   },
   {
     "rank": 60,
-    "name": "Zeta",
-    "minted": 1838,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "seasonFilter": "00 Early Access",
-    "tag": "NFT NYC",
-    "tagFilter": "NFT NYC",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 61,
     "name": "Box B",
     "minted": 1859,
     "burned": 0,
@@ -915,7 +899,7 @@
     "imgPath": "/blanko-img/box-b.png"
   },
   {
-    "rank": 62,
+    "rank": 61,
     "name": "King Kirby",
     "minted": 1872,
     "burned": 0,
@@ -927,6 +911,22 @@
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/king-kirby.png"
+  },
+  {
+    "rank": 62,
+    "name": "Zeta",
+    "minted": 1884,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "seasonFilter": "00 Early Access",
+    "tag": "NFT NYC",
+    "tagFilter": "NFT NYC",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 63,
@@ -1677,7 +1677,7 @@
     "rank": 114,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 517,
+    "burned": 521,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1821,7 +1821,7 @@
     "rank": 124,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1733,
+    "burned": 1743,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
