@@ -166,7 +166,7 @@ export default function Accessories() {
       props.minting == true && props.functional == false
         ? "10px"
         : props.minting == true && props.functional == true
-        ? "6px"
+        ? "4px"
         : "0px"};
   `;
 
@@ -779,11 +779,11 @@ export default function Accessories() {
             </div>
             <div className={styles.legendContainer}>
               <div>
-                <span className={styles.mintingIcon}></span>
+                <span className={styles.mintingIconLegend}></span>
                 <span>Minting</span>
               </div>
               <div>
-                <span className={styles.functionalIcon}></span>
+                <span className={styles.functionalIconLegend}>⚡</span>
                 <span>Functional</span>
               </div>
             </div>
@@ -902,16 +902,20 @@ export default function Accessories() {
                           </Name>
                           <Minting
                             className={
-                              item.minting == true ? styles.minting : ""
+                              item.minting == true ? styles.mintingIcon : ""
                             }
                             minting={item.minting}
                             functional={item.functional}
                           ></Minting>
                           <span
                             className={
-                              item.functional == true ? styles.functional : ""
+                              item.functional == true
+                                ? styles.functionalIcon
+                                : ""
                             }
-                          ></span>
+                          >
+                            {item.functional == true ? "⚡" : ""}
+                          </span>
                           <Tag className={styles.accessoryTag} tag={item.tag}>
                             {item.tag}
                           </Tag>
