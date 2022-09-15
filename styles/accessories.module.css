@@ -167,6 +167,11 @@
     width: 529px;
   }
 
+  .mintingIconLegend {
+    height: 9px;
+    width: 9px;
+  }
+
   .functionalIconLegend {
     font-size: 10px;
   }
