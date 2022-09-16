@@ -751,8 +751,8 @@ export default function Accessories() {
                 >
                   <MenuItem value="MINTED">Sort by Minted</MenuItem>
                   <MenuItem value="BURNED">Sort by Burned</MenuItem>
-                  <MenuItem value="MINTDATE">Sort by Mint Date</MenuItem>
-                  <MenuItem value="MINTPRICE">Sort by Mint Price</MenuItem>
+                  <MenuItem value="MINTDATE">Sort by MT Date</MenuItem>
+                  <MenuItem value="MINTPRICE">Sort by MT Price</MenuItem>
                 </Select>
               </FormControl>
             </div>
