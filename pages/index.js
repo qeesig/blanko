@@ -698,16 +698,16 @@ export default function Blankos() {
           <>
             <div className={styles.blankoResult}>
               {data.nodes.length < 1 ? (
-                `No Result`
+                `No result`
               ) : data.nodes.length == 1 ? (
-                `${data.nodes.length} Blanko`
+                `${data.nodes.length} blanko found`
               ) : (
                 <>
                   <NumberFormat
                     value={data.nodes.length}
                     displayType={"text"}
                     thousandSeparator={true}
-                    suffix=" Blankos"
+                    suffix=" blankos found"
                   />
                 </>
               )}

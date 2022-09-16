@@ -765,16 +765,16 @@ export default function Accessories() {
           <>
             <div className={styles.accessoryResult}>
               {data.nodes.length < 1 ? (
-                `No Result`
+                `No result`
               ) : data.nodes.length == 1 ? (
-                `${data.nodes.length} Accessory`
+                `${data.nodes.length} accessory found`
               ) : (
                 <>
                   <NumberFormat
                     value={data.nodes.length}
                     displayType={"text"}
                     thousandSeparator={true}
-                    suffix=" Accessories"
+                    suffix=" accessories found"
                   />
                 </>
               )}
