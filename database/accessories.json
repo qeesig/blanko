@@ -44,20 +44,6 @@
   },
   {
     "rank": 4,
-    "name": "Condimental Cruisepack",
-    "minted": 114,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 6.99,
-    "season": "00",
-    "attachmentType": "Back",
-    "seasonFilter": "00 Early Access",
-    "functional": true,
-    "imgPath": "/accessory-img/condimental-cruisepack.png"
-  },
-  {
-    "rank": 5,
     "name": "Burberry® Monogram Slides",
     "minted": 121,
     "burned": 0,
@@ -71,7 +57,7 @@
     "imgPath": "/accessory-img/burberry-monogram-slides.png"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "name": "Burberry® Horseshoe Chain",
     "minted": 125,
     "burned": 0,
@@ -83,6 +69,20 @@
     "seasonFilter": "00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-horseshoe-chain.png"
+  },
+  {
+    "rank": 6,
+    "name": "Condimental Cruisepack",
+    "minted": 138,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 6.99,
+    "season": "00",
+    "attachmentType": "Back",
+    "seasonFilter": "00 Early Access",
+    "functional": true,
+    "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
     "rank": 7,
