@@ -125,10 +125,6 @@
     width: 919px;
   }
 
-  .withdrawableIcon {
-    font-size: 8px;
-  }
-
   .table {
     width: 919px;
   }
@@ -150,6 +146,10 @@
 
   .filterContainer {
     width: 709px;
+  }
+
+  .withdrawableIcon {
+    font-size: 8px;
   }
 
   .table {
@@ -176,7 +176,7 @@
   }
 
   .withdrawableIconLegend {
-    font-size: 11px;
+    font-size: 10px;
     margin-right: 8px;
   }
 
