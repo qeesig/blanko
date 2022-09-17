@@ -148,6 +148,11 @@
     width: 709px;
   }
 
+  .withdrawableIconLegend {
+    font-size: 10px;
+    margin-right: 8px;
+  }
+
   .withdrawableIcon {
     font-size: 8px;
   }
@@ -173,11 +178,6 @@
   .mintingIconLegend {
     height: 9px;
     width: 9px;
-  }
-
-  .withdrawableIconLegend {
-    font-size: 10px;
-    margin-right: 8px;
   }
 
   .table {
