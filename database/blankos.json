@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 72,
+    "minted": 73,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -202,8 +202,8 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 263,
-    "burned": 144,
+    "minted": 264,
+    "burned": 146,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -247,7 +247,7 @@
   {
     "rank": 17,
     "name": "Harlekin",
-    "minted": 310,
+    "minted": 311,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -442,20 +442,6 @@
   },
   {
     "rank": 30,
-    "name": "Joystick",
-    "minted": 733,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/joystick.png"
-  },
-  {
-    "rank": 31,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -470,7 +456,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -484,7 +470,7 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Tenderfoot",
     "minted": 750,
     "burned": 0,
@@ -500,7 +486,7 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Sharky B.",
     "minted": 750,
     "burned": 0,
@@ -514,49 +500,7 @@
     "imgPath": "/blanko-img/sharky-b.png"
   },
   {
-    "rank": 35,
-    "name": "Tempest",
-    "minted": 779,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/tempest.png"
-  },
-  {
-    "rank": 36,
-    "name": "Centipede",
-    "minted": 782,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/centipede.png"
-  },
-  {
-    "rank": 37,
-    "name": "Pong",
-    "minted": 794,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/pong.png"
-  },
-  {
-    "rank": 38,
+    "rank": 34,
     "name": "GrassGnome",
     "minted": 832,
     "burned": 0,
@@ -572,7 +516,35 @@
     "imgPath": "/blanko-img/grassgnome.png"
   },
   {
-    "rank": 39,
+    "rank": 35,
+    "name": "Tempest",
+    "minted": 867,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/tempest.png"
+  },
+  {
+    "rank": 36,
+    "name": "Joystick",
+    "minted": 871,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/joystick.png"
+  },
+  {
+    "rank": 37,
     "name": "Roughen Tumble",
     "minted": 872,
     "burned": 0,
@@ -586,10 +558,10 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
-    "rank": 40,
+    "rank": 38,
     "name": "Skivvy Klown",
-    "minted": 876,
-    "burned": 618,
+    "minted": 885,
+    "burned": 620,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -600,6 +572,34 @@
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/skivvy-klown.png"
+  },
+  {
+    "rank": 39,
+    "name": "Centipede",
+    "minted": 900,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/centipede.png"
+  },
+  {
+    "rank": 40,
+    "name": "Pong",
+    "minted": 910,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/pong.png"
   },
   {
     "rank": 41,
@@ -1733,7 +1733,7 @@
     "rank": 118,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 523,
+    "burned": 525,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1877,7 +1877,7 @@
     "rank": 128,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1751,
+    "burned": 1769,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
