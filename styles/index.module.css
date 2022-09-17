@@ -125,6 +125,10 @@
     width: 919px;
   }
 
+  .withdrawableIcon {
+    font-size: 8px;
+  }
+
   .table {
     width: 919px;
   }
@@ -174,10 +178,6 @@
   .withdrawableIconLegend {
     font-size: 11px;
     margin-right: 8px;
-  }
-
-  .withdrawableIcon {
-    font-size: 8px;
   }
 
   .table {
