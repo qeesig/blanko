@@ -148,6 +148,10 @@
     width: 709px;
   }
 
+  .functionalIcon {
+    font-size: 9px;
+  }
+
   .table {
     width: 709px;
   }
@@ -173,10 +177,6 @@
 
   .functionalIconLegend {
     font-size: 10px;
-  }
-
-  .functionalIcon {
-    font-size: 9px;
   }
 
   .table {
