@@ -341,7 +341,7 @@ export default function Blankos() {
   return (
     <div className={styles.pageContainer}>
       <Head>
-        <title>Blankos | BlankoDrops</title>
+        <title>blankos / BlankoDrops</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           property="twitter:title"
