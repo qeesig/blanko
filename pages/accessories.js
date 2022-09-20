@@ -421,10 +421,8 @@ export default function Accessories() {
               href="https://blankos.com/"
               target="_blank"
               sx={{
-                color: "#4a9ff4",
-                fontWeight: "bold",
-                textDecoration: "none",
-                "&:hover": { color: "#81c0ff" },
+                color: "white",
+                textDecoration: "underline",
               }}
             >
               Blankos Block Party.

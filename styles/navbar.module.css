@@ -26,27 +26,32 @@
 }
 
 .activeLink > button {
-  color: white;
+  color: #47b5ff;
+}
+
+.activeLink > button:hover {
+  background-color: transparent;
 }
 
 .inActiveLink > button {
-  color: #c4ddff;
+  color: white;
 }
 
 .inActiveLink > button:hover {
-  color: white;
+  color: #47b5ff;
+  background-color: transparent;
 }
 
 .drawerActiveLink > span {
   font-size: 14px;
   font-weight: bold;
-  color: white;
+  color: #47b5ff;
 }
 
 .drawerInActiveLink > span {
   font-size: 14px;
   font-weight: bold;
-  color: #9ca9b3;
+  color: white;
 }
 
 @media screen and (max-width: 1300px) {

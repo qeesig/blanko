@@ -58,11 +58,12 @@ function DrawerAppBar(props) {
         variant="h6"
         sx={{
           padding: "10px 18px 8px 18px",
-          backgroundColor: "#1976d2",
           display: "grid",
           gridTemplateColumns: "40px 126px",
           columnGap: "20px",
           height: "56px",
+          backgroundColor: "#17171a",
+          borderBottom: "1px solid #222531",
         }}
       >
         <IconButton
@@ -150,7 +151,14 @@ function DrawerAppBar(props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar component="nav">
+      <AppBar
+        component="nav"
+        sx={{
+          backgroundColor: "#17171a",
+          boxShadow: "none",
+          borderBottom: "1px solid #222531",
+        }}
+      >
         <Toolbar className={styles.navContainer}>
           <div className={styles.openDrawer}>
             <IconButton
