@@ -31,22 +31,6 @@
   },
   {
     "rank": 3,
-    "name": "El Grand Quetzalcoatl",
-    "minted": 33,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-05-27T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "El Grand Chamaco",
-    "tag": "GM Grade",
-    "tagFilter": "GM Grade",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/el-grand-quetzalcoatl.png"
-  },
-  {
-    "rank": 4,
     "name": "Terry",
     "minted": 33,
     "burned": 0,
@@ -59,6 +43,22 @@
     "seasonFilter": "00 SXSW",
     "withdrawable": false,
     "imgPath": "/blanko-img/terry.png"
+  },
+  {
+    "rank": 4,
+    "name": "El Grand Quetzalcoatl",
+    "minted": 34,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-05-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "El Grand Chamaco",
+    "tag": "GM Grade",
+    "tagFilter": "GM Grade",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/el-grand-quetzalcoatl.png"
   },
   {
     "rank": 5,
@@ -110,8 +110,8 @@
   {
     "rank": 8,
     "name": "El Xiuhcoatl",
-    "minted": 116,
-    "burned": 66,
+    "minted": 117,
+    "burned": 68,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -532,7 +532,7 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 892,
+    "minted": 895,
     "burned": 626,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -579,20 +579,6 @@
   },
   {
     "rank": 39,
-    "name": "Joystick",
-    "minted": 995,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/joystick.png"
-  },
-  {
-    "rank": 40,
     "name": "Frostbyte",
     "minted": 1000,
     "burned": 0,
@@ -608,7 +594,7 @@
     "imgPath": "/blanko-img/frostbyte.png"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "name": "Get Lit deadmau5",
     "minted": 1000,
     "burned": 0,
@@ -622,7 +608,7 @@
     "imgPath": "/blanko-img/get-lit-deadmau5.png"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "name": "Mudboi",
     "minted": 1000,
     "burned": 0,
@@ -637,7 +623,7 @@
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "name": "Professor Meowingtons",
     "minted": 1003,
     "burned": 3,
@@ -651,9 +637,23 @@
     "imgPath": "/blanko-img/professor-meowingtons.png"
   },
   {
+    "rank": 43,
+    "name": "Joystick",
+    "minted": 1024,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/joystick.png"
+  },
+  {
     "rank": 44,
     "name": "Tempest",
-    "minted": 1024,
+    "minted": 1061,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -667,7 +667,7 @@
   {
     "rank": 45,
     "name": "Pong",
-    "minted": 1052,
+    "minted": 1089,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -680,20 +680,6 @@
   },
   {
     "rank": 46,
-    "name": "Centipede",
-    "minted": 1053,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/centipede.png"
-  },
-  {
-    "rank": 47,
     "name": "Roxx",
     "minted": 1091,
     "burned": 0,
@@ -705,6 +691,20 @@
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/roxx.png"
+  },
+  {
+    "rank": 47,
+    "name": "Centipede",
+    "minted": 1096,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/centipede.png"
   },
   {
     "rank": 49,
@@ -828,7 +828,7 @@
     "rank": 56,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 232,
+    "burned": 234,
     "minting": false,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
@@ -970,22 +970,6 @@
   },
   {
     "rank": 66,
-    "name": "Zeta",
-    "minted": 1887,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "tag": "NFT NYC",
-    "tagFilter": "NFT NYC",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 67,
     "name": "Mint Condition",
     "minted": 1927,
     "burned": 0,
@@ -997,6 +981,22 @@
     "seasonFilter": "00 Open Beta",
     "withdrawable": true,
     "imgPath": "/blanko-img/mint-condition.png"
+  },
+  {
+    "rank": 67,
+    "name": "Zeta",
+    "minted": 1970,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "tag": "NFT NYC",
+    "tagFilter": "NFT NYC",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 68,
@@ -1877,7 +1877,7 @@
     "rank": 128,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1783,
+    "burned": 1789,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
