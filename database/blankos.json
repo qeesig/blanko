@@ -47,7 +47,7 @@
   {
     "rank": 4,
     "name": "El Grand Quetzalcoatl",
-    "minted": 34,
+    "minted": 35,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 73,
+    "minted": 74,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -109,22 +109,6 @@
   },
   {
     "rank": 8,
-    "name": "El Xiuhcoatl",
-    "minted": 117,
-    "burned": 68,
-    "minting": true,
-    "mintDate": "2022-05-27T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "El Grand Chamaco",
-    "tag": "MT Grade",
-    "tagFilter": "MT Grade",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/el-xiuhcoatl.png"
-  },
-  {
-    "rank": 9,
     "name": "Orson Rex",
     "minted": 117,
     "burned": 0,
@@ -139,7 +123,7 @@
     "imgPath": "/blanko-img/orson-rex.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Chemical B Dino",
     "minted": 118,
     "burned": 70,
@@ -153,6 +137,22 @@
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/chemical-b-dino.png"
+  },
+  {
+    "rank": 10,
+    "name": "El Xiuhcoatl",
+    "minted": 119,
+    "burned": 70,
+    "minting": true,
+    "mintDate": "2022-05-27T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "El Grand Chamaco",
+    "tag": "MT Grade",
+    "tagFilter": "MT Grade",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/el-xiuhcoatl.png"
   },
   {
     "rank": 11,
@@ -202,8 +202,8 @@
   {
     "rank": 14,
     "name": "Don Puguillo",
-    "minted": 267,
-    "burned": 146,
+    "minted": 268,
+    "burned": 148,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -247,7 +247,7 @@
   {
     "rank": 17,
     "name": "Harlekin",
-    "minted": 314,
+    "minted": 318,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -532,8 +532,8 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 895,
-    "burned": 626,
+    "minted": 896,
+    "burned": 634,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -639,7 +639,7 @@
   {
     "rank": 43,
     "name": "Joystick",
-    "minted": 1024,
+    "minted": 1049,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -652,34 +652,6 @@
   },
   {
     "rank": 44,
-    "name": "Tempest",
-    "minted": 1061,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/tempest.png"
-  },
-  {
-    "rank": 45,
-    "name": "Pong",
-    "minted": 1089,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/pong.png"
-  },
-  {
-    "rank": 46,
     "name": "Roxx",
     "minted": 1091,
     "burned": 0,
@@ -693,9 +665,9 @@
     "imgPath": "/blanko-img/roxx.png"
   },
   {
-    "rank": 47,
-    "name": "Centipede",
-    "minted": 1096,
+    "rank": 45,
+    "name": "Tempest",
+    "minted": 1097,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -704,10 +676,10 @@
     "artist": "Atari",
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
-    "imgPath": "/blanko-img/centipede.png"
+    "imgPath": "/blanko-img/tempest.png"
   },
   {
-    "rank": 49,
+    "rank": 46,
     "name": "Nadine",
     "minted": 1097,
     "burned": 0,
@@ -721,7 +693,21 @@
     "imgPath": "/blanko-img/nadine.png"
   },
   {
-    "rank": 48,
+    "rank": 47,
+    "name": "Pong",
+    "minted": 1114,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/pong.png"
+  },
+  {
+    "rank": 49,
     "name": "Counselor Blaze",
     "minted": 1131,
     "burned": 0,
@@ -735,6 +721,20 @@
     "seasonFilter": "00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/counselor-blaze.png"
+  },
+  {
+    "rank": 48,
+    "name": "Centipede",
+    "minted": 1135,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/centipede.png"
   },
   {
     "rank": 50,
@@ -828,7 +828,7 @@
     "rank": 56,
     "name": "El Coatlito",
     "minted": 1365,
-    "burned": 234,
+    "burned": 238,
     "minting": false,
     "mintDate": "2022-03-09T08:00:00.000Z",
     "mintPrice": 39.99,
@@ -1733,7 +1733,7 @@
     "rank": 118,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 531,
+    "burned": 533,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -1877,7 +1877,7 @@
     "rank": 128,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1789,
+    "burned": 1792,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
