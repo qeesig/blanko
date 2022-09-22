@@ -4,7 +4,7 @@ import styles from "../styles/footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      Made by{" "}
+      Created by{" "}
       <Link
         href="https://twitter.com/qeesig"
         target="_blank"
@@ -13,7 +13,7 @@ export default function Footer() {
           textDecoration: "underline",
         }}
       >
-        qeesig
+        @qeesig
       </Link>{" "}
       🦇
     </footer>
