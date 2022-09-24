@@ -1,21 +1,6 @@
 [
   {
     "rank": 1,
-    "name": "Community Chrome",
-    "minted": 53,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-09T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "tag": "Community Crew",
-    "attachmentType": "Collar",
-    "seasonFilter": "00 Early Access",
-    "functional": false,
-    "imgPath": "/accessory-img/community-chrome.png"
-  },
-  {
-    "rank": 2,
     "name": "Burberry® Shellphone",
     "minted": 84,
     "burned": 0,
@@ -27,6 +12,21 @@
     "seasonFilter": "00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-shellphone.png"
+  },
+  {
+    "rank": 2,
+    "name": "Community Chrome",
+    "minted": 86,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-06-09T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "tag": "Community Crew",
+    "attachmentType": "Collar",
+    "seasonFilter": "00 Early Access",
+    "functional": false,
+    "imgPath": "/accessory-img/community-chrome.png"
   },
   {
     "rank": 3,
@@ -73,7 +73,7 @@
   {
     "rank": 6,
     "name": "Condimental Cruisepack",
-    "minted": 236,
+    "minted": 243,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
