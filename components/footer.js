@@ -14,8 +14,7 @@ export default function Footer() {
         }}
       >
         @qeesig
-      </Link>{" "}
-      🦇
+      </Link>
     </footer>
   );
 }
