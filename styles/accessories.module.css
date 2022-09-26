@@ -26,8 +26,6 @@
 .table {
   width: 1104px;
   margin: 30px auto 0px auto;
-  padding-top: 25px;
-  border-top: 1px solid #222531;
 }
 
 .tablePinnedCell {
@@ -93,7 +91,9 @@
   font-size: 16px;
   color: white;
   margin-bottom: 10px;
+  padding-top: 25px;
   padding-bottom: 25px;
+  border-top: 1px solid #222531;
   border-bottom: 1px solid #222531;
 }
 
