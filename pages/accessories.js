@@ -49,7 +49,6 @@ import nodes from "../database/accessories.json";
 
 import styles from "../styles/accessories.module.css";
 import styled from "@emotion/styled";
-import { css } from "@emotion/react";
 
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
@@ -66,99 +65,10 @@ export default function Accessories() {
     },
   };
 
-  const styledCell = css`
-    padding: 10px;
-    height: 54px;
-    background-color: #17171a;
-    color: white;
-
-    @media screen and (max-width: 620px) {
-      font-size: 12px;
-    }
-  `;
-
-  const styledHeader = css`
-    @media screen and (max-width: 620px) {
-      padding-left: 0px;
-    }
-  `;
-
-  const styledMintedHeader = css`
-    padding-right: 0px;
-    padding-left: 62px;
-
-    @media screen and (max-width: 1300px) {
-      padding-left: 45px;
-    }
-
-    @media screen and (max-width: 1024px) {
-      padding-left: 45px;
-    }
-
-    @media screen and (max-width: 780px) {
-      padding-left: 25px;
-    }
-
-    @media screen and (max-width: 620px) {
-      padding-left: 15px;
-    }
-  `;
-
-  const styledBurnedHeader = css`
-    padding-right: 0px;
-    padding-left: 45px;
-
-    @media screen and (max-width: 1300px) {
-      padding-left: 28px;
-    }
-
-    @media screen and (max-width: 620px) {
-      padding-left: 15px;
-    }
-  `;
-
-  const styledMintDateHeader = css`
-    padding-right: 0px;
-    padding-left: 70px;
-
-    @media screen and (max-width: 1300px) {
-      padding-left: 55px;
-    }
-
-    @media screen and (max-width: 620px) {
-      padding-left: 10px;
-    }
-  `;
-
-  const styledMintPriceHeader = css`
-    padding-right: 0px;
-    padding-left: 45px;
-
-    @media screen and (max-width: 1300px) {
-      padding-left: 32px;
-    }
-
-    @media screen and (max-width: 1024px) {
-      padding-left: 52px;
-    }
-
-    @media screen and (max-width: 780px) {
-      padding-left: 20px;
-    }
-
-    @media screen and (max-width: 620px) {
-      padding-left: 10px;
-    }
-  `;
-
   const Name = styled.div`
     color: white;
     font-size: 14px;
     font-weight: bold;
-
-    @media screen and (max-width: 620px) {
-      font-size: 12px;
-    }
   `;
 
   const Minting = styled.span`
@@ -177,13 +87,21 @@ export default function Accessories() {
   `;
 
   const materialTheme = getTheme(DEFAULT_OPTIONS);
-  const [customTable, setCustomTable] = useState(
-    "--data-table-library_grid-template-columns:  50px 54px 365px 95px 100px 130px 130px 80px;"
-  );
 
   const customTheme = {
     Table: `
-      ${customTable}
+    --data-table-library_grid-template-columns:  50px 54px 250px 150px 135px 165px 150px 150px;
+    `,
+    BaseCell: `
+    &:nth-of-type(1) {
+      left: 0px;
+     
+    }
+
+    &:nth-of-type(2) {
+      left: 50px;
+   
+    }
     `,
     Row: `
       &:hover {
@@ -267,7 +185,7 @@ export default function Accessories() {
   );
 
   function onSortChange() {
-    pagination.fns.onSetPage(0);
+    // pagination.fns.onSetPage(0);
   }
 
   const scrollReset = () => {
@@ -304,57 +222,6 @@ export default function Accessories() {
       clearTimeout(timeoutID);
     };
   }, []);
-
-  const [viewPort, setViewPort] = useState(0);
-
-  const handleWindowResize = () => {
-    setViewPort(window.innerWidth);
-  };
-
-  useEffect(() => {
-    // component is mounted and window is available
-    handleWindowResize();
-    window.addEventListener("resize", handleWindowResize);
-    // unsubscribe from the event on component unmount
-    return () => window.removeEventListener("resize", handleWindowResize);
-  }, []);
-
-  useEffect(() => {
-    if (viewPort <= 620) {
-      setCustomTable(
-        "--data-table-library_grid-template-columns:  35px 49px 148px 85px !important;"
-      );
-      // minted, mt price
-    } else if (viewPort <= 780) {
-      setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 230px 95px 100px !important;"
-      );
-      // minted, mt price, season
-    } else if (viewPort <= 1024) {
-      setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 260px 115px 130px 100px !important;"
-      );
-      // minted, burned, mt date, mt price, season
-    } else if (viewPort <= 1300) {
-      setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 260px 115px 100px 130px 110px 100px !important;"
-      );
-      // default
-    } else {
-      setCustomTable(
-        "--data-table-library_grid-template-columns:  50px 54px 380px 130px 115px 145px 125px 105px !important;"
-      );
-    }
-  }, [viewPort]);
-
-  const [hiddenColumns, setHiddenColumns] = useState(["MINTED"]);
-
-  const toggleColumn = (column) => {
-    setHiddenColumns(
-      hiddenColumns.splice(column, 1) && hiddenColumns.concat(column)
-    );
-    pagination.fns.onSetPage(0);
-  };
 
   useEffect(() => {
     setPrimaryFilter(sessionStorage.getItem("accessoryPrimaryFilter") || "All");
@@ -668,7 +535,7 @@ export default function Accessories() {
 
                   "& .MuiSelect-select": {
                     color: "white",
-                    width: 130,
+                    width: "100%",
                   },
 
                   "& .MuiOutlinedInput-root": {
@@ -695,62 +562,12 @@ export default function Accessories() {
                   MenuProps={MenuProps}
                 >
                   <MenuItem value="">All Season</MenuItem>
-                  <MenuItem value="00">00 Season</MenuItem>
-                  <MenuItem value="00 Alpha">00 Alpha</MenuItem>
-                  <MenuItem value="00 Private Beta">00 Private Beta</MenuItem>
-                  <MenuItem value="00 Open Beta">00 Open Beta</MenuItem>
-                  <MenuItem value="00 Early Access">00 Early Access</MenuItem>
-                  <MenuItem value="01">01 Season</MenuItem>
-                </Select>
-              </FormControl>
-              <FormControl
-                className={styles.sortByFilter}
-                sx={{
-                  label: { color: "white" },
-
-                  "& label.Mui-focused": {
-                    color: "white",
-                  },
-
-                  "& .MuiSvgIcon-root": {
-                    color: "white",
-                  },
-
-                  "& .MuiInputBase-formControl": {
-                    backgroundColor: "#222531",
-                  },
-
-                  "& .MuiSelect-select": {
-                    color: "white",
-                    width: 100,
-                  },
-
-                  "& .MuiOutlinedInput-root": {
-                    "& fieldset": {
-                      borderColor: "transparent",
-                    },
-
-                    "&:hover fieldset": {
-                      borderColor: "#353948",
-                      borderWidth: 2,
-                    },
-
-                    "&.Mui-focused fieldset": {
-                      borderColor: "#4a9ff4",
-                    },
-                  },
-                }}
-                size="small"
-              >
-                <Select
-                  value={hiddenColumns}
-                  displayEmpty
-                  onChange={(e) => toggleColumn(e.target.value)}
-                >
-                  <MenuItem value="MINTED">Sort by Minted</MenuItem>
-                  <MenuItem value="BURNED">Sort by Burned</MenuItem>
-                  <MenuItem value="MINTDATE">Sort by MT Date</MenuItem>
-                  <MenuItem value="MINTPRICE">Sort by MT Price</MenuItem>
+                  <MenuItem value="00">S00</MenuItem>
+                  <MenuItem value="00 Alpha">S00 Alpha</MenuItem>
+                  <MenuItem value="00 Private Beta">S00 Private Beta</MenuItem>
+                  <MenuItem value="00 Open Beta">S00 Open Beta</MenuItem>
+                  <MenuItem value="00 Early Access">S00 Early Access</MenuItem>
+                  <MenuItem value="01">S01</MenuItem>
                 </Select>
               </FormControl>
             </div>
@@ -798,64 +615,36 @@ export default function Accessories() {
                 <>
                   <Header>
                     <HeaderRow>
-                      <HeaderCell css={styledHeader}></HeaderCell>
-                      <HeaderCell css={styledHeader}></HeaderCell>
-                      <HeaderCell css={styledHeader}></HeaderCell>
+                      <HeaderCell pinLeft></HeaderCell>
+                      <HeaderCell pinLeft></HeaderCell>
+                      <HeaderCell className={styles.nameHeader}>
+                        NAME
+                      </HeaderCell>
                       <HeaderCellSort
-                        hide={
-                          viewPort <= 620
-                            ? !hiddenColumns.includes("MINTED")
-                            : ""
-                        }
-                        css={styledMintedHeader}
+                        className={styles.mintedHeader}
                         sortKey="MINTED"
                       >
                         MINTED
                       </HeaderCellSort>
                       <HeaderCellSort
-                        hide={
-                          viewPort <= 1024
-                            ? !hiddenColumns.includes("BURNED")
-                            : ""
-                        }
-                        css={styledBurnedHeader}
+                        className={styles.burnedHeader}
                         sortKey="BURNED"
                       >
                         BURNED
                       </HeaderCellSort>
                       <HeaderCellSort
-                        hide={
-                          viewPort <= 1024
-                            ? !hiddenColumns.includes("MINTDATE")
-                            : ""
-                        }
-                        css={styledMintDateHeader}
+                        className={styles.mintDateHeader}
                         sortKey="MINTDATE"
                       >
                         MT DATE
                       </HeaderCellSort>
                       <HeaderCellSort
-                        hide={
-                          viewPort <= 620
-                            ? !hiddenColumns.includes("MINTPRICE")
-                            : ""
-                        }
-                        css={styledMintPriceHeader}
+                        className={styles.mintPriceHeader}
                         sortKey="MINTPRICE"
                       >
                         MT PRICE
                       </HeaderCellSort>
-                      <HeaderCell
-                        hide={
-                          viewPort <= 780
-                            ? !hiddenColumns.includes("SEASON")
-                            : ""
-                        }
-                        css={styledHeader}
-                        style={{
-                          textAlign: "center",
-                        }}
-                      >
+                      <HeaderCell className={styles.seasonHeader}>
                         SEASON
                       </HeaderCell>
                     </HeaderRow>
@@ -864,24 +653,10 @@ export default function Accessories() {
                   <Body>
                     {blankoList.map((item, rank) => (
                       <Row key={item.rank} item={item}>
-                        <Cell
-                          css={styledCell}
-                          style={{
-                            paddingRight: 0,
-                            height: 54,
-                            color: "#666b7c",
-                            textAlign: "center",
-                          }}
-                        >
+                        <Cell pinLeft className={styles.tablePinnedCell}>
                           {item.rank}
                         </Cell>
-                        <Cell
-                          css={styledCell}
-                          style={{
-                            height: 54,
-                            textAlign: "center",
-                          }}
-                        >
+                        <Cell pinLeft className={styles.tablePinnedCell}>
                           <Image
                             src={`https://qeesig.github.io/blanko${item.imgPath}`}
                             alt={`Picture of ${item.name}`}
@@ -892,10 +667,8 @@ export default function Accessories() {
                           />
                         </Cell>
                         <Cell
-                          css={styledCell}
-                          style={{
-                            paddingLeft: 0,
-                          }}
+                          className={styles.tableCell}
+                          style={{ paddingLeft: "15px" }}
                         >
                           <Name className={styles.accessoryName}>
                             {item.name}
@@ -921,12 +694,7 @@ export default function Accessories() {
                           </Tag>
                         </Cell>
                         <Cell
-                          hide={
-                            viewPort <= 620
-                              ? !hiddenColumns.includes("MINTED")
-                              : ""
-                          }
-                          css={styledCell}
+                          className={styles.tableCell}
                           style={{
                             textAlign: "right",
                           }}
@@ -938,12 +706,7 @@ export default function Accessories() {
                           />
                         </Cell>
                         <Cell
-                          hide={
-                            viewPort <= 1024
-                              ? !hiddenColumns.includes("BURNED")
-                              : ""
-                          }
-                          css={styledCell}
+                          className={styles.tableCell}
                           style={{
                             textAlign: "right",
                           }}
@@ -955,12 +718,7 @@ export default function Accessories() {
                           />
                         </Cell>
                         <Cell
-                          hide={
-                            viewPort <= 1024
-                              ? !hiddenColumns.includes("MINTDATE")
-                              : ""
-                          }
-                          css={styledCell}
+                          className={styles.tableCell}
                           style={{
                             textAlign: "right",
                           }}
@@ -972,12 +730,7 @@ export default function Accessories() {
                           })}
                         </Cell>
                         <Cell
-                          hide={
-                            viewPort <= 620
-                              ? !hiddenColumns.includes("MINTPRICE")
-                              : ""
-                          }
-                          css={styledCell}
+                          className={styles.tableCell}
                           style={{
                             textAlign: "right",
                           }}
@@ -990,12 +743,7 @@ export default function Accessories() {
                           />
                         </Cell>
                         <Cell
-                          hide={
-                            viewPort <= 780
-                              ? !hiddenColumns.includes("SEASON")
-                              : ""
-                          }
-                          css={styledCell}
+                          className={styles.tableCell}
                           style={{
                             textAlign: "center",
                           }}
@@ -1020,6 +768,7 @@ export default function Accessories() {
                 pagination.fns.onSetPage(parseInt(page))
               }
               as="div"
+              labelRowsPerPage="Rows"
               sx={{
                 color: "white",
 

@@ -23,6 +23,7 @@ a {
 
 ::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -48,7 +49,7 @@ a {
   border-top: 1px solid #222531;
   border-bottom: 1px solid #222531 !important;
   height: 54px;
-  background-color: transparent;
+  background-color: #17171a;
   color: white;
   font-size: 12px;
 }
@@ -74,10 +75,19 @@ a {
   background-color: #282c42;
 }
 
+.MuiTablePagination-spacer {
+  flex: none;
+}
+
+.MuiTablePagination-root .MuiTablePagination-toolbar {
+  padding-left: 0;
+  margin-top: 0;
+}
+
 /* pagination rows per page text*/
 .MuiTablePagination-selectLabel {
   font-size: 14px;
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
 /* pagination size container */
@@ -96,44 +106,30 @@ a {
   margin-top: 18px;
 }
 
+.MuiTablePagination-toolbar .MuiTablePagination-actions {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+  .tr-header .th:nth-of-type(2) {
+    border-right: 1px solid #222531 !important;
+    box-shadow: 8px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .tr .td:nth-of-type(2) {
+    border-right: 1px solid #222531 !important;
+    box-shadow: 8px 0px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
 @media screen and (max-width: 620px) {
-  html,
-  body {
-    font-size: 12px;
-  }
-
-  /* pagination */
-  .MuiTablePagination-root .MuiTablePagination-toolbar {
-    padding-left: 0;
-    margin-top: 10px;
-  }
-
-  /* pagination rows per page text*/
-  .MuiTablePagination-selectLabel {
-    font-size: 12px;
-    padding-top: 1px;
-  }
-
-  /* pagination size container */
-  .MuiTablePagination-root .MuiInputBase-colorPrimary {
-    font-size: 12px;
-    margin-left: 0;
-    margin-right: 15px;
-  }
-
-  /* pagination size text*/
-  .MuiInputBase-root .MuiTablePagination-select {
-    margin-top: 3px;
-  }
-
   /* pagination rows */
   .MuiTablePagination-displayedRows {
-    font-size: 12px;
-    margin-top: 14px;
+    margin-left: -15px;
   }
 
   /* pagination prev next button */
   .MuiTablePagination-toolbar .MuiTablePagination-actions {
-    margin-left: 10px;
+    margin-left: 15px;
   }
 }

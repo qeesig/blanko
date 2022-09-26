@@ -23,13 +23,54 @@
   column-gap: 20px;
 }
 
-.sortByFilter {
-  display: none;
-}
-
 .table {
   width: 1104px;
   margin: 30px auto 0px auto;
+  padding-top: 25px;
+  border-top: 1px solid #222531;
+}
+
+.tablePinnedCell {
+  padding: 10px;
+  height: 54px;
+  background-color: #17171a;
+  color: #666b7c;
+  text-align: center;
+}
+
+.tableCell {
+  padding: 10px;
+  height: 54px;
+  background-color: #17171a;
+  color: white;
+}
+
+.nameHeader {
+  padding-left: 15px;
+}
+
+.mintedHeader {
+  padding-right: 0px;
+  padding-left: 80px;
+}
+
+.burnedHeader {
+  padding-right: 0px;
+  padding-left: 65px;
+}
+
+.mintDateHeader {
+  padding-right: 0px;
+  padding-left: 90px;
+}
+
+.mintPriceHeader {
+  padding-right: 0px;
+  padding-left: 70px;
+}
+
+.seasonHeader {
+  text-align: center;
 }
 
 .headerMaintext {
@@ -49,10 +90,10 @@
 }
 
 .accessoryResult {
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   margin-bottom: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #222531;
 }
 
@@ -196,7 +237,6 @@
 
   .headerSubtext {
     width: 317px;
-    font-size: 12px;
     margin-bottom: 25px;
     line-height: 18px;
   }
@@ -212,13 +252,7 @@
 
   .seasonFilter {
     grid-area: seasonFilter;
-    width: 156px;
-    margin-top: 14px;
-  }
-
-  .sortByFilter {
-    display: grid;
-    width: 106px;
+    width: 100%;
     margin-top: 14px;
   }
 
@@ -228,7 +262,7 @@
     column-gap: 14px;
     grid-template-areas:
       "searchField searchField"
-      "seasonFilter sortbyFilter";
+      "seasonFilter seasonFilter";
   }
 
   .legendContainer {
