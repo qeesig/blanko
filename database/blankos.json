@@ -532,7 +532,7 @@
   {
     "rank": 36,
     "name": "Skivvy Klown",
-    "minted": 913,
+    "minted": 917,
     "burned": 644,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -683,7 +683,7 @@
   {
     "rank": 46,
     "name": "Joystick",
-    "minted": 1145,
+    "minted": 1147,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -739,7 +739,7 @@
   {
     "rank": 50,
     "name": "Tempest",
-    "minted": 1201,
+    "minted": 1203,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -753,7 +753,7 @@
   {
     "rank": 51,
     "name": "Pong",
-    "minted": 1216,
+    "minted": 1220,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -767,7 +767,7 @@
   {
     "rank": 53,
     "name": "Centipede",
-    "minted": 1231,
+    "minted": 1236,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1117,7 +1117,7 @@
   {
     "rank": 76,
     "name": "Zeta",
-    "minted": 2141,
+    "minted": 2150,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-22T07:00:00.000Z",
@@ -1582,7 +1582,7 @@
   {
     "rank": 108,
     "name": "Visage",
-    "minted": 3610,
+    "minted": 3611,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -1877,7 +1877,7 @@
     "rank": 128,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1826,
+    "burned": 1834,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
