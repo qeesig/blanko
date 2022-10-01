@@ -1,31 +1,178 @@
 .pageContainer {
-  padding: 120px 70px 70px 70px;
-  overflow: auto;
+  padding: 110px 0px 40px 0px;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  width: 1104px;
+  margin: 0px auto 30px auto;
+}
+
+.header a {
+  color: #b9bdcc;
+  text-decoration: underline;
+}
+
+.headerMaintext {
+  color: white;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+
+.headerSubtext {
+  color: #b9bdcc;
+  font-size: 14px;
+  margin: 0px;
 }
 
 .filterContainer {
   width: 1104px;
   margin: auto;
-}
-
-.primaryFilter {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-top: 1px solid #222531;
-  border-bottom: 1px solid #222531;
-  margin-bottom: 31px;
-}
-
-.secondaryFilter {
   display: grid;
-  grid-template-columns: 317px 1fr;
-  column-gap: 20px;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "season pass"
+    "category category"
+    "search search";
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.season {
+  grid-area: season;
+}
+
+.seasonAutoComplete {
+  border-radius: 0;
+}
+
+.seasonTextField {
+  z-index: 9;
+  background-color: #191a26;
+  width: 220px;
+  height: 60px;
+  position: absolute;
+  left: 5;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.65);
+  clip-path: inset(-15px -10px 0px -15px);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.seasonPopperArrowUp {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #323448;
+  margin-left: 40px;
+  z-index: 2;
+}
+
+.seasonPaper {
+  background: #191a26;
+  margin-top: 60px;
+  width: 220px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.65);
+  clip-path: inset(0px -15px -20px -15px);
+}
+
+.seasonClearIcon {
+  width: 16px;
+  margin-top: -1px;
+}
+
+.pass {
+  grid-area: pass;
+}
+
+.passAutoComplete {
+  position: relative;
+  border-radius: 0;
+}
+
+.passTextField {
+  z-index: 9;
+  background-color: #191a26;
+  width: 220px;
+  height: 60px;
+  position: absolute;
+  left: 5;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.65);
+  clip-path: inset(-15px -10px 0px -15px);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.passPopperArrowUp {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #323448;
+  margin-left: 40px;
+}
+
+.passPaper {
+  background: #191a26;
+  margin-top: 60px;
+  width: 220px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.65);
+  clip-path: inset(0px -15px -20px -15px);
+}
+
+.passDownIcon {
+  margin-top: -2px;
+}
+
+.passClearIcon {
+  width: 16px;
+  margin-top: -2px;
+}
+
+.category {
+  grid-area: category;
+  border-bottom: 1px solid #222531;
+}
+
+.categoryBtnGroup {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-verflow-style: none;
+  scrollbar-width: none;
+  border-radius: 0;
+  column-gap: 25px;
+}
+
+.categoryBtnGroup::-webkit-scrollbar {
+  display: none;
+}
+
+.category .categoryBtnGroup > button {
+  padding: 16px 0px 16px 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.search {
+  grid-area: search;
 }
 
 .table {
   width: 1104px;
-  margin: 30px auto 0px auto;
+  margin: 15px auto 0px auto;
 }
 
 .tablePinnedCell {
@@ -75,36 +222,11 @@
   padding-left: 10px;
 }
 
-.headerMaintext {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  width: 1104px;
-  margin: 0 auto 20px auto;
-}
-
-.headerSubtext {
-  color: white;
-  font-size: 14px;
-  width: 1104px;
-  margin: -10px auto 25px auto;
-  line-height: 24px;
-}
-
-.blankoResult {
-  font-size: 16px;
-  color: white;
-  margin-bottom: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top: 1px solid #222531;
-  border-bottom: 1px solid #222531;
-}
-
 .legendContainer {
-  margin-bottom: 10px;
-  font-size: 14px;
   color: white;
+  font-size: 14px;
+  padding: 10px 0px;
+  border-top: 1px solid #222531;
 }
 
 .legendContainer > div:nth-of-type(1) {
@@ -117,52 +239,66 @@
 }
 
 .mintingIconLegend {
-  height: 10px;
-  width: 10px;
-  background-color: #16cb69;
-  border-radius: 50%;
   display: inline-block;
   margin-right: 8px;
 }
 
-.withdrawableIconLegend {
+.mintingIconLegend svg {
   font-size: 12px;
+  color: #16cb69;
+  margin-bottom: -1px;
+}
+
+.withdrawableIconLegend {
   display: inline-block;
   margin-right: 6px;
 }
 
+.withdrawableIconLegend svg {
+  font-size: 16px;
+  transform: rotate(180deg);
+  margin-bottom: -3px;
+  color: #e8e9a1;
+}
+
 .blankoName {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: 2px;
 }
 
 .mintingIcon {
-  height: 8px;
-  width: 8px;
-  background-color: #16cb69;
-  border-radius: 50%;
   display: inline-block;
 }
 
+.mintingIcon svg {
+  font-size: 10px;
+  color: #16cb69;
+}
+
 .withdrawableIcon {
-  font-size: 11px;
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 3px;
+}
+
+.withdrawableIcon svg {
+  font-size: 14px;
+  transform: rotate(180deg);
+  margin-bottom: -2px;
+  margin-left: -3px;
+  color: #e8e9a1;
 }
 
 .blankoTag {
   overflow: hidden;
   text-overflow: ellipsis;
-  display: inline;
+  display: block;
 }
 
 @media screen and (max-width: 1300px) {
-  .headerMaintext {
-    width: 919px;
-  }
-
-  .headerSubtext {
+  .header {
     width: 919px;
   }
 
@@ -176,17 +312,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .pageContainer {
-    padding: 120px 40px 40px 40px;
-  }
-
-  .headerMaintext {
+  .header {
     width: 709px;
-  }
-
-  .headerSubtext {
-    width: 709px;
-    line-height: 22px;
   }
 
   .filterContainer {
@@ -199,11 +326,7 @@
 }
 
 @media screen and (max-width: 780px) {
-  .headerMaintext {
-    width: 529px;
-  }
-
-  .headerSubtext {
+  .header {
     width: 529px;
   }
 
@@ -218,50 +341,67 @@
 
 @media screen and (max-width: 620px) {
   .pageContainer {
-    padding: 80px 15px 15px 15px;
+    padding: 95px 0px 15px 0px;
   }
 
-  .headerMaintext {
-    width: 317px;
-    margin-top: 15px;
-  }
-
-  .headerSubtext {
-    width: 317px;
-    margin-bottom: 25px;
-    line-height: 18px;
+  .header {
+    width: 316px;
   }
 
   .filterContainer {
     width: 317px;
-  }
-
-  .searchField {
-    grid-area: searchField;
-    width: 317px;
-    font-size: 12px;
-  }
-
-  .seasonFilter {
-    grid-area: seasonFilter;
-    width: 100%;
-    margin-top: 14px;
-  }
-
-  .secondaryFilter {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 14px;
+    row-gap: 15px;
     grid-template-areas:
-      "searchField searchField"
-      "seasonFilter seasonFilter";
+      "season pass"
+      "category category"
+      "search search";
+  }
+
+  .filterContainer > div > button {
+    width: 151px;
+    grid-template-columns: 101px 22px;
+  }
+
+  .filterContainer > div > button > span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .season {
+    grid-area: season;
+  }
+
+  .pass {
+    grid-area: pass;
+  }
+
+  .passPopperArrowUp {
+    margin-left: 100px;
+  }
+
+  .passDownIcon {
+    margin-top: 0px;
+  }
+
+  .passClearIcon {
+    margin-top: 0px;
+  }
+
+  .passPaper {
+    margin-left: -68px;
+  }
+
+  .passAutoComplete {
+    right: 68px;
+  }
+
+  .search {
+    grid-area: search;
   }
 
   .table {
     width: 317px;
-  }
-
-  .blankoName {
-    margin-bottom: 4px;
   }
 }

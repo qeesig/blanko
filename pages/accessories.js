@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import {
@@ -17,15 +17,16 @@ import {
 } from "@table-library/react-table-library/material-ui";
 import { usePagination } from "@table-library/react-table-library/pagination";
 import {
+  Button,
   TablePagination,
   TextField,
   Box,
-  FormControl,
-  MenuItem,
-  Select,
   ToggleButton,
   ToggleButtonGroup,
   Link,
+  Paper,
+  Popper,
+  Autocomplete,
 } from "@mui/material";
 
 import {
@@ -42,6 +43,10 @@ import {
   TiArrowSortedDown,
 } from "react-icons/ti";
 import SearchIcon from "@mui/icons-material/Search";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import CancelIcon from "@mui/icons-material/Cancel";
+import FlashOnIcon from "@mui/icons-material/FlashOn";
+import CircleIcon from "@mui/icons-material/Circle";
 import { IoClose } from "react-icons/io5";
 
 import nodes from "../database/accessories.json";
@@ -53,30 +58,13 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 export default function Accessories() {
-  //styles
-  const ITEM_HEIGHT = 48;
-  const ITEM_PADDING_TOP = 8;
-  const MenuProps = {
-    PaperProps: {
-      style: {
-        maxHeight: ITEM_HEIGHT * 3.5 + ITEM_PADDING_TOP,
-      },
-    },
-  };
-
-  const Name = styled.div`
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-  `;
-
   const Minting = styled.span`
     margin-right: ${(props) =>
       props.minting == true && props.functional == false
-        ? "10px"
+        ? "5px"
         : props.minting == true && props.functional == true
         ? "4px"
-        : "0px"};
+        : "4px"};
   `;
 
   const Tag = styled.div`
@@ -85,7 +73,49 @@ export default function Accessories() {
     font-size: 12px;
   `;
 
-  const materialTheme = getTheme(DEFAULT_OPTIONS);
+  const SeasonButton = styled(Button)`
+    height: 32px;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: max-content 22px;
+    margin-right: 0px !important;
+    background-color: ${(props) =>
+      props.initialvalue !== "Season" ? "#2155CD" : "#222531"};
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 4px 14px;
+
+    &:hover {
+      background-color: ${(props) =>
+        props.initialvalue !== "Season" ? "#1241ad" : "#1c1f2e"};
+    }
+  `;
+
+  const PartyPassButton = styled(Button)`
+    height: 32px;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: max-content 22px;
+    margin-right: 0;
+    background-color: ${(props) =>
+      props.initialvalue !== "Party Pass" ? "#2155CD" : "#222531"};
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 4px 14px;
+
+    &:hover {
+      background-color: ${(props) =>
+        props.initialvalue !== "Party Pass" ? "#1241ad" : "#1c1f2e"};
+    }
+  `;
 
   const customTheme = {
     Table: `
@@ -111,49 +141,145 @@ export default function Accessories() {
     `,
   };
 
+  const materialTheme = getTheme(DEFAULT_OPTIONS);
+
   const theme = useTheme([materialTheme, customTheme]);
-
-  const [primaryFilter, setPrimaryFilter] = useState("All");
-
-  const primaryFilterValue = (event) => {
-    setPrimaryFilter(event.target.value);
-    sessionStorage.setItem("accessoryPrimaryFilter", event.target.value);
-    pagination.fns.onSetPage(0);
-  };
 
   let data = { nodes };
 
-  if (primaryFilter === "All") {
+  const [season, setSeason] = useState({ label: "Season" });
+
+  const [seasonPopper, setSeasonPopper] = useState(false);
+
+  const closeSeasonPopper = () => {
+    setSeasonPopper(false);
+  };
+
+  const openSeasonPopper = () => {
+    if (season.label === "Season") {
+      setSeasonPopper(true);
+      if (seasonPopper == true) {
+        setSeasonPopper(false);
+      }
+    } else {
+      setPassPopper(false);
+      setSeason({ label: "Season" });
+      sessionStorage.setItem("seasonAccessory", "Season");
+    }
+  };
+
+  const customSeasonPopper = useCallback((props) => {
+    return (
+      <Popper {...props} style={{ zIndex: 8 }} onClick={closeSeasonPopper} />
+    );
+  }, []);
+
+  const seasonChange = (e, value) => {
+    setSeason(value);
+    sessionStorage.setItem("seasonAccessory", value.label);
+    pagination.fns.onSetPage(0);
+  };
+
+  if (season.label === "Season") {
   } else {
     data = {
       nodes: data.nodes.filter((item) =>
-        item.attachmentType == null
+        item.seasonFilter == null
           ? ""
-          : item.attachmentType.toLowerCase() === primaryFilter.toLowerCase()
+          : item.seasonFilter.toLowerCase().includes(season.label.toLowerCase())
+      ),
+    };
+  }
+
+  const seasonBtnIcon = (() => {
+    if (season.label === "Season") {
+      return <ArrowDropDownIcon style={{ marginTop: "-1px" }} />;
+    } else if (season.label !== "Season") {
+      return <CancelIcon className={styles.seasonClearIcon} />;
+    }
+  })();
+
+  const [pass, setPass] = useState({ label: "Party Pass" });
+
+  const [passPopper, setPassPopper] = useState(false);
+
+  const closePassPopper = () => {
+    setPassPopper(false);
+  };
+
+  const openPassPopper = () => {
+    if (pass.label === "Party Pass") {
+      setPassPopper(true);
+      if (passPopper == true) {
+        setPassPopper(false);
+      }
+    } else {
+      setSeasonPopper(false);
+      setPass({ label: "Party Pass" });
+      sessionStorage.setItem("passAccessory", "Party Pass");
+    }
+  };
+
+  const customPassPopper = useCallback((props) => {
+    return (
+      <Popper {...props} style={{ zIndex: 8 }} onClick={closePassPopper} />
+    );
+  }, []);
+
+  const passChange = (e, value) => {
+    setPass(value);
+    sessionStorage.setItem("passAccessory", value.label);
+    pagination.fns.onSetPage(0);
+  };
+
+  if (pass.label === "Party Pass") {
+  } else {
+    data = {
+      nodes: data.nodes.filter((item) =>
+        item.passFilter == null
+          ? ""
+          : item.passFilter.toLowerCase() === pass.label.toLowerCase()
+      ),
+    };
+  }
+
+  const passBtnIcon = (() => {
+    if (pass.label === "Party Pass") {
+      return <ArrowDropDownIcon className={styles.passDownIcon} />;
+    } else if (pass.label !== "Party Pass") {
+      return <CancelIcon className={styles.passClearIcon} />;
+    }
+  })();
+
+  const [category, setCategory] = useState("All Categories");
+
+  const categoryChange = (e) => {
+    setCategory(e.target.value);
+    pagination.fns.onSetPage(0);
+  };
+
+  if (category === "All Categories") {
+  } else {
+    data = {
+      nodes: data.nodes.filter((item) =>
+        item.category == null
+          ? ""
+          : item.category.toLowerCase() === category.toLowerCase()
       ),
     };
   }
 
   const [search, setSearch] = useState("");
+
   data = {
     nodes: data.nodes.filter((item) =>
       item.name.toLowerCase().includes(search.toLowerCase())
     ),
   };
+
   const accessorySearch = (event) => {
     setSearch(event.target.value);
     pagination.fns.onSetPage(0);
-  };
-
-  const [season, setSeason] = useState("");
-  const seasonChange = (event) => {
-    setSeason(event.target.value);
-    pagination.fns.onSetPage(0);
-  };
-  data = {
-    nodes: data.nodes.filter((item) =>
-      item.seasonFilter.toLowerCase().includes(season.toLowerCase())
-    ),
   };
 
   const sort = useSort(
@@ -192,6 +318,7 @@ export default function Accessories() {
   };
 
   const [pageNumber, setPageNumber] = useState(0);
+
   const [pageSize, setPageSize] = useState(25);
 
   const pagination = usePagination(data, {
@@ -202,7 +329,7 @@ export default function Accessories() {
     onChange: onPaginationChange,
   });
 
-  function onPaginationChange(action, state) {
+  function onPaginationChange(a, state) {
     sessionStorage.setItem("pageNumber", state.page);
     sessionStorage.setItem("pageSize", state.size);
     scrollReset();
@@ -223,7 +350,8 @@ export default function Accessories() {
   }, []);
 
   useEffect(() => {
-    setPrimaryFilter(sessionStorage.getItem("accessoryPrimaryFilter") || "All");
+    setPass({ label: sessionStorage.getItem("passAccessory") || "Party Pass" });
+    setSeason({ label: sessionStorage.getItem("seasonAccessory") || "Season" });
     setPageNumber(parseInt(sessionStorage.getItem("pageNumber")));
     setPageSize(parseInt(sessionStorage.getItem("pageSize")));
   }, []);
@@ -278,266 +406,320 @@ export default function Accessories() {
         <link rel="icon" href="https://qeesig.github.io/blanko/favicon.ico" />
       </Head>
       {!renderDelay && (
-        <header>
+        <>
           <Navbar />
-          <p className={styles.headerMaintext}>Accessories</p>
-          <p className={styles.headerSubtext}>
-            Explore all accessories from{" "}
-            <Link
-              href="https://blankos.com/"
-              target="_blank"
-              sx={{
-                color: "white",
-                textDecoration: "underline",
-              }}
-            >
-              Blankos Block Party.
-            </Link>
-          </p>
-        </header>
+          <header className={styles.header}>
+            <h1 className={styles.headerMaintext}>
+              {data.nodes.length < 1 ? (
+                `0 Accessory`
+              ) : data.nodes.length == 1 ? (
+                `${data.nodes.length} Accessory`
+              ) : (
+                <>
+                  <NumberFormat
+                    value={data.nodes.length}
+                    displayType={"text"}
+                    thousandSeparator={true}
+                    suffix=" Accessories"
+                  />
+                </>
+              )}
+            </h1>
+            <p className={styles.headerSubtext}>
+              Explore all accessories from{" "}
+              <Link href="https://blankos.com/" target="_blank">
+                Blankos Block Party.
+              </Link>
+            </p>
+          </header>
+        </>
       )}
       <div className={styles.filterContainer}>
         {!renderDelay && (
           <>
-            <div className={styles.primaryFilter}>
+            <div className={styles.season}>
+              <SeasonButton
+                disableElevation
+                disableRipple
+                id="season-btn-filter"
+                aria-haspopup="true"
+                variant="contained"
+                onClick={openSeasonPopper}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                }}
+                initialvalue={season.label}
+                endIcon={seasonBtnIcon}
+              >
+                <span>{season.label}</span>
+              </SeasonButton>
+              {seasonPopper ? (
+                <div style={{ position: "absolute", marginTop: "5px" }}>
+                  <div className={styles.seasonPopperArrowUp}></div>
+                  <Autocomplete
+                    open
+                    disablePortal
+                    options={seasons}
+                    onChange={seasonChange}
+                    onBlur={closeSeasonPopper}
+                    popupIcon={false}
+                    noOptionsText="No result"
+                    className={styles.seasonAutoComplete}
+                    ListboxProps={{
+                      style: {
+                        maxHeight: "11rem",
+                      },
+                    }}
+                    PaperComponent={({ children }) => (
+                      <Paper className={styles.seasonPaper}>{children}</Paper>
+                    )}
+                    PopperComponent={customSeasonPopper}
+                    renderInput={(params) => (
+                      <div className={styles.seasonTextField}>
+                        <TextField
+                          {...params}
+                          size="small"
+                          autoFocus
+                          sx={{
+                            "& .MuiOutlinedInput-root": {
+                              zIndex: 9,
+                              color: "white",
+                              backgroundColor: "#222531",
+                              width: "198px",
+                              margin: "5%",
+                              padding: "6px !important",
+                              borderRadius: "5px",
+
+                              "& fieldset": {
+                                borderColor: "transparent",
+                                padding: "0px !important",
+                              },
+
+                              "&:hover fieldset": {
+                                borderColor: "#353948",
+                                borderWidth: 2,
+                              },
+
+                              "&.Mui-focused fieldset": {
+                                borderColor: "#4a9ff4",
+                              },
+                            },
+                          }}
+                        />
+                      </div>
+                    )}
+                  />
+                </div>
+              ) : null}
+            </div>
+            <div className={styles.pass}>
+              <PartyPassButton
+                disableElevation
+                disableRipple
+                id="pass-btn-filter"
+                aria-haspopup="true"
+                variant="contained"
+                onClick={openPassPopper}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                }}
+                initialvalue={pass.label}
+                endIcon={passBtnIcon}
+              >
+                <span>{pass.label}</span>
+              </PartyPassButton>
+              {passPopper ? (
+                <div style={{ position: "absolute", marginTop: "5px" }}>
+                  <div className={styles.passPopperArrowUp}></div>
+                  <Autocomplete
+                    open
+                    disablePortal
+                    options={partyPass}
+                    onChange={passChange}
+                    onBlur={closePassPopper}
+                    popupIcon={false}
+                    noOptionsText="No result"
+                    className={styles.passAutoComplete}
+                    ListboxProps={{
+                      style: {
+                        maxHeight: "11rem",
+                      },
+                    }}
+                    PaperComponent={({ children }) => (
+                      <Paper className={styles.passPaper}>{children}</Paper>
+                    )}
+                    PopperComponent={customPassPopper}
+                    renderInput={(params) => (
+                      <div className={styles.passTextField}>
+                        <TextField
+                          {...params}
+                          size="small"
+                          autoFocus
+                          sx={{
+                            "& .MuiOutlinedInput-root": {
+                              zIndex: 9,
+                              color: "white",
+                              backgroundColor: "#222531",
+                              width: "198px",
+                              margin: "5%",
+                              padding: "6px !important",
+                              borderRadius: "5px",
+
+                              "& fieldset": {
+                                borderColor: "transparent",
+                                padding: "0px !important",
+                              },
+
+                              "&:hover fieldset": {
+                                borderColor: "#353948",
+                                borderWidth: 2,
+                              },
+
+                              "&.Mui-focused fieldset": {
+                                borderColor: "#4a9ff4",
+                              },
+                            },
+                          }}
+                        />
+                      </div>
+                    )}
+                  />
+                </div>
+              ) : null}
+            </div>
+
+            <div className={styles.category}>
               <ToggleButtonGroup
-                value={primaryFilter}
-                onChange={primaryFilterValue}
-                color="standard"
+                exclusive
+                aria-label="categories"
+                value={category}
+                onChange={categoryChange}
+                className={styles.categoryBtnGroup}
                 sx={{
-                  display: "flex",
-                  flexDirection: "row",
-                  overflowX: "scroll",
-                  overflowY: "hidden",
-                  msOverflowStyle: "none",
-                  scrollbarWidth: "none",
-                  borderRadius: 0,
-
-                  "::-webkit-scrollbar": {
-                    display: "none",
-                  },
-
-                  "& > button": {
-                    padding: "16px 4px !important",
-                  },
-
                   "& .MuiButtonBase-root": {
                     border: "none",
-                    color: "white",
+                    color: "#8e95ab",
                     fontSize: "12px",
                     fontWeight: "bold",
                     textTransform: "capitalize",
                     backgroundColor: "transparent",
-                    height: 14,
-                    padding: 2,
-                    marginBottom: "10px",
-                    marginTop: "10px",
-
-                    "&:nth-of-type(1)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "44px",
-                    },
-
-                    "&:nth-of-type(2)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "48px",
-                    },
-
-                    "&:nth-of-type(3)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "58px",
-                    },
-
-                    "&:nth-of-type(4)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "60px",
-                    },
-
-                    "&:nth-of-type(5)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "50px",
-                    },
-
-                    "&:nth-of-type(6)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "54px",
-                    },
-
-                    "&:nth-of-type(7)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "62px",
-                    },
-
-                    "&:nth-of-type(8)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "74px",
-                    },
-
-                    "&:nth-of-type(9)": {
-                      marginRight: 0.8,
-                      borderRadius: 6,
-                      minWidth: "62px",
-                    },
+                    height: "32px",
 
                     ".MuiTouchRipple-child": {
-                      backgroundColor: "rgba(255, 255, 255, 0.25)",
+                      backgroundColor: "transparent",
                     },
 
                     "&.Mui-selected": {
-                      backgroundColor: "#1976d2",
                       color: "white",
+                      textDecoration: "underline",
                       textDecorationColor: "white",
+                      backgroundColor: "transparent",
 
                       "&:hover": {
-                        backgroundColor: "#1976d2",
+                        color: "white",
                         textDecorationColor: "white",
+                        backgroundColor: "transparent",
                       },
                     },
 
                     "&:hover": {
-                      backgroundColor: "#20222d",
-                      textDecorationColor: "white",
-                      color: "white",
+                      color: "#D8D8D8",
+                      textDecoration: "underline",
+                      textDecorationColor: "#D8D8D8",
+                      backgroundColor: "transparent",
                     },
                   },
                 }}
-                exclusive
-                aria-label="text formatting"
               >
-                <ToggleButton sx={{ color: "white" }} value="All">
-                  All
+                <ToggleButton
+                  value="All Categories"
+                  aria-label="all categories"
+                >
+                  All Categories
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Hat">
+                <ToggleButton value="Hat" aria-label="hat">
                   Hat
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Mask">
+                <ToggleButton value="Mask" aria-label="mask">
                   Mask
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Collar">
+                <ToggleButton value="Collar" aria-label="collar">
                   Collar
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Belt">
+                <ToggleButton value="Belt" aria-label="belt">
                   Belt
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Back">
+                <ToggleButton value="Back" aria-label="back">
                   Back
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Wrists">
+                <ToggleButton value="Wrists" aria-label="wrists">
                   Wrists
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Offhand">
+                <ToggleButton value="Offhand" aria-label="offhand">
                   Offhand
                 </ToggleButton>
-                <ToggleButton sx={{ color: "white" }} value="Shoes">
+                <ToggleButton value="Shoes" aria-label="shoes">
                   Shoes
                 </ToggleButton>
               </ToggleButtonGroup>
             </div>
-            <div className={styles.secondaryFilter}>
-              <Box
-                className={styles.searchField}
-                component="div"
-                sx={{ display: "grid", alignItems: "flex-start" }}
-              >
-                <SearchIcon
-                  fill="white"
-                  sx={{
-                    color: "white",
-                    ml: 1.05,
-                    my: 1,
+
+            <Box
+              className={styles.search}
+              component="div"
+              sx={{ display: "grid", alignItems: "flex-start" }}
+            >
+              <SearchIcon
+                fill="white"
+                sx={{
+                  color: "white",
+                  ml: 1.05,
+                  my: 1,
+                  position: "absolute",
+                  zIndex: 2,
+                }}
+              />
+              {search && (
+                <IoClose
+                  fill="#4a9ff4"
+                  fontSize="medium"
+                  style={{
                     position: "absolute",
                     zIndex: 2,
+                    marginLeft: "290px",
+                    marginTop: ".72rem",
                   }}
+                  onClick={() => setSearch("")}
                 />
-                {search && (
-                  <IoClose
-                    fill="#4a9ff4"
-                    fontSize="medium"
-                    style={{
-                      position: "absolute",
-                      zIndex: 2,
-                      marginLeft: "290px",
-                      marginTop: ".72rem",
-                    }}
-                    onClick={() => setSearch("")}
-                  />
-                )}
-                <TextField
-                  hiddenLabel
-                  placeholder="Search Accessories"
-                  value={search}
-                  onChange={accessorySearch}
-                  size="small"
-                  sx={{
-                    input: {
-                      color: "white",
-                      backgroundColor: "#222531",
-                      borderRadius: "5px",
-                      paddingLeft: "36px",
-                      paddingRight: "33px",
-
-                      "&::placeholder": {
-                        color: "white",
-                        opacity: 0.7,
-                      },
-                    },
-
-                    label: { color: "white" },
-                    width: "317px",
-
-                    "& label.Mui-focused": {
-                      color: "white",
-                    },
-
-                    "& .MuiOutlinedInput-root": {
-                      "& fieldset": {
-                        borderColor: "transparent",
-                      },
-
-                      "&:hover fieldset": {
-                        borderColor: "#353948",
-                        borderWidth: 2,
-                      },
-
-                      "&.Mui-focused fieldset": {
-                        borderColor: "#4a9ff4",
-                      },
-                    },
-                  }}
-                />
-              </Box>
-              <FormControl
-                className={styles.seasonFilter}
+              )}
+              <TextField
+                hiddenLabel
+                placeholder="Search Accessories"
+                value={search}
+                onChange={accessorySearch}
+                size="small"
                 sx={{
-                  width: "160px",
-                  label: { color: "white" },
-
                   "& label.Mui-focused": {
                     color: "white",
                   },
 
-                  "& .MuiSvgIcon-root": {
-                    color: "white",
-                  },
-
-                  "& .MuiInputBase-formControl": {
-                    backgroundColor: "#222531",
-                  },
-
-                  "& .MuiSelect-select": {
-                    color: "white",
+                  ".MuiFormControl-root .MuiSelect-select": {
                     width: "100%",
                   },
 
                   "& .MuiOutlinedInput-root": {
+                    color: "white",
+                    backgroundColor: "#222531",
+                    borderRadius: "5px",
+                    width: "317px",
+                    paddingLeft: "22px",
+                    paddingRight: "20px",
+
+                    "&::placeholder": {
+                      color: "white",
+                      opacity: 0.7,
+                    },
+
                     "& fieldset": {
                       borderColor: "transparent",
                     },
@@ -552,24 +734,8 @@ export default function Accessories() {
                     },
                   },
                 }}
-                size="small"
-              >
-                <Select
-                  displayEmpty
-                  value={season}
-                  onChange={seasonChange}
-                  MenuProps={MenuProps}
-                >
-                  <MenuItem value="">All Season</MenuItem>
-                  <MenuItem value="00">S00</MenuItem>
-                  <MenuItem value="00 Alpha">S00 Alpha</MenuItem>
-                  <MenuItem value="00 Private Beta">S00 Private Beta</MenuItem>
-                  <MenuItem value="00 Open Beta">S00 Open Beta</MenuItem>
-                  <MenuItem value="00 Early Access">S00 Early Access</MenuItem>
-                  <MenuItem value="01">S01</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
+              />
+            </Box>
           </>
         )}
       </div>
@@ -577,29 +743,17 @@ export default function Accessories() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
-            <div className={styles.accessoryResult}>
-              {data.nodes.length < 1 ? (
-                `No result`
-              ) : data.nodes.length == 1 ? (
-                `${data.nodes.length} accessory found`
-              ) : (
-                <>
-                  <NumberFormat
-                    value={data.nodes.length}
-                    displayType={"text"}
-                    thousandSeparator={true}
-                    suffix=" accessories found"
-                  />
-                </>
-              )}
-            </div>
             <div className={styles.legendContainer}>
               <div>
-                <span className={styles.mintingIconLegend}></span>
+                <span className={styles.mintingIconLegend}>
+                  <CircleIcon />
+                </span>
                 <span>Minting</span>
               </div>
               <div>
-                <span className={styles.functionalIconLegend}>⚡</span>
+                <span className={styles.functionalIconLegend}>
+                  <FlashOnIcon />
+                </span>
                 <span>Functional</span>
               </div>
             </div>
@@ -669,16 +823,19 @@ export default function Accessories() {
                           className={styles.tableCell}
                           style={{ paddingLeft: "15px" }}
                         >
-                          <Name className={styles.accessoryName}>
-                            {item.name}
-                          </Name>
-                          <Minting
-                            className={
-                              item.minting == true ? styles.mintingIcon : ""
-                            }
-                            minting={item.minting}
-                            functional={item.functional}
-                          ></Minting>
+                          {item.minting == true ? (
+                            <Minting
+                              className={
+                                item.minting == true ? styles.mintingIcon : ""
+                              }
+                              minting={item.minting}
+                              functional={item.functional}
+                            >
+                              <CircleIcon />
+                            </Minting>
+                          ) : (
+                            ""
+                          )}
                           <span
                             className={
                               item.functional == true
@@ -686,7 +843,10 @@ export default function Accessories() {
                                 : ""
                             }
                           >
-                            {item.functional == true ? "⚡" : ""}
+                            {item.functional == true ? <FlashOnIcon /> : ""}
+                          </span>
+                          <span className={styles.accessoryName}>
+                            {item.name}
                           </span>
                           <Tag className={styles.accessoryTag} tag={item.tag}>
                             {item.tag}
@@ -803,3 +963,25 @@ export default function Accessories() {
     </div>
   );
 }
+
+const partyPass = [
+  { label: "S00 1st Party Pass" },
+  { label: "S00 Hustle & Glow" },
+  { label: "S00 Grave Rave" },
+  { label: "S00 Manila Chill" },
+  { label: "S00 Get Lucky" },
+  { label: "S00 Blanko Brawlers" },
+  { label: "S00 Summer Camp Slam" },
+  { label: "S00 Snack Attack" },
+  { label: "S01 IKWYD Last Grave Rave" },
+];
+
+const seasons = [
+  { label: "S00" },
+  { label: "S00 Pre-Alpha" },
+  { label: "S00 Alpha" },
+  { label: "S00 Private Beta" },
+  { label: "S00 Open Beta" },
+  { label: "S00 Early Access" },
+  { label: "S01" },
+];

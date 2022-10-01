@@ -59,24 +59,59 @@ a {
   border-bottom: 1px solid #222531 !important;
 }
 
-/* pop up menu */
-.MuiPaper-elevation1 {
-  background-color: #222531;
+.MuiAutocomplete-popper {
+  transform: none !important;
+  inset: initial !important;
+}
+
+.MuiAutocomplete-listbox .MuiAutocomplete-option {
+  border-radius: 5px;
+  padding: 10px 2px 10px 8px;
+  margin: 0px 6px 0px 10px;
+  font-size: 12px;
+  min-height: 34px;
   color: white;
 }
 
-/* pop up menu items */
+.MuiAutocomplete-listbox .MuiAutocomplete-option:hover {
+  background-color: #282c42;
+}
+
+.MuiAutocomplete-noOptions {
+  color: white;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+/* table rows pop up */
+.MuiPaper-elevation1 {
+  background-color: #191a26;
+  color: white;
+  width: 30px;
+}
+
+.MuiList-root.MuiMenu-list > li {
+  margin: 0px 5px;
+  border-radius: 4px;
+  padding: 0px 10px;
+}
+
+/* table rows pop up list */
 .MuiList-root.MuiMenu-list > li:hover {
   background-color: #282c42;
 }
 
-/* pop up menu selected item */
+/* table rows pop up selected */
 .MuiButtonBase-root.MuiMenuItem-root.Mui-selected {
-  background-color: #282c42;
+  background-color: #191a26;
 }
 
 .MuiTablePagination-spacer {
   flex: none;
+}
+
+.MuiTablePagination-root {
+  margin-top: 10px;
 }
 
 .MuiTablePagination-root .MuiTablePagination-toolbar {
