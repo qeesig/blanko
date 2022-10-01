@@ -46,39 +46,22 @@ function DrawerAppBar(props) {
     setMobileOpen(!mobileOpen);
   };
 
-  const clearSessionStorage = (event) => {
-    sessionStorage.removeItem("accessoryPrimaryFilter");
-    sessionStorage.removeItem("blankoPrimaryFilter");
+  const clearSessionStorage = (e) => {
+    sessionStorage.removeItem("passBlanko");
+    sessionStorage.removeItem("passAccessory");
+    sessionStorage.removeItem("seasonBlanko");
+    sessionStorage.removeItem("seasonAccessory");
     sessionStorage.removeItem("pageNumber");
   };
 
   const drawer = (
     <Box className={styles.drawerContainer} sx={{ textAlign: "left" }}>
-      <Typography
-        variant="h6"
-        sx={{
-          padding: "10px 18px 8px 18px",
-          display: "grid",
-          gridTemplateColumns: "40px 126px",
-          columnGap: "20px",
-          height: "56px",
-          backgroundColor: "#17171a",
-          borderBottom: "1px solid #222531",
-        }}
-      >
+      <Typography variant="h6">
         <IconButton
           color="inherit"
           aria-label="close drawer"
           edge="start"
           onClick={handleDrawerToggle}
-          sx={{
-            padding: "4px 0",
-            marginLeft: 0,
-            marginTop: "2px",
-            border: "2px solid rgba(255,255,255, .15)",
-            borderRadius: "6px",
-            height: "32px",
-          }}
         >
           <CloseIcon />
         </IconButton>
@@ -95,15 +78,7 @@ function DrawerAppBar(props) {
         <Link href="/" passHref>
           <a>
             <ListItem disablePadding>
-              <ListItemButton
-                onClick={clearSessionStorage}
-                sx={{
-                  textAlign: "left",
-                  margin: "0 20px",
-                  padding: "14px 0 14px 0",
-                  borderBottom: "1px solid #222531",
-                }}
-              >
+              <ListItemButton onClick={clearSessionStorage}>
                 <ListItemText
                   className={
                     router.pathname == "/"
@@ -120,15 +95,7 @@ function DrawerAppBar(props) {
         <Link href="/accessories" passHref>
           <a>
             <ListItem disablePadding>
-              <ListItemButton
-                onClick={clearSessionStorage}
-                sx={{
-                  textAlign: "left",
-                  margin: "0 20px",
-                  padding: "14px 0",
-                  borderBottom: "1px solid #222531",
-                }}
-              >
+              <ListItemButton onClick={clearSessionStorage}>
                 <ListItemText
                   className={
                     router.pathname == "/accessories"
@@ -150,15 +117,8 @@ function DrawerAppBar(props) {
     windowViewPort !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <AppBar
-        component="nav"
-        sx={{
-          backgroundColor: "#17171a",
-          boxShadow: "none",
-          borderBottom: "1px solid #222531",
-        }}
-      >
+    <Box className={styles.navbar}>
+      <AppBar component="nav">
         <Toolbar className={styles.navContainer}>
           <div className={styles.openDrawer}>
             <IconButton
@@ -166,36 +126,17 @@ function DrawerAppBar(props) {
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
-              sx={{
-                padding: "4px 0",
-                marginLeft: 0,
-                border: "2px solid rgba(255,255,255, .15)",
-                borderRadius: "6px",
-                display: { sm: "none" },
-                height: "32px",
-              }}
+              sx={{ display: { sm: "none" } }}
             >
               <MenuIcon />
             </IconButton>
             <Link href="/" passHref>
               <a onClick={clearSessionStorage}>
-                <Logo
-                  style={{
-                    width: "112px",
-                    height: "26px",
-                    marginTop: ".22rem",
-                  }}
-                />
+                <Logo />
               </a>
             </Link>
           </div>
-          <Box
-            sx={{
-              display: { xs: "none", sm: "block" },
-              marginLeft: "110px",
-              marginTop: "2px",
-            }}
-          >
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Link href="/" passHref>
               <a
                 className={
@@ -203,16 +144,8 @@ function DrawerAppBar(props) {
                     ? styles.activeLink
                     : styles.inActiveLink
                 }
-                style={{ marginRight: "12px" }}
               >
-                <Button
-                  onClick={clearSessionStorage}
-                  sx={{
-                    color: "#fff",
-                    fontSize: "14px",
-                    textTransform: "capitalize",
-                  }}
-                >
+                <Button disableRipple onClick={clearSessionStorage}>
                   Blankos
                 </Button>
               </a>
@@ -225,14 +158,7 @@ function DrawerAppBar(props) {
                     : styles.inActiveLink
                 }
               >
-                <Button
-                  onClick={clearSessionStorage}
-                  sx={{
-                    color: "#fff",
-                    fontSize: "14px",
-                    textTransform: "capitalize",
-                  }}
-                >
+                <Button disableRipple onClick={clearSessionStorage}>
                   Accessories
                 </Button>
               </a>

@@ -5,9 +5,52 @@
   padding-right: 0;
 }
 
+.navContainer > div:nth-of-type(2) {
+  margin-left: 110px;
+  margin-top: 2px;
+}
+
+.navContainer > div:nth-of-type(2) > a {
+  margin-right: 12px;
+}
+
+.navbar > nav:nth-of-type(1) {
+  background-color: #17171a;
+  box-shadow: none;
+  border-bottom: 1px solid #222531;
+  display: flex;
+  height: 56px;
+}
+
 .drawerContainer {
   color: white;
   padding: 0;
+}
+
+.drawerContainer > h6 {
+  padding: 10px 18px 8px 18px;
+  display: grid;
+  grid-template-columns: 40px 126px;
+  column-gap: 20px;
+  height: 56px;
+  background-color: #17171a;
+  border-bottom: 1px solid #222531;
+}
+
+.drawerContainer > h6 > button {
+  padding: 4px 0px 5px 0px;
+  margin-left: 0px;
+  margin-top: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  height: 32px;
+}
+
+.drawerContainer > ul > a > li > div {
+  text-align: left;
+  margin: 0px 20px;
+  padding: 14px 0px 14px 0px;
+  border-bottom: 1px solid #222531;
 }
 
 .drawerContainer > ul {
@@ -25,8 +68,24 @@
   column-gap: 20px;
 }
 
+.openDrawer > button {
+  padding: 4px 0px 5px 0px;
+  margin-left: 0px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  height: 32px;
+}
+
+.openDrawer > a > svg {
+  width: 112px;
+  height: 26px;
+  margin-top: 0.22rem;
+}
+
 .activeLink > button {
   color: #47b5ff;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .activeLink > button:hover {
@@ -35,10 +94,12 @@
 
 .inActiveLink > button {
   color: white;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .inActiveLink > button:hover {
-  color: #47b5ff;
+  color: #c4ddff;
   background-color: transparent;
 }
 
