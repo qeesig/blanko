@@ -1,13 +1,47 @@
 .footer {
-  color: white;
-  margin-top: 30px;
-  padding-top: 10px;
+  color: #b9bdcc;
+  margin-top: 60px;
   text-align: left;
+}
+
+.footer div {
+  position: absolute;
+  bottom: 0;
+  width: 1104px;
+  height: 50px;
   border-top: 1px solid #222531;
+  padding-top: 10px;
+}
+
+.footer a {
+  color: #b9bdcc;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer div {
+    width: 919px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer div {
+    width: 709px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer div {
+    width: 529px;
+  }
 }
 
 @media screen and (max-width: 620px) {
   .footer {
     margin-bottom: 10px;
+  }
+
+  .footer div {
+    width: 317px;
   }
 }
