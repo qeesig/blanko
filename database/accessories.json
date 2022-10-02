@@ -43,20 +43,6 @@
   },
   {
     "rank": 4,
-    "name": "Toasted Bun Beanie",
-    "minted": 117,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 5.99,
-    "season": "01",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/toasted-bun-beanie.png"
-  },
-  {
-    "rank": 5,
     "name": "Burberry® Monogram Slides",
     "minted": 121,
     "burned": 0,
@@ -68,6 +54,20 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-monogram-slides.png"
+  },
+  {
+    "rank": 5,
+    "name": "Toasted Bun Beanie",
+    "minted": 123,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 5.99,
+    "season": "01",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/toasted-bun-beanie.png"
   },
   {
     "rank": 6,
@@ -86,7 +86,7 @@
   {
     "rank": 7,
     "name": "Kaiju Kicks",
-    "minted": 230,
+    "minted": 236,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 287,
+    "minted": 291,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -447,22 +447,6 @@
   },
   {
     "rank": 32,
-    "name": "Bear Bite Bracer",
-    "minted": 653,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 33,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -476,7 +460,7 @@
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Angel Food Wings",
     "minted": 747,
     "burned": 0,
@@ -492,7 +476,7 @@
     "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
-    "rank": 35,
+    "rank": 34,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -507,7 +491,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 36,
+    "rank": 35,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -521,7 +505,7 @@
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Strawberry Short-Steps",
     "minted": 783,
     "burned": 0,
@@ -535,6 +519,22 @@
     "passFilter": "S00 Snack Attack",
     "functional": false,
     "imgPath": "/accessory-img/strawberryshort-steps.png"
+  },
+  {
+    "rank": 37,
+    "name": "Bear Bite Bracer",
+    "minted": 796,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 38,

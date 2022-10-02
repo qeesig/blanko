@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 81,
+    "minted": 83,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -217,7 +217,7 @@
     "rank": 15,
     "name": "Don Puguillo",
     "minted": 280,
-    "burned": 162,
+    "burned": 166,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -247,7 +247,7 @@
   {
     "rank": 17,
     "name": "Harlekin",
-    "minted": 340,
+    "minted": 342,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -441,20 +441,6 @@
   },
   {
     "rank": 30,
-    "name": "Kandie",
-    "minted": 722,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 12.99,
-    "season": "01",
-    "artist": "Kronk",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/kandie.png"
-  },
-  {
-    "rank": 31,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -469,7 +455,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -483,7 +469,7 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Tenderfoot",
     "minted": 750,
     "burned": 0,
@@ -499,7 +485,7 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Sharky B.",
     "minted": 750,
     "burned": 0,
@@ -511,6 +497,20 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/sharky-b.png"
+  },
+  {
+    "rank": 34,
+    "name": "Kandie",
+    "minted": 758,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 12.99,
+    "season": "01",
+    "artist": "Kronk",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/kandie.png"
   },
   {
     "rank": 35,
@@ -529,36 +529,6 @@
   },
   {
     "rank": 36,
-    "name": "Drak",
-    "minted": 851,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "artist": "Mythical",
-    "tag": "IKWYD Last Grave Rave+",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/drak.png"
-  },
-  {
-    "rank": 37,
-    "name": "Godzilla",
-    "minted": 857,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 14.99,
-    "season": "01",
-    "artist": "James Groman",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/godzilla.png"
-  },
-  {
-    "rank": 38,
     "name": "Roughen Tumble",
     "minted": 872,
     "burned": 0,
@@ -572,10 +542,40 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
+    "rank": 37,
+    "name": "Godzilla",
+    "minted": 878,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 14.99,
+    "season": "01",
+    "artist": "James Groman",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/godzilla.png"
+  },
+  {
+    "rank": 38,
+    "name": "Drak",
+    "minted": 890,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "artist": "Mythical",
+    "tag": "IKWYD Last Grave Rave+",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/drak.png"
+  },
+  {
     "rank": 39,
     "name": "Skivvy Klown",
-    "minted": 932,
-    "burned": 678,
+    "minted": 934,
+    "burned": 682,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -738,7 +738,7 @@
   {
     "rank": 50,
     "name": "Joystick",
-    "minted": 1194,
+    "minted": 1198,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -779,20 +779,6 @@
   },
   {
     "rank": 54,
-    "name": "Tempest",
-    "minted": 1264,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/tempest.png"
-  },
-  {
-    "rank": 52,
     "name": "Square",
     "minted": 1266,
     "burned": 0,
@@ -806,9 +792,23 @@
     "imgPath": "/blanko-img/square.png"
   },
   {
+    "rank": 52,
+    "name": "Tempest",
+    "minted": 1274,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/tempest.png"
+  },
+  {
     "rank": 55,
     "name": "Pong",
-    "minted": 1271,
+    "minted": 1281,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -822,7 +822,7 @@
   {
     "rank": 56,
     "name": "Centipede",
-    "minted": 1286,
+    "minted": 1296,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1692,7 +1692,7 @@
   {
     "rank": 116,
     "name": "Visage",
-    "minted": 3994,
+    "minted": 4042,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -1912,7 +1912,7 @@
     "rank": 131,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1864,
+    "burned": 1868,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
