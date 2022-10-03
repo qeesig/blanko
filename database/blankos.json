@@ -501,7 +501,7 @@
   {
     "rank": 34,
     "name": "Kandie",
-    "minted": 758,
+    "minted": 771,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -544,7 +544,7 @@
   {
     "rank": 37,
     "name": "Godzilla",
-    "minted": 878,
+    "minted": 909,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -558,7 +558,7 @@
   {
     "rank": 38,
     "name": "Drak",
-    "minted": 890,
+    "minted": 923,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -737,20 +737,6 @@
   },
   {
     "rank": 50,
-    "name": "Joystick",
-    "minted": 1198,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/joystick.png"
-  },
-  {
-    "rank": 51,
     "name": "TEQ63 [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -764,7 +750,7 @@
     "imgPath": "/blanko-img/teq63-ghost-white.png"
   },
   {
-    "rank": 53,
+    "rank": 51,
     "name": "TEQ63 [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -776,6 +762,20 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/teq63-og-blk.png"
+  },
+  {
+    "rank": 53,
+    "name": "Joystick",
+    "minted": 1201,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/joystick.png"
   },
   {
     "rank": 54,
@@ -794,7 +794,7 @@
   {
     "rank": 52,
     "name": "Tempest",
-    "minted": 1274,
+    "minted": 1286,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -808,7 +808,7 @@
   {
     "rank": 55,
     "name": "Pong",
-    "minted": 1281,
+    "minted": 1289,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -822,7 +822,7 @@
   {
     "rank": 56,
     "name": "Centipede",
-    "minted": 1296,
+    "minted": 1304,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1692,7 +1692,7 @@
   {
     "rank": 116,
     "name": "Visage",
-    "minted": 4042,
+    "minted": 4077,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
