@@ -501,7 +501,7 @@
   {
     "rank": 34,
     "name": "Kandie",
-    "minted": 771,
+    "minted": 813,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -544,7 +544,7 @@
   {
     "rank": 37,
     "name": "Godzilla",
-    "minted": 909,
+    "minted": 935,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -557,8 +557,24 @@
   },
   {
     "rank": 38,
+    "name": "Skivvy Klown",
+    "minted": 940,
+    "burned": 690,
+    "minting": true,
+    "mintDate": "2022-04-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Kronk",
+    "tag": "Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/skivvy-klown.png"
+  },
+  {
+    "rank": 39,
     "name": "Drak",
-    "minted": 923,
+    "minted": 965,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -570,22 +586,6 @@
     "passFilter": "S01 IKWYD Last Grave Rave",
     "withdrawable": false,
     "imgPath": "/blanko-img/drak.png"
-  },
-  {
-    "rank": 39,
-    "name": "Skivvy Klown",
-    "minted": 934,
-    "burned": 682,
-    "minting": true,
-    "mintDate": "2022-04-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Kronk",
-    "tag": "Mint",
-    "category": "Premium Grade",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/skivvy-klown.png"
   },
   {
     "rank": 40,
@@ -766,7 +766,7 @@
   {
     "rank": 53,
     "name": "Joystick",
-    "minted": 1201,
+    "minted": 1208,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -794,7 +794,7 @@
   {
     "rank": 52,
     "name": "Tempest",
-    "minted": 1286,
+    "minted": 1295,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -808,7 +808,7 @@
   {
     "rank": 55,
     "name": "Pong",
-    "minted": 1289,
+    "minted": 1304,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -822,7 +822,7 @@
   {
     "rank": 56,
     "name": "Centipede",
-    "minted": 1304,
+    "minted": 1318,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1290,21 +1290,6 @@
   },
   {
     "rank": 88,
-    "name": "Zeta",
-    "minted": 2600,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-06-22T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "tag": "NFT NYC",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/zeta.png"
-  },
-  {
-    "rank": 89,
     "name": "Pride Dragon",
     "minted": 2620,
     "burned": 0,
@@ -1318,7 +1303,7 @@
     "imgPath": "/blanko-img/pride-dragon.png"
   },
   {
-    "rank": 90,
+    "rank": 89,
     "name": "Space Ape",
     "minted": 2638,
     "burned": 0,
@@ -1332,7 +1317,7 @@
     "imgPath": "/blanko-img/space-ape.png"
   },
   {
-    "rank": 91,
+    "rank": 90,
     "name": "Billy Bones Gold",
     "minted": 2699,
     "burned": 0,
@@ -1345,6 +1330,21 @@
     "seasonFilter": "S00 Alpha",
     "withdrawable": true,
     "imgPath": "/blanko-img/billy-bones-gold.png"
+  },
+  {
+    "rank": 91,
+    "name": "Zeta",
+    "minted": 2700,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-06-22T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "tag": "NFT NYC",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/zeta.png"
   },
   {
     "rank": 92,
@@ -1692,7 +1692,7 @@
   {
     "rank": 116,
     "name": "Visage",
-    "minted": 4077,
+    "minted": 4122,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -1912,7 +1912,7 @@
     "rank": 131,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1868,
+    "burned": 1880,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,

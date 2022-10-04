@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 126,
+    "minted": 128,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -86,7 +86,7 @@
   {
     "rank": 7,
     "name": "Kaiju Kicks",
-    "minted": 243,
+    "minted": 248,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 292,
+    "minted": 295,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -685,22 +685,6 @@
   },
   {
     "rank": 48,
-    "name": "Bear Bite Bracer",
-    "minted": 1014,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 49,
     "name": "Ghost Gang Spray Cannon",
     "minted": 1018,
     "burned": 0,
@@ -714,7 +698,7 @@
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "name": "War Pony Whirlwind Mask",
     "minted": 1022,
     "burned": 0,
@@ -728,7 +712,7 @@
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
   },
   {
-    "rank": 51,
+    "rank": 50,
     "name": "Polly Wanna Rainbow Wings",
     "minted": 1033,
     "burned": 0,
@@ -742,7 +726,7 @@
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
-    "rank": 52,
+    "rank": 51,
     "name": "Blue Blaze Puckhead Mask",
     "minted": 1059,
     "burned": 0,
@@ -756,7 +740,7 @@
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
   },
   {
-    "rank": 53,
+    "rank": 52,
     "name": "Black Shoes",
     "minted": 1137,
     "burned": 0,
@@ -768,6 +752,22 @@
     "seasonFilter": "S00 Private Beta",
     "functional": false,
     "imgPath": "/accessory-img/black-shoes.png"
+  },
+  {
+    "rank": 53,
+    "name": "Bear Bite Bracer",
+    "minted": 1152,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 54,
