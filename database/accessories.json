@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 128,
+    "minted": 132,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -86,7 +86,7 @@
   {
     "rank": 7,
     "name": "Kaiju Kicks",
-    "minted": 248,
+    "minted": 255,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 295,
+    "minted": 299,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -755,22 +755,6 @@
   },
   {
     "rank": 53,
-    "name": "Bear Bite Bracer",
-    "minted": 1152,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 54,
     "name": "Heartbreaker’s Bubbly Booster",
     "minted": 1161,
     "burned": 0,
@@ -784,7 +768,7 @@
     "imgPath": "/accessory-img/heartbreakers-bubbly-booster.png"
   },
   {
-    "rank": 55,
+    "rank": 54,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -798,7 +782,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 56,
+    "rank": 55,
     "name": "Bulletpunk Mask [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -810,6 +794,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
+  },
+  {
+    "rank": 56,
+    "name": "Bear Bite Bracer",
+    "minted": 1265,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 57,
