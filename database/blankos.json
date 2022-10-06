@@ -555,6 +555,7 @@
     "mintPrice": 11.99,
     "season": "01",
     "artist": "Kronk",
+    "tag": "S01 Starter Bundle",
     "seasonFilter": "S01",
     "withdrawable": false,
     "imgPath": "/blanko-img/kandie.png"
@@ -819,6 +820,7 @@
     "mintPrice": 9.99,
     "season": "00",
     "artist": "Atari",
+    "tag": "Atari Mystery Box",
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/joystick.png"
@@ -847,6 +849,7 @@
     "mintPrice": 9.99,
     "season": "00",
     "artist": "Atari",
+    "tag": "Atari Mystery Box",
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/tempest.png"
@@ -861,6 +864,7 @@
     "mintPrice": 9.99,
     "season": "00",
     "artist": "Atari",
+    "tag": "Atari Mystery Box",
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/pong.png"
@@ -891,6 +895,7 @@
     "mintPrice": 9.99,
     "season": "00",
     "artist": "Atari",
+    "tag": "Atari Mystery Box",
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/centipede.png"
