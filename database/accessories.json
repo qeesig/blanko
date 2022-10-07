@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 133,
+    "minted": 140,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -86,7 +86,7 @@
   {
     "rank": 7,
     "name": "Drak’s Batwing Shades",
-    "minted": 171,
+    "minted": 255,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -101,20 +101,6 @@
   },
   {
     "rank": 8,
-    "name": "Kaiju Kicks",
-    "minted": 258,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 4.99,
-    "season": "01",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/kaiju-kicks.png"
-  },
-  {
-    "rank": 9,
     "name": "Year of the Ox Bell",
     "minted": 264,
     "burned": 0,
@@ -128,9 +114,23 @@
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
+    "rank": 9,
+    "name": "Kaiju Kicks",
+    "minted": 273,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 4.99,
+    "season": "01",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/kaiju-kicks.png"
+  },
+  {
     "rank": 10,
     "name": "Condimental Cruisepack",
-    "minted": 303,
+    "minted": 308,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -871,22 +871,6 @@
   },
   {
     "rank": 61,
-    "name": "Bear Bite Bracer",
-    "minted": 1428,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 62,
     "name": "Heartbreaker's Cotton Tail",
     "minted": 1435,
     "burned": 0,
@@ -900,7 +884,7 @@
     "imgPath": "/accessory-img/heartbreakers-cotton-tail.png"
   },
   {
-    "rank": 63,
+    "rank": 62,
     "name": "Pre-Frontal Hemorrhage Hat",
     "minted": 1451,
     "burned": 0,
@@ -914,7 +898,7 @@
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
   },
   {
-    "rank": 64,
+    "rank": 63,
     "name": "Punch Up Parachute",
     "minted": 1458,
     "burned": 0,
@@ -930,7 +914,7 @@
     "imgPath": "/accessory-img/punch-up-parachute.png"
   },
   {
-    "rank": 65,
+    "rank": 64,
     "name": "Burberry® Jetpack",
     "minted": 1500,
     "burned": 0,
@@ -944,7 +928,7 @@
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
-    "rank": 66,
+    "rank": 65,
     "name": "TMC Flag Bucket Hat - Red",
     "minted": 1500,
     "burned": 0,
@@ -958,7 +942,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
-    "rank": 67,
+    "rank": 66,
     "name": "TMC Flag Bucket Hat - Stealth",
     "minted": 1500,
     "burned": 0,
@@ -972,7 +956,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
   },
   {
-    "rank": 68,
+    "rank": 67,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -986,7 +970,7 @@
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
   },
   {
-    "rank": 69,
+    "rank": 68,
     "name": "Brawl Champ Belt",
     "minted": 1564,
     "burned": 0,
@@ -1000,6 +984,22 @@
     "passFilter": "S00 Blanko Brawlers",
     "functional": false,
     "imgPath": "/accessory-img/brawl-champ-belt.png"
+  },
+  {
+    "rank": 69,
+    "name": "Bear Bite Bracer",
+    "minted": 1585,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 70,

@@ -110,7 +110,7 @@
   {
     "rank": 8,
     "name": "New World Omega",
-    "minted": 90,
+    "minted": 93,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -263,8 +263,8 @@
   {
     "rank": 18,
     "name": "Zeta Amanatra",
-    "minted": 318,
-    "burned": 180,
+    "minted": 327,
+    "burned": 186,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
     "mintPrice": 0,
@@ -279,7 +279,7 @@
   {
     "rank": 19,
     "name": "Harlekin",
-    "minted": 346,
+    "minted": 350,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -548,7 +548,7 @@
   {
     "rank": 37,
     "name": "Kandie",
-    "minted": 848,
+    "minted": 868,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -577,8 +577,8 @@
   {
     "rank": 39,
     "name": "Skivvy Klown",
-    "minted": 946,
-    "burned": 690,
+    "minted": 952,
+    "burned": 698,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -608,20 +608,6 @@
   },
   {
     "rank": 41,
-    "name": "Godzilla",
-    "minted": 984,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 14.99,
-    "season": "01",
-    "artist": "James Groman",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/godzilla.png"
-  },
-  {
-    "rank": 42,
     "name": "Mothra",
     "minted": 984,
     "burned": 0,
@@ -635,7 +621,7 @@
     "imgPath": "/blanko-img/mothra.png"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "name": "AT0M.atn ERR",
     "minted": 986,
     "burned": 400,
@@ -651,7 +637,7 @@
     "imgPath": "/blanko-img/at0m-atn-err.png"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "name": "Frostbyte",
     "minted": 1000,
     "burned": 0,
@@ -666,7 +652,7 @@
     "imgPath": "/blanko-img/frostbyte.png"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "name": "Get Lit deadmau5",
     "minted": 1000,
     "burned": 0,
@@ -680,7 +666,7 @@
     "imgPath": "/blanko-img/get-lit-deadmau5.png"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "name": "Mudboi",
     "minted": 1000,
     "burned": 0,
@@ -695,7 +681,7 @@
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "name": "Professor Meowingtons",
     "minted": 1003,
     "burned": 3,
@@ -709,9 +695,23 @@
     "imgPath": "/blanko-img/professor-meowingtons.png"
   },
   {
+    "rank": 47,
+    "name": "Godzilla",
+    "minted": 1041,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 14.99,
+    "season": "01",
+    "artist": "James Groman",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/godzilla.png"
+  },
+  {
     "rank": 49,
     "name": "Drak",
-    "minted": 1029,
+    "minted": 1052,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -813,7 +813,7 @@
   {
     "rank": 55,
     "name": "Joystick",
-    "minted": 1228,
+    "minted": 1232,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -842,7 +842,7 @@
   {
     "rank": 57,
     "name": "Tempest",
-    "minted": 1311,
+    "minted": 1315,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -857,7 +857,7 @@
   {
     "rank": 58,
     "name": "Pong",
-    "minted": 1319,
+    "minted": 1322,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -888,7 +888,7 @@
   {
     "rank": 60,
     "name": "Centipede",
-    "minted": 1339,
+    "minted": 1341,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1386,7 +1386,7 @@
     "rank": 94,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 636,
+    "burned": 654,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1757,7 +1757,7 @@
   {
     "rank": 120,
     "name": "Visage",
-    "minted": 4161,
+    "minted": 4182,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -1963,7 +1963,7 @@
     "rank": 134,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1892,
+    "burned": 1904,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
