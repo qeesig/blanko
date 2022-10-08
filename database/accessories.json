@@ -16,7 +16,7 @@
   {
     "rank": 2,
     "name": "Community Chrome",
-    "minted": 92,
+    "minted": 96,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 140,
+    "minted": 143,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -85,22 +85,6 @@
   },
   {
     "rank": 7,
-    "name": "Drak’s Batwing Shades",
-    "minted": 255,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 8,
     "name": "Year of the Ox Bell",
     "minted": 264,
     "burned": 0,
@@ -114,9 +98,9 @@
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
-    "rank": 9,
+    "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 273,
+    "minted": 278,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -128,9 +112,9 @@
     "imgPath": "/accessory-img/kaiju-kicks.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 308,
+    "minted": 309,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -142,7 +126,7 @@
     "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "name": "Year of the Ox Horns",
     "minted": 330,
     "burned": 0,
@@ -154,6 +138,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
+  },
+  {
+    "rank": 11,
+    "name": "Drak’s Batwing Shades",
+    "minted": 343,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 12,
@@ -987,22 +987,6 @@
   },
   {
     "rank": 69,
-    "name": "Bear Bite Bracer",
-    "minted": 1585,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 70,
     "name": "T.O.A.S.T. Jetpack",
     "minted": 1600,
     "burned": 0,
@@ -1018,7 +1002,7 @@
     "imgPath": "/accessory-img/toast-jetpack.png"
   },
   {
-    "rank": 71,
+    "rank": 70,
     "name": "Sal’s Crispy Crossbody",
     "minted": 1616,
     "burned": 0,
@@ -1034,7 +1018,7 @@
     "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
-    "rank": 72,
+    "rank": 71,
     "name": "In Stitches Armbands",
     "minted": 1637,
     "burned": 0,
@@ -1048,7 +1032,7 @@
     "imgPath": "/accessory-img/in-stitches-armbands.png"
   },
   {
-    "rank": 73,
+    "rank": 72,
     "name": "Red Bolt Hockey Mask",
     "minted": 1650,
     "burned": 0,
@@ -1062,7 +1046,7 @@
     "imgPath": "/accessory-img/red-bolt-hockey-mask.png"
   },
   {
-    "rank": 74,
+    "rank": 73,
     "name": "Bi-Amp Booster",
     "minted": 1654,
     "burned": 0,
@@ -1076,7 +1060,7 @@
     "imgPath": "/accessory-img/bi-amp-booster.png"
   },
   {
-    "rank": 75,
+    "rank": 74,
     "name": "Burberry® Armbands",
     "minted": 1662,
     "burned": 0,
@@ -1090,7 +1074,7 @@
     "imgPath": "/accessory-img/burberry-armbands.png"
   },
   {
-    "rank": 76,
+    "rank": 75,
     "name": "That Thing",
     "minted": 1678,
     "burned": 0,
@@ -1104,7 +1088,7 @@
     "imgPath": "/accessory-img/that-thing.png"
   },
   {
-    "rank": 77,
+    "rank": 76,
     "name": "Prism of Pride Tail",
     "minted": 1688,
     "burned": 0,
@@ -1118,7 +1102,7 @@
     "imgPath": "/accessory-img/prism-of-pride-tail.png"
   },
   {
-    "rank": 78,
+    "rank": 77,
     "name": "South Paw Sneaks",
     "minted": 1719,
     "burned": 0,
@@ -1132,6 +1116,22 @@
     "passFilter": "S00 Blanko Brawlers",
     "functional": false,
     "imgPath": "/accessory-img/south-paw-sneaks.png"
+  },
+  {
+    "rank": 78,
+    "name": "Bear Bite Bracer",
+    "minted": 1720,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 79,
