@@ -67,9 +67,7 @@ function DrawerAppBar(props) {
         </IconButton>
         <Link href="/" passHref>
           <a onClick={clearSessionStorage}>
-            <Logo
-              style={{ width: "112px", height: "26px", marginTop: ".39rem" }}
-            />
+            <Logo />
           </a>
         </Link>
       </Typography>
