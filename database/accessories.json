@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 278,
+    "minted": 279,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 309,
+    "minted": 310,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -141,22 +141,6 @@
   },
   {
     "rank": 11,
-    "name": "Drak’s Batwing Shades",
-    "minted": 343,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 12,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -170,7 +154,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -185,7 +169,7 @@
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "name": "Bite Me Batwings MK1",
     "minted": 383,
     "burned": 0,
@@ -200,7 +184,7 @@
     "imgPath": "/accessory-img/bite-me-batwings-mk1.png"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "name": "Bite Me Body Armor MK1",
     "minted": 383,
     "burned": 0,
@@ -215,7 +199,7 @@
     "imgPath": "/accessory-img/bite-me-body-armor-mk1.png"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "name": "Bite Me Gloves MK1",
     "minted": 383,
     "burned": 0,
@@ -230,7 +214,7 @@
     "imgPath": "/accessory-img/bite-me-gloves-mk1.png"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Bite Me Horns MK1",
     "minted": 383,
     "burned": 0,
@@ -245,7 +229,7 @@
     "imgPath": "/accessory-img/bite-me-horns-mk1.png"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "Bite Me Mask MK1",
     "minted": 383,
     "burned": 0,
@@ -260,7 +244,7 @@
     "imgPath": "/accessory-img/bite-me-mask-mk1.png"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "Bite Me Shoes MK1",
     "minted": 383,
     "burned": 0,
@@ -273,6 +257,22 @@
     "seasonFilter": "S00 Alpha",
     "functional": false,
     "imgPath": "/accessory-img/bite-me-shoes-mk1.png"
+  },
+  {
+    "rank": 19,
+    "name": "Drak’s Batwing Shades",
+    "minted": 408,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 20,
@@ -1119,22 +1119,6 @@
   },
   {
     "rank": 78,
-    "name": "Bear Bite Bracer",
-    "minted": 1720,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 79,
     "name": "Burberry® Pool Shoes",
     "minted": 1786,
     "burned": 0,
@@ -1146,6 +1130,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-pool-shoes.png"
+  },
+  {
+    "rank": 79,
+    "name": "Bear Bite Bracer",
+    "minted": 1816,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 80,
