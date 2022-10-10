@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 143,
+    "minted": 145,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 279,
+    "minted": 285,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 310,
+    "minted": 315,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1133,22 +1133,6 @@
   },
   {
     "rank": 79,
-    "name": "Bear Bite Bracer",
-    "minted": 1816,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 80,
     "name": "Camp Craft Flower Crown",
     "minted": 1848,
     "burned": 0,
@@ -1162,6 +1146,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": false,
     "imgPath": "/accessory-img/camp-craft-flower-crown.png"
+  },
+  {
+    "rank": 80,
+    "name": "Bear Bite Bracer",
+    "minted": 1901,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 81,
