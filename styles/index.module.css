@@ -238,26 +238,32 @@
   display: inline-block;
 }
 
-.mintingIconLegend {
-  display: inline-block;
-  margin-right: 8px;
-}
-
 .mintingIconLegend svg {
   font-size: 12px;
   color: #16cb69;
+  margin-right: 8px;
   margin-bottom: -1px;
-}
-
-.withdrawableIconLegend {
-  display: inline-block;
-  margin-right: 6px;
 }
 
 .withdrawableIconLegend svg {
   font-size: 16px;
   transform: rotate(180deg);
+  margin-right: 6px;
   margin-bottom: -3px;
+  color: #e8e9a1;
+}
+
+.mintingIcon svg {
+  font-size: 10px;
+  color: #16cb69;
+}
+
+.withdrawableIcon svg {
+  font-size: 14px;
+  transform: rotate(180deg);
+  margin-right: 3px;
+  margin-bottom: -2px;
+  margin-left: -3px;
   color: #e8e9a1;
 }
 
@@ -267,28 +273,6 @@
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.mintingIcon {
-  display: inline-block;
-}
-
-.mintingIcon svg {
-  font-size: 10px;
-  color: #16cb69;
-}
-
-.withdrawableIcon {
-  display: inline-block;
-  margin-right: 3px;
-}
-
-.withdrawableIcon svg {
-  font-size: 14px;
-  transform: rotate(180deg);
-  margin-bottom: -2px;
-  margin-left: -3px;
-  color: #e8e9a1;
 }
 
 .blankoTag {

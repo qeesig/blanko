@@ -249,25 +249,30 @@
   display: inline-block;
 }
 
-.mintingIconLegend {
-  display: inline-block;
-  margin-right: 8px;
-}
-
 .mintingIconLegend svg {
   font-size: 12px;
   color: #16cb69;
+  margin-right: 8px;
   margin-bottom: -1px;
-}
-
-.functionalIconLegend {
-  display: inline-block;
-  margin-right: 6px;
 }
 
 .functionalIconLegend svg {
   font-size: 15px;
+  margin-right: 6px;
   margin-bottom: -3px;
+  color: #fac213;
+}
+
+.mintingIcon svg {
+  font-size: 10px;
+  color: #16cb69;
+}
+
+.functionalIcon svg {
+  font-size: 13px;
+  margin-right: 2px;
+  margin-bottom: -2px;
+  margin-left: -3px;
   color: #fac213;
 }
 
@@ -277,27 +282,6 @@
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.mintingIcon {
-  display: inline-block;
-}
-
-.mintingIcon svg {
-  font-size: 10px;
-  color: #16cb69;
-}
-
-.functionalIcon {
-  display: inline-block;
-  margin-right: 2px;
-}
-
-.functionalIcon svg {
-  font-size: 13px;
-  margin-bottom: -2px;
-  margin-left: -3px;
-  color: #fac213;
 }
 
 .accessoryTag {
