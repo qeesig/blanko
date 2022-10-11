@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 145,
+    "minted": 146,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 315,
+    "minted": 316,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -260,22 +260,6 @@
   },
   {
     "rank": 19,
-    "name": "Drak’s Batwing Shades",
-    "minted": 408,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 20,
     "name": "Deadmau5 Kandi Kuffs",
     "minted": 422,
     "burned": 0,
@@ -290,7 +274,7 @@
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Reindeer Antlers",
     "minted": 433,
     "burned": 0,
@@ -304,7 +288,7 @@
     "imgPath": "/accessory-img/reindeer-antlers.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Candy Cane Shoes",
     "minted": 466,
     "burned": 0,
@@ -318,7 +302,7 @@
     "imgPath": "/accessory-img/candy-cane-shoes.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Deadmau5 VIP Pass",
     "minted": 473,
     "burned": 0,
@@ -333,7 +317,7 @@
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Stupid Cupid Wings",
     "minted": 503,
     "burned": 0,
@@ -347,7 +331,7 @@
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Superstar Shades",
     "minted": 503,
     "burned": 0,
@@ -359,6 +343,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/superstar-shades.png"
+  },
+  {
+    "rank": 25,
+    "name": "Drak’s Batwing Shades",
+    "minted": 568,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 26,
@@ -1150,7 +1150,7 @@
   {
     "rank": 80,
     "name": "Bear Bite Bracer",
-    "minted": 1901,
+    "minted": 1981,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
