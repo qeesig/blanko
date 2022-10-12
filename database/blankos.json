@@ -94,7 +94,7 @@
   {
     "rank": 7,
     "name": "Puguillo Tranquilo",
-    "minted": 85,
+    "minted": 86,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -110,7 +110,7 @@
   {
     "rank": 8,
     "name": "New World Omega",
-    "minted": 94,
+    "minted": 104,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -233,7 +233,7 @@
     "rank": 16,
     "name": "Don Puguillo",
     "minted": 282,
-    "burned": 170,
+    "burned": 172,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
     "mintPrice": 0,
@@ -262,22 +262,6 @@
   },
   {
     "rank": 18,
-    "name": "Zeta Amanatra",
-    "minted": 349,
-    "burned": 188,
-    "minting": true,
-    "mintDate": "2022-10-04T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "tag": "Mint",
-    "category": "Premium Grade",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/zeta-amanatra.png"
-  },
-  {
-    "rank": 19,
     "name": "Lovesick Angeleno",
     "minted": 354,
     "burned": 0,
@@ -292,9 +276,9 @@
     "imgPath": "/blanko-img/lovesick-angeleno.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Harlekin",
-    "minted": 355,
+    "minted": 356,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -306,6 +290,22 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/harlekin.png"
+  },
+  {
+    "rank": 20,
+    "name": "Zeta Amanatra",
+    "minted": 364,
+    "burned": 208,
+    "minting": true,
+    "mintDate": "2022-10-04T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "tag": "Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/zeta-amanatra.png"
   },
   {
     "rank": 21,
@@ -562,7 +562,7 @@
   {
     "rank": 38,
     "name": "Kandie",
-    "minted": 915,
+    "minted": 917,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -577,8 +577,8 @@
   {
     "rank": 39,
     "name": "Skivvy Klown",
-    "minted": 959,
-    "burned": 708,
+    "minted": 961,
+    "burned": 710,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -711,7 +711,7 @@
   {
     "rank": 49,
     "name": "Drak",
-    "minted": 1093,
+    "minted": 1096,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -726,20 +726,6 @@
   },
   {
     "rank": 48,
-    "name": "Godzilla",
-    "minted": 1097,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 14.99,
-    "season": "01",
-    "artist": "James Groman",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/godzilla.png"
-  },
-  {
-    "rank": 50,
     "name": "Nadine",
     "minted": 1097,
     "burned": 0,
@@ -751,6 +737,20 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
     "imgPath": "/blanko-img/nadine.png"
+  },
+  {
+    "rank": 50,
+    "name": "Godzilla",
+    "minted": 1120,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 14.99,
+    "season": "01",
+    "artist": "James Groman",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/godzilla.png"
   },
   {
     "rank": 51,
@@ -813,7 +813,7 @@
   {
     "rank": 55,
     "name": "Joystick",
-    "minted": 1248,
+    "minted": 1250,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -858,7 +858,7 @@
   {
     "rank": 58,
     "name": "Tempest",
-    "minted": 1327,
+    "minted": 1328,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -873,7 +873,7 @@
   {
     "rank": 59,
     "name": "Pong",
-    "minted": 1337,
+    "minted": 1341,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -904,7 +904,7 @@
   {
     "rank": 61,
     "name": "Centipede",
-    "minted": 1353,
+    "minted": 1356,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -1386,7 +1386,7 @@
     "rank": 94,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 698,
+    "burned": 728,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1963,7 +1963,7 @@
     "rank": 134,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1918,
+    "burned": 1922,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,

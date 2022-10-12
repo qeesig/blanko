@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 285,
+    "minted": 289,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -114,7 +114,7 @@
   {
     "rank": 9,
     "name": "Condimental Cruisepack",
-    "minted": 316,
+    "minted": 318,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-15T07:00:00.000Z",
@@ -346,22 +346,6 @@
   },
   {
     "rank": 25,
-    "name": "Drak’s Batwing Shades",
-    "minted": 568,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 26,
     "name": "Cherries Bracelet",
     "minted": 578,
     "burned": 0,
@@ -375,7 +359,7 @@
     "imgPath": "/accessory-img/cherries-bracelet.png"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Deadmau5 Beat Blaster",
     "minted": 583,
     "burned": 0,
@@ -390,7 +374,7 @@
     "imgPath": "/accessory-img/deadmau5-beat-blaster.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Cast Anchor Cast",
     "minted": 589,
     "burned": 0,
@@ -404,7 +388,7 @@
     "imgPath": "/accessory-img/cast-anchor-cast.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Deadmau5 Denver VIP Pass",
     "minted": 589,
     "burned": 0,
@@ -419,7 +403,7 @@
     "imgPath": "/accessory-img/deadmau5-denver-vip-pass.png"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "name": "Deadmau5 High-Tops",
     "minted": 589,
     "burned": 0,
@@ -432,6 +416,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/deadmau5-high-tops.png"
+  },
+  {
+    "rank": 30,
+    "name": "Drak’s Batwing Shades",
+    "minted": 601,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 31,
@@ -1149,22 +1149,6 @@
   },
   {
     "rank": 80,
-    "name": "Bear Bite Bracer",
-    "minted": 1981,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 81,
     "name": "The Bodysnatcher",
     "minted": 1997,
     "burned": 0,
@@ -1180,7 +1164,7 @@
     "imgPath": "/accessory-img/the-bodysnatcher.png"
   },
   {
-    "rank": 82,
+    "rank": 81,
     "name": "Mau5 Ear5",
     "minted": 2000,
     "burned": 0,
@@ -1194,7 +1178,7 @@
     "imgPath": "/accessory-img/mau5-ear5.png"
   },
   {
-    "rank": 83,
+    "rank": 82,
     "name": "The Canopic Cruiser",
     "minted": 2000,
     "burned": 0,
@@ -1206,6 +1190,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": true,
     "imgPath": "/accessory-img/the-canopic-cruiser.png"
+  },
+  {
+    "rank": 83,
+    "name": "Bear Bite Bracer",
+    "minted": 2012,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 84,
