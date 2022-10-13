@@ -143,20 +143,6 @@
   },
   {
     "rank": 11,
-    "name": "Condimental Cruisepack",
-    "minted": 340,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 6.99,
-    "season": "00",
-    "category": "Back",
-    "seasonFilter": "S00 Early Access",
-    "functional": true,
-    "imgPath": "/accessory-img/condimental-cruisepack.png"
-  },
-  {
-    "rank": 12,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -170,7 +156,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -183,6 +169,20 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
+  },
+  {
+    "rank": 13,
+    "name": "Condimental Cruisepack",
+    "minted": 353,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 6.99,
+    "season": "00",
+    "category": "Back",
+    "seasonFilter": "S00 Early Access",
+    "functional": true,
+    "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
     "rank": 14,

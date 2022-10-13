@@ -826,21 +826,6 @@
   },
   {
     "rank": 56,
-    "name": "Joystick",
-    "minted": 1258,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "tag": "Atari Mystery Box",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/joystick.png"
-  },
-  {
-    "rank": 57,
     "name": "Square",
     "minted": 1266,
     "burned": 0,
@@ -852,6 +837,21 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/square.png"
+  },
+  {
+    "rank": 57,
+    "name": "Joystick",
+    "minted": 1276,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "tag": "Atari Mystery Box",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/joystick.png"
   },
   {
     "rank": 58,
@@ -872,9 +872,9 @@
   {
     "rank": 59,
     "name": "Tempest",
-    "minted": 1334,
+    "minted": 1344,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-09-15T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
@@ -886,21 +886,6 @@
   },
   {
     "rank": 60,
-    "name": "Pong",
-    "minted": 1346,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-15T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "00",
-    "artist": "Atari",
-    "tag": "Atari Mystery Box",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/pong.png"
-  },
-  {
-    "rank": 61,
     "name": "Pep",
     "minted": 1347,
     "burned": 0,
@@ -916,11 +901,11 @@
     "imgPath": "/blanko-img/pep.png"
   },
   {
-    "rank": 62,
-    "name": "Centipede",
-    "minted": 1361,
+    "rank": 61,
+    "name": "Pong",
+    "minted": 1357,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-09-15T07:00:00.000Z",
     "mintPrice": 9.99,
     "season": "00",
@@ -928,10 +913,10 @@
     "tag": "Atari Mystery Box",
     "seasonFilter": "S00 Early Access",
     "withdrawable": false,
-    "imgPath": "/blanko-img/centipede.png"
+    "imgPath": "/blanko-img/pong.png"
   },
   {
-    "rank": 63,
+    "rank": 62,
     "name": "El Coatlito",
     "minted": 1365,
     "burned": 246,
@@ -943,6 +928,21 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/el-coatlito.png"
+  },
+  {
+    "rank": 63,
+    "name": "Centipede",
+    "minted": 1377,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-09-15T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "00",
+    "artist": "Atari",
+    "tag": "Atari Mystery Box",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/centipede.png"
   },
   {
     "rank": 64,
