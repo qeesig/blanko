@@ -66,10 +66,15 @@ a {
   inset: initial !important;
 }
 
+.MuiAutocomplete-listbox {
+  overflow-x: hidden;
+}
+
 .MuiAutocomplete-listbox .MuiAutocomplete-option {
   border-radius: 5px;
   padding: 10px 2px 10px 8px;
-  margin: 0px 6px 0px 10px;
+  margin: 0px 10px 0px 10px;
+  width: 200px;
   font-size: 12px;
   min-height: 34px;
   color: white;

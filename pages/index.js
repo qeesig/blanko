@@ -189,6 +189,10 @@ export default function Blankos() {
       nodes: data.nodes.filter((item) =>
         item.seasonFilter == null
           ? ""
+          : season.label === "Season 0"
+          ? item.seasonFilter.toLowerCase().includes("S00".toLowerCase())
+          : season.label === "Season 1"
+          ? item.seasonFilter.toLowerCase().includes("S01".toLowerCase())
           : item.seasonFilter.toLowerCase().includes(season.label.toLowerCase())
       ),
     };
@@ -960,7 +964,7 @@ export default function Blankos() {
 }
 
 const partyPass = [
-  { label: "S00 1st Party Pass" },
+  { label: "S00 First Party Pass" },
   { label: "S00 Hustle & Glow" },
   { label: "S00 Grave Rave" },
   { label: "S00 Manila Chill" },
@@ -972,11 +976,11 @@ const partyPass = [
 ];
 
 const seasons = [
-  { label: "S00" },
+  { label: "Season 0" },
   { label: "S00 Pre-Alpha" },
   { label: "S00 Alpha" },
   { label: "S00 Private Beta" },
   { label: "S00 Open Beta" },
   { label: "S00 Early Access" },
-  { label: "S01" },
+  { label: "Season 1" },
 ];
