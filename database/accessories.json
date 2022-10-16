@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 313,
+    "minted": 317,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -419,22 +419,6 @@
   },
   {
     "rank": 30,
-    "name": "Rat Pelt Belt",
-    "minted": 620,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 31,
     "name": "Trapper Cap",
     "minted": 645,
     "burned": 0,
@@ -448,7 +432,7 @@
     "imgPath": "/accessory-img/trapper-cap.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -462,7 +446,7 @@
     "imgPath": "/accessory-img/island-time-sunnies.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -476,7 +460,7 @@
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Angel Food Wings",
     "minted": 747,
     "burned": 0,
@@ -490,6 +474,22 @@
     "passFilter": "S00 Snack Attack",
     "functional": true,
     "imgPath": "/accessory-img/angel-food-wings.png"
+  },
+  {
+    "rank": 34,
+    "name": "Rat Pelt Belt",
+    "minted": 749,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 35,
@@ -538,22 +538,6 @@
   },
   {
     "rank": 38,
-    "name": "Drak’s Batwing Shades",
-    "minted": 798,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 39,
     "name": "GG Nozzle Cap",
     "minted": 834,
     "burned": 0,
@@ -565,6 +549,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
+  },
+  {
+    "rank": 39,
+    "name": "Drak’s Batwing Shades",
+    "minted": 840,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 40,
@@ -1242,7 +1242,7 @@
   {
     "rank": 86,
     "name": "Bear Bite Bracer",
-    "minted": 2151,
+    "minted": 2195,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
