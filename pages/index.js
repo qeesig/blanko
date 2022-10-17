@@ -51,6 +51,7 @@ import CancelIcon from "@mui/icons-material/Cancel";
 import FileUploadIcon from "@mui/icons-material/FileUpload";
 import CircleIcon from "@mui/icons-material/Circle";
 import { IoClose } from "react-icons/io5";
+import NoResult from "../public/folder.png";
 
 import nodes from "../database/blankos.json";
 
@@ -737,224 +738,249 @@ export default function Blankos() {
       <div className={styles.table}>
         {!renderDelay && (
           <>
-            <div className={styles.legendContainer}>
-              <div>
-                <span className={styles.mintingIconLegend}>
-                  <CircleIcon />
-                </span>
-                <span>Minting</span>
+            {data.nodes.length === 0 ? (
+              <div className={styles.result}>
+                <Image
+                  src={"/" + NoResult.src}
+                  alt="No blanko found picture"
+                  width={154}
+                  height={154}
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                  placeholder="blur"
+                />
+                <div>No blanko found</div>
               </div>
-              <div>
-                <span className={styles.withdrawableIconLegend}>
-                  <FileUploadIcon />
-                </span>
-                <span>Withdrawable</span>
-              </div>
-            </div>
-            <Table
-              data={data}
-              theme={theme}
-              layout={{ custom: true }}
-              pagination={pagination}
-              sort={sort}
-            >
-              {(blankoList) => (
-                <>
-                  <Header>
-                    <HeaderRow>
-                      <HeaderCell pinLeft></HeaderCell>
-                      <HeaderCell pinLeft></HeaderCell>
-                      <HeaderCell className={styles.nameHeader}>
-                        NAME
-                      </HeaderCell>
-                      <HeaderCellSort
-                        className={styles.mintedHeader}
-                        sortKey="MINTED"
-                      >
-                        MINTED
-                      </HeaderCellSort>
-                      <HeaderCellSort
-                        className={styles.burnedHeader}
-                        sortKey="BURNED"
-                      >
-                        BURNED
-                      </HeaderCellSort>
-                      <HeaderCellSort
-                        className={styles.mintDateHeader}
-                        sortKey="MINTDATE"
-                      >
-                        MT DATE
-                      </HeaderCellSort>
-                      <HeaderCellSort
-                        className={styles.mintPriceHeader}
-                        sortKey="MINTPRICE"
-                      >
-                        MT PRICE
-                      </HeaderCellSort>
-                      <HeaderCell className={styles.seasonHeader}>
-                        SEASON
-                      </HeaderCell>
-                      <HeaderCell className={styles.artistHeader}>
-                        ARTIST
-                      </HeaderCell>
-                    </HeaderRow>
-                  </Header>
-                  <Body>
-                    {blankoList.map((item, rank) => (
-                      <Row key={item.rank} item={item}>
-                        <Cell pinLeft className={styles.tablePinnedCell}>
-                          {item.rank}
-                        </Cell>
-                        <Cell pinLeft className={styles.tablePinnedCell}>
-                          <Image
-                            src={item.imgPath}
-                            alt={`Picture of ${item.name}`}
-                            width={54}
-                            height={54}
-                            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            placeholder="blur"
-                          />
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{ paddingLeft: "15px" }}
-                        >
-                          {item.minting == true ? (
-                            <Minting
-                              className={
-                                item.minting == true ? styles.mintingIcon : ""
-                              }
-                              minting={item.minting}
-                              withdrawable={item.withdrawable}
-                            >
-                              <CircleIcon />
-                            </Minting>
-                          ) : (
-                            ""
-                          )}
-                          <span
-                            className={
-                              item.withdrawable == true
-                                ? styles.withdrawableIcon
-                                : ""
-                            }
+            ) : (
+              <>
+                <div className={styles.legendContainer}>
+                  <div>
+                    <span className={styles.mintingIconLegend}>
+                      <CircleIcon />
+                    </span>
+                    <span>Minting</span>
+                  </div>
+                  <div>
+                    <span className={styles.withdrawableIconLegend}>
+                      <FileUploadIcon />
+                    </span>
+                    <span>Withdrawable</span>
+                  </div>
+                </div>
+                <Table
+                  data={data}
+                  theme={theme}
+                  layout={{ custom: true }}
+                  pagination={pagination}
+                  sort={sort}
+                >
+                  {(blankoList) => (
+                    <>
+                      <Header>
+                        <HeaderRow>
+                          <HeaderCell pinLeft></HeaderCell>
+                          <HeaderCell pinLeft></HeaderCell>
+                          <HeaderCell className={styles.nameHeader}>
+                            NAME
+                          </HeaderCell>
+                          <HeaderCellSort
+                            className={styles.mintedHeader}
+                            sortKey="MINTED"
                           >
-                            {item.withdrawable == true ? (
-                              <FileUploadIcon />
-                            ) : (
-                              ""
-                            )}
-                          </span>
-                          <span className={styles.blankoName}>{item.name}</span>
-                          <Tag className={styles.blankoTag} tag={item.tag}>
-                            {item.tag}
-                          </Tag>
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{
-                            textAlign: "right",
-                          }}
-                        >
-                          <NumberFormat
-                            value={item.minted}
-                            displayType={"text"}
-                            thousandSeparator={true}
-                          />
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{
-                            textAlign: "right",
-                          }}
-                        >
-                          <NumberFormat
-                            value={item.burned}
-                            displayType={"text"}
-                            thousandSeparator={true}
-                          />
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{
-                            textAlign: "right",
-                          }}
-                        >
-                          {new Date(item.mintDate).toLocaleDateString("en-US", {
-                            year: "numeric",
-                            month: "2-digit",
-                            day: "2-digit",
-                          })}
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{
-                            textAlign: "right",
-                          }}
-                        >
-                          <NumberFormat
-                            value={item.mintPrice}
-                            displayType={"text"}
-                            thousandSeparator={true}
-                            prefix={"$"}
-                          />
-                        </Cell>
-                        <Cell
-                          className={styles.tableCell}
-                          style={{
-                            textAlign: "center",
-                          }}
-                        >
-                          {item.season}
-                        </Cell>
-                        <Cell className={styles.tableCell}>{item.artist}</Cell>
-                      </Row>
-                    ))}
-                  </Body>
-                </>
-              )}
-            </Table>
-            <TablePagination
-              count={data.nodes.length}
-              page={pagination.state.page}
-              rowsPerPage={pagination.state.size}
-              rowsPerPageOptions={[10, 25, 50]}
-              onRowsPerPageChange={(event) =>
-                pagination.fns.onSetSize(parseInt(event.target.value, 10))
-              }
-              onPageChange={(event, page) =>
-                pagination.fns.onSetPage(parseInt(page))
-              }
-              as="div"
-              labelRowsPerPage="Rows"
-              sx={{
-                color: "white",
+                            MINTED
+                          </HeaderCellSort>
+                          <HeaderCellSort
+                            className={styles.burnedHeader}
+                            sortKey="BURNED"
+                          >
+                            BURNED
+                          </HeaderCellSort>
+                          <HeaderCellSort
+                            className={styles.mintDateHeader}
+                            sortKey="MINTDATE"
+                          >
+                            MT DATE
+                          </HeaderCellSort>
+                          <HeaderCellSort
+                            className={styles.mintPriceHeader}
+                            sortKey="MINTPRICE"
+                          >
+                            MT PRICE
+                          </HeaderCellSort>
+                          <HeaderCell className={styles.seasonHeader}>
+                            SEASON
+                          </HeaderCell>
+                          <HeaderCell className={styles.artistHeader}>
+                            ARTIST
+                          </HeaderCell>
+                        </HeaderRow>
+                      </Header>
+                      <Body>
+                        {blankoList.map((item, rank) => (
+                          <Row key={item.rank} item={item}>
+                            <Cell pinLeft className={styles.tablePinnedCell}>
+                              {item.rank}
+                            </Cell>
+                            <Cell pinLeft className={styles.tablePinnedCell}>
+                              <Image
+                                src={item.imgPath}
+                                alt={`Picture of ${item.name}`}
+                                width={54}
+                                height={54}
+                                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                                placeholder="blur"
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{ paddingLeft: "15px" }}
+                            >
+                              {item.minting == true ? (
+                                <Minting
+                                  className={
+                                    item.minting == true
+                                      ? styles.mintingIcon
+                                      : ""
+                                  }
+                                  minting={item.minting}
+                                  withdrawable={item.withdrawable}
+                                >
+                                  <CircleIcon />
+                                </Minting>
+                              ) : (
+                                ""
+                              )}
+                              <span
+                                className={
+                                  item.withdrawable == true
+                                    ? styles.withdrawableIcon
+                                    : ""
+                                }
+                              >
+                                {item.withdrawable == true ? (
+                                  <FileUploadIcon />
+                                ) : (
+                                  ""
+                                )}
+                              </span>
+                              <span className={styles.blankoName}>
+                                {item.name}
+                              </span>
+                              <Tag className={styles.blankoTag} tag={item.tag}>
+                                {item.tag}
+                              </Tag>
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              <NumberFormat
+                                value={item.minted}
+                                displayType={"text"}
+                                thousandSeparator={true}
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              <NumberFormat
+                                value={item.burned}
+                                displayType={"text"}
+                                thousandSeparator={true}
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              {new Date(item.mintDate).toLocaleDateString(
+                                "en-US",
+                                {
+                                  year: "numeric",
+                                  month: "2-digit",
+                                  day: "2-digit",
+                                }
+                              )}
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              <NumberFormat
+                                value={item.mintPrice}
+                                displayType={"text"}
+                                thousandSeparator={true}
+                                prefix={"$"}
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "center",
+                              }}
+                            >
+                              {item.season}
+                            </Cell>
+                            <Cell className={styles.tableCell}>
+                              {item.artist}
+                            </Cell>
+                          </Row>
+                        ))}
+                      </Body>
+                    </>
+                  )}
+                </Table>
+                <TablePagination
+                  count={data.nodes.length}
+                  page={pagination.state.page}
+                  rowsPerPage={pagination.state.size}
+                  rowsPerPageOptions={[10, 25, 50]}
+                  onRowsPerPageChange={(event) =>
+                    pagination.fns.onSetSize(parseInt(event.target.value, 10))
+                  }
+                  onPageChange={(event, page) =>
+                    pagination.fns.onSetPage(parseInt(page))
+                  }
+                  as="div"
+                  labelRowsPerPage="Rows"
+                  sx={{
+                    color: "white",
 
-                "& .MuiTablePagination-toolbar": {
-                  marginTop: 3.5,
-                },
+                    "& .MuiTablePagination-toolbar": {
+                      marginTop: 3.5,
+                    },
 
-                "& .MuiTablePagination-selectIcon": {
-                  color: "white",
-                },
+                    "& .MuiTablePagination-selectIcon": {
+                      color: "white",
+                    },
 
-                ".MuiTouchRipple-child": {
-                  backgroundColor: "rgba(255, 255, 255, 0.25)",
-                },
+                    ".MuiTouchRipple-child": {
+                      backgroundColor: "rgba(255, 255, 255, 0.25)",
+                    },
 
-                ".MuiTablePagination-actions": {
-                  color: "white",
+                    ".MuiTablePagination-actions": {
+                      color: "white",
 
-                  "& button:hover": {
-                    backgroundColor: "#20222d",
-                  },
-                },
+                      "& button:hover": {
+                        backgroundColor: "#20222d",
+                      },
+                    },
 
-                "& .MuiButtonBase-root.Mui-disabled": {
-                  color: "rgba(255, 255, 255, 0.32);",
-                },
-              }}
-            />
+                    "& .MuiButtonBase-root.Mui-disabled": {
+                      color: "rgba(255, 255, 255, 0.32);",
+                    },
+                  }}
+                />
+              </>
+            )}
             <Footer />
           </>
         )}
