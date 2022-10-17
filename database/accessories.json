@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 165,
+    "minted": 167,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 317,
+    "minted": 321,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -477,22 +477,6 @@
   },
   {
     "rank": 34,
-    "name": "Rat Pelt Belt",
-    "minted": 749,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 35,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -507,7 +491,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 36,
+    "rank": 35,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -521,7 +505,7 @@
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Strawberry Short-Steps",
     "minted": 783,
     "burned": 0,
@@ -537,7 +521,7 @@
     "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "GG Nozzle Cap",
     "minted": 834,
     "burned": 0,
@@ -551,23 +535,23 @@
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
   },
   {
-    "rank": 39,
-    "name": "Drak’s Batwing Shades",
-    "minted": 840,
+    "rank": 38,
+    "name": "Rat Pelt Belt",
+    "minted": 838,
     "burned": 0,
     "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintDate": "2022-10-12T07:00:00.000Z",
     "mintPrice": 0,
     "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
     "seasonFilter": "S01",
     "passFilter": "S01 IKWYD Last Grave Rave",
     "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "name": "Roasted Mallow Rocket Pack",
     "minted": 850,
     "burned": 0,
@@ -581,6 +565,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": true,
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
+  },
+  {
+    "rank": 40,
+    "name": "Drak’s Batwing Shades",
+    "minted": 858,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
     "rank": 41,
@@ -1241,22 +1241,6 @@
   },
   {
     "rank": 86,
-    "name": "Bear Bite Bracer",
-    "minted": 2195,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 87,
     "name": "Wreak Havoc Kicks",
     "minted": 2204,
     "burned": 0,
@@ -1270,6 +1254,22 @@
     "passFilter": "S00 Grave Rave",
     "functional": false,
     "imgPath": "/accessory-img/wreak-havoc-kicks.png"
+  },
+  {
+    "rank": 87,
+    "name": "Bear Bite Bracer",
+    "minted": 2237,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 88,
