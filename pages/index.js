@@ -682,7 +682,11 @@ export default function Blankos() {
                     position: "absolute",
                     zIndex: 2,
                     marginLeft: "290px",
-                    marginTop: ".72rem",
+                    marginTop: ".52rem",
+                    width: "22px",
+                    height: "22px",
+                    padding: "2px",
+                    cursor: "pointer",
                   }}
                   onClick={() => setSearch("")}
                 />
