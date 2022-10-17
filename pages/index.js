@@ -665,9 +665,8 @@ export default function Blankos() {
               sx={{ display: "grid", alignItems: "flex-start" }}
             >
               <SearchIcon
-                fill="white"
                 sx={{
-                  color: "white",
+                  color: "#8e95ab",
                   ml: 1.05,
                   my: 1,
                   position: "absolute",
