@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 167,
+    "minted": 171,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -100,7 +100,7 @@
   {
     "rank": 8,
     "name": "Kaiju Kicks",
-    "minted": 321,
+    "minted": 327,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -536,22 +536,6 @@
   },
   {
     "rank": 38,
-    "name": "Rat Pelt Belt",
-    "minted": 838,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 39,
     "name": "Roasted Mallow Rocket Pack",
     "minted": 850,
     "burned": 0,
@@ -567,23 +551,7 @@
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
   },
   {
-    "rank": 40,
-    "name": "Drak’s Batwing Shades",
-    "minted": 858,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-05T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/draks-batwing-shades.png"
-  },
-  {
-    "rank": 41,
+    "rank": 39,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -597,7 +565,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 42,
+    "rank": 40,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -611,7 +579,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 43,
+    "rank": 41,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -625,7 +593,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 44,
+    "rank": 42,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -639,7 +607,7 @@
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
   },
   {
-    "rank": 45,
+    "rank": 43,
     "name": "Sweet Bun Beret",
     "minted": 865,
     "burned": 0,
@@ -655,7 +623,23 @@
     "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
-    "rank": 46,
+    "rank": 44,
+    "name": "Drak’s Batwing Shades",
+    "minted": 877,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-05T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/draks-batwing-shades.png"
+  },
+  {
+    "rank": 45,
     "name": "Tenderfoot’s Crocket Cap",
     "minted": 910,
     "burned": 0,
@@ -669,6 +653,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": false,
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
+  },
+  {
+    "rank": 46,
+    "name": "Rat Pelt Belt",
+    "minted": 940,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 47,
@@ -1258,7 +1258,7 @@
   {
     "rank": 87,
     "name": "Bear Bite Bracer",
-    "minted": 2237,
+    "minted": 2266,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",

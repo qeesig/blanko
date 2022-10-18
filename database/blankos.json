@@ -47,7 +47,7 @@
   {
     "rank": 4,
     "name": "Ultra B Dino",
-    "minted": 36,
+    "minted": 37,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-03-17T07:00:00.000Z",
@@ -125,7 +125,7 @@
   {
     "rank": 9,
     "name": "New World Omega",
-    "minted": 119,
+    "minted": 123,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -141,8 +141,8 @@
   {
     "rank": 10,
     "name": "Chemical B Dino",
-    "minted": 122,
-    "burned": 72,
+    "minted": 123,
+    "burned": 74,
     "minting": true,
     "mintDate": "2022-03-17T07:00:00.000Z",
     "mintPrice": 0,
@@ -187,51 +187,6 @@
   },
   {
     "rank": 13,
-    "name": "Botan",
-    "minted": 174,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-17T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "01",
-    "artist": "Junko Mizuno",
-    "tag": "Junko Mizuno Mystery Box",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/botan.png"
-  },
-  {
-    "rank": 14,
-    "name": "Hungry Cat",
-    "minted": 176,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-17T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "01",
-    "artist": "Junko Mizuno",
-    "tag": "Junko Mizuno Mystery Box",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/hungry-cat.png"
-  },
-  {
-    "rank": 15,
-    "name": "Ramen San",
-    "minted": 190,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-17T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "01",
-    "artist": "Junko Mizuno",
-    "tag": "Junko Mizuno Mystery Box",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/ramen-san.png"
-  },
-  {
-    "rank": 16,
     "name": "Minny B",
     "minted": 193,
     "burned": 0,
@@ -245,7 +200,37 @@
     "imgPath": "/blanko-img/minny-b.png"
   },
   {
-    "rank": 17,
+    "rank": 14,
+    "name": "Botan",
+    "minted": 196,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-17T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "01",
+    "artist": "Junko Mizuno",
+    "tag": "Junko Mizuno Mystery Box",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/botan.png"
+  },
+  {
+    "rank": 15,
+    "name": "Hungry Cat",
+    "minted": 200,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-17T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "01",
+    "artist": "Junko Mizuno",
+    "tag": "Junko Mizuno Mystery Box",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/hungry-cat.png"
+  },
+  {
+    "rank": 16,
     "name": "AT0M.atn KM",
     "minted": 200,
     "burned": 0,
@@ -259,6 +244,21 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/at0m-atn-km.png"
+  },
+  {
+    "rank": 17,
+    "name": "Ramen San",
+    "minted": 214,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-17T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "01",
+    "artist": "Junko Mizuno",
+    "tag": "Junko Mizuno Mystery Box",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/ramen-san.png"
   },
   {
     "rank": 18,
@@ -323,7 +323,7 @@
   {
     "rank": 22,
     "name": "Harlekin",
-    "minted": 364,
+    "minted": 365,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -368,22 +368,6 @@
   },
   {
     "rank": 25,
-    "name": "Zeta Amanatra",
-    "minted": 384,
-    "burned": 238,
-    "minting": true,
-    "mintDate": "2022-10-04T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "00",
-    "artist": "Nicky Davis",
-    "tag": "Mint",
-    "category": "Premium Grade",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/zeta-amanatra.png"
-  },
-  {
-    "rank": 26,
     "name": "Billy A Bones",
     "minted": 384,
     "burned": 0,
@@ -396,6 +380,22 @@
     "seasonFilter": "S00 Alpha",
     "withdrawable": false,
     "imgPath": "/blanko-img/billy-a-bones.png"
+  },
+  {
+    "rank": 26,
+    "name": "Zeta Amanatra",
+    "minted": 388,
+    "burned": 246,
+    "minting": true,
+    "mintDate": "2022-10-04T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Nicky Davis",
+    "tag": "Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/zeta-amanatra.png"
   },
   {
     "rank": 27,
@@ -638,7 +638,7 @@
     "rank": 43,
     "name": "Skivvy Klown",
     "minted": 977,
-    "burned": 726,
+    "burned": 728,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -652,21 +652,6 @@
   },
   {
     "rank": 44,
-    "name": "Kandie",
-    "minted": 984,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 11.99,
-    "season": "01",
-    "artist": "Kronk",
-    "tag": "S01 Starter Bundle",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/kandie.png"
-  },
-  {
-    "rank": 45,
     "name": "Mothra",
     "minted": 984,
     "burned": 0,
@@ -680,7 +665,7 @@
     "imgPath": "/blanko-img/mothra.png"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "name": "AT0M.atn ERR",
     "minted": 986,
     "burned": 400,
@@ -696,7 +681,7 @@
     "imgPath": "/blanko-img/at0m-atn-err.png"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "name": "Frostbyte",
     "minted": 1000,
     "burned": 0,
@@ -711,7 +696,7 @@
     "imgPath": "/blanko-img/frostbyte.png"
   },
   {
-    "rank": 49,
+    "rank": 47,
     "name": "Get Lit deadmau5",
     "minted": 1000,
     "burned": 0,
@@ -725,7 +710,7 @@
     "imgPath": "/blanko-img/get-lit-deadmau5.png"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "name": "Mudboi",
     "minted": 1000,
     "burned": 0,
@@ -740,7 +725,7 @@
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
-    "rank": 50,
+    "rank": 48,
     "name": "Professor Meowingtons",
     "minted": 1003,
     "burned": 3,
@@ -752,6 +737,21 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/professor-meowingtons.png"
+  },
+  {
+    "rank": 50,
+    "name": "Kandie",
+    "minted": 1005,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 11.99,
+    "season": "01",
+    "artist": "Kronk",
+    "tag": "S01 Starter Bundle",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/kandie.png"
   },
   {
     "rank": 51,
@@ -814,7 +814,7 @@
   {
     "rank": 55,
     "name": "Drak",
-    "minted": 1158,
+    "minted": 1165,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1445,7 +1445,7 @@
     "rank": 98,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 768,
+    "burned": 776,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1686,7 +1686,7 @@
     "rank": 115,
     "name": "Boss Dino",
     "minted": 3500,
-    "burned": 244,
+    "burned": 246,
     "minting": false,
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 149.99,
