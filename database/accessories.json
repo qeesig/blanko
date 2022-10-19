@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 171,
+    "minted": 174,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -99,20 +99,6 @@
   },
   {
     "rank": 8,
-    "name": "Kaiju Kicks",
-    "minted": 327,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 4.99,
-    "season": "01",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/kaiju-kicks.png"
-  },
-  {
-    "rank": 9,
     "name": "Year of the Ox Horns",
     "minted": 330,
     "burned": 0,
@@ -124,6 +110,20 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
+  },
+  {
+    "rank": 9,
+    "name": "Kaiju Kicks",
+    "minted": 338,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 4.99,
+    "season": "01",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/kaiju-kicks.png"
   },
   {
     "rank": 10,
@@ -625,7 +625,7 @@
   {
     "rank": 44,
     "name": "Drak’s Batwing Shades",
-    "minted": 877,
+    "minted": 902,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -656,22 +656,6 @@
   },
   {
     "rank": 46,
-    "name": "Rat Pelt Belt",
-    "minted": 940,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 47,
     "name": "Spiked Choker",
     "minted": 941,
     "burned": 0,
@@ -685,7 +669,7 @@
     "imgPath": "/accessory-img/spiked-choker.png"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "name": "Tenderfoot's Squidgeon Pal",
     "minted": 998,
     "burned": 0,
@@ -701,7 +685,7 @@
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "name": "Frostbyte Beanie",
     "minted": 1000,
     "burned": 0,
@@ -714,6 +698,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/frostbyte-beanie.png"
+  },
+  {
+    "rank": 49,
+    "name": "Rat Pelt Belt",
+    "minted": 1015,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 50,
@@ -1258,7 +1258,7 @@
   {
     "rank": 87,
     "name": "Bear Bite Bracer",
-    "minted": 2266,
+    "minted": 2285,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
