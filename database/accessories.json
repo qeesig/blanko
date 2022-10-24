@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 197,
+    "minted": 198,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -157,7 +157,7 @@
   {
     "rank": 12,
     "name": "Kaiju Kicks",
-    "minted": 367,
+    "minted": 370,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -420,7 +420,7 @@
   {
     "rank": 30,
     "name": "Wolf Chowduh",
-    "minted": 597,
+    "minted": 641,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Drak’s Batwing Shades",
-    "minted": 964,
+    "minted": 967,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -901,22 +901,6 @@
   },
   {
     "rank": 63,
-    "name": "Rat Pelt Belt",
-    "minted": 1449,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 64,
     "name": "Pre-Frontal Hemorrhage Hat",
     "minted": 1451,
     "burned": 0,
@@ -930,7 +914,7 @@
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
   },
   {
-    "rank": 65,
+    "rank": 64,
     "name": "Punch Up Parachute",
     "minted": 1458,
     "burned": 0,
@@ -944,6 +928,22 @@
     "passFilter": "S00 Blanko Brawlers",
     "functional": true,
     "imgPath": "/accessory-img/punch-up-parachute.png"
+  },
+  {
+    "rank": 65,
+    "name": "Rat Pelt Belt",
+    "minted": 1491,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 66,
@@ -1273,22 +1273,6 @@
   },
   {
     "rank": 88,
-    "name": "Bear Bite Bracer",
-    "minted": 2444,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 89,
     "name": "Gelid’s Gale Tactical Vest",
     "minted": 2466,
     "burned": 0,
@@ -1300,6 +1284,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/gelids-gale-tactical-vest.png"
+  },
+  {
+    "rank": 89,
+    "name": "Bear Bite Bracer",
+    "minted": 2478,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 90,
