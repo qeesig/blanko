@@ -157,7 +157,7 @@
   {
     "rank": 12,
     "name": "Kaiju Kicks",
-    "minted": 370,
+    "minted": 371,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -419,22 +419,6 @@
   },
   {
     "rank": 30,
-    "name": "Wolf Chowduh",
-    "minted": 641,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-19T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/wolf-chowduh.png"
-  },
-  {
-    "rank": 31,
     "name": "Trapper Cap",
     "minted": 645,
     "burned": 0,
@@ -448,7 +432,7 @@
     "imgPath": "/accessory-img/trapper-cap.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -460,6 +444,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/island-time-sunnies.png"
+  },
+  {
+    "rank": 32,
+    "name": "Wolf Chowduh",
+    "minted": 692,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-19T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/wolf-chowduh.png"
   },
   {
     "rank": 33,
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Drak’s Batwing Shades",
-    "minted": 967,
+    "minted": 973,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -931,22 +931,6 @@
   },
   {
     "rank": 65,
-    "name": "Rat Pelt Belt",
-    "minted": 1491,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 66,
     "name": "Burberry® Jetpack",
     "minted": 1500,
     "burned": 0,
@@ -960,7 +944,7 @@
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
-    "rank": 67,
+    "rank": 66,
     "name": "TMC Flag Bucket Hat - Red",
     "minted": 1500,
     "burned": 0,
@@ -974,7 +958,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
-    "rank": 68,
+    "rank": 67,
     "name": "TMC Flag Bucket Hat - Stealth",
     "minted": 1500,
     "burned": 0,
@@ -986,6 +970,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
+  },
+  {
+    "rank": 68,
+    "name": "Rat Pelt Belt",
+    "minted": 1521,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 69,
@@ -1287,22 +1287,6 @@
   },
   {
     "rank": 89,
-    "name": "Bear Bite Bracer",
-    "minted": 2478,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 90,
     "name": "Hustle & Glow Glider",
     "minted": 2479,
     "burned": 0,
@@ -1316,6 +1300,22 @@
     "passFilter": "S00 Hustle & Glow",
     "functional": true,
     "imgPath": "/accessory-img/hustle-glow-glider.png"
+  },
+  {
+    "rank": 90,
+    "name": "Bear Bite Bracer",
+    "minted": 2514,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 91,
