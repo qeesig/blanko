@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Toasted Bun Beanie",
-    "minted": 198,
+    "minted": 199,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -157,7 +157,7 @@
   {
     "rank": 12,
     "name": "Kaiju Kicks",
-    "minted": 371,
+    "minted": 373,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -447,22 +447,6 @@
   },
   {
     "rank": 32,
-    "name": "Wolf Chowduh",
-    "minted": 692,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-19T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/wolf-chowduh.png"
-  },
-  {
-    "rank": 33,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -474,6 +458,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/peep-that-bracelet.png"
+  },
+  {
+    "rank": 33,
+    "name": "Wolf Chowduh",
+    "minted": 720,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-19T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/wolf-chowduh.png"
   },
   {
     "rank": 34,
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Drak’s Batwing Shades",
-    "minted": 973,
+    "minted": 976,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -973,22 +973,6 @@
   },
   {
     "rank": 68,
-    "name": "Rat Pelt Belt",
-    "minted": 1521,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 69,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -1000,6 +984,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
+  },
+  {
+    "rank": 69,
+    "name": "Rat Pelt Belt",
+    "minted": 1556,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 70,
@@ -1304,7 +1304,7 @@
   {
     "rank": 90,
     "name": "Bear Bite Bracer",
-    "minted": 2514,
+    "minted": 2535,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
