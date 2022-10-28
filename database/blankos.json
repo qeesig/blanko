@@ -63,7 +63,7 @@
   {
     "rank": 5,
     "name": "El Grand Quetzalcoatl",
-    "minted": 40,
+    "minted": 41,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
@@ -142,7 +142,7 @@
     "rank": 10,
     "name": "El Xiuhcoatl",
     "minted": 129,
-    "burned": 80,
+    "burned": 82,
     "minting": true,
     "mintDate": "2022-05-27T07:00:00.000Z",
     "mintPrice": 0,
@@ -157,7 +157,7 @@
   {
     "rank": 11,
     "name": "New World Omega",
-    "minted": 136,
+    "minted": 137,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -173,7 +173,7 @@
   {
     "rank": 12,
     "name": "Platinum Karat",
-    "minted": 157,
+    "minted": 159,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -248,7 +248,7 @@
   {
     "rank": 17,
     "name": "Botan",
-    "minted": 290,
+    "minted": 295,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -263,7 +263,7 @@
   {
     "rank": 18,
     "name": "Don Puguillo",
-    "minted": 296,
+    "minted": 297,
     "burned": 184,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -294,7 +294,7 @@
   {
     "rank": 20,
     "name": "Hungry Cat",
-    "minted": 306,
+    "minted": 310,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -309,7 +309,7 @@
   {
     "rank": 21,
     "name": "Ramen San",
-    "minted": 308,
+    "minted": 312,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -460,8 +460,8 @@
   {
     "rank": 31,
     "name": "Zeta Amanatra",
-    "minted": 420,
-    "burned": 272,
+    "minted": 424,
+    "burned": 274,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
     "mintPrice": 0,
@@ -505,8 +505,8 @@
   {
     "rank": 34,
     "name": "Karat Corroded",
-    "minted": 527,
-    "burned": 314,
+    "minted": 537,
+    "burned": 318,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -520,20 +520,6 @@
   },
   {
     "rank": 35,
-    "name": "Attick",
-    "minted": 647,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 14.99,
-    "season": "01",
-    "artist": "Dan Lish",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/attick.png"
-  },
-  {
-    "rank": 36,
     "name": "Sweet Gaze",
     "minted": 694,
     "burned": 0,
@@ -549,7 +535,7 @@
     "imgPath": "/blanko-img/sweet_gaze.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Kijo",
     "minted": 700,
     "burned": 0,
@@ -563,7 +549,7 @@
     "imgPath": "/blanko-img/kijo.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "Mechagodzilla",
     "minted": 703,
     "burned": 0,
@@ -575,6 +561,20 @@
     "seasonFilter": "S01",
     "withdrawable": false,
     "imgPath": "/blanko-img/mechagodzilla.png"
+  },
+  {
+    "rank": 38,
+    "name": "Attick",
+    "minted": 716,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 14.99,
+    "season": "01",
+    "artist": "Dan Lish",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/attick.png"
   },
   {
     "rank": 39,
@@ -815,7 +815,7 @@
   {
     "rank": 55,
     "name": "Kandie",
-    "minted": 1106,
+    "minted": 1115,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -902,7 +902,7 @@
   {
     "rank": 61,
     "name": "Drak",
-    "minted": 1224,
+    "minted": 1226,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1491,7 +1491,7 @@
     "rank": 101,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 840,
+    "burned": 848,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1925,7 +1925,7 @@
     "rank": 131,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 590,
+    "burned": 592,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -2082,7 +2082,7 @@
     "rank": 142,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1054,
+    "burned": 1074,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
