@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 148,
+    "minted": 157,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -261,7 +261,7 @@
   {
     "rank": 19,
     "name": "Kaiju Kicks",
-    "minted": 386,
+    "minted": 388,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -360,22 +360,6 @@
   },
   {
     "rank": 26,
-    "name": "Drak’s Unholy Batpack",
-    "minted": 570,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": true,
-    "imgPath": "/accessory-img/draks-unholy-batpack.png"
-  },
-  {
-    "rank": 27,
     "name": "Cherries Bracelet",
     "minted": 578,
     "burned": 0,
@@ -389,7 +373,7 @@
     "imgPath": "/accessory-img/cherries-bracelet.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Deadmau5 Beat Blaster",
     "minted": 583,
     "burned": 0,
@@ -404,7 +388,7 @@
     "imgPath": "/accessory-img/deadmau5-beat-blaster.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Cast Anchor Cast",
     "minted": 589,
     "burned": 0,
@@ -418,7 +402,7 @@
     "imgPath": "/accessory-img/cast-anchor-cast.png"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "name": "Deadmau5 Denver VIP Pass",
     "minted": 589,
     "burned": 0,
@@ -433,7 +417,7 @@
     "imgPath": "/accessory-img/deadmau5-denver-vip-pass.png"
   },
   {
-    "rank": 31,
+    "rank": 30,
     "name": "Deadmau5 High-Tops",
     "minted": 589,
     "burned": 0,
@@ -446,6 +430,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/deadmau5-high-tops.png"
+  },
+  {
+    "rank": 31,
+    "name": "Drak’s Unholy Batpack",
+    "minted": 618,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": true,
+    "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
     "rank": 32,
@@ -477,22 +477,6 @@
   },
   {
     "rank": 34,
-    "name": "Edd",
-    "minted": 666,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 35,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -506,7 +490,7 @@
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
-    "rank": 36,
+    "rank": 35,
     "name": "Angel Food Wings",
     "minted": 747,
     "burned": 0,
@@ -522,7 +506,7 @@
     "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -537,7 +521,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -551,7 +535,7 @@
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "Strawberry Short-Steps",
     "minted": 783,
     "burned": 0,
@@ -567,9 +551,25 @@
     "imgPath": "/accessory-img/strawberryshort-steps.png"
   },
   {
+    "rank": 39,
+    "name": "Edd",
+    "minted": 788,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
+  },
+  {
     "rank": 40,
     "name": "Wolf Chowduh",
-    "minted": 795,
+    "minted": 808,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -717,7 +717,7 @@
   {
     "rank": 50,
     "name": "Drak’s Batwing Shades",
-    "minted": 988,
+    "minted": 991,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -1123,22 +1123,6 @@
   },
   {
     "rank": 78,
-    "name": "Rat Pelt Belt",
-    "minted": 1661,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 79,
     "name": "Burberry® Armbands",
     "minted": 1662,
     "burned": 0,
@@ -1152,7 +1136,7 @@
     "imgPath": "/accessory-img/burberry-armbands.png"
   },
   {
-    "rank": 80,
+    "rank": 79,
     "name": "That Thing",
     "minted": 1678,
     "burned": 0,
@@ -1164,6 +1148,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/that-thing.png"
+  },
+  {
+    "rank": 80,
+    "name": "Rat Pelt Belt",
+    "minted": 1681,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 81,
@@ -1412,7 +1412,7 @@
   {
     "rank": 97,
     "name": "Bear Bite Bracer",
-    "minted": 2653,
+    "minted": 2691,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
