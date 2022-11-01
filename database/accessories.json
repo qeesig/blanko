@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 161,
+    "minted": 166,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -447,22 +447,6 @@
   },
   {
     "rank": 32,
-    "name": "Drak’s Unholy Batpack",
-    "minted": 647,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": true,
-    "imgPath": "/accessory-img/draks-unholy-batpack.png"
-  },
-  {
-    "rank": 33,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -474,6 +458,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/island-time-sunnies.png"
+  },
+  {
+    "rank": 33,
+    "name": "Drak’s Unholy Batpack",
+    "minted": 677,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": true,
+    "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
     "rank": 34,
@@ -553,7 +553,7 @@
   {
     "rank": 39,
     "name": "Wolf Chowduh",
-    "minted": 817,
+    "minted": 825,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -670,22 +670,6 @@
   },
   {
     "rank": 47,
-    "name": "Edd",
-    "minted": 870,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 48,
     "name": "Tenderfoot’s Crocket Cap",
     "minted": 910,
     "burned": 0,
@@ -699,6 +683,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": false,
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
+  },
+  {
+    "rank": 48,
+    "name": "Edd",
+    "minted": 939,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
   },
   {
     "rank": 49,
@@ -748,7 +748,7 @@
   {
     "rank": 52,
     "name": "Drak’s Batwing Shades",
-    "minted": 1008,
+    "minted": 1013,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -1165,22 +1165,6 @@
   },
   {
     "rank": 81,
-    "name": "Rat Pelt Belt",
-    "minted": 1703,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 82,
     "name": "South Paw Sneaks",
     "minted": 1719,
     "burned": 0,
@@ -1194,6 +1178,22 @@
     "passFilter": "S00 Blanko Brawlers",
     "functional": false,
     "imgPath": "/accessory-img/south-paw-sneaks.png"
+  },
+  {
+    "rank": 82,
+    "name": "Rat Pelt Belt",
+    "minted": 1720,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 83,
@@ -1502,7 +1502,7 @@
   {
     "rank": 103,
     "name": "Bear Bite Bracer",
-    "minted": 2728,
+    "minted": 2757,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
