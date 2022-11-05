@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 172,
+    "minted": 176,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -261,7 +261,7 @@
   {
     "rank": 19,
     "name": "Kaiju Kicks",
-    "minted": 393,
+    "minted": 394,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -520,22 +520,6 @@
   },
   {
     "rank": 37,
-    "name": "Drak’s Unholy Batpack",
-    "minted": 767,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": true,
-    "imgPath": "/accessory-img/draks-unholy-batpack.png"
-  },
-  {
-    "rank": 38,
     "name": "Strawberry Short-Steps",
     "minted": 783,
     "burned": 0,
@@ -549,6 +533,22 @@
     "passFilter": "S00 Snack Attack",
     "functional": false,
     "imgPath": "/accessory-img/strawberryshort-steps.png"
+  },
+  {
+    "rank": 38,
+    "name": "Drak’s Unholy Batpack",
+    "minted": 790,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": true,
+    "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
     "rank": 39,
@@ -582,22 +582,6 @@
   },
   {
     "rank": 41,
-    "name": "Wolf Chowduh",
-    "minted": 860,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-19T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/wolf-chowduh.png"
-  },
-  {
-    "rank": 42,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -611,7 +595,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -625,7 +609,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -637,6 +621,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/candy-cane-beanie.png"
+  },
+  {
+    "rank": 44,
+    "name": "Wolf Chowduh",
+    "minted": 864,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-19T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/wolf-chowduh.png"
   },
   {
     "rank": 45,
@@ -774,7 +774,7 @@
   {
     "rank": 54,
     "name": "Drak’s Batwing Shades",
-    "minted": 1036,
+    "minted": 1037,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -831,22 +831,6 @@
   },
   {
     "rank": 58,
-    "name": "Edd",
-    "minted": 1178,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 59,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -860,7 +844,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 60,
+    "rank": 59,
     "name": "Bulletpunk Mask [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -872,6 +856,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
+  },
+  {
+    "rank": 60,
+    "name": "Edd",
+    "minted": 1236,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
   },
   {
     "rank": 61,
@@ -1181,22 +1181,6 @@
   },
   {
     "rank": 82,
-    "name": "Rat Pelt Belt",
-    "minted": 1778,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 83,
     "name": "Burberry® Pool Shoes",
     "minted": 1786,
     "burned": 0,
@@ -1208,6 +1192,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-pool-shoes.png"
+  },
+  {
+    "rank": 83,
+    "name": "Rat Pelt Belt",
+    "minted": 1795,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 84,
@@ -1517,22 +1517,6 @@
   },
   {
     "rank": 104,
-    "name": "Bear Bite Bracer",
-    "minted": 2848,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 105,
     "name": "Feelin' Lucky Bracelet",
     "minted": 2860,
     "burned": 0,
@@ -1544,6 +1528,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/feelin-lucky-bracelet.png"
+  },
+  {
+    "rank": 105,
+    "name": "Bear Bite Bracer",
+    "minted": 2869,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 106,

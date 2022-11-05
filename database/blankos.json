@@ -125,7 +125,7 @@
   {
     "rank": 9,
     "name": "Chemical B Dino",
-    "minted": 123,
+    "minted": 124,
     "burned": 74,
     "minting": true,
     "mintDate": "2022-03-17T07:00:00.000Z",
@@ -157,7 +157,7 @@
   {
     "rank": 11,
     "name": "New World Omega",
-    "minted": 145,
+    "minted": 147,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -188,7 +188,7 @@
   {
     "rank": 13,
     "name": "Platinum Karat",
-    "minted": 184,
+    "minted": 191,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -279,7 +279,7 @@
   {
     "rank": 19,
     "name": "Botan",
-    "minted": 337,
+    "minted": 341,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -293,24 +293,8 @@
   },
   {
     "rank": 20,
-    "name": "Raulf",
-    "minted": 341,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-11-02T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "artist": "Mythical",
-    "tag": "IKWYD Last Grave Rave+",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/raulf.png"
-  },
-  {
-    "rank": 21,
     "name": "Hungry Cat",
-    "minted": 349,
+    "minted": 353,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -323,7 +307,7 @@
     "imgPath": "/blanko-img/hungry-cat.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Lovesick Angeleno",
     "minted": 354,
     "burned": 0,
@@ -338,9 +322,9 @@
     "imgPath": "/blanko-img/lovesick-angeleno.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Ramen San",
-    "minted": 362,
+    "minted": 363,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -353,7 +337,7 @@
     "imgPath": "/blanko-img/ramen-san.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Camo J",
     "minted": 370,
     "burned": 0,
@@ -368,7 +352,7 @@
     "imgPath": "/blanko-img/camo-j.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Peanut FC",
     "minted": 374,
     "burned": 0,
@@ -383,9 +367,9 @@
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "name": "Harlekin",
-    "minted": 378,
+    "minted": 379,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -399,7 +383,7 @@
     "imgPath": "/blanko-img/harlekin.png"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Billy A Bones",
     "minted": 384,
     "burned": 0,
@@ -414,7 +398,7 @@
     "imgPath": "/blanko-img/billy-a-bones.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Sergeant Poppy",
     "minted": 389,
     "burned": 0,
@@ -430,7 +414,7 @@
     "imgPath": "/blanko-img/sergeant-poppy.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Mythical Camo",
     "minted": 394,
     "burned": 0,
@@ -445,7 +429,7 @@
     "imgPath": "/blanko-img/mythical-camo.png"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "name": "Kitsune",
     "minted": 400,
     "burned": 0,
@@ -457,6 +441,22 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/kitsune.png"
+  },
+  {
+    "rank": 30,
+    "name": "Raulf",
+    "minted": 405,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-11-02T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "artist": "Mythical",
+    "tag": "IKWYD Last Grave Rave+",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/raulf.png"
   },
   {
     "rank": 31,
@@ -476,8 +476,8 @@
   {
     "rank": 32,
     "name": "Zeta Amanatra",
-    "minted": 436,
-    "burned": 290,
+    "minted": 437,
+    "burned": 294,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
     "mintPrice": 0,
@@ -521,8 +521,8 @@
   {
     "rank": 35,
     "name": "Karat Corroded",
-    "minted": 616,
-    "burned": 368,
+    "minted": 625,
+    "burned": 382,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -730,7 +730,7 @@
     "rank": 48,
     "name": "Skivvy Klown",
     "minted": 994,
-    "burned": 754,
+    "burned": 756,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -847,7 +847,7 @@
   {
     "rank": 57,
     "name": "Kandie",
-    "minted": 1144,
+    "minted": 1151,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -917,22 +917,6 @@
   },
   {
     "rank": 62,
-    "name": "Drak",
-    "minted": 1264,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "artist": "Mythical",
-    "tag": "IKWYD Last Grave Rave+",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/drak.png"
-  },
-  {
-    "rank": 63,
     "name": "Square",
     "minted": 1266,
     "burned": 0,
@@ -944,6 +928,22 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/square.png"
+  },
+  {
+    "rank": 63,
+    "name": "Drak",
+    "minted": 1267,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "artist": "Mythical",
+    "tag": "IKWYD Last Grave Rave+",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/drak.png"
   },
   {
     "rank": 64,
@@ -1507,7 +1507,7 @@
     "rank": 102,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 872,
+    "burned": 874,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1748,7 +1748,7 @@
     "rank": 119,
     "name": "Boss Dino",
     "minted": 3500,
-    "burned": 246,
+    "burned": 248,
     "minting": false,
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 149.99,
@@ -2098,7 +2098,7 @@
     "rank": 143,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1232,
+    "burned": 1250,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
