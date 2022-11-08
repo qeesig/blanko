@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Platinum Karat",
-    "minted": 194,
+    "minted": 196,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -279,7 +279,7 @@
   {
     "rank": 19,
     "name": "Botan",
-    "minted": 345,
+    "minted": 347,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -309,7 +309,7 @@
   {
     "rank": 21,
     "name": "Hungry Cat",
-    "minted": 357,
+    "minted": 360,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -324,7 +324,7 @@
   {
     "rank": 22,
     "name": "Ramen San",
-    "minted": 363,
+    "minted": 365,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -460,7 +460,7 @@
   {
     "rank": 31,
     "name": "Zeta Amanatra",
-    "minted": 440,
+    "minted": 441,
     "burned": 298,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -505,7 +505,7 @@
   {
     "rank": 34,
     "name": "Raulf",
-    "minted": 505,
+    "minted": 535,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-11-02T07:00:00.000Z",
@@ -521,8 +521,8 @@
   {
     "rank": 35,
     "name": "Karat Corroded",
-    "minted": 637,
-    "burned": 388,
+    "minted": 643,
+    "burned": 392,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -729,7 +729,7 @@
   {
     "rank": 48,
     "name": "Skivvy Klown",
-    "minted": 995,
+    "minted": 996,
     "burned": 760,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -861,7 +861,7 @@
   {
     "rank": 58,
     "name": "Kandie",
-    "minted": 1155,
+    "minted": 1156,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -947,7 +947,7 @@
   {
     "rank": 64,
     "name": "Drak",
-    "minted": 1282,
+    "minted": 1286,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1507,7 +1507,7 @@
     "rank": 102,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 880,
+    "burned": 883,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -2084,7 +2084,7 @@
     "rank": 142,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1990,
+    "burned": 1992,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -2098,7 +2098,7 @@
     "rank": 143,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1275,
+    "burned": 1287,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
