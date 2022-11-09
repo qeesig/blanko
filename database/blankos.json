@@ -202,7 +202,7 @@
   {
     "rank": 14,
     "name": "Platinum Karat",
-    "minted": 196,
+    "minted": 200,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -279,7 +279,7 @@
   {
     "rank": 19,
     "name": "Botan",
-    "minted": 347,
+    "minted": 350,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -309,7 +309,7 @@
   {
     "rank": 21,
     "name": "Hungry Cat",
-    "minted": 360,
+    "minted": 365,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-17T07:00:00.000Z",
@@ -323,21 +323,6 @@
   },
   {
     "rank": 22,
-    "name": "Ramen San",
-    "minted": 365,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-17T07:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "01",
-    "artist": "Junko Mizuno",
-    "tag": "Junko Mizuno Mystery Box",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/ramen-san.png"
-  },
-  {
-    "rank": 23,
     "name": "Camo J",
     "minted": 370,
     "burned": 0,
@@ -352,7 +337,7 @@
     "imgPath": "/blanko-img/camo-j.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Peanut FC",
     "minted": 374,
     "burned": 0,
@@ -367,9 +352,24 @@
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
+    "rank": 24,
+    "name": "Ramen San",
+    "minted": 375,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-17T07:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "01",
+    "artist": "Junko Mizuno",
+    "tag": "Junko Mizuno Mystery Box",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/ramen-san.png"
+  },
+  {
     "rank": 25,
     "name": "Harlekin",
-    "minted": 381,
+    "minted": 383,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -460,7 +460,7 @@
   {
     "rank": 31,
     "name": "Zeta Amanatra",
-    "minted": 441,
+    "minted": 444,
     "burned": 298,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -505,7 +505,7 @@
   {
     "rank": 34,
     "name": "Raulf",
-    "minted": 535,
+    "minted": 588,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-11-02T07:00:00.000Z",
@@ -521,8 +521,8 @@
   {
     "rank": 35,
     "name": "Karat Corroded",
-    "minted": 643,
-    "burned": 392,
+    "minted": 648,
+    "burned": 398,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -729,8 +729,8 @@
   {
     "rank": 48,
     "name": "Skivvy Klown",
-    "minted": 996,
-    "burned": 760,
+    "minted": 999,
+    "burned": 763,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -861,7 +861,7 @@
   {
     "rank": 58,
     "name": "Kandie",
-    "minted": 1156,
+    "minted": 1160,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -947,7 +947,7 @@
   {
     "rank": 64,
     "name": "Drak",
-    "minted": 1286,
+    "minted": 1289,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1507,7 +1507,7 @@
     "rank": 102,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 883,
+    "burned": 885,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -2084,7 +2084,7 @@
     "rank": 142,
     "name": "Klown",
     "minted": 12136,
-    "burned": 1992,
+    "burned": 1998,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -2098,7 +2098,7 @@
     "rank": 143,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1287,
+    "burned": 1291,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
