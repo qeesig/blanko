@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 192,
+    "minted": 196,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -86,9 +86,9 @@
   {
     "rank": 7,
     "name": "Toasted Bun Beanie",
-    "minted": 223,
+    "minted": 263,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-09-28T07:00:00.000Z",
     "mintPrice": 5.99,
     "season": "01",
@@ -260,20 +260,6 @@
   },
   {
     "rank": 19,
-    "name": "Kaiju Kicks",
-    "minted": 402,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 4.99,
-    "season": "01",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/kaiju-kicks.png"
-  },
-  {
-    "rank": 20,
     "name": "Deadmau5 Kandi Kuffs",
     "minted": 422,
     "burned": 0,
@@ -286,6 +272,20 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
+  },
+  {
+    "rank": 20,
+    "name": "Kaiju Kicks",
+    "minted": 425,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 4.99,
+    "season": "01",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/kaiju-kicks.png"
   },
   {
     "rank": 21,
@@ -550,22 +550,6 @@
   },
   {
     "rank": 39,
-    "name": "Drak’s Unholy Batpack",
-    "minted": 846,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": true,
-    "imgPath": "/accessory-img/draks-unholy-batpack.png"
-  },
-  {
-    "rank": 40,
     "name": "Roasted Mallow Rocket Pack",
     "minted": 850,
     "burned": 0,
@@ -581,7 +565,7 @@
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -595,7 +579,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -609,7 +593,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -623,7 +607,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -637,7 +621,7 @@
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "name": "Sweet Bun Beret",
     "minted": 865,
     "burned": 0,
@@ -651,6 +635,22 @@
     "passFilter": "S00 Snack Attack",
     "functional": false,
     "imgPath": "/accessory-img/sweet-bun-beret.png"
+  },
+  {
+    "rank": 45,
+    "name": "Drak’s Unholy Batpack",
+    "minted": 870,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": true,
+    "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
     "rank": 46,
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Wolf Chowduh",
-    "minted": 912,
+    "minted": 927,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -788,7 +788,7 @@
   {
     "rank": 55,
     "name": "Drak’s Batwing Shades",
-    "minted": 1060,
+    "minted": 1071,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -918,7 +918,7 @@
   {
     "rank": 64,
     "name": "Edd",
-    "minted": 1383,
+    "minted": 1433,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -1212,7 +1212,7 @@
   {
     "rank": 84,
     "name": "Rat Pelt Belt",
-    "minted": 1868,
+    "minted": 1892,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-12T07:00:00.000Z",
@@ -1562,7 +1562,7 @@
   {
     "rank": 107,
     "name": "Bear Bite Bracer",
-    "minted": 2965,
+    "minted": 3001,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
