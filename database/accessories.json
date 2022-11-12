@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 196,
+    "minted": 201,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -639,7 +639,7 @@
   {
     "rank": 45,
     "name": "Drak’s Unholy Batpack",
-    "minted": 870,
+    "minted": 880,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Wolf Chowduh",
-    "minted": 927,
+    "minted": 936,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -788,7 +788,7 @@
   {
     "rank": 55,
     "name": "Drak’s Batwing Shades",
-    "minted": 1071,
+    "minted": 1077,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -917,22 +917,6 @@
   },
   {
     "rank": 64,
-    "name": "Edd",
-    "minted": 1433,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 65,
     "name": "Heartbreaker's Cotton Tail",
     "minted": 1435,
     "burned": 0,
@@ -944,6 +928,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/heartbreakers-cotton-tail.png"
+  },
+  {
+    "rank": 65,
+    "name": "Edd",
+    "minted": 1449,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
   },
   {
     "rank": 66,
@@ -1212,7 +1212,7 @@
   {
     "rank": 84,
     "name": "Rat Pelt Belt",
-    "minted": 1892,
+    "minted": 1906,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-12T07:00:00.000Z",
@@ -1562,7 +1562,7 @@
   {
     "rank": 107,
     "name": "Bear Bite Bracer",
-    "minted": 3001,
+    "minted": 3026,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
