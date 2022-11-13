@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 201,
+    "minted": 202,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -639,7 +639,7 @@
   {
     "rank": 45,
     "name": "Drak’s Unholy Batpack",
-    "minted": 880,
+    "minted": 894,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -671,7 +671,7 @@
   {
     "rank": 47,
     "name": "Wolf Chowduh",
-    "minted": 936,
+    "minted": 940,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -788,7 +788,7 @@
   {
     "rank": 55,
     "name": "Drak’s Batwing Shades",
-    "minted": 1077,
+    "minted": 1079,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -931,22 +931,6 @@
   },
   {
     "rank": 65,
-    "name": "Edd",
-    "minted": 1449,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 66,
     "name": "Pre-Frontal Hemorrhage Hat",
     "minted": 1451,
     "burned": 0,
@@ -960,7 +944,7 @@
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
   },
   {
-    "rank": 67,
+    "rank": 66,
     "name": "Punch Up Parachute",
     "minted": 1458,
     "burned": 0,
@@ -974,6 +958,22 @@
     "passFilter": "S00 Blanko Brawlers",
     "functional": true,
     "imgPath": "/accessory-img/punch-up-parachute.png"
+  },
+  {
+    "rank": 67,
+    "name": "Edd",
+    "minted": 1469,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
   },
   {
     "rank": 68,
@@ -1212,7 +1212,7 @@
   {
     "rank": 84,
     "name": "Rat Pelt Belt",
-    "minted": 1906,
+    "minted": 1915,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-12T07:00:00.000Z",
@@ -1562,7 +1562,7 @@
   {
     "rank": 107,
     "name": "Bear Bite Bracer",
-    "minted": 3026,
+    "minted": 3047,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
