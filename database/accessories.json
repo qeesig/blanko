@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 202,
+    "minted": 205,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -639,7 +639,7 @@
   {
     "rank": 45,
     "name": "Drak’s Unholy Batpack",
-    "minted": 894,
+    "minted": 901,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -670,22 +670,6 @@
   },
   {
     "rank": 47,
-    "name": "Wolf Chowduh",
-    "minted": 940,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-19T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/wolf-chowduh.png"
-  },
-  {
-    "rank": 48,
     "name": "Spiked Choker",
     "minted": 941,
     "burned": 0,
@@ -697,6 +681,22 @@
     "seasonFilter": "S00 Private Beta",
     "functional": false,
     "imgPath": "/accessory-img/spiked-choker.png"
+  },
+  {
+    "rank": 48,
+    "name": "Wolf Chowduh",
+    "minted": 945,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-19T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/wolf-chowduh.png"
   },
   {
     "rank": 49,
@@ -788,7 +788,7 @@
   {
     "rank": 55,
     "name": "Drak’s Batwing Shades",
-    "minted": 1079,
+    "minted": 1084,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -962,7 +962,7 @@
   {
     "rank": 67,
     "name": "Edd",
-    "minted": 1469,
+    "minted": 1482,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -1212,7 +1212,7 @@
   {
     "rank": 84,
     "name": "Rat Pelt Belt",
-    "minted": 1915,
+    "minted": 1933,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-12T07:00:00.000Z",
@@ -1561,22 +1561,6 @@
   },
   {
     "rank": 107,
-    "name": "Bear Bite Bracer",
-    "minted": 3047,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 108,
     "name": "Luster Buckle Beanie",
     "minted": 3057,
     "burned": 0,
@@ -1590,6 +1574,22 @@
     "passFilter": "S00 Hustle & Glow",
     "functional": false,
     "imgPath": "/accessory-img/luster-buckle-beanie.png"
+  },
+  {
+    "rank": 108,
+    "name": "Bear Bite Bracer",
+    "minted": 3073,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 109,
