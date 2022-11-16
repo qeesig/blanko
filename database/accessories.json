@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 206,
+    "minted": 215,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -638,22 +638,6 @@
   },
   {
     "rank": 45,
-    "name": "Drak’s Unholy Batpack",
-    "minted": 908,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave+",
-    "category": "Back",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": true,
-    "imgPath": "/accessory-img/draks-unholy-batpack.png"
-  },
-  {
-    "rank": 46,
     "name": "Tenderfoot’s Crocket Cap",
     "minted": 910,
     "burned": 0,
@@ -667,6 +651,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": false,
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
+  },
+  {
+    "rank": 46,
+    "name": "Drak’s Unholy Batpack",
+    "minted": 915,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave+",
+    "category": "Back",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": true,
+    "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
     "rank": 47,
@@ -685,7 +685,7 @@
   {
     "rank": 48,
     "name": "Wolf Chowduh",
-    "minted": 950,
+    "minted": 952,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -788,7 +788,7 @@
   {
     "rank": 55,
     "name": "Drak’s Batwing Shades",
-    "minted": 1092,
+    "minted": 1096,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -1004,7 +1004,7 @@
   {
     "rank": 70,
     "name": "Edd",
-    "minted": 1506,
+    "minted": 1515,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -1212,7 +1212,7 @@
   {
     "rank": 84,
     "name": "Rat Pelt Belt",
-    "minted": 1951,
+    "minted": 1964,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-12T07:00:00.000Z",
@@ -1577,22 +1577,6 @@
   },
   {
     "rank": 108,
-    "name": "Bear Bite Bracer",
-    "minted": 3108,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-09-28T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/bear-bite-bracer.png"
-  },
-  {
-    "rank": 109,
     "name": "Jin’s Lucky Kicks",
     "minted": 3120,
     "burned": 0,
@@ -1606,6 +1590,22 @@
     "passFilter": "S00 Get Lucky",
     "functional": false,
     "imgPath": "/accessory-img/jins-lucky-kicks.png"
+  },
+  {
+    "rank": 109,
+    "name": "Bear Bite Bracer",
+    "minted": 3123,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-09-28T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
     "rank": 110,
