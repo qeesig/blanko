@@ -16,7 +16,7 @@
   {
     "rank": 2,
     "name": "Community Chrome",
-    "minted": 100,
+    "minted": 101,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -72,9 +72,9 @@
   {
     "rank": 6,
     "name": "Brain F.F.A.R.T.",
-    "minted": 215,
+    "minted": 237,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-10-26T07:00:00.000Z",
     "mintPrice": 6.99,
     "season": "01",
@@ -670,7 +670,7 @@
   {
     "rank": 47,
     "name": "Drak’s Unholy Batpack",
-    "minted": 915,
+    "minted": 932,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-26T07:00:00.000Z",
@@ -700,7 +700,7 @@
   {
     "rank": 49,
     "name": "Wolf Chowduh",
-    "minted": 952,
+    "minted": 969,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-19T07:00:00.000Z",
@@ -803,7 +803,7 @@
   {
     "rank": 56,
     "name": "Drak’s Batwing Shades",
-    "minted": 1096,
+    "minted": 1116,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-05T07:00:00.000Z",
@@ -1018,22 +1018,6 @@
   },
   {
     "rank": 71,
-    "name": "Edd",
-    "minted": 1515,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-26T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/edd.png"
-  },
-  {
-    "rank": 72,
     "name": "Heartbreaker’s Bunny Ears",
     "minted": 1545,
     "burned": 0,
@@ -1045,6 +1029,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
+  },
+  {
+    "rank": 72,
+    "name": "Edd",
+    "minted": 1563,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-26T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/edd.png"
   },
   {
     "rank": 73,
@@ -1226,22 +1226,6 @@
   },
   {
     "rank": 85,
-    "name": "Rat Pelt Belt",
-    "minted": 1964,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-12T07:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "IKWYD Last Grave Rave",
-    "category": "Belt",
-    "seasonFilter": "S01",
-    "passFilter": "S01 IKWYD Last Grave Rave",
-    "functional": false,
-    "imgPath": "/accessory-img/rat-pelt-belt.png"
-  },
-  {
-    "rank": 86,
     "name": "The Bodysnatcher",
     "minted": 1997,
     "burned": 0,
@@ -1257,7 +1241,7 @@
     "imgPath": "/accessory-img/the-bodysnatcher.png"
   },
   {
-    "rank": 87,
+    "rank": 86,
     "name": "Mau5 Ear5",
     "minted": 2000,
     "burned": 0,
@@ -1271,7 +1255,7 @@
     "imgPath": "/accessory-img/mau5-ear5.png"
   },
   {
-    "rank": 88,
+    "rank": 87,
     "name": "The Canopic Cruiser",
     "minted": 2000,
     "burned": 0,
@@ -1283,6 +1267,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": true,
     "imgPath": "/accessory-img/the-canopic-cruiser.png"
+  },
+  {
+    "rank": 88,
+    "name": "Rat Pelt Belt",
+    "minted": 2026,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-12T07:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "IKWYD Last Grave Rave",
+    "category": "Belt",
+    "seasonFilter": "S01",
+    "passFilter": "S01 IKWYD Last Grave Rave",
+    "functional": false,
+    "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
     "rank": 89,
@@ -1609,7 +1609,7 @@
   {
     "rank": 110,
     "name": "Bear Bite Bracer",
-    "minted": 3123,
+    "minted": 3162,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
