@@ -157,7 +157,7 @@
   {
     "rank": 11,
     "name": "New World Omega",
-    "minted": 158,
+    "minted": 160,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -218,7 +218,7 @@
   {
     "rank": 15,
     "name": "Platinum Karat",
-    "minted": 252,
+    "minted": 258,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -233,20 +233,6 @@
   },
   {
     "rank": 16,
-    "name": "Boc",
-    "minted": 276,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-11-18T08:00:00.000Z",
-    "mintPrice": 9.99,
-    "season": "01",
-    "artist": "Pete Fowler",
-    "seasonFilter": "S01",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/boc.png"
-  },
-  {
-    "rank": 17,
     "name": "Secret TEQ63",
     "minted": 278,
     "burned": 0,
@@ -258,6 +244,20 @@
     "seasonFilter": "S00 Early Access",
     "withdrawable": true,
     "imgPath": "/blanko-img/secret-teq63.png"
+  },
+  {
+    "rank": 17,
+    "name": "Boc",
+    "minted": 279,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-11-18T08:00:00.000Z",
+    "mintPrice": 9.99,
+    "season": "01",
+    "artist": "Pete Fowler",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/boc.png"
   },
   {
     "rank": 18,
@@ -489,8 +489,8 @@
   {
     "rank": 33,
     "name": "Zeta Amanatra",
-    "minted": 465,
-    "burned": 316,
+    "minted": 466,
+    "burned": 320,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
     "mintPrice": 0,
@@ -667,8 +667,8 @@
   {
     "rank": 45,
     "name": "Karat Corroded",
-    "minted": 764,
-    "burned": 502,
+    "minted": 774,
+    "burned": 514,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -962,7 +962,7 @@
   {
     "rank": 65,
     "name": "Kandie",
-    "minted": 1230,
+    "minted": 1240,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1582,7 +1582,7 @@
     "rank": 107,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 927,
+    "burned": 929,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -2173,7 +2173,7 @@
     "rank": 148,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1523,
+    "burned": 1543,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
