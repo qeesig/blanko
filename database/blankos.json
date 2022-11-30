@@ -46,6 +46,22 @@
   },
   {
     "rank": 4,
+    "name": "Azure Boom",
+    "minted": 33,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-11-29T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "tag": "Gem Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/azure-boom.png"
+  },
+  {
+    "rank": 5,
     "name": "Ultra B Dino",
     "minted": 37,
     "burned": 0,
@@ -61,7 +77,7 @@
     "imgPath": "/blanko-img/ultra-b-dino.png"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "name": "El Grand Quetzalcoatl",
     "minted": 44,
     "burned": 0,
@@ -77,7 +93,7 @@
     "imgPath": "/blanko-img/el-grand-quetzalcoatl.png"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "name": "I Am Rare",
     "minted": 58,
     "burned": 0,
@@ -92,7 +108,7 @@
     "imgPath": "/blanko-img/i-am-rare.png"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "name": "Puguillo Tranquilo",
     "minted": 100,
     "burned": 0,
@@ -108,7 +124,23 @@
     "imgPath": "/blanko-img/puguillo-tranquilo.png"
   },
   {
-    "rank": 8,
+    "rank": 9,
+    "name": "Golden Roar",
+    "minted": 114,
+    "burned": 66,
+    "minting": true,
+    "mintDate": "2022-11-29T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "00",
+    "artist": "Mel Chang",
+    "tag": "Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/golden-roar.png"
+  },
+  {
+    "rank": 10,
     "name": "Orson Rex",
     "minted": 117,
     "burned": 0,
@@ -123,9 +155,9 @@
     "imgPath": "/blanko-img/orson-rex.png"
   },
   {
-    "rank": 9,
+    "rank": 11,
     "name": "Chemical B Dino",
-    "minted": 124,
+    "minted": 125,
     "burned": 74,
     "minting": true,
     "mintDate": "2022-03-17T07:00:00.000Z",
@@ -139,7 +171,7 @@
     "imgPath": "/blanko-img/chemical-b-dino.png"
   },
   {
-    "rank": 10,
+    "rank": 12,
     "name": "El Xiuhcoatl",
     "minted": 135,
     "burned": 88,
@@ -155,9 +187,9 @@
     "imgPath": "/blanko-img/el-xiuhcoatl.png"
   },
   {
-    "rank": 11,
+    "rank": 13,
     "name": "New World Omega",
-    "minted": 160,
+    "minted": 161,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -171,7 +203,7 @@
     "imgPath": "/blanko-img/new-world-omega.png"
   },
   {
-    "rank": 12,
+    "rank": 14,
     "name": "Billy Bones Flip",
     "minted": 167,
     "burned": 0,
@@ -186,7 +218,7 @@
     "imgPath": "/blanko-img/billy-bones-flip.png"
   },
   {
-    "rank": 13,
+    "rank": 15,
     "name": "Minny B",
     "minted": 193,
     "burned": 0,
@@ -200,7 +232,7 @@
     "imgPath": "/blanko-img/minny-b.png"
   },
   {
-    "rank": 14,
+    "rank": 16,
     "name": "AT0M.atn KM",
     "minted": 200,
     "burned": 0,
@@ -216,9 +248,9 @@
     "imgPath": "/blanko-img/at0m-atn-km.png"
   },
   {
-    "rank": 15,
+    "rank": 17,
     "name": "Platinum Karat",
-    "minted": 264,
+    "minted": 267,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -232,7 +264,7 @@
     "imgPath": "/blanko-img/platinum-karat.png"
   },
   {
-    "rank": 16,
+    "rank": 18,
     "name": "Secret TEQ63",
     "minted": 278,
     "burned": 0,
@@ -246,9 +278,9 @@
     "imgPath": "/blanko-img/secret-teq63.png"
   },
   {
-    "rank": 17,
+    "rank": 19,
     "name": "Boc",
-    "minted": 290,
+    "minted": 296,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-11-18T08:00:00.000Z",
@@ -260,7 +292,7 @@
     "imgPath": "/blanko-img/boc.png"
   },
   {
-    "rank": 18,
+    "rank": 20,
     "name": "LavaMouth",
     "minted": 300,
     "burned": 0,
@@ -275,9 +307,9 @@
     "imgPath": "/blanko-img/lavamouth.png"
   },
   {
-    "rank": 19,
+    "rank": 21,
     "name": "Don Puguillo",
-    "minted": 307,
+    "minted": 308,
     "burned": 200,
     "minting": true,
     "mintDate": "2022-07-14T07:00:00.000Z",
@@ -291,7 +323,7 @@
     "imgPath": "/blanko-img/don-puguillo.png"
   },
   {
-    "rank": 20,
+    "rank": 22,
     "name": "Lovesick Angeleno",
     "minted": 354,
     "burned": 0,
@@ -306,7 +338,7 @@
     "imgPath": "/blanko-img/lovesick-angeleno.png"
   },
   {
-    "rank": 21,
+    "rank": 23,
     "name": "Camo J",
     "minted": 370,
     "burned": 0,
@@ -321,7 +353,7 @@
     "imgPath": "/blanko-img/camo-j.png"
   },
   {
-    "rank": 22,
+    "rank": 24,
     "name": "Peanut FC",
     "minted": 374,
     "burned": 0,
@@ -336,7 +368,7 @@
     "imgPath": "/blanko-img/peanut-fc.png"
   },
   {
-    "rank": 23,
+    "rank": 25,
     "name": "Billy A Bones",
     "minted": 384,
     "burned": 0,
@@ -351,9 +383,9 @@
     "imgPath": "/blanko-img/billy-a-bones.png"
   },
   {
-    "rank": 24,
+    "rank": 26,
     "name": "Harlekin",
-    "minted": 388,
+    "minted": 389,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -367,7 +399,7 @@
     "imgPath": "/blanko-img/harlekin.png"
   },
   {
-    "rank": 25,
+    "rank": 27,
     "name": "Sergeant Poppy",
     "minted": 389,
     "burned": 0,
@@ -383,7 +415,7 @@
     "imgPath": "/blanko-img/sergeant-poppy.png"
   },
   {
-    "rank": 26,
+    "rank": 28,
     "name": "Mythical Camo",
     "minted": 394,
     "burned": 0,
@@ -398,7 +430,7 @@
     "imgPath": "/blanko-img/mythical-camo.png"
   },
   {
-    "rank": 27,
+    "rank": 29,
     "name": "Kitsune",
     "minted": 400,
     "burned": 0,
@@ -412,7 +444,7 @@
     "imgPath": "/blanko-img/kitsune.png"
   },
   {
-    "rank": 28,
+    "rank": 30,
     "name": "El Cha Texas",
     "minted": 405,
     "burned": 0,
@@ -427,7 +459,7 @@
     "imgPath": "/blanko-img/el-cha-texas.png"
   },
   {
-    "rank": 29,
+    "rank": 31,
     "name": "Punk Pop",
     "minted": 409,
     "burned": 0,
@@ -442,7 +474,7 @@
     "imgPath": "/blanko-img/punk-pop.png"
   },
   {
-    "rank": 30,
+    "rank": 32,
     "name": "Botan",
     "minted": 453,
     "burned": 0,
@@ -457,7 +489,7 @@
     "imgPath": "/blanko-img/botan.png"
   },
   {
-    "rank": 31,
+    "rank": 33,
     "name": "Glam Pop",
     "minted": 455,
     "burned": 0,
@@ -472,7 +504,7 @@
     "imgPath": "/blanko-img/glam-pop.png"
   },
   {
-    "rank": 32,
+    "rank": 34,
     "name": "Hungry Cat",
     "minted": 456,
     "burned": 0,
@@ -487,10 +519,10 @@
     "imgPath": "/blanko-img/hungry-cat.png"
   },
   {
-    "rank": 33,
+    "rank": 35,
     "name": "Zeta Amanatra",
-    "minted": 469,
-    "burned": 320,
+    "minted": 470,
+    "burned": 322,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
     "mintPrice": 0,
@@ -503,7 +535,7 @@
     "imgPath": "/blanko-img/zeta-amanatra.png"
   },
   {
-    "rank": 34,
+    "rank": 36,
     "name": "Ramen San",
     "minted": 472,
     "burned": 0,
@@ -518,7 +550,7 @@
     "imgPath": "/blanko-img/ramen-san.png"
   },
   {
-    "rank": 35,
+    "rank": 37,
     "name": "Hip Pop",
     "minted": 473,
     "burned": 0,
@@ -533,7 +565,7 @@
     "imgPath": "/blanko-img/hip-pop.png"
   },
   {
-    "rank": 36,
+    "rank": 38,
     "name": "Kub Totem",
     "minted": 500,
     "burned": 0,
@@ -547,7 +579,7 @@
     "imgPath": "/blanko-img/kub-totem.png"
   },
   {
-    "rank": 37,
+    "rank": 39,
     "name": "IceBuddy",
     "minted": 500,
     "burned": 0,
@@ -562,7 +594,7 @@
     "imgPath": "/blanko-img/icebuddy.png"
   },
   {
-    "rank": 38,
+    "rank": 40,
     "name": "Sweet Gaze",
     "minted": 694,
     "burned": 0,
@@ -578,7 +610,7 @@
     "imgPath": "/blanko-img/sweet_gaze.png"
   },
   {
-    "rank": 39,
+    "rank": 41,
     "name": "Kijo",
     "minted": 700,
     "burned": 0,
@@ -592,7 +624,7 @@
     "imgPath": "/blanko-img/kijo.png"
   },
   {
-    "rank": 40,
+    "rank": 42,
     "name": "Mechagodzilla",
     "minted": 703,
     "burned": 0,
@@ -606,7 +638,7 @@
     "imgPath": "/blanko-img/mechagodzilla.png"
   },
   {
-    "rank": 41,
+    "rank": 43,
     "name": "Multi Blanko",
     "minted": 744,
     "burned": 0,
@@ -621,7 +653,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 42,
+    "rank": 44,
     "name": "Guilty Gardener 474",
     "minted": 747,
     "burned": 0,
@@ -635,7 +667,7 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 43,
+    "rank": 45,
     "name": "Tenderfoot",
     "minted": 750,
     "burned": 0,
@@ -651,7 +683,7 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 44,
+    "rank": 46,
     "name": "Sharky B.",
     "minted": 750,
     "burned": 0,
@@ -665,10 +697,10 @@
     "imgPath": "/blanko-img/sharky-b.png"
   },
   {
-    "rank": 45,
+    "rank": 47,
     "name": "Karat Corroded",
-    "minted": 791,
-    "burned": 526,
+    "minted": 800,
+    "burned": 532,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -681,7 +713,7 @@
     "imgPath": "/blanko-img/karat-corroded.png"
   },
   {
-    "rank": 46,
+    "rank": 49,
     "name": "Attick",
     "minted": 814,
     "burned": 0,
@@ -695,7 +727,7 @@
     "imgPath": "/blanko-img/attick.png"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "name": "GrassGnome",
     "minted": 832,
     "burned": 0,
@@ -710,7 +742,7 @@
     "imgPath": "/blanko-img/grassgnome.png"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "name": "Roughen Tumble",
     "minted": 872,
     "burned": 0,
@@ -724,7 +756,7 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
-    "rank": 48,
+    "rank": 51,
     "name": "Raulf",
     "minted": 939,
     "burned": 0,
@@ -740,7 +772,7 @@
     "imgPath": "/blanko-img/raulf.png"
   },
   {
-    "rank": 50,
+    "rank": 53,
     "name": "Honey Bun",
     "minted": 976,
     "burned": 0,
@@ -756,7 +788,7 @@
     "imgPath": "/blanko-img/honey-bun.png"
   },
   {
-    "rank": 51,
+    "rank": 54,
     "name": "Mothra",
     "minted": 984,
     "burned": 0,
@@ -770,7 +802,7 @@
     "imgPath": "/blanko-img/mothra.png"
   },
   {
-    "rank": 53,
+    "rank": 52,
     "name": "AT0M.atn ERR",
     "minted": 986,
     "burned": 400,
@@ -786,7 +818,7 @@
     "imgPath": "/blanko-img/at0m-atn-err.png"
   },
   {
-    "rank": 54,
+    "rank": 55,
     "name": "Frostbyte",
     "minted": 1000,
     "burned": 0,
@@ -801,7 +833,7 @@
     "imgPath": "/blanko-img/frostbyte.png"
   },
   {
-    "rank": 52,
+    "rank": 56,
     "name": "Get Lit deadmau5",
     "minted": 1000,
     "burned": 0,
@@ -815,7 +847,7 @@
     "imgPath": "/blanko-img/get-lit-deadmau5.png"
   },
   {
-    "rank": 55,
+    "rank": 57,
     "name": "Mudboi",
     "minted": 1000,
     "burned": 0,
@@ -830,7 +862,7 @@
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
-    "rank": 56,
+    "rank": 58,
     "name": "Professor Meowingtons",
     "minted": 1003,
     "burned": 3,
@@ -844,10 +876,10 @@
     "imgPath": "/blanko-img/professor-meowingtons.png"
   },
   {
-    "rank": 57,
+    "rank": 59,
     "name": "Skivvy Klown",
-    "minted": 1014,
-    "burned": 773,
+    "minted": 1015,
+    "burned": 775,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -860,7 +892,7 @@
     "imgPath": "/blanko-img/skivvy-klown.png"
   },
   {
-    "rank": 58,
+    "rank": 60,
     "name": "Roxx",
     "minted": 1091,
     "burned": 0,
@@ -874,7 +906,7 @@
     "imgPath": "/blanko-img/roxx.png"
   },
   {
-    "rank": 59,
+    "rank": 61,
     "name": "Nadine",
     "minted": 1097,
     "burned": 0,
@@ -888,7 +920,7 @@
     "imgPath": "/blanko-img/nadine.png"
   },
   {
-    "rank": 60,
+    "rank": 62,
     "name": "Counselor Blaze",
     "minted": 1131,
     "burned": 0,
@@ -904,7 +936,7 @@
     "imgPath": "/blanko-img/counselor-blaze.png"
   },
   {
-    "rank": 61,
+    "rank": 63,
     "name": "Godzilla",
     "minted": 1153,
     "burned": 0,
@@ -918,7 +950,7 @@
     "imgPath": "/blanko-img/godzilla.png"
   },
   {
-    "rank": 62,
+    "rank": 64,
     "name": "Keep Rockin",
     "minted": 1190,
     "burned": 0,
@@ -932,7 +964,7 @@
     "imgPath": "/blanko-img/keep-rockin.png"
   },
   {
-    "rank": 63,
+    "rank": 65,
     "name": "TEQ63 [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -946,7 +978,7 @@
     "imgPath": "/blanko-img/teq63-ghost-white.png"
   },
   {
-    "rank": 64,
+    "rank": 66,
     "name": "TEQ63 [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -960,9 +992,9 @@
     "imgPath": "/blanko-img/teq63-og-blk.png"
   },
   {
-    "rank": 65,
+    "rank": 67,
     "name": "Kandie",
-    "minted": 1252,
+    "minted": 1254,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -975,7 +1007,7 @@
     "imgPath": "/blanko-img/kandie.png"
   },
   {
-    "rank": 66,
+    "rank": 68,
     "name": "Square",
     "minted": 1266,
     "burned": 0,
@@ -989,7 +1021,7 @@
     "imgPath": "/blanko-img/square.png"
   },
   {
-    "rank": 67,
+    "rank": 69,
     "name": "Joystick",
     "minted": 1276,
     "burned": 0,
@@ -1004,7 +1036,7 @@
     "imgPath": "/blanko-img/joystick.png"
   },
   {
-    "rank": 68,
+    "rank": 70,
     "name": "South Paw",
     "minted": 1325,
     "burned": 0,
@@ -1020,7 +1052,7 @@
     "imgPath": "/blanko-img/south-paw.png"
   },
   {
-    "rank": 69,
+    "rank": 71,
     "name": "Tempest",
     "minted": 1344,
     "burned": 0,
@@ -1035,7 +1067,7 @@
     "imgPath": "/blanko-img/tempest.png"
   },
   {
-    "rank": 70,
+    "rank": 72,
     "name": "Pep",
     "minted": 1347,
     "burned": 0,
@@ -1051,7 +1083,7 @@
     "imgPath": "/blanko-img/pep.png"
   },
   {
-    "rank": 71,
+    "rank": 73,
     "name": "Pong",
     "minted": 1357,
     "burned": 0,
@@ -1066,7 +1098,7 @@
     "imgPath": "/blanko-img/pong.png"
   },
   {
-    "rank": 72,
+    "rank": 74,
     "name": "El Coatlito",
     "minted": 1365,
     "burned": 270,
@@ -1080,7 +1112,7 @@
     "imgPath": "/blanko-img/el-coatlito.png"
   },
   {
-    "rank": 73,
+    "rank": 75,
     "name": "Centipede",
     "minted": 1377,
     "burned": 0,
@@ -1095,7 +1127,7 @@
     "imgPath": "/blanko-img/centipede.png"
   },
   {
-    "rank": 74,
+    "rank": 76,
     "name": "Drak",
     "minted": 1384,
     "burned": 0,
@@ -1111,7 +1143,7 @@
     "imgPath": "/blanko-img/drak.png"
   },
   {
-    "rank": 75,
+    "rank": 77,
     "name": "Lead Counselor Sage",
     "minted": 1444,
     "burned": 0,
@@ -1127,7 +1159,7 @@
     "imgPath": "/blanko-img/lead-counselor-sage.png"
   },
   {
-    "rank": 76,
+    "rank": 78,
     "name": "Menace",
     "minted": 1489,
     "burned": 0,
@@ -1141,7 +1173,7 @@
     "imgPath": "/blanko-img/menace.png"
   },
   {
-    "rank": 77,
+    "rank": 79,
     "name": "Frankie",
     "minted": 1504,
     "burned": 0,
@@ -1157,7 +1189,7 @@
     "imgPath": "/blanko-img/frankie.png"
   },
   {
-    "rank": 78,
+    "rank": 80,
     "name": "Glitter Goth",
     "minted": 1562,
     "burned": 0,
@@ -1171,7 +1203,7 @@
     "imgPath": "/blanko-img/glitter-goth.png"
   },
   {
-    "rank": 79,
+    "rank": 81,
     "name": "Astrid Havoc",
     "minted": 1572,
     "burned": 0,
@@ -1187,7 +1219,7 @@
     "imgPath": "/blanko-img/astrid-havoc.png"
   },
   {
-    "rank": 80,
+    "rank": 82,
     "name": "Sal",
     "minted": 1608,
     "burned": 0,
@@ -1201,7 +1233,7 @@
     "imgPath": "/blanko-img/sal.png"
   },
   {
-    "rank": 81,
+    "rank": 83,
     "name": "Betty Yeti",
     "minted": 1713,
     "burned": 0,
@@ -1215,7 +1247,7 @@
     "imgPath": "/blanko-img/betty-yeti.png"
   },
   {
-    "rank": 82,
+    "rank": 84,
     "name": "Stupid Cupid",
     "minted": 1799,
     "burned": 0,
@@ -1229,7 +1261,7 @@
     "imgPath": "/blanko-img/stupid-cupid.png"
   },
   {
-    "rank": 83,
+    "rank": 85,
     "name": "Box B",
     "minted": 1859,
     "burned": 0,
@@ -1243,7 +1275,7 @@
     "imgPath": "/blanko-img/box-b.png"
   },
   {
-    "rank": 84,
+    "rank": 86,
     "name": "King Kirby",
     "minted": 1872,
     "burned": 0,
@@ -1257,7 +1289,7 @@
     "imgPath": "/blanko-img/king-kirby.png"
   },
   {
-    "rank": 85,
+    "rank": 87,
     "name": "Mint Condition",
     "minted": 1927,
     "burned": 0,
@@ -1271,7 +1303,7 @@
     "imgPath": "/blanko-img/mint-condition.png"
   },
   {
-    "rank": 86,
+    "rank": 88,
     "name": "Burger San",
     "minted": 2000,
     "burned": 0,
@@ -1285,7 +1317,7 @@
     "imgPath": "/blanko-img/burger-san.png"
   },
   {
-    "rank": 87,
+    "rank": 89,
     "name": "Gorilla Samurai",
     "minted": 2000,
     "burned": 0,
@@ -1299,7 +1331,7 @@
     "imgPath": "/blanko-img/gorilla-samurai.png"
   },
   {
-    "rank": 88,
+    "rank": 90,
     "name": "Ivar Matlow",
     "minted": 2000,
     "burned": 0,
@@ -1313,7 +1345,7 @@
     "imgPath": "/blanko-img/ivar-matlow.png"
   },
   {
-    "rank": 89,
+    "rank": 91,
     "name": "Lady Ishi",
     "minted": 2000,
     "burned": 0,
@@ -1327,7 +1359,7 @@
     "imgPath": "/blanko-img/lady-ishi.png"
   },
   {
-    "rank": 90,
+    "rank": 92,
     "name": "Nijiko",
     "minted": 2000,
     "burned": 0,
@@ -1341,7 +1373,7 @@
     "imgPath": "/blanko-img/nijiko.png"
   },
   {
-    "rank": 91,
+    "rank": 93,
     "name": "Katana",
     "minted": 2031,
     "burned": 0,
@@ -1357,7 +1389,7 @@
     "imgPath": "/blanko-img/katana.png"
   },
   {
-    "rank": 92,
+    "rank": 94,
     "name": "Seafarer Oni",
     "minted": 2051,
     "burned": 0,
@@ -1371,7 +1403,7 @@
     "imgPath": "/blanko-img/seafarer-oni.png"
   },
   {
-    "rank": 93,
+    "rank": 95,
     "name": "Nelson",
     "minted": 2078,
     "burned": 0,
@@ -1387,7 +1419,7 @@
     "imgPath": "/blanko-img/nelson.png"
   },
   {
-    "rank": 94,
+    "rank": 96,
     "name": "Cabinet_Man.exe",
     "minted": 2107,
     "burned": 0,
@@ -1403,7 +1435,7 @@
     "imgPath": "/blanko-img/cabinet-man-exe.png"
   },
   {
-    "rank": 95,
+    "rank": 97,
     "name": "Kisha Demon Eater",
     "minted": 2179,
     "burned": 0,
@@ -1417,7 +1449,7 @@
     "imgPath": "/blanko-img/kisha-demon-eater.png"
   },
   {
-    "rank": 96,
+    "rank": 98,
     "name": "Braincase",
     "minted": 2237,
     "burned": 0,
@@ -1431,7 +1463,7 @@
     "imgPath": "/blanko-img/braincase.png"
   },
   {
-    "rank": 97,
+    "rank": 99,
     "name": "Freddy Yeti",
     "minted": 2298,
     "burned": 0,
@@ -1445,7 +1477,7 @@
     "imgPath": "/blanko-img/freddy-yeti.png"
   },
   {
-    "rank": 98,
+    "rank": 100,
     "name": "Mumford",
     "minted": 2451,
     "burned": 0,
@@ -1461,7 +1493,7 @@
     "imgPath": "/blanko-img/mumford.png"
   },
   {
-    "rank": 99,
+    "rank": 101,
     "name": "TMC Crenshaw",
     "minted": 2512,
     "burned": 0,
@@ -1475,7 +1507,7 @@
     "imgPath": "/blanko-img/tmc-crenshaw.png"
   },
   {
-    "rank": 100,
+    "rank": 102,
     "name": "Manila Killa",
     "minted": 2567,
     "burned": 0,
@@ -1491,7 +1523,7 @@
     "imgPath": "/blanko-img/manila-killa.png"
   },
   {
-    "rank": 101,
+    "rank": 103,
     "name": "Grandmaster Jin",
     "minted": 2583,
     "burned": 0,
@@ -1507,7 +1539,7 @@
     "imgPath": "/blanko-img/grandmaster-jin.png"
   },
   {
-    "rank": 102,
+    "rank": 104,
     "name": "Tako",
     "minted": 2589,
     "burned": 0,
@@ -1522,7 +1554,7 @@
     "imgPath": "/blanko-img/tako.png"
   },
   {
-    "rank": 103,
+    "rank": 105,
     "name": "Lumberjack",
     "minted": 2596,
     "burned": 0,
@@ -1536,7 +1568,7 @@
     "imgPath": "/blanko-img/lumberjack.png"
   },
   {
-    "rank": 104,
+    "rank": 106,
     "name": "Pride Dragon",
     "minted": 2620,
     "burned": 0,
@@ -1550,7 +1582,7 @@
     "imgPath": "/blanko-img/pride-dragon.png"
   },
   {
-    "rank": 105,
+    "rank": 107,
     "name": "Space Ape",
     "minted": 2638,
     "burned": 0,
@@ -1564,7 +1596,7 @@
     "imgPath": "/blanko-img/space-ape.png"
   },
   {
-    "rank": 106,
+    "rank": 108,
     "name": "Billy Bones Gold",
     "minted": 2699,
     "burned": 0,
@@ -1579,10 +1611,10 @@
     "imgPath": "/blanko-img/billy-bones-gold.png"
   },
   {
-    "rank": 107,
+    "rank": 109,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 935,
+    "burned": 937,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -1594,7 +1626,7 @@
     "imgPath": "/blanko-img/zeta.png"
   },
   {
-    "rank": 108,
+    "rank": 110,
     "name": "Fathomz",
     "minted": 2723,
     "burned": 0,
@@ -1608,7 +1640,7 @@
     "imgPath": "/blanko-img/fathomz.png"
   },
   {
-    "rank": 109,
+    "rank": 111,
     "name": "TMC Stealth",
     "minted": 2792,
     "burned": 0,
@@ -1622,7 +1654,7 @@
     "imgPath": "/blanko-img/tmc-stealth.png"
   },
   {
-    "rank": 110,
+    "rank": 112,
     "name": "Zantar",
     "minted": 2843,
     "burned": 0,
@@ -1636,7 +1668,7 @@
     "imgPath": "/blanko-img/zantar.png"
   },
   {
-    "rank": 111,
+    "rank": 113,
     "name": "Altidude",
     "minted": 2853,
     "burned": 0,
@@ -1650,7 +1682,7 @@
     "imgPath": "/blanko-img/altidude.png"
   },
   {
-    "rank": 112,
+    "rank": 114,
     "name": "Traffic",
     "minted": 2910,
     "burned": 0,
@@ -1664,7 +1696,7 @@
     "imgPath": "/blanko-img/traffic.png"
   },
   {
-    "rank": 113,
+    "rank": 115,
     "name": "Jaspa",
     "minted": 2955,
     "burned": 0,
@@ -1678,7 +1710,7 @@
     "imgPath": "/blanko-img/jaspa.png"
   },
   {
-    "rank": 114,
+    "rank": 116,
     "name": "Nautilus",
     "minted": 3000,
     "burned": 0,
@@ -1692,7 +1724,7 @@
     "imgPath": "/blanko-img/nautilus.png"
   },
   {
-    "rank": 115,
+    "rank": 117,
     "name": "Rock Boogie",
     "minted": 3000,
     "burned": 0,
@@ -1706,7 +1738,7 @@
     "imgPath": "/blanko-img/rock-boogie.png"
   },
   {
-    "rank": 116,
+    "rank": 118,
     "name": "Majo",
     "minted": 3029,
     "burned": 0,
@@ -1720,7 +1752,7 @@
     "imgPath": "/blanko-img/majo.png"
   },
   {
-    "rank": 117,
+    "rank": 119,
     "name": "Dazzle",
     "minted": 3038,
     "burned": 0,
@@ -1734,7 +1766,7 @@
     "imgPath": "/blanko-img/dazzle.png"
   },
   {
-    "rank": 118,
+    "rank": 120,
     "name": "Watermelonie",
     "minted": 3092,
     "burned": 0,
@@ -1748,7 +1780,7 @@
     "imgPath": "/blanko-img/watermelonie.png"
   },
   {
-    "rank": 119,
+    "rank": 121,
     "name": "Gordo",
     "minted": 3097,
     "burned": 0,
@@ -1762,7 +1794,7 @@
     "imgPath": "/blanko-img/gordo.png"
   },
   {
-    "rank": 120,
+    "rank": 122,
     "name": "Finder of Lost Souls",
     "minted": 3109,
     "burned": 0,
@@ -1776,7 +1808,7 @@
     "imgPath": "/blanko-img/finder-of-lost-souls.png"
   },
   {
-    "rank": 121,
+    "rank": 123,
     "name": "Rougarou",
     "minted": 3195,
     "burned": 0,
@@ -1790,10 +1822,10 @@
     "imgPath": "/blanko-img/rougarou.png"
   },
   {
-    "rank": 122,
+    "rank": 124,
     "name": "Scarlet Crash",
     "minted": 3341,
-    "burned": 0,
+    "burned": 228,
     "minting": false,
     "mintDate": "2022-03-16T07:00:00.000Z",
     "mintPrice": 0,
@@ -1806,7 +1838,7 @@
     "imgPath": "/blanko-img/scarlet-crash.png"
   },
   {
-    "rank": 123,
+    "rank": 125,
     "name": "Demanto",
     "minted": 3465,
     "burned": 0,
@@ -1820,10 +1852,10 @@
     "imgPath": "/blanko-img/demanto.png"
   },
   {
-    "rank": 124,
+    "rank": 126,
     "name": "Boss Dino",
     "minted": 3500,
-    "burned": 248,
+    "burned": 250,
     "minting": false,
     "mintDate": "2020-10-22T07:00:00.000Z",
     "mintPrice": 149.99,
@@ -1835,7 +1867,7 @@
     "imgPath": "/blanko-img/boss-dino.png"
   },
   {
-    "rank": 125,
+    "rank": 127,
     "name": "Peanut",
     "minted": 3502,
     "burned": 0,
@@ -1849,7 +1881,7 @@
     "imgPath": "/blanko-img/peanut.png"
   },
   {
-    "rank": 126,
+    "rank": 128,
     "name": "Deadward",
     "minted": 3592,
     "burned": 0,
@@ -1865,7 +1897,7 @@
     "imgPath": "/blanko-img/deadward.png"
   },
   {
-    "rank": 127,
+    "rank": 129,
     "name": "El Cha Blanko",
     "minted": 3695,
     "burned": 0,
@@ -1879,7 +1911,7 @@
     "imgPath": "/blanko-img/el-cha-blanko.png"
   },
   {
-    "rank": 128,
+    "rank": 130,
     "name": "Lolli",
     "minted": 3770,
     "burned": 0,
@@ -1894,7 +1926,7 @@
     "imgPath": "/blanko-img/lolli.png"
   },
   {
-    "rank": 129,
+    "rank": 131,
     "name": "Maximouth",
     "minted": 3773,
     "burned": 0,
@@ -1908,7 +1940,7 @@
     "imgPath": "/blanko-img/maximouth.png"
   },
   {
-    "rank": 130,
+    "rank": 132,
     "name": "Bullseye",
     "minted": 3784,
     "burned": 0,
@@ -1922,7 +1954,7 @@
     "imgPath": "/blanko-img/bullseye.png"
   },
   {
-    "rank": 131,
+    "rank": 133,
     "name": "Blankenstein",
     "minted": 3983,
     "burned": 0,
@@ -1937,7 +1969,7 @@
     "imgPath": "/blanko-img/blankenstein.png"
   },
   {
-    "rank": 132,
+    "rank": 134,
     "name": "Space Girl",
     "minted": 4130,
     "burned": 0,
@@ -1951,7 +1983,7 @@
     "imgPath": "/blanko-img/space-girl.png"
   },
   {
-    "rank": 133,
+    "rank": 135,
     "name": "Tygra",
     "minted": 4221,
     "burned": 0,
@@ -1967,7 +1999,7 @@
     "imgPath": "/blanko-img/tygra.png"
   },
   {
-    "rank": 134,
+    "rank": 136,
     "name": "Visage",
     "minted": 4252,
     "burned": 0,
@@ -1983,7 +2015,7 @@
     "imgPath": "/blanko-img/visage.png"
   },
   {
-    "rank": 135,
+    "rank": 137,
     "name": "Gelid Zero",
     "minted": 4465,
     "burned": 0,
@@ -1999,7 +2031,7 @@
     "imgPath": "/blanko-img/gelid-zero.png"
   },
   {
-    "rank": 136,
+    "rank": 138,
     "name": "Billy Bones",
     "minted": 4937,
     "burned": 0,
@@ -2013,10 +2045,10 @@
     "imgPath": "/blanko-img/billy-bones.png"
   },
   {
-    "rank": 137,
+    "rank": 139,
     "name": "Pug Life",
     "minted": 5000,
-    "burned": 612,
+    "burned": 614,
     "minting": false,
     "mintDate": "2021-09-15T07:00:00.000Z",
     "mintPrice": 49.99,
@@ -2027,7 +2059,7 @@
     "imgPath": "/blanko-img/pug-life.png"
   },
   {
-    "rank": 138,
+    "rank": 140,
     "name": "Graf Kidd",
     "minted": 5070,
     "burned": 0,
@@ -2041,7 +2073,7 @@
     "imgPath": "/blanko-img/graf-kidd.png"
   },
   {
-    "rank": 139,
+    "rank": 141,
     "name": "Lil Lep",
     "minted": 5127,
     "burned": 0,
@@ -2055,7 +2087,7 @@
     "imgPath": "/blanko-img/lil-lep.png"
   },
   {
-    "rank": 140,
+    "rank": 142,
     "name": "Mach-63",
     "minted": 5517,
     "burned": 0,
@@ -2071,7 +2103,7 @@
     "imgPath": "/blanko-img/mach-63.png"
   },
   {
-    "rank": 141,
+    "rank": 143,
     "name": "Heartbreaker Bunny",
     "minted": 6419,
     "burned": 0,
@@ -2085,7 +2117,7 @@
     "imgPath": "/blanko-img/heartbreaker-bunny.png"
   },
   {
-    "rank": 142,
+    "rank": 144,
     "name": "Laplaz",
     "minted": 6818,
     "burned": 0,
@@ -2100,7 +2132,7 @@
     "imgPath": "/blanko-img/laplaz.png"
   },
   {
-    "rank": 143,
+    "rank": 145,
     "name": "Dash",
     "minted": 7403,
     "burned": 0,
@@ -2114,7 +2146,7 @@
     "imgPath": "/blanko-img/dash.png"
   },
   {
-    "rank": 144,
+    "rank": 146,
     "name": "Octoid",
     "minted": 8236,
     "burned": 0,
@@ -2128,7 +2160,7 @@
     "imgPath": "/blanko-img/octoid.png"
   },
   {
-    "rank": 145,
+    "rank": 147,
     "name": "Krampus",
     "minted": 8754,
     "burned": 0,
@@ -2142,7 +2174,7 @@
     "imgPath": "/blanko-img/krampus.png"
   },
   {
-    "rank": 146,
+    "rank": 148,
     "name": "AT0M.atn",
     "minted": 9461,
     "burned": 1964,
@@ -2156,10 +2188,10 @@
     "imgPath": "/blanko-img/at0m-atn.png"
   },
   {
-    "rank": 147,
+    "rank": 149,
     "name": "Klown",
     "minted": 12136,
-    "burned": 2028,
+    "burned": 2030,
     "minting": false,
     "mintDate": "2021-09-02T07:00:00.000Z",
     "mintPrice": 9.99,
@@ -2170,10 +2202,10 @@
     "imgPath": "/blanko-img/klown.png"
   },
   {
-    "rank": 148,
+    "rank": 150,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1577,
+    "burned": 1595,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
