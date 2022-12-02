@@ -71,20 +71,6 @@
   },
   {
     "rank": 6,
-    "name": "Frogtopper",
-    "minted": 232,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-11-18T08:00:00.000Z",
-    "mintPrice": 5.99,
-    "season": "01",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/frogtopper.png"
-  },
-  {
-    "rank": 7,
     "name": "Brain F.F.A.R.T.",
     "minted": 237,
     "burned": 0,
@@ -96,6 +82,20 @@
     "seasonFilter": "S01",
     "functional": true,
     "imgPath": "/accessory-img/brain_ffart.png"
+  },
+  {
+    "rank": 7,
+    "name": "Frogtopper",
+    "minted": 239,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-11-18T08:00:00.000Z",
+    "mintPrice": 5.99,
+    "season": "01",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/frogtopper.png"
   },
   {
     "rank": 8,
