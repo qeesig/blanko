@@ -833,7 +833,8 @@ export default function Accessories() {
                             </Cell>
                             <Cell pinLeft className={styles.tablePinnedCell}>
                               <Image
-                                src={`https://qeesig.github.io/blanko${item.imgPath}`}
+                                // src={`https://qeesig.github.io/blanko${item.imgPath}`}
+                                src={`/${item.imgPath}`}
                                 alt={`Picture of ${item.name}`}
                                 width={54}
                                 height={54}
@@ -1006,6 +1007,7 @@ const partyPass = [
   { label: "S00 Summer Camp Slam" },
   { label: "S00 Snack Attack" },
   { label: "S01 IKWYD Last Grave Rave" },
+  { label: "S01 Cosmic Groove" },
 ];
 
 const seasons = [
