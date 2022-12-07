@@ -833,8 +833,7 @@ export default function Accessories() {
                             </Cell>
                             <Cell pinLeft className={styles.tablePinnedCell}>
                               <Image
-                                // src={`https://qeesig.github.io/blanko${item.imgPath}`}
-                                src={`/${item.imgPath}`}
+                                src={`https://qeesig.github.io/blanko${item.imgPath}`}
                                 alt={`Picture of ${item.name}`}
                                 width={54}
                                 height={54}
