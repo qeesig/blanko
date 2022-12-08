@@ -130,9 +130,9 @@
   {
     "rank": 10,
     "name": "Frogtopper",
-    "minted": 266,
+    "minted": 288,
     "burned": 0,
-    "minting": true,
+    "minting": false,
     "mintDate": "2022-11-18T08:00:00.000Z",
     "mintPrice": 5.99,
     "season": "01",
