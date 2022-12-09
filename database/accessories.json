@@ -15,24 +15,8 @@
   },
   {
     "rank": 2,
-    "name": "Cosmic Creepers",
-    "minted": 103,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 3,
     "name": "Community Chrome",
-    "minted": 103,
+    "minted": 104,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -44,7 +28,7 @@
     "imgPath": "/accessory-img/community-chrome.png"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "name": "Burberry® Boombox",
     "minted": 108,
     "burned": 0,
@@ -58,7 +42,7 @@
     "imgPath": "/accessory-img/burberry-boombox.png"
   },
   {
-    "rank": 5,
+    "rank": 4,
     "name": "Burberry® Monogram Slides",
     "minted": 121,
     "burned": 0,
@@ -72,7 +56,7 @@
     "imgPath": "/accessory-img/burberry-monogram-slides.png"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "name": "Burberry® Horseshoe Chain",
     "minted": 125,
     "burned": 0,
@@ -84,6 +68,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-horseshoe-chain.png"
+  },
+  {
+    "rank": 6,
+    "name": "Cosmic Creepers",
+    "minted": 149,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 7,
