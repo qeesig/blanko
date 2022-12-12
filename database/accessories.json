@@ -85,22 +85,6 @@
   },
   {
     "rank": 7,
-    "name": "Cosmic Creepers",
-    "minted": 250,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 8,
     "name": "Toasted Bun Beanie",
     "minted": 263,
     "burned": 0,
@@ -114,7 +98,7 @@
     "imgPath": "/accessory-img/toasted-bun-beanie.png"
   },
   {
-    "rank": 9,
+    "rank": 8,
     "name": "Year of the Ox Bell",
     "minted": 264,
     "burned": 0,
@@ -128,7 +112,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Frogtopper",
     "minted": 288,
     "burned": 0,
@@ -142,7 +126,7 @@
     "imgPath": "/accessory-img/frogtopper.png"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "name": "Year of the Ox Horns",
     "minted": 330,
     "burned": 0,
@@ -156,7 +140,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
   },
   {
-    "rank": 12,
+    "rank": 11,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -170,7 +154,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -185,7 +169,7 @@
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "name": "Condimental Cruisepack",
     "minted": 353,
     "burned": 0,
@@ -199,7 +183,7 @@
     "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "name": "Bite Me Batwings MK1",
     "minted": 383,
     "burned": 0,
@@ -214,7 +198,7 @@
     "imgPath": "/accessory-img/bite-me-batwings-mk1.png"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "name": "Bite Me Body Armor MK1",
     "minted": 383,
     "burned": 0,
@@ -229,7 +213,7 @@
     "imgPath": "/accessory-img/bite-me-body-armor-mk1.png"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Bite Me Gloves MK1",
     "minted": 383,
     "burned": 0,
@@ -244,7 +228,7 @@
     "imgPath": "/accessory-img/bite-me-gloves-mk1.png"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "Bite Me Horns MK1",
     "minted": 383,
     "burned": 0,
@@ -259,7 +243,7 @@
     "imgPath": "/accessory-img/bite-me-horns-mk1.png"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "Bite Me Mask MK1",
     "minted": 383,
     "burned": 0,
@@ -274,7 +258,7 @@
     "imgPath": "/accessory-img/bite-me-mask-mk1.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Bite Me Shoes MK1",
     "minted": 383,
     "burned": 0,
@@ -289,7 +273,7 @@
     "imgPath": "/accessory-img/bite-me-shoes-mk1.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Deadmau5 Kandi Kuffs",
     "minted": 422,
     "burned": 0,
@@ -304,7 +288,7 @@
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Kaiju Kicks",
     "minted": 425,
     "burned": 0,
@@ -318,7 +302,7 @@
     "imgPath": "/accessory-img/kaiju-kicks.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Reindeer Antlers",
     "minted": 433,
     "burned": 0,
@@ -332,7 +316,7 @@
     "imgPath": "/accessory-img/reindeer-antlers.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Candy Cane Shoes",
     "minted": 466,
     "burned": 0,
@@ -344,6 +328,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/candy-cane-shoes.png"
+  },
+  {
+    "rank": 24,
+    "name": "Cosmic Creepers",
+    "minted": 471,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 25,
