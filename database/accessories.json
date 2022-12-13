@@ -331,22 +331,6 @@
   },
   {
     "rank": 24,
-    "name": "Cosmic Creepers",
-    "minted": 471,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 25,
     "name": "Deadmau5 VIP Pass",
     "minted": 473,
     "burned": 0,
@@ -361,7 +345,7 @@
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "name": "Jack-O’-Beanie",
     "minted": 500,
     "burned": 0,
@@ -376,7 +360,7 @@
     "imgPath": "/accessory-img/jack-o-beanie.png"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Stupid Cupid Wings",
     "minted": 503,
     "burned": 0,
@@ -390,7 +374,7 @@
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Superstar Shades",
     "minted": 503,
     "burned": 0,
@@ -402,6 +386,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/superstar-shades.png"
+  },
+  {
+    "rank": 28,
+    "name": "Cosmic Creepers",
+    "minted": 561,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 29,
