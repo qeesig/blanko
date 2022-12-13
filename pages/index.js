@@ -289,6 +289,7 @@ export default function Blankos() {
 
   const blankoSearch = (e) => {
     setSearch(e.target.value);
+    pagination.fns.onSetPage(0);
   };
 
   const sort = useSort(
