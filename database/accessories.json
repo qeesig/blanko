@@ -1,22 +1,6 @@
 [
   {
     "rank": 1,
-    "name": "Adhara’s Helm",
-    "minted": 63,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/adharas-helm.png"
-  },
-  {
-    "rank": 2,
     "name": "Burberry® Shellphone",
     "minted": 84,
     "burned": 0,
@@ -30,21 +14,23 @@
     "imgPath": "/accessory-img/burberry-shellphone.png"
   },
   {
-    "rank": 3,
-    "name": "Holiday Hype Bulb",
-    "minted": 93,
+    "rank": 2,
+    "name": "Adhara’s Helm",
+    "minted": 86,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 5.99,
+    "mintPrice": 0,
     "season": "01",
+    "tag": "Cosmic Groove+",
     "category": "Hat",
     "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
     "functional": false,
-    "imgPath": "/accessory-img/holiday-hype-bulb.png"
+    "imgPath": "/accessory-img/adharas-helm.png"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "name": "Community Chrome",
     "minted": 104,
     "burned": 0,
@@ -58,7 +44,7 @@
     "imgPath": "/accessory-img/community-chrome.png"
   },
   {
-    "rank": 5,
+    "rank": 4,
     "name": "Burberry® Boombox",
     "minted": 108,
     "burned": 0,
@@ -70,6 +56,20 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/burberry-boombox.png"
+  },
+  {
+    "rank": 5,
+    "name": "Holiday Hype Bulb",
+    "minted": 115,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 5.99,
+    "season": "01",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/holiday-hype-bulb.png"
   },
   {
     "rank": 6,
@@ -492,22 +492,6 @@
   },
   {
     "rank": 35,
-    "name": "Cosmic Creepers",
-    "minted": 627,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 36,
     "name": "Trapper Cap",
     "minted": 645,
     "burned": 0,
@@ -521,7 +505,7 @@
     "imgPath": "/accessory-img/trapper-cap.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -535,7 +519,7 @@
     "imgPath": "/accessory-img/island-time-sunnies.png"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "name": "Peep That Bracelet",
     "minted": 705,
     "burned": 0,
@@ -549,7 +533,7 @@
     "imgPath": "/accessory-img/peep-that-bracelet.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "Angel Food Wings",
     "minted": 747,
     "burned": 0,
@@ -565,7 +549,7 @@
     "imgPath": "/accessory-img/angel-food-wings.png"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "name": "Burberry® Bucket Hat",
     "minted": 750,
     "burned": 0,
@@ -580,7 +564,7 @@
     "imgPath": "/accessory-img/burberry-bucket-hat.png"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "name": "Blue Greaser Hair",
     "minted": 753,
     "burned": 0,
@@ -594,7 +578,7 @@
     "imgPath": "/accessory-img/blue-greaser-hair.png"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "name": "Strawberry Short-Steps",
     "minted": 783,
     "burned": 0,
@@ -608,6 +592,22 @@
     "passFilter": "S00 Snack Attack",
     "functional": false,
     "imgPath": "/accessory-img/strawberryshort-steps.png"
+  },
+  {
+    "rank": 42,
+    "name": "Cosmic Creepers",
+    "minted": 793,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 43,
