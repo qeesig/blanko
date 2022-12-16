@@ -15,22 +15,6 @@
   },
   {
     "rank": 2,
-    "name": "Adhara’s Helm",
-    "minted": 86,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/adharas-helm.png"
-  },
-  {
-    "rank": 3,
     "name": "Community Chrome",
     "minted": 104,
     "burned": 0,
@@ -44,7 +28,7 @@
     "imgPath": "/accessory-img/community-chrome.png"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "name": "Burberry® Boombox",
     "minted": 108,
     "burned": 0,
@@ -58,21 +42,7 @@
     "imgPath": "/accessory-img/burberry-boombox.png"
   },
   {
-    "rank": 5,
-    "name": "Holiday Hype Bulb",
-    "minted": 115,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 5.99,
-    "season": "01",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/holiday-hype-bulb.png"
-  },
-  {
-    "rank": 6,
+    "rank": 4,
     "name": "Burberry® Monogram Slides",
     "minted": 121,
     "burned": 0,
@@ -86,7 +56,7 @@
     "imgPath": "/accessory-img/burberry-monogram-slides.png"
   },
   {
-    "rank": 7,
+    "rank": 5,
     "name": "Burberry® Horseshoe Chain",
     "minted": 125,
     "burned": 0,
@@ -100,22 +70,37 @@
     "imgPath": "/accessory-img/burberry-horseshoe-chain.png"
   },
   {
-    "rank": 8,
-    "name": "FaZe Clan Forever Mask",
-    "minted": 150,
+    "rank": 6,
+    "name": "Holiday Hype Bulb",
+    "minted": 136,
     "burned": 0,
     "minting": true,
-    "mintDate": "2022-12-15T08:00:00.000Z",
-    "mintPrice": 0,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 5.99,
     "season": "01",
-    "tag": "FaZe Forever",
-    "category": "Mask",
+    "category": "Hat",
     "seasonFilter": "S01",
     "functional": false,
-    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
+    "imgPath": "/accessory-img/holiday-hype-bulb.png"
   },
   {
-    "rank": 9,
+    "rank": 7,
+    "name": "Adhara’s Helm",
+    "minted": 146,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove+",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/adharas-helm.png"
+  },
+  {
+    "rank": 8,
     "name": "Brain F.F.A.R.T.",
     "minted": 237,
     "burned": 0,
@@ -129,7 +114,7 @@
     "imgPath": "/accessory-img/brain-ffart.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Toasted Bun Beanie",
     "minted": 263,
     "burned": 0,
@@ -143,7 +128,7 @@
     "imgPath": "/accessory-img/toasted-bun-beanie.png"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "name": "Year of the Ox Bell",
     "minted": 264,
     "burned": 0,
@@ -157,7 +142,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
-    "rank": 12,
+    "rank": 11,
     "name": "Frogtopper",
     "minted": 288,
     "burned": 0,
@@ -171,7 +156,7 @@
     "imgPath": "/accessory-img/frogtopper.png"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "name": "Year of the Ox Horns",
     "minted": 330,
     "burned": 0,
@@ -185,7 +170,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -199,7 +184,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -214,7 +199,7 @@
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "name": "Condimental Cruisepack",
     "minted": 353,
     "burned": 0,
@@ -228,7 +213,7 @@
     "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Bite Me Batwings MK1",
     "minted": 383,
     "burned": 0,
@@ -243,7 +228,7 @@
     "imgPath": "/accessory-img/bite-me-batwings-mk1.png"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "Bite Me Body Armor MK1",
     "minted": 383,
     "burned": 0,
@@ -258,7 +243,7 @@
     "imgPath": "/accessory-img/bite-me-body-armor-mk1.png"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "Bite Me Gloves MK1",
     "minted": 383,
     "burned": 0,
@@ -273,7 +258,7 @@
     "imgPath": "/accessory-img/bite-me-gloves-mk1.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Bite Me Horns MK1",
     "minted": 383,
     "burned": 0,
@@ -288,7 +273,7 @@
     "imgPath": "/accessory-img/bite-me-horns-mk1.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Bite Me Mask MK1",
     "minted": 383,
     "burned": 0,
@@ -303,7 +288,7 @@
     "imgPath": "/accessory-img/bite-me-mask-mk1.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Bite Me Shoes MK1",
     "minted": 383,
     "burned": 0,
@@ -318,7 +303,7 @@
     "imgPath": "/accessory-img/bite-me-shoes-mk1.png"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "name": "Deadmau5 Kandi Kuffs",
     "minted": 422,
     "burned": 0,
@@ -333,7 +318,7 @@
     "imgPath": "/accessory-img/deadmau5-kandi-kuffs.png"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "name": "Kaiju Kicks",
     "minted": 425,
     "burned": 0,
@@ -347,7 +332,7 @@
     "imgPath": "/accessory-img/kaiju-kicks.png"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "name": "Reindeer Antlers",
     "minted": 433,
     "burned": 0,
@@ -359,6 +344,21 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/reindeer-antlers.png"
+  },
+  {
+    "rank": 25,
+    "name": "FaZe Clan Forever Mask",
+    "minted": 465,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-15T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "FaZe Forever",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
   },
   {
     "rank": 26,
@@ -610,22 +610,6 @@
   },
   {
     "rank": 43,
-    "name": "Cosmic Creepers",
-    "minted": 793,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 44,
     "name": "GG Nozzle Cap",
     "minted": 834,
     "burned": 0,
@@ -639,7 +623,7 @@
     "imgPath": "/accessory-img/gg-nozzle-cap.png"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "name": "Roasted Mallow Rocket Pack",
     "minted": 850,
     "burned": 0,
@@ -655,7 +639,7 @@
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "name": "Spiked Wristband",
     "minted": 860,
     "burned": 0,
@@ -669,7 +653,7 @@
     "imgPath": "/accessory-img/spiked-wristband.png"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "name": "All Aflutter Wristlets",
     "minted": 862,
     "burned": 0,
@@ -683,7 +667,7 @@
     "imgPath": "/accessory-img/all-aflutter-wristlets.png"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "name": "Candy Cane Beanie",
     "minted": 862,
     "burned": 0,
@@ -697,7 +681,7 @@
     "imgPath": "/accessory-img/candy-cane-beanie.png"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "name": "All Aflutter Headpiece",
     "minted": 864,
     "burned": 0,
@@ -711,7 +695,7 @@
     "imgPath": "/accessory-img/all-aflutter-headpiece.png"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "name": "Sweet Bun Beret",
     "minted": 865,
     "burned": 0,
@@ -727,7 +711,7 @@
     "imgPath": "/accessory-img/sweet-bun-beret.png"
   },
   {
-    "rank": 51,
+    "rank": 50,
     "name": "Tenderfoot’s Crocket Cap",
     "minted": 910,
     "burned": 0,
@@ -741,6 +725,22 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": false,
     "imgPath": "/accessory-img/tenderfoots-crocket-cap.png"
+  },
+  {
+    "rank": 51,
+    "name": "Cosmic Creepers",
+    "minted": 938,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 52,
