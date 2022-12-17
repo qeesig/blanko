@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "minted": 136,
+    "minted": 145,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -86,7 +86,7 @@
   {
     "rank": 7,
     "name": "Adhara’s Helm",
-    "minted": 146,
+    "minted": 207,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -347,21 +347,6 @@
   },
   {
     "rank": 25,
-    "name": "FaZe Clan Forever Mask",
-    "minted": 465,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-15T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "FaZe Forever",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
-  },
-  {
-    "rank": 26,
     "name": "Candy Cane Shoes",
     "minted": 466,
     "burned": 0,
@@ -375,7 +360,7 @@
     "imgPath": "/accessory-img/candy-cane-shoes.png"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "name": "Deadmau5 VIP Pass",
     "minted": 473,
     "burned": 0,
@@ -390,7 +375,7 @@
     "imgPath": "/accessory-img/deadmau5-vip-pass.png"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "name": "Jack-O’-Beanie",
     "minted": 500,
     "burned": 0,
@@ -405,7 +390,7 @@
     "imgPath": "/accessory-img/jack-o-beanie.png"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "name": "Stupid Cupid Wings",
     "minted": 503,
     "burned": 0,
@@ -419,7 +404,7 @@
     "imgPath": "/accessory-img/stupid-cupid-wings.png"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "name": "Superstar Shades",
     "minted": 503,
     "burned": 0,
@@ -431,6 +416,21 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/superstar-shades.png"
+  },
+  {
+    "rank": 30,
+    "name": "FaZe Clan Forever Mask",
+    "minted": 563,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-15T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "FaZe Forever",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
   },
   {
     "rank": 31,
@@ -728,22 +728,6 @@
   },
   {
     "rank": 51,
-    "name": "Cosmic Creepers",
-    "minted": 938,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 52,
     "name": "Spiked Choker",
     "minted": 941,
     "burned": 0,
@@ -757,7 +741,7 @@
     "imgPath": "/accessory-img/spiked-choker.png"
   },
   {
-    "rank": 53,
+    "rank": 52,
     "name": "Tenderfoot's Squidgeon Pal",
     "minted": 998,
     "burned": 0,
@@ -773,7 +757,7 @@
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
-    "rank": 54,
+    "rank": 53,
     "name": "Frostbyte Beanie",
     "minted": 1000,
     "burned": 0,
@@ -788,7 +772,7 @@
     "imgPath": "/accessory-img/frostbyte-beanie.png"
   },
   {
-    "rank": 55,
+    "rank": 54,
     "name": "Ghost Gang Spray Cannon",
     "minted": 1018,
     "burned": 0,
@@ -802,7 +786,7 @@
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
-    "rank": 56,
+    "rank": 55,
     "name": "War Pony Whirlwind Mask",
     "minted": 1022,
     "burned": 0,
@@ -816,7 +800,7 @@
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
   },
   {
-    "rank": 57,
+    "rank": 56,
     "name": "Drak’s Unholy Batpack",
     "minted": 1023,
     "burned": 0,
@@ -830,6 +814,22 @@
     "passFilter": "S01 IKWYD Last Grave Rave",
     "functional": true,
     "imgPath": "/accessory-img/draks-unholy-batpack.png"
+  },
+  {
+    "rank": 57,
+    "name": "Cosmic Creepers",
+    "minted": 1033,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 58,
