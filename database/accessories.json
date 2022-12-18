@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "minted": 145,
+    "minted": 150,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -85,22 +85,6 @@
   },
   {
     "rank": 7,
-    "name": "Adhara’s Helm",
-    "minted": 207,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/adharas-helm.png"
-  },
-  {
-    "rank": 8,
     "name": "Brain F.F.A.R.T.",
     "minted": 237,
     "burned": 0,
@@ -112,6 +96,22 @@
     "seasonFilter": "S01",
     "functional": true,
     "imgPath": "/accessory-img/brain-ffart.png"
+  },
+  {
+    "rank": 8,
+    "name": "Adhara’s Helm",
+    "minted": 260,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove+",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/adharas-helm.png"
   },
   {
     "rank": 9,
@@ -419,21 +419,6 @@
   },
   {
     "rank": 30,
-    "name": "FaZe Clan Forever Mask",
-    "minted": 563,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-15T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "FaZe Forever",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
-  },
-  {
-    "rank": 31,
     "name": "Cherries Bracelet",
     "minted": 578,
     "burned": 0,
@@ -447,7 +432,7 @@
     "imgPath": "/accessory-img/cherries-bracelet.png"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "name": "Deadmau5 Beat Blaster",
     "minted": 583,
     "burned": 0,
@@ -462,7 +447,7 @@
     "imgPath": "/accessory-img/deadmau5-beat-blaster.png"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "name": "Cast Anchor Cast",
     "minted": 589,
     "burned": 0,
@@ -476,7 +461,7 @@
     "imgPath": "/accessory-img/cast-anchor-cast.png"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "name": "Deadmau5 Denver VIP Pass",
     "minted": 589,
     "burned": 0,
@@ -491,7 +476,7 @@
     "imgPath": "/accessory-img/deadmau5-denver-vip-pass.png"
   },
   {
-    "rank": 35,
+    "rank": 34,
     "name": "Deadmau5 High-Tops",
     "minted": 589,
     "burned": 0,
@@ -504,6 +489,21 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/deadmau5-high-tops.png"
+  },
+  {
+    "rank": 35,
+    "name": "FaZe Clan Forever Mask",
+    "minted": 623,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-15T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "FaZe Forever",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
   },
   {
     "rank": 36,
@@ -817,22 +817,6 @@
   },
   {
     "rank": 57,
-    "name": "Cosmic Creepers",
-    "minted": 1033,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 58,
     "name": "Polly Wanna Rainbow Wings",
     "minted": 1033,
     "burned": 0,
@@ -846,7 +830,7 @@
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
-    "rank": 59,
+    "rank": 58,
     "name": "Blue Blaze Puckhead Mask",
     "minted": 1059,
     "burned": 0,
@@ -860,7 +844,7 @@
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
   },
   {
-    "rank": 60,
+    "rank": 59,
     "name": "Wolf Chowduh",
     "minted": 1071,
     "burned": 0,
@@ -874,6 +858,22 @@
     "passFilter": "S01 IKWYD Last Grave Rave",
     "functional": false,
     "imgPath": "/accessory-img/wolf-chowduh.png"
+  },
+  {
+    "rank": 60,
+    "name": "Cosmic Creepers",
+    "minted": 1088,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 61,
