@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "minted": 150,
+    "minted": 154,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -99,22 +99,6 @@
   },
   {
     "rank": 8,
-    "name": "Adhara’s Helm",
-    "minted": 260,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/adharas-helm.png"
-  },
-  {
-    "rank": 9,
     "name": "Toasted Bun Beanie",
     "minted": 263,
     "burned": 0,
@@ -128,7 +112,7 @@
     "imgPath": "/accessory-img/toasted-bun-beanie.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Year of the Ox Bell",
     "minted": 264,
     "burned": 0,
@@ -142,7 +126,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "name": "Frogtopper",
     "minted": 288,
     "burned": 0,
@@ -154,6 +138,22 @@
     "seasonFilter": "S01",
     "functional": false,
     "imgPath": "/accessory-img/frogtopper.png"
+  },
+  {
+    "rank": 11,
+    "name": "Adhara’s Helm",
+    "minted": 289,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove+",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/adharas-helm.png"
   },
   {
     "rank": 12,
@@ -493,7 +493,7 @@
   {
     "rank": 35,
     "name": "FaZe Clan Forever Mask",
-    "minted": 623,
+    "minted": 634,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-15T08:00:00.000Z",
@@ -861,22 +861,6 @@
   },
   {
     "rank": 60,
-    "name": "Cosmic Creepers",
-    "minted": 1088,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 61,
     "name": "Black Shoes",
     "minted": 1137,
     "burned": 0,
@@ -888,6 +872,22 @@
     "seasonFilter": "S00 Private Beta",
     "functional": false,
     "imgPath": "/accessory-img/black-shoes.png"
+  },
+  {
+    "rank": 61,
+    "name": "Cosmic Creepers",
+    "minted": 1142,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 62,

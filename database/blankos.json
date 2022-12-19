@@ -295,7 +295,7 @@
   {
     "rank": 20,
     "name": "Platinum Karat",
-    "minted": 309,
+    "minted": 310,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
@@ -402,7 +402,7 @@
   {
     "rank": 27,
     "name": "Harlekin",
-    "minted": 397,
+    "minted": 398,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
@@ -461,7 +461,7 @@
   {
     "rank": 31,
     "name": "Sweaty Yeti",
-    "minted": 406,
+    "minted": 408,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-07T08:00:00.000Z",
@@ -548,22 +548,6 @@
   },
   {
     "rank": 37,
-    "name": "Captain Adhara",
-    "minted": 469,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "artist": "Mythical",
-    "tag": "Cosmic Groove+",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/captain-adhara.png"
-  },
-  {
-    "rank": 38,
     "name": "Astronaught",
     "minted": 470,
     "burned": 0,
@@ -577,7 +561,7 @@
     "imgPath": "/blanko-img/astronaught.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "Ramen San",
     "minted": 472,
     "burned": 0,
@@ -590,6 +574,22 @@
     "seasonFilter": "S01",
     "withdrawable": false,
     "imgPath": "/blanko-img/ramen-san.png"
+  },
+  {
+    "rank": 39,
+    "name": "Captain Adhara",
+    "minted": 473,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "artist": "Mythical",
+    "tag": "Cosmic Groove+",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/captain-adhara.png"
   },
   {
     "rank": 40,
@@ -609,7 +609,7 @@
   {
     "rank": 41,
     "name": "Zeta Amanatra",
-    "minted": 488,
+    "minted": 490,
     "burned": 338,
     "minting": true,
     "mintDate": "2022-10-04T07:00:00.000Z",
@@ -786,8 +786,8 @@
   {
     "rank": 54,
     "name": "Karat Corroded",
-    "minted": 867,
-    "burned": 616,
+    "minted": 872,
+    "burned": 618,
     "minting": true,
     "mintDate": "2022-10-20T07:00:00.000Z",
     "mintPrice": 0,
@@ -937,7 +937,7 @@
     "rank": 63,
     "name": "Skivvy Klown",
     "minted": 1027,
-    "burned": 791,
+    "burned": 793,
     "minting": true,
     "mintDate": "2022-04-28T07:00:00.000Z",
     "mintPrice": 0,
@@ -1081,7 +1081,7 @@
   {
     "rank": 73,
     "name": "Kandie",
-    "minted": 1294,
+    "minted": 1298,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T07:00:00.000Z",
@@ -1672,7 +1672,7 @@
     "rank": 113,
     "name": "Zeta",
     "minted": 2700,
-    "burned": 973,
+    "burned": 977,
     "minting": false,
     "mintDate": "2022-06-22T07:00:00.000Z",
     "mintPrice": 0,
@@ -2263,7 +2263,7 @@
     "rank": 154,
     "name": "King Karat",
     "minted": 59373,
-    "burned": 1729,
+    "burned": 1739,
     "minting": false,
     "mintDate": "2021-12-13T08:00:00.000Z",
     "mintPrice": 0,
