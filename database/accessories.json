@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "minted": 154,
+    "minted": 155,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -142,7 +142,7 @@
   {
     "rank": 11,
     "name": "Adhara’s Helm",
-    "minted": 289,
+    "minted": 319,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -492,21 +492,6 @@
   },
   {
     "rank": 35,
-    "name": "FaZe Clan Forever Mask",
-    "minted": 634,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-15T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "FaZe Forever",
-    "category": "Mask",
-    "seasonFilter": "S01",
-    "functional": false,
-    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
-  },
-  {
-    "rank": 36,
     "name": "Trapper Cap",
     "minted": 645,
     "burned": 0,
@@ -520,7 +505,7 @@
     "imgPath": "/accessory-img/trapper-cap.png"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "name": "Island Time Sunnies",
     "minted": 651,
     "burned": 0,
@@ -532,6 +517,21 @@
     "seasonFilter": "S00 Early Access",
     "functional": false,
     "imgPath": "/accessory-img/island-time-sunnies.png"
+  },
+  {
+    "rank": 37,
+    "name": "FaZe Clan Forever Mask",
+    "minted": 670,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-15T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "FaZe Forever",
+    "category": "Mask",
+    "seasonFilter": "S01",
+    "functional": false,
+    "imgPath": "/accessory-img/faze-clan-forever-mask.png"
   },
   {
     "rank": 38,
@@ -875,22 +875,6 @@
   },
   {
     "rank": 61,
-    "name": "Cosmic Creepers",
-    "minted": 1142,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 62,
     "name": "Heartbreaker’s Bubbly Booster",
     "minted": 1161,
     "burned": 0,
@@ -902,6 +886,22 @@
     "seasonFilter": "S00 Early Access",
     "functional": true,
     "imgPath": "/accessory-img/heartbreakers-bubbly-booster.png"
+  },
+  {
+    "rank": 62,
+    "name": "Cosmic Creepers",
+    "minted": 1181,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 63,
