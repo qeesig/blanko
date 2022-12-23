@@ -16,7 +16,7 @@
   {
     "rank": 2,
     "name": "Community Chrome",
-    "minted": 104,
+    "minted": 106,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T07:00:00.000Z",
@@ -72,7 +72,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "minted": 155,
+    "minted": 163,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T08:00:00.000Z",
@@ -85,22 +85,6 @@
   },
   {
     "rank": 7,
-    "name": "Orbital Bracelet",
-    "minted": 165,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-21T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/orbital-bracelet.png"
-  },
-  {
-    "rank": 8,
     "name": "Brain F.F.A.R.T.",
     "minted": 237,
     "burned": 0,
@@ -112,6 +96,22 @@
     "seasonFilter": "S01",
     "functional": true,
     "imgPath": "/accessory-img/brain-ffart.png"
+  },
+  {
+    "rank": 8,
+    "name": "Orbital Bracelet",
+    "minted": 252,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-21T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/orbital-bracelet.png"
   },
   {
     "rank": 9,
@@ -157,22 +157,6 @@
   },
   {
     "rank": 12,
-    "name": "Adhara’s Helm",
-    "minted": 319,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-14T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Hat",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/adharas-helm.png"
-  },
-  {
-    "rank": 13,
     "name": "Year of the Ox Horns",
     "minted": 330,
     "burned": 0,
@@ -186,7 +170,7 @@
     "imgPath": "/accessory-img/year-of-the-ox-horns.png"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "name": "X-Mas Bow",
     "minted": 349,
     "burned": 0,
@@ -200,7 +184,7 @@
     "imgPath": "/accessory-img/x-mas-bow.png"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "name": "Deadmau5 Miami VIP Pass",
     "minted": 351,
     "burned": 0,
@@ -215,7 +199,7 @@
     "imgPath": "/accessory-img/deadmau5-miami-vip-pass.png"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "name": "Condimental Cruisepack",
     "minted": 353,
     "burned": 0,
@@ -229,7 +213,7 @@
     "imgPath": "/accessory-img/condimental-cruisepack.png"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "name": "Bite Me Batwings MK1",
     "minted": 383,
     "burned": 0,
@@ -244,7 +228,7 @@
     "imgPath": "/accessory-img/bite-me-batwings-mk1.png"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "name": "Bite Me Body Armor MK1",
     "minted": 383,
     "burned": 0,
@@ -259,7 +243,7 @@
     "imgPath": "/accessory-img/bite-me-body-armor-mk1.png"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "name": "Bite Me Gloves MK1",
     "minted": 383,
     "burned": 0,
@@ -274,7 +258,7 @@
     "imgPath": "/accessory-img/bite-me-gloves-mk1.png"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "name": "Bite Me Horns MK1",
     "minted": 383,
     "burned": 0,
@@ -289,7 +273,7 @@
     "imgPath": "/accessory-img/bite-me-horns-mk1.png"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "name": "Bite Me Mask MK1",
     "minted": 383,
     "burned": 0,
@@ -304,7 +288,7 @@
     "imgPath": "/accessory-img/bite-me-mask-mk1.png"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "name": "Bite Me Shoes MK1",
     "minted": 383,
     "burned": 0,
@@ -317,6 +301,22 @@
     "seasonFilter": "S00 Alpha",
     "functional": false,
     "imgPath": "/accessory-img/bite-me-shoes-mk1.png"
+  },
+  {
+    "rank": 22,
+    "name": "Adhara’s Helm",
+    "minted": 385,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-14T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove+",
+    "category": "Hat",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/adharas-helm.png"
   },
   {
     "rank": 23,
@@ -537,7 +537,7 @@
   {
     "rank": 38,
     "name": "FaZe Clan Forever Mask",
-    "minted": 670,
+    "minted": 700,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-15T08:00:00.000Z",
@@ -905,22 +905,6 @@
   },
   {
     "rank": 63,
-    "name": "Cosmic Creepers",
-    "minted": 1181,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T08:00:00.000Z",
-    "mintPrice": 0,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
-  },
-  {
-    "rank": 64,
     "name": "Drak’s Batwing Shades",
     "minted": 1187,
     "burned": 0,
@@ -936,7 +920,7 @@
     "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
-    "rank": 65,
+    "rank": 64,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "minted": 1200,
     "burned": 0,
@@ -950,7 +934,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 66,
+    "rank": 65,
     "name": "Bulletpunk Mask [OG BLK]",
     "minted": 1200,
     "burned": 0,
@@ -964,7 +948,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
   },
   {
-    "rank": 67,
+    "rank": 66,
     "name": "Black Bandana",
     "minted": 1271,
     "burned": 0,
@@ -976,6 +960,22 @@
     "seasonFilter": "S00 Open Beta",
     "functional": false,
     "imgPath": "/accessory-img/black-bandana.png"
+  },
+  {
+    "rank": 67,
+    "name": "Cosmic Creepers",
+    "minted": 1302,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T08:00:00.000Z",
+    "mintPrice": 0,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 68,
