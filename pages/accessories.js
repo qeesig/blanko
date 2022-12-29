@@ -919,7 +919,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              {item.supply}
+                              {numeral(item.supply).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
