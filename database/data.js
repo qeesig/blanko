@@ -21,4 +21,4 @@ export const seasons = [
   { label: "Season 1" },
 ];
 
-export const lastUpdated = "2022-12-29";
+export const lastUpdated = "2022-12-30";
