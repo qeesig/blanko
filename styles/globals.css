@@ -53,7 +53,8 @@ a {
   height: 54px;
   background-color: #17171a;
   color: white;
-  font-size: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 /* table rows */
@@ -128,13 +129,13 @@ a {
 
 /* pagination rows per page text*/
 .MuiTablePagination-selectLabel {
-  font-size: 14px;
+  font-size: 1rem;
   padding-top: 4px;
 }
 
 /* pagination size container */
 .MuiTablePagination-root .MuiInputBase-colorPrimary {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 /* pagination size text*/
@@ -144,7 +145,7 @@ a {
 
 /* pagination rows */
 .MuiTablePagination-displayedRows {
-  font-size: 14px;
+  font-size: 1rem;
   margin-top: 18px;
 }
 
