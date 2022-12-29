@@ -6,7 +6,11 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div>
         Created by{" "}
-        <Link href="https://twitter.com/qeesig" target="_blank">
+        <Link
+          href="https://twitter.com/qeesig"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           @qeesig
         </Link>
       </div>
