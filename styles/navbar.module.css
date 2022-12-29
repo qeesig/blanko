@@ -63,7 +63,7 @@
 }
 
 .drawerItem > span {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -89,7 +89,7 @@
 
 .activeLink > button {
   color: #47b5ff;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -99,7 +99,7 @@
 
 .inActiveLink > button {
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -109,13 +109,13 @@
 }
 
 .drawerActiveLink > span {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   color: #47b5ff;
 }
 
 .drawerInActiveLink > span {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   color: white;
 }
