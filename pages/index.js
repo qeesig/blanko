@@ -910,7 +910,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              {numeral(item.supply).format("('0,0')")}
+                              {item.supply}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
