@@ -17,13 +17,22 @@
 
 .headerMaintext {
   color: white;
-  font-size: 20px;
+  font-size: 1.4rem;
   margin: 0px 0px 10px 0px;
+}
+
+.lastUpdatedText {
+  color: #b9bdcc;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 
 .headerSubtext {
   color: #b9bdcc;
-  font-size: 14px;
+  font-size: 1rem;
   margin: 0px;
 }
 
@@ -178,7 +187,7 @@
 }
 
 .result {
-  font-size: 18px;
+  font-size: 1.3rem;
   text-align: center;
   margin-top: 5vh;
   color: #b9bdcc;
@@ -194,7 +203,7 @@
   height: 54px;
   background-color: #17171a;
   color: #666b7c;
-  text-align: center;
+  text-align: left;
 }
 
 .tableCell {
@@ -208,43 +217,43 @@
   padding-left: 15px;
 }
 
-.mintedHeader {
+.supplyHeader {
   padding-right: 0px;
-  padding-left: 80px;
+  padding-left: 18px;
 }
 
 .burnedHeader {
   padding-right: 0px;
-  padding-left: 65px;
+  padding-left: 15px;
 }
 
 .mintDateHeader {
   padding-right: 0px;
-  padding-left: 90px;
+  padding-left: 22px;
 }
 
 .mintPriceHeader {
   padding-right: 0px;
-  padding-left: 70px;
+  padding-left: 18px;
+}
+
+.floorPriceHeader {
+  padding-right: 0px;
+  padding-left: 18px;
+}
+
+.listingsHeader {
+  padding-right: 0px;
+  padding-left: 13px;
 }
 
 .seasonHeader {
   text-align: center;
 }
 
-.accessoryResult {
-  font-size: 16px;
-  color: white;
-  margin-bottom: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top: 1px solid #222531;
-  border-bottom: 1px solid #222531;
-}
-
 .legendContainer {
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
   padding-bottom: 10px;
 }
 
@@ -286,7 +295,7 @@
 
 .accessoryName {
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;

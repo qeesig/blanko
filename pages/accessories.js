@@ -51,6 +51,7 @@ import { IoClose } from "react-icons/io5";
 import NoResult from "../public/folder.png";
 
 import nodes from "../database/accessories.json";
+import { partyPass, seasons, lastUpdated } from "../database/data.js";
 
 import styles from "../styles/accessories.module.css";
 import styled from "@emotion/styled";
@@ -120,7 +121,7 @@ export default function Accessories() {
 
   const customTheme = {
     Table: `
-    --data-table-library_grid-template-columns:  50px 54px 250px 150px 135px 165px 150px 150px;
+    --data-table-library_grid-template-columns:  30px 54px 400px 80px 80px 100px 100px 100px 80px 80px;
     `,
     BaseCell: `
     &:nth-of-type(1) {
@@ -129,7 +130,7 @@ export default function Accessories() {
     }
 
     &:nth-of-type(2) {
-      left: 50px;
+      left: 30px;
    
     }
     `,
@@ -291,7 +292,7 @@ export default function Accessories() {
     data,
     {
       state: {
-        sortKey: "MINTED",
+        sortKey: "SUPPLY",
         reverse: false,
       },
       onChange: onSortChange,
@@ -305,11 +306,14 @@ export default function Accessories() {
         iconDown: <TiArrowSortedDown fill="#fff" fontSize="small" />,
       },
       sortFns: {
-        MINTED: (array) => array.sort((a, b) => a.minted - b.minted),
+        SUPPLY: (array) => array.sort((a, b) => a.minted - b.minted),
         BURNED: (array) => array.sort((a, b) => a.burned - b.burned),
         MINTDATE: (array) =>
           array.sort((a, b) => a.mintDate.localeCompare(b.mintDate)),
         MINTPRICE: (array) => array.sort((a, b) => a.mintPrice - b.mintPrice),
+        FLOORPRICE: (array) =>
+          array.sort((a, b) => a.floorPrice - b.floorPrice),
+        LISTINGS: (array) => array.sort((a, b) => a.listings - b.listings),
       },
     }
   );
@@ -432,10 +436,22 @@ export default function Accessories() {
             </h1>
             <p className={styles.headerSubtext}>
               Explore all accessories from{" "}
-              <Link href="https://blankos.com/" target="_blank">
+              <Link
+                href="https://blankos.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Blankos Block Party.
               </Link>
             </p>
+            <h2 className={styles.lastUpdatedText}>
+              Last Updated on{" "}
+              {new Date(lastUpdated).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "2-digit",
+              })}
+            </h2>
           </header>
         </>
       )}
@@ -792,35 +808,47 @@ export default function Accessories() {
                         <HeaderRow>
                           <HeaderCell pinLeft></HeaderCell>
                           <HeaderCell pinLeft></HeaderCell>
-                          <HeaderCell className={styles.nameHeader}>
-                            NAME
+                          <HeaderCell className={styles.supplyHeader}>
+                            name
                           </HeaderCell>
                           <HeaderCellSort
-                            className={styles.mintedHeader}
-                            sortKey="MINTED"
+                            className={styles.supplyHeader}
+                            sortKey="SUPPLY"
                           >
-                            MINTED
+                            supply
                           </HeaderCellSort>
                           <HeaderCellSort
                             className={styles.burnedHeader}
                             sortKey="BURNED"
                           >
-                            BURNED
+                            burned
                           </HeaderCellSort>
                           <HeaderCellSort
                             className={styles.mintDateHeader}
                             sortKey="MINTDATE"
                           >
-                            MT DATE
+                            mint date
                           </HeaderCellSort>
                           <HeaderCellSort
                             className={styles.mintPriceHeader}
                             sortKey="MINTPRICE"
                           >
-                            MT PRICE
+                            mint price
+                          </HeaderCellSort>
+                          <HeaderCellSort
+                            className={styles.floorPriceHeader}
+                            sortKey="FLOORPRICE"
+                          >
+                            floor price
+                          </HeaderCellSort>
+                          <HeaderCellSort
+                            className={styles.listingsHeader}
+                            sortKey="LISTINGS"
+                          >
+                            listings
                           </HeaderCellSort>
                           <HeaderCell className={styles.seasonHeader}>
-                            SEASON
+                            season
                           </HeaderCell>
                         </HeaderRow>
                       </Header>
@@ -828,7 +856,14 @@ export default function Accessories() {
                       <Body>
                         {blankoList.map((item, rank) => (
                           <Row key={item.rank} item={item}>
-                            <Cell pinLeft className={styles.tablePinnedCell}>
+                            <Cell
+                              pinLeft
+                              className={styles.tablePinnedCell}
+                              style={{
+                                paddingLeft: "0px",
+                                paddingRight: "0px",
+                              }}
+                            >
                               {item.rank}
                             </Cell>
                             <Cell pinLeft className={styles.tablePinnedCell}>
@@ -912,7 +947,7 @@ export default function Accessories() {
                               {new Date(item.mintDate).toLocaleDateString(
                                 "en-US",
                                 {
-                                  year: "numeric",
+                                  year: "2-digit",
                                   month: "2-digit",
                                   day: "2-digit",
                                 }
@@ -929,6 +964,31 @@ export default function Accessories() {
                                 displayType={"text"}
                                 thousandSeparator={true}
                                 prefix={"$"}
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              <NumberFormat
+                                value={item.floorPrice}
+                                displayType={"text"}
+                                thousandSeparator={true}
+                                prefix={"$"}
+                              />
+                            </Cell>
+                            <Cell
+                              className={styles.tableCell}
+                              style={{
+                                textAlign: "right",
+                              }}
+                            >
+                              <NumberFormat
+                                value={item.listings}
+                                displayType={"text"}
+                                thousandSeparator={true}
                               />
                             </Cell>
                             <Cell
@@ -995,26 +1055,3 @@ export default function Accessories() {
     </div>
   );
 }
-
-const partyPass = [
-  { label: "S00 First Party Pass" },
-  { label: "S00 Hustle & Glow" },
-  { label: "S00 Grave Rave" },
-  { label: "S00 Manila Chill" },
-  { label: "S00 Get Lucky" },
-  { label: "S00 Blanko Brawlers" },
-  { label: "S00 Summer Camp Slam" },
-  { label: "S00 Snack Attack" },
-  { label: "S01 IKWYD Last Grave Rave" },
-  { label: "S01 Cosmic Groove" },
-];
-
-const seasons = [
-  { label: "Season 0" },
-  { label: "S00 Pre-Alpha" },
-  { label: "S00 Alpha" },
-  { label: "S00 Private Beta" },
-  { label: "S00 Open Beta" },
-  { label: "S00 Early Access" },
-  { label: "Season 1" },
-];
