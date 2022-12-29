@@ -34,8 +34,9 @@ import {
   SortIconPositions,
   useSort,
 } from "@table-library/react-table-library/sort";
-import NumberFormat from "react-number-format";
+
 import removeFbclid from "remove-fbclid";
+import numeral from "numeral";
 
 import {
   TiArrowUnsorted,
@@ -60,6 +61,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 export default function Accessories() {
+  const stringToBoolean = (string) => (string === "false" ? false : !!string);
   const Minting = styled.span`
     margin-right: ${(props) =>
       props.minting == true && props.functional == false
@@ -306,7 +308,7 @@ export default function Accessories() {
         iconDown: <TiArrowSortedDown fill="#fff" fontSize="small" />,
       },
       sortFns: {
-        SUPPLY: (array) => array.sort((a, b) => a.minted - b.minted),
+        SUPPLY: (array) => array.sort((a, b) => a.supply - b.supply),
         BURNED: (array) => array.sort((a, b) => a.burned - b.burned),
         MINTDATE: (array) =>
           array.sort((a, b) => a.mintDate.localeCompare(b.mintDate)),
@@ -424,14 +426,7 @@ export default function Accessories() {
               ) : data.nodes.length == 1 ? (
                 `${data.nodes.length} Accessory`
               ) : (
-                <>
-                  <NumberFormat
-                    value={data.nodes.length}
-                    displayType={"text"}
-                    thousandSeparator={true}
-                    suffix=" Accessories"
-                  />
-                </>
+                <>{numeral(data.nodes.length).format("('0,0')")} Accessories</>
               )}
             </h1>
             <p className={styles.headerSubtext}>
@@ -880,15 +875,15 @@ export default function Accessories() {
                               className={styles.tableCell}
                               style={{ paddingLeft: "15px" }}
                             >
-                              {item.minting == true ? (
+                              {stringToBoolean(item.minting) == true ? (
                                 <Minting
                                   className={
-                                    item.minting == true
+                                    stringToBoolean(item.minting) == true
                                       ? styles.mintingIcon
                                       : ""
                                   }
-                                  minting={item.minting}
-                                  functional={item.functional}
+                                  minting={stringToBoolean(item.minting)}
+                                  functional={stringToBoolean(item.functional)}
                                 >
                                   <CircleIcon />
                                 </Minting>
@@ -897,12 +892,16 @@ export default function Accessories() {
                               )}
                               <span
                                 className={
-                                  item.functional == true
+                                  stringToBoolean(item.functional) == true
                                     ? styles.functionalIcon
                                     : ""
                                 }
                               >
-                                {item.functional == true ? <FlashOnIcon /> : ""}
+                                {stringToBoolean(item.functional) == true ? (
+                                  <FlashOnIcon />
+                                ) : (
+                                  ""
+                                )}
                               </span>
                               <span className={styles.accessoryName}>
                                 {item.name}
@@ -920,11 +919,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.minted}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.supply).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -932,11 +927,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.burned}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.burned).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -959,12 +950,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.mintPrice}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                                prefix={"$"}
-                              />
+                              {numeral(item.mintPrice).format("($0a)")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -972,12 +958,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.floorPrice}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                                prefix={"$"}
-                              />
+                              {numeral(item.floorPrice).format("($0a)")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -985,11 +966,7 @@ export default function Accessories() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.listings}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.listings).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}

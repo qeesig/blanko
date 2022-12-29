@@ -37,8 +37,8 @@ import {
   Button,
 } from "@mui/material";
 
-import NumberFormat from "react-number-format";
 import removeFbclid from "remove-fbclid";
+import numeral from "numeral";
 
 import {
   TiArrowUnsorted,
@@ -53,7 +53,7 @@ import CircleIcon from "@mui/icons-material/Circle";
 import { IoClose } from "react-icons/io5";
 import NoResult from "../public/folder.png";
 
-import nodes from "../database/blankos.json";
+import nodes from "../database/blankos";
 import { partyPass, seasons, lastUpdated } from "../database/data.js";
 
 import styles from "../styles/index.module.css";
@@ -63,11 +63,12 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 export default function Blankos() {
+  const stringToBoolean = (string) => (string === "false" ? false : !!string);
   const Minting = styled.span`
     margin-right: ${(props) =>
       props.minting == true && props.withdrawable == false
         ? "5px"
-        : props.minting == true && props.withdrawable == true
+        : props.minting == true && props.withdrawable == false
         ? "4px"
         : "4px"};
   `;
@@ -311,7 +312,7 @@ export default function Blankos() {
         iconDown: <TiArrowSortedDown fill="#fff" fontSize="small" />,
       },
       sortFns: {
-        SUPPLY: (array) => array.sort((a, b) => a.minted - b.minted),
+        SUPPLY: (array) => array.sort((a, b) => a.supply - b.supply),
         BURNED: (array) => array.sort((a, b) => a.burned - b.burned),
         MINTDATE: (array) =>
           array.sort((a, b) => a.mintDate.localeCompare(b.mintDate)),
@@ -429,14 +430,7 @@ export default function Blankos() {
               ) : data.nodes.length == 1 ? (
                 `${data.nodes.length} Blanko`
               ) : (
-                <>
-                  <NumberFormat
-                    value={data.nodes.length}
-                    displayType={"text"}
-                    thousandSeparator={true}
-                    suffix=" Blankos"
-                  />
-                </>
+                <>{numeral(data.nodes.length).format("('0,0')")} Blankos</>
               )}
             </h1>
             <p className={styles.headerSubtext}>
@@ -873,15 +867,17 @@ export default function Blankos() {
                               className={styles.tableCell}
                               style={{ paddingLeft: "15px" }}
                             >
-                              {item.minting == true ? (
+                              {stringToBoolean(item.minting) == true ? (
                                 <Minting
                                   className={
-                                    item.minting == true
+                                    stringToBoolean(item.minting) == true
                                       ? styles.mintingIcon
                                       : ""
                                   }
-                                  minting={item.minting}
-                                  withdrawable={item.withdrawable}
+                                  minting={stringToBoolean(item.minting)}
+                                  withdrawable={stringToBoolean(
+                                    item.withdrawable
+                                  )}
                                 >
                                   <CircleIcon />
                                 </Minting>
@@ -890,12 +886,12 @@ export default function Blankos() {
                               )}
                               <span
                                 className={
-                                  item.withdrawable == true
+                                  stringToBoolean(item.withdrawable) == true
                                     ? styles.withdrawableIcon
                                     : ""
                                 }
                               >
-                                {item.withdrawable == true ? (
+                                {stringToBoolean(item.withdrawable) == true ? (
                                   <FileUploadIcon />
                                 ) : (
                                   ""
@@ -914,11 +910,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.minted}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.supply).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -926,11 +918,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.burned}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.burned).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -953,12 +941,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.mintPrice}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                                prefix={"$"}
-                              />
+                              {numeral(item.mintPrice).format("($0a)")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -966,12 +949,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.floorPrice}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                                prefix={"$"}
-                              />
+                              {numeral(item.floorPrice).format("($0a)")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
@@ -979,11 +957,7 @@ export default function Blankos() {
                                 textAlign: "right",
                               }}
                             >
-                              <NumberFormat
-                                value={item.listings}
-                                displayType={"text"}
-                                thousandSeparator={true}
-                              />
+                              {numeral(item.listings).format("('0,0')")}
                             </Cell>
                             <Cell
                               className={styles.tableCell}
