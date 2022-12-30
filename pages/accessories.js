@@ -421,13 +421,11 @@ export default function Accessories() {
           <Navbar />
           <header className={styles.header}>
             <h1 className={styles.headerMaintext}>
-              {data.nodes.length < 1 ? (
-                `0 Accessory`
-              ) : data.nodes.length == 1 ? (
-                `${data.nodes.length} Accessory`
-              ) : (
-                <>{numeral(data.nodes.length).format("('0,0')")} Accessories</>
-              )}
+              {data.nodes.length < 1
+                ? "0 Accessory"
+                : data.nodes.length == 1
+                ? `${data.nodes.length} Accessory`
+                : `${numeral(data.nodes.length).format("('0,0')")} Accessories`}
             </h1>
             <p className={styles.headerSubtext}>
               Explore all accessories from{" "}
@@ -440,12 +438,11 @@ export default function Accessories() {
               </Link>
             </p>
             <h2 className={styles.lastUpdatedText}>
-              Last Updated on{" "}
-              {new Date(lastUpdated).toLocaleDateString("en-US", {
+              {`Last Updated on ${new Intl.DateTimeFormat("en-US", {
                 year: "numeric",
                 month: "long",
                 day: "2-digit",
-              })}
+              }).format(lastUpdated)}`}
             </h2>
           </header>
         </>

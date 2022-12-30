@@ -21,4 +21,5 @@ export const seasons = [
   { label: "Season 1" },
 ];
 
-export const lastUpdated = "2022-12-30";
+export const lastUpdated = new Date(Date.UTC(2022, 11, 30, 0, 0, 0, 0));
+// console.log(lastUpdated);

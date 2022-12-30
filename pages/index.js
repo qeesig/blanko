@@ -422,16 +422,13 @@ export default function Blankos() {
       {!renderDelay && (
         <>
           <Navbar />
-
           <header className={styles.header}>
             <h1 className={styles.headerMaintext}>
-              {data.nodes.length < 1 ? (
-                `0 Blanko`
-              ) : data.nodes.length == 1 ? (
-                `${data.nodes.length} Blanko`
-              ) : (
-                <>{numeral(data.nodes.length).format("('0,0')")} Blankos</>
-              )}
+              {data.nodes.length < 1
+                ? "0 Blanko"
+                : data.nodes.length == 1
+                ? `${data.nodes.length} Blanko`
+                : `${numeral(data.nodes.length).format("('0,0')")} Blankos`}
             </h1>
             <p className={styles.headerSubtext}>
               Explore all blankos from{" "}
@@ -444,12 +441,11 @@ export default function Blankos() {
               </Link>
             </p>
             <h2 className={styles.lastUpdatedText}>
-              Last Updated on{" "}
-              {new Date(lastUpdated).toLocaleDateString("en-US", {
+              {`Last Updated on ${new Intl.DateTimeFormat("en-US", {
                 year: "numeric",
                 month: "long",
                 day: "2-digit",
-              })}
+              }).format(lastUpdated)}`}
             </h2>
           </header>
         </>
