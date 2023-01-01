@@ -61,7 +61,7 @@
     "minting": false,
     "mintDate": "2022-06-22T00:00:00.000Z",
     "mintPrice": 64.99,
-    "floorPrice": 129,
+    "floorPrice": 159.99,
     "listings": 10,
     "season": "00",
     "tag": "",
@@ -92,7 +92,7 @@
   {
     "rank": 6,
     "name": "Holiday Hype Bulb",
-    "supply": 193,
+    "supply": 196,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T00:00:00.000Z",
@@ -127,31 +127,13 @@
   },
   {
     "rank": 8,
-    "name": "Hesperiad’s Gyre",
-    "supply": 250,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-28T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 3.9,
-    "listings": 27,
-    "season": "01",
-    "tag": "Cosmic Groove+",
-    "category": "Collar",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/hesperiads-gyr.png"
-  },
-  {
-    "rank": 9,
     "name": "Toasted Bun Beanie",
     "supply": 263,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-09-28T00:00:00.000Z",
     "mintPrice": 5.99,
-    "floorPrice": 5.99,
+    "floorPrice": 6.6,
     "listings": 25,
     "season": "01",
     "tag": "",
@@ -162,7 +144,7 @@
     "imgPath": "/accessory-img/toasted-bun-beanie.png"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "name": "Year of the Ox Bell",
     "supply": 264,
     "burned": 0,
@@ -178,6 +160,24 @@
     "passFilter": "",
     "functional": false,
     "imgPath": "/accessory-img/year-of-the-ox-bell.png"
+  },
+  {
+    "rank": 10,
+    "name": "Hesperiad’s Gyre",
+    "supply": 287,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-28T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 3.25,
+    "listings": 26,
+    "season": "01",
+    "tag": "Cosmic Groove+",
+    "category": "Collar",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/hesperiads-gyr.png"
   },
   {
     "rank": 11,
@@ -259,7 +259,7 @@
     "minting": false,
     "mintDate": "2022-09-15T00:00:00.000Z",
     "mintPrice": 6.99,
-    "floorPrice": 11,
+    "floorPrice": 11.8,
     "listings": 45,
     "season": "00",
     "tag": "",
@@ -434,13 +434,13 @@
   {
     "rank": 25,
     "name": "Adhara’s Helm",
-    "supply": 450,
+    "supply": 453,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-14T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 3.95,
-    "listings": 27,
+    "floorPrice": 3.94,
+    "listings": 29,
     "season": "01",
     "tag": "Cosmic Groove+",
     "category": "Hat",
@@ -691,8 +691,8 @@
     "minting": true,
     "mintDate": "2022-12-15T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 3.6,
-    "listings": 54,
+    "floorPrice": 3.7,
+    "listings": 52,
     "season": "01",
     "tag": "FaZe Forever",
     "category": "Mask",
@@ -709,7 +709,7 @@
     "minting": false,
     "mintDate": "2022-08-17T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 4.44,
+    "floorPrice": 5.25,
     "listings": 70,
     "season": "00",
     "tag": "Snack Attack+",
@@ -763,8 +763,8 @@
     "minting": false,
     "mintDate": "2022-08-10T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 4.3,
-    "listings": 54,
+    "floorPrice": 4,
+    "listings": 55,
     "season": "00",
     "tag": "Snack Attack+",
     "category": "Shoes",
@@ -793,6 +793,24 @@
   },
   {
     "rank": 45,
+    "name": "Reindeer Kicks",
+    "supply": 838,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-31T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 3.2,
+    "listings": 30,
+    "season": "01",
+    "tag": "Giveaway",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "",
+    "functional": false,
+    "imgPath": "/accessory-img/reindeer-kicks.png"
+  },
+  {
+    "rank": 46,
     "name": "Roasted Mallow Rocket Pack",
     "supply": 850,
     "burned": 0,
@@ -808,24 +826,6 @@
     "passFilter": "S00 Summer Camp Slam",
     "functional": true,
     "imgPath": "/accessory-img/roasted-mallow-rocket-pack.png"
-  },
-  {
-    "rank": 46,
-    "name": "Orbital Bracelet",
-    "supply": 858,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-21T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 2.15,
-    "listings": 41,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Wrists",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/orbital-bracelet.png"
   },
   {
     "rank": 47,
@@ -907,8 +907,8 @@
     "minting": false,
     "mintDate": "2022-07-27T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 2.8,
-    "listings": 72,
+    "floorPrice": 2.99,
+    "listings": 71,
     "season": "00",
     "tag": "Snack Attack+",
     "category": "Hat",
@@ -926,7 +926,7 @@
     "mintDate": "2022-06-15T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 3.84,
-    "listings": 67,
+    "listings": 68,
     "season": "00",
     "tag": "Summer Camp Slam+",
     "category": "Hat",
@@ -937,6 +937,24 @@
   },
   {
     "rank": 53,
+    "name": "Orbital Bracelet",
+    "supply": 922,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-21T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 2.5,
+    "listings": 43,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Wrists",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/orbital-bracelet.png"
+  },
+  {
+    "rank": 54,
     "name": "Spiked Choker",
     "supply": 941,
     "burned": 0,
@@ -954,7 +972,7 @@
     "imgPath": "/accessory-img/spiked-choker.png"
   },
   {
-    "rank": 54,
+    "rank": 55,
     "name": "Tenderfoot's Squidgeon Pal",
     "supply": 998,
     "burned": 0,
@@ -972,7 +990,7 @@
     "imgPath": "/accessory-img/tenderfoots-squidgeon-pal.png"
   },
   {
-    "rank": 55,
+    "rank": 56,
     "name": "Frostbyte Beanie",
     "supply": 1000,
     "burned": 0,
@@ -990,7 +1008,7 @@
     "imgPath": "/accessory-img/frostbyte-beanie.png"
   },
   {
-    "rank": 56,
+    "rank": 57,
     "name": "Ghost Gang Spray Cannon",
     "supply": 1018,
     "burned": 0,
@@ -1008,7 +1026,7 @@
     "imgPath": "/accessory-img/ghost-gang-spray-cannon.png"
   },
   {
-    "rank": 57,
+    "rank": 58,
     "name": "War Pony Whirlwind Mask",
     "supply": 1022,
     "burned": 0,
@@ -1026,7 +1044,7 @@
     "imgPath": "/accessory-img/war-pony-whirlwind-mask.png"
   },
   {
-    "rank": 58,
+    "rank": 59,
     "name": "Drak’s Unholy Batpack",
     "supply": 1023,
     "burned": 0,
@@ -1034,7 +1052,7 @@
     "mintDate": "2022-10-26T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 3.25,
-    "listings": 57,
+    "listings": 56,
     "season": "01",
     "tag": "IKWYD Last Grave Rave+",
     "category": "Back",
@@ -1044,7 +1062,7 @@
     "imgPath": "/accessory-img/draks-unholy-batpack.png"
   },
   {
-    "rank": 59,
+    "rank": 60,
     "name": "Polly Wanna Rainbow Wings",
     "supply": 1033,
     "burned": 0,
@@ -1062,7 +1080,7 @@
     "imgPath": "/accessory-img/polly-wanna-rainbow-wings.png"
   },
   {
-    "rank": 60,
+    "rank": 61,
     "name": "Blue Blaze Puckhead Mask",
     "supply": 1059,
     "burned": 0,
@@ -1080,7 +1098,7 @@
     "imgPath": "/accessory-img/blue-blaze-puckhead-mask.png"
   },
   {
-    "rank": 61,
+    "rank": 62,
     "name": "Wolf Chowduh",
     "supply": 1071,
     "burned": 0,
@@ -1088,7 +1106,7 @@
     "mintDate": "2022-10-19T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.1,
-    "listings": 99,
+    "listings": 101,
     "season": "01",
     "tag": "IKWYD Last Grave Rave+",
     "category": "Back",
@@ -1098,7 +1116,7 @@
     "imgPath": "/accessory-img/wolf-chowduh.png"
   },
   {
-    "rank": 62,
+    "rank": 63,
     "name": "Black Shoes",
     "supply": 1137,
     "burned": 0,
@@ -1106,7 +1124,7 @@
     "mintDate": "2020-11-18T00:00:00.000Z",
     "mintPrice": 4.99,
     "floorPrice": 9.5,
-    "listings": 40,
+    "listings": 39,
     "season": "00",
     "tag": "",
     "category": "Shoes",
@@ -1116,7 +1134,7 @@
     "imgPath": "/accessory-img/black-shoes.png"
   },
   {
-    "rank": 63,
+    "rank": 64,
     "name": "Heartbreaker’s Bubbly Booster",
     "supply": 1161,
     "burned": 0,
@@ -1134,7 +1152,7 @@
     "imgPath": "/accessory-img/heartbreakers-bubbly-booster.png"
   },
   {
-    "rank": 64,
+    "rank": 65,
     "name": "Drak’s Batwing Shades",
     "supply": 1187,
     "burned": 0,
@@ -1142,7 +1160,7 @@
     "mintDate": "2022-10-05T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.29,
-    "listings": 113,
+    "listings": 115,
     "season": "01",
     "tag": "IKWYD Last Grave Rave+",
     "category": "Mask",
@@ -1152,7 +1170,7 @@
     "imgPath": "/accessory-img/draks-batwing-shades.png"
   },
   {
-    "rank": 65,
+    "rank": 66,
     "name": "Rocket Shark",
     "supply": 1189,
     "burned": 0,
@@ -1170,7 +1188,7 @@
     "imgPath": "/accessory-img/rocket-shark.png"
   },
   {
-    "rank": 66,
+    "rank": 67,
     "name": "Bulletpunk Mask [GHOST WHITE]",
     "supply": 1200,
     "burned": 0,
@@ -1188,7 +1206,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-ghost-white.png"
   },
   {
-    "rank": 67,
+    "rank": 68,
     "name": "Bulletpunk Mask [OG BLK]",
     "supply": 1200,
     "burned": 0,
@@ -1206,7 +1224,7 @@
     "imgPath": "/accessory-img/bulletpunk-mask-og-blk.png"
   },
   {
-    "rank": 68,
+    "rank": 69,
     "name": "Black Bandana",
     "supply": 1271,
     "burned": 0,
@@ -1224,7 +1242,7 @@
     "imgPath": "/accessory-img/black-bandana.png"
   },
   {
-    "rank": 69,
+    "rank": 70,
     "name": "Beanie of the Embalmed",
     "supply": 1321,
     "burned": 0,
@@ -1242,7 +1260,7 @@
     "imgPath": "/accessory-img/beanie-of-the-embalmed.png"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Emo Gloves",
     "supply": 1343,
     "burned": 0,
@@ -1260,7 +1278,7 @@
     "imgPath": "/accessory-img/emo-gloves.png"
   },
   {
-    "rank": 71,
+    "rank": 72,
     "name": "R. Blankeoptera Wings",
     "supply": 1369,
     "burned": 0,
@@ -1278,7 +1296,7 @@
     "imgPath": "/accessory-img/r-blankeoptera-wings.png"
   },
   {
-    "rank": 72,
+    "rank": 73,
     "name": "Heartbreaker's Cotton Tail",
     "supply": 1435,
     "burned": 0,
@@ -1296,7 +1314,7 @@
     "imgPath": "/accessory-img/heartbreakers-cotton-tail.png"
   },
   {
-    "rank": 73,
+    "rank": 74,
     "name": "Pre-Frontal Hemorrhage Hat",
     "supply": 1451,
     "burned": 0,
@@ -1312,24 +1330,6 @@
     "passFilter": "",
     "functional": false,
     "imgPath": "/accessory-img/pre-frontal-hemorrhage-hat.png"
-  },
-  {
-    "rank": 74,
-    "name": "Cosmic Creepers",
-    "supply": 1455,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-12-07T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 2.14,
-    "listings": 108,
-    "season": "01",
-    "tag": "Cosmic Groove",
-    "category": "Shoes",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "functional": false,
-    "imgPath": "/accessory-img/cosmic-creepers.png"
   },
   {
     "rank": 75,
@@ -1351,6 +1351,24 @@
   },
   {
     "rank": 76,
+    "name": "Cosmic Creepers",
+    "supply": 1483,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-12-07T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 2.14,
+    "listings": 115,
+    "season": "01",
+    "tag": "Cosmic Groove",
+    "category": "Shoes",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "functional": false,
+    "imgPath": "/accessory-img/cosmic-creepers.png"
+  },
+  {
+    "rank": 77,
     "name": "Rib Cage Chain",
     "supply": 1496,
     "burned": 0,
@@ -1368,7 +1386,7 @@
     "imgPath": "/accessory-img/rib-cage-chain.png"
   },
   {
-    "rank": 77,
+    "rank": 78,
     "name": "Burberry® Jetpack",
     "supply": 1500,
     "burned": 0,
@@ -1386,7 +1404,7 @@
     "imgPath": "/accessory-img/burberry-jetpack.png"
   },
   {
-    "rank": 78,
+    "rank": 79,
     "name": "TMC Flag Bucket Hat - Red",
     "supply": 1500,
     "burned": 0,
@@ -1404,7 +1422,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-red.png"
   },
   {
-    "rank": 79,
+    "rank": 80,
     "name": "TMC Flag Bucket Hat - Stealth",
     "supply": 1500,
     "burned": 0,
@@ -1422,7 +1440,7 @@
     "imgPath": "/accessory-img/tmc-flag-bucket-hat-stealth.png"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Heartbreaker’s Bunny Ears",
     "supply": 1545,
     "burned": 0,
@@ -1440,7 +1458,7 @@
     "imgPath": "/accessory-img/heartbreakers-bunny-ears.png"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "Brawl Champ Belt",
     "supply": 1564,
     "burned": 0,
@@ -1458,7 +1476,7 @@
     "imgPath": "/accessory-img/brawl-champ-belt.png"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "T.O.A.S.T. Jetpack",
     "supply": 1600,
     "burned": 0,
@@ -1466,7 +1484,7 @@
     "mintDate": "2021-08-09T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 5.95,
-    "listings": 137,
+    "listings": 136,
     "season": "00",
     "tag": "1st Party Pass",
     "category": "Back",
@@ -1476,7 +1494,7 @@
     "imgPath": "/accessory-img/toast-jetpack.png"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Sal’s Crispy Crossbody",
     "supply": 1616,
     "burned": 0,
@@ -1494,7 +1512,7 @@
     "imgPath": "/accessory-img/sals-crispy-crossbody.png"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "In Stitches Armbands",
     "supply": 1637,
     "burned": 0,
@@ -1512,7 +1530,7 @@
     "imgPath": "/accessory-img/in-stitches-armbands.png"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Red Bolt Hockey Mask",
     "supply": 1650,
     "burned": 0,
@@ -1530,7 +1548,7 @@
     "imgPath": "/accessory-img/red-bolt-hockey-mask.png"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Bi-Amp Booster",
     "supply": 1654,
     "burned": 0,
@@ -1548,7 +1566,7 @@
     "imgPath": "/accessory-img/bi-amp-booster.png"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Burberry® Armbands",
     "supply": 1662,
     "burned": 0,
@@ -1566,7 +1584,7 @@
     "imgPath": "/accessory-img/burberry-armbands.png"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "That Thing",
     "supply": 1678,
     "burned": 0,
@@ -1584,7 +1602,7 @@
     "imgPath": "/accessory-img/that-thing.png"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Prism of Pride Tail",
     "supply": 1688,
     "burned": 0,
@@ -1592,7 +1610,7 @@
     "mintDate": "2021-06-15T00:00:00.000Z",
     "mintPrice": 4.99,
     "floorPrice": 5,
-    "listings": 73,
+    "listings": 74,
     "season": "00",
     "tag": "",
     "category": "Back",
@@ -1602,7 +1620,7 @@
     "imgPath": "/accessory-img/prism-of-pride-tail.png"
   },
   {
-    "rank": 90,
+    "rank": 91,
     "name": "South Paw Sneaks",
     "supply": 1719,
     "burned": 0,
@@ -1620,7 +1638,7 @@
     "imgPath": "/accessory-img/south-paw-sneaks.png"
   },
   {
-    "rank": 91,
+    "rank": 92,
     "name": "Burberry® Pool Shoes",
     "supply": 1786,
     "burned": 0,
@@ -1628,7 +1646,7 @@
     "mintDate": "2021-08-11T00:00:00.000Z",
     "mintPrice": 49.99,
     "floorPrice": 30,
-    "listings": 116,
+    "listings": 117,
     "season": "00",
     "tag": "",
     "category": "Shoes",
@@ -1638,7 +1656,7 @@
     "imgPath": "/accessory-img/burberry-pool-shoes.png"
   },
   {
-    "rank": 92,
+    "rank": 93,
     "name": "Edd",
     "supply": 1806,
     "burned": 0,
@@ -1656,7 +1674,7 @@
     "imgPath": "/accessory-img/edd.png"
   },
   {
-    "rank": 93,
+    "rank": 94,
     "name": "Camp Craft Flower Crown",
     "supply": 1848,
     "burned": 0,
@@ -1674,7 +1692,7 @@
     "imgPath": "/accessory-img/camp-craft-flower-crown.png"
   },
   {
-    "rank": 94,
+    "rank": 95,
     "name": "The Bodysnatcher",
     "supply": 1997,
     "burned": 0,
@@ -1682,7 +1700,7 @@
     "mintDate": "2021-11-03T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 3.8,
-    "listings": 119,
+    "listings": 118,
     "season": "00",
     "tag": "Grave Rave+",
     "category": "Back",
@@ -1692,7 +1710,7 @@
     "imgPath": "/accessory-img/the-bodysnatcher.png"
   },
   {
-    "rank": 95,
+    "rank": 96,
     "name": "Mau5 Ear5",
     "supply": 2000,
     "burned": 0,
@@ -1710,7 +1728,7 @@
     "imgPath": "/accessory-img/mau5-ear5.png"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "The Canopic Cruiser",
     "supply": 2000,
     "burned": 0,
@@ -1718,7 +1736,7 @@
     "mintDate": "2021-10-13T00:00:00.000Z",
     "mintPrice": 24.99,
     "floorPrice": 3.99,
-    "listings": 112,
+    "listings": 111,
     "season": "00",
     "tag": "",
     "category": "Back",
@@ -1728,7 +1746,7 @@
     "imgPath": "/accessory-img/the-canopic-cruiser.png"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Gelid’s Horns",
     "supply": 2040,
     "burned": 0,
@@ -1736,7 +1754,7 @@
     "mintDate": "2022-01-19T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 6.95,
-    "listings": 176,
+    "listings": 175,
     "season": "00",
     "tag": "Manila Chill",
     "category": "Hat",
@@ -1746,7 +1764,7 @@
     "imgPath": "/accessory-img/gelids-horns.png"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Savory Side Swag",
     "supply": 2144,
     "burned": 0,
@@ -1764,7 +1782,7 @@
     "imgPath": "/accessory-img/savory-side-swag.png"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Wreak Havoc Kicks",
     "supply": 2204,
     "burned": 0,
@@ -1782,7 +1800,7 @@
     "imgPath": "/accessory-img/wreak-havoc-kicks.png"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Rat Pelt Belt",
     "supply": 2222,
     "burned": 0,
@@ -1790,7 +1808,7 @@
     "mintDate": "2022-10-12T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.04,
-    "listings": 193,
+    "listings": 194,
     "season": "01",
     "tag": "IKWYD Last Grave Rave",
     "category": "Belt",
@@ -1800,7 +1818,7 @@
     "imgPath": "/accessory-img/rat-pelt-belt.png"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Gelid’s Gale Tactical Vest",
     "supply": 2466,
     "burned": 0,
@@ -1818,7 +1836,7 @@
     "imgPath": "/accessory-img/gelids-gale-tactical-vest.png"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Hustle & Glow Glider",
     "supply": 2479,
     "burned": 0,
@@ -1836,7 +1854,7 @@
     "imgPath": "/accessory-img/hustle-glow-glider.png"
   },
   {
-    "rank": 103,
+    "rank": 104,
     "name": "Tako Cuttlefish Jetpack",
     "supply": 2589,
     "burned": 0,
@@ -1854,7 +1872,7 @@
     "imgPath": "/accessory-img/tako-cuttlefish-jetpack.png"
   },
   {
-    "rank": 104,
+    "rank": 105,
     "name": "Tako Squid Tooth Bracelet",
     "supply": 2589,
     "burned": 0,
@@ -1872,7 +1890,7 @@
     "imgPath": "/accessory-img/tako-squid-tooth-bracelet.png"
   },
   {
-    "rank": 105,
+    "rank": 106,
     "name": "Katana’s Hachimaki",
     "supply": 2618,
     "burned": 0,
@@ -1890,7 +1908,7 @@
     "imgPath": "/accessory-img/katanas-hachimaki.png"
   },
   {
-    "rank": 106,
+    "rank": 107,
     "name": "BCF Bracelets",
     "supply": 2633,
     "burned": 0,
@@ -1908,7 +1926,7 @@
     "imgPath": "/accessory-img/bcf-bracelets.png"
   },
   {
-    "rank": 107,
+    "rank": 108,
     "name": "Bite Me Billy Armor",
     "supply": 2699,
     "burned": 0,
@@ -1926,7 +1944,7 @@
     "imgPath": "/accessory-img/bite-me-billy-armor.png"
   },
   {
-    "rank": 108,
+    "rank": 109,
     "name": "Bite Me Billy Arms",
     "supply": 2699,
     "burned": 0,
@@ -1944,7 +1962,7 @@
     "imgPath": "/accessory-img/bite-me-billy-arms.png"
   },
   {
-    "rank": 109,
+    "rank": 110,
     "name": "Bite Me Billy Horns",
     "supply": 2699,
     "burned": 0,
@@ -1962,7 +1980,7 @@
     "imgPath": "/accessory-img/bite-me-billy-horns.png"
   },
   {
-    "rank": 110,
+    "rank": 111,
     "name": "Bite Me Billy Mask",
     "supply": 2699,
     "burned": 0,
@@ -1980,7 +1998,7 @@
     "imgPath": "/accessory-img/bite-me-billy-mask.png"
   },
   {
-    "rank": 111,
+    "rank": 112,
     "name": "Bite Me Billy Shoes",
     "supply": 2699,
     "burned": 0,
@@ -1998,7 +2016,7 @@
     "imgPath": "/accessory-img/bite-me-billy-shoes.png"
   },
   {
-    "rank": 112,
+    "rank": 113,
     "name": "Bite Me Billy Wings",
     "supply": 2699,
     "burned": 0,
@@ -2016,7 +2034,7 @@
     "imgPath": "/accessory-img/bite-me-billy-wings.png"
   },
   {
-    "rank": 113,
+    "rank": 114,
     "name": "Frankenbeanie",
     "supply": 2778,
     "burned": 0,
@@ -2034,7 +2052,7 @@
     "imgPath": "/accessory-img/frankenbeanie.png"
   },
   {
-    "rank": 114,
+    "rank": 115,
     "name": "Feelin' Lucky Bracelet",
     "supply": 2860,
     "burned": 0,
@@ -2052,7 +2070,7 @@
     "imgPath": "/accessory-img/feelin-lucky-bracelet.png"
   },
   {
-    "rank": 115,
+    "rank": 116,
     "name": "Gelid’s Gale Tactical Mask",
     "supply": 2896,
     "burned": 0,
@@ -2070,7 +2088,7 @@
     "imgPath": "/accessory-img/gelids-gale-tactical-mask.png"
   },
   {
-    "rank": 116,
+    "rank": 117,
     "name": "The Grandmaster Rocket",
     "supply": 2908,
     "burned": 0,
@@ -2078,7 +2096,7 @@
     "mintDate": "2022-02-23T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.99,
-    "listings": 262,
+    "listings": 261,
     "season": "00",
     "tag": "Get Lucky+",
     "category": "Back",
@@ -2088,7 +2106,7 @@
     "imgPath": "/accessory-img/the-grandmaster-rocket.png"
   },
   {
-    "rank": 117,
+    "rank": 118,
     "name": "Luster Buckle Beanie",
     "supply": 3057,
     "burned": 0,
@@ -2106,7 +2124,7 @@
     "imgPath": "/accessory-img/luster-buckle-beanie.png"
   },
   {
-    "rank": 118,
+    "rank": 119,
     "name": "Jin’s Lucky Kicks",
     "supply": 3120,
     "burned": 0,
@@ -2124,7 +2142,7 @@
     "imgPath": "/accessory-img/jins-lucky-kicks.png"
   },
   {
-    "rank": 119,
+    "rank": 120,
     "name": "Honey Bun’s Sweet Jimmies",
     "supply": 3202,
     "burned": 0,
@@ -2132,7 +2150,7 @@
     "mintDate": "2022-07-20T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 1,
-    "listings": 423,
+    "listings": 422,
     "season": "00",
     "tag": "Snack Attack",
     "category": "Wrists",
@@ -2142,7 +2160,7 @@
     "imgPath": "/accessory-img/honey-buns-sweet-jimmies.png"
   },
   {
-    "rank": 120,
+    "rank": 121,
     "name": "Mach-63 Light Striker Glider",
     "supply": 3281,
     "burned": 0,
@@ -2160,7 +2178,7 @@
     "imgPath": "/accessory-img/mach-63-light-striker-glider.png"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Bear Bite Bracer",
     "supply": 3375,
     "burned": 0,
@@ -2168,7 +2186,7 @@
     "mintDate": "2022-09-28T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.14,
-    "listings": 431,
+    "listings": 430,
     "season": "01",
     "tag": "IKWYD Last Grave Rave",
     "category": "Wrists",
@@ -2178,7 +2196,7 @@
     "imgPath": "/accessory-img/bear-bite-bracer.png"
   },
   {
-    "rank": 122,
+    "rank": 123,
     "name": "Fanny Pack in Fuchsia",
     "supply": 3382,
     "burned": 0,
@@ -2196,7 +2214,7 @@
     "imgPath": "/accessory-img/fanny-pack-in-fuchsia.png"
   },
   {
-    "rank": 123,
+    "rank": 124,
     "name": "Jin’s Lucky Koi Amulet",
     "supply": 3486,
     "burned": 0,
@@ -2214,15 +2232,15 @@
     "imgPath": "/accessory-img/jins-lucky-koi-amulet.png"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Boss's First Buck Necklace",
     "supply": 3497,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-10-22T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 7.99,
-    "listings": 115,
+    "floorPrice": 8,
+    "listings": 114,
     "season": "00",
     "tag": "Boss Dino Founder's Pack",
     "category": "Collar",
@@ -2232,7 +2250,7 @@
     "imgPath": "/accessory-img/boss-first-buck-necklace.png"
   },
   {
-    "rank": 125,
+    "rank": 126,
     "name": "Ptero-glider",
     "supply": 3497,
     "burned": 0,
@@ -2250,7 +2268,7 @@
     "imgPath": "/accessory-img/ptero-glider.png"
   },
   {
-    "rank": 126,
+    "rank": 127,
     "name": "UV Sneaks",
     "supply": 3516,
     "burned": 0,
@@ -2258,7 +2276,7 @@
     "mintDate": "2021-09-07T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.7,
-    "listings": 219,
+    "listings": 218,
     "season": "00",
     "tag": "Hustle & Glow",
     "category": "Shoes",
@@ -2268,7 +2286,7 @@
     "imgPath": "/accessory-img/uv-sneaks.png"
   },
   {
-    "rank": 127,
+    "rank": 128,
     "name": "Mach-63 Lodi Kicks",
     "supply": 3644,
     "burned": 0,
@@ -2286,7 +2304,7 @@
     "imgPath": "/accessory-img/mach-63-lodi-kicks.png"
   },
   {
-    "rank": 128,
+    "rank": 129,
     "name": "Green Bandana",
     "supply": 3690,
     "burned": 0,
@@ -2304,7 +2322,7 @@
     "imgPath": "/accessory-img/green-bandana.png"
   },
   {
-    "rank": 129,
+    "rank": 130,
     "name": "Lolli's Goggles",
     "supply": 3770,
     "burned": 0,
@@ -2322,7 +2340,7 @@
     "imgPath": "/accessory-img/lollis-goggles.png"
   },
   {
-    "rank": 130,
+    "rank": 131,
     "name": "Lolli's Lick 'Em Bracelet",
     "supply": 3770,
     "burned": 0,
@@ -2340,7 +2358,7 @@
     "imgPath": "/accessory-img/lollis-lick-em-bracelet.png"
   },
   {
-    "rank": 131,
+    "rank": 132,
     "name": "Lolli's Rocket Pop Jet Pack",
     "supply": 3770,
     "burned": 0,
@@ -2358,7 +2376,7 @@
     "imgPath": "/accessory-img/lollis-rocket-pop-jet-pack.png"
   },
   {
-    "rank": 132,
+    "rank": 133,
     "name": "Knockout Chest Guard",
     "supply": 4003,
     "burned": 0,
@@ -2376,7 +2394,7 @@
     "imgPath": "/accessory-img/knockout-chest-guard.png"
   },
   {
-    "rank": 133,
+    "rank": 134,
     "name": "Incandescent Shades",
     "supply": 4008,
     "burned": 0,
@@ -2394,7 +2412,7 @@
     "imgPath": "/accessory-img/incandescent-shades.png"
   },
   {
-    "rank": 134,
+    "rank": 135,
     "name": "Sage’s S'more Trekkers",
     "supply": 4179,
     "burned": 0,
@@ -2402,7 +2420,7 @@
     "mintDate": "2022-05-25T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.09,
-    "listings": 617,
+    "listings": 618,
     "season": "00",
     "tag": "Summer Camp Slam",
     "category": "Shoes",
@@ -2412,7 +2430,7 @@
     "imgPath": "/accessory-img/sages-smore-trekkers.png"
   },
   {
-    "rank": 135,
+    "rank": 136,
     "name": "Egyptian Cotton Belt",
     "supply": 4252,
     "burned": 0,
@@ -2420,7 +2438,7 @@
     "mintDate": "2021-10-20T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.49,
-    "listings": 358,
+    "listings": 359,
     "season": "00",
     "tag": "Grave Rave",
     "category": "Belt",
@@ -2430,7 +2448,7 @@
     "imgPath": "/accessory-img/egyptian-cotton-belt.png"
   },
   {
-    "rank": 136,
+    "rank": 137,
     "name": "Lucky Red Kerchief",
     "supply": 4286,
     "burned": 0,
@@ -2438,7 +2456,7 @@
     "mintDate": "2022-03-02T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.19,
-    "listings": 455,
+    "listings": 454,
     "season": "00",
     "tag": "Get Lucky",
     "category": "Collar",
@@ -2448,7 +2466,7 @@
     "imgPath": "/accessory-img/lucky-red-kerchief.png"
   },
   {
-    "rank": 137,
+    "rank": 138,
     "name": "Mach-63 Gauntlet",
     "supply": 4428,
     "burned": 0,
@@ -2466,7 +2484,7 @@
     "imgPath": "/accessory-img/mach-63-gauntlet.png"
   },
   {
-    "rank": 138,
+    "rank": 139,
     "name": "Electric Green Crossbody Bag",
     "supply": 4628,
     "burned": 0,
@@ -2484,7 +2502,7 @@
     "imgPath": "/accessory-img/electric-green-crossbody-bag.png"
   },
   {
-    "rank": 139,
+    "rank": 140,
     "name": "Tundra Trainers",
     "supply": 4878,
     "burned": 0,
@@ -2502,7 +2520,7 @@
     "imgPath": "/accessory-img/tundra-trainers.png"
   },
   {
-    "rank": 140,
+    "rank": 141,
     "name": "Neon Prong Bracelet",
     "supply": 5752,
     "burned": 0,
@@ -2520,7 +2538,7 @@
     "imgPath": "/accessory-img/neon-prong-bracelet.png"
   },
   {
-    "rank": 141,
+    "rank": 142,
     "name": "Scarlet’s Nian Mask",
     "supply": 6087,
     "burned": 0,
@@ -2528,7 +2546,7 @@
     "mintDate": "2022-02-09T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.09,
-    "listings": 798,
+    "listings": 797,
     "season": "00",
     "tag": "Get Lucky+",
     "category": "Mask",
@@ -2538,7 +2556,7 @@
     "imgPath": "/accessory-img/scarlets-nian-mask.png"
   },
   {
-    "rank": 142,
+    "rank": 143,
     "name": "Brawler’s Hand Wraps",
     "supply": 6790,
     "burned": 0,
@@ -2556,7 +2574,7 @@
     "imgPath": "/accessory-img/brawlers-hand-wraps.png"
   },
   {
-    "rank": 143,
+    "rank": 144,
     "name": "Mummy Mitts",
     "supply": 7027,
     "burned": 0,
@@ -2574,15 +2592,15 @@
     "imgPath": "/accessory-img/mummy-mitts.png"
   },
   {
-    "rank": 144,
+    "rank": 145,
     "name": "Astrid Havoc’s Hare Hat",
     "supply": 8000,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-10-26T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 4,
-    "listings": 220,
+    "floorPrice": 3.98,
+    "listings": 221,
     "season": "00",
     "tag": "Giveaway",
     "category": "Hat",
@@ -2592,7 +2610,7 @@
     "imgPath": "/accessory-img/astrid-havocs-hare-hat.png"
   },
   {
-    "rank": 145,
+    "rank": 146,
     "name": "Grave Rave Night Shades",
     "supply": 8000,
     "burned": 0,
@@ -2610,7 +2628,7 @@
     "imgPath": "/accessory-img/grave-rave-night-shades.png"
   },
   {
-    "rank": 146,
+    "rank": 147,
     "name": "Havoc’s Highlighter High-Tops",
     "supply": 8000,
     "burned": 0,
@@ -2628,7 +2646,7 @@
     "imgPath": "/accessory-img/havocs-highlighter-high-tops.png"
   },
   {
-    "rank": 147,
+    "rank": 148,
     "name": "Gelid’s Honor",
     "supply": 8112,
     "burned": 0,
@@ -2636,7 +2654,7 @@
     "mintDate": "2021-12-01T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.1,
-    "listings": 1063,
+    "listings": 1062,
     "season": "00",
     "tag": "Manila Chill",
     "category": "Collar",
@@ -2646,7 +2664,7 @@
     "imgPath": "/accessory-img/gelids-hornor.png"
   },
   {
-    "rank": 148,
+    "rank": 149,
     "name": "Scarlet’s Nian Cape",
     "supply": 8516,
     "burned": 0,
@@ -2654,7 +2672,7 @@
     "mintDate": "2022-01-27T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.07,
-    "listings": 1324,
+    "listings": 1323,
     "season": "00",
     "tag": "Get Lucky",
     "category": "Back",
@@ -2664,7 +2682,7 @@
     "imgPath": "/accessory-img/scarlets-nian-cape.png"
   },
   {
-    "rank": 149,
+    "rank": 150,
     "name": "Gelid’s Blessing",
     "supply": 17370,
     "burned": 0,
@@ -2672,7 +2690,7 @@
     "mintDate": "2021-12-01T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2.1,
-    "listings": 2397,
+    "listings": 2396,
     "season": "00",
     "tag": "Manila Chill",
     "category": "Wrists",
@@ -2682,7 +2700,7 @@
     "imgPath": "/accessory-img/gelids-blessing.png"
   },
   {
-    "rank": 150,
+    "rank": 151,
     "name": "Bananecklace",
     "supply": 20104,
     "burned": 0,
@@ -2690,7 +2708,7 @@
     "mintDate": "2022-02-15T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2,
-    "listings": 2071,
+    "listings": 2074,
     "season": "00",
     "tag": "Prime Gaming",
     "category": "Collar",
@@ -2700,7 +2718,7 @@
     "imgPath": "/accessory-img/bananecklace.png"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "King Karat Bananaclava",
     "supply": 26862,
     "burned": 0,
@@ -2708,7 +2726,7 @@
     "mintDate": "2022-02-01T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2,
-    "listings": 2719,
+    "listings": 2718,
     "season": "00",
     "tag": "Prime Gaming",
     "category": "Mask",
@@ -2718,7 +2736,7 @@
     "imgPath": "/accessory-img/king-karat-bananaclava.png"
   },
   {
-    "rank": 152,
+    "rank": 153,
     "name": "King Karat Banana Pack",
     "supply": 50986,
     "burned": 0,
@@ -2726,7 +2744,7 @@
     "mintDate": "2022-01-04T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 2,
-    "listings": 2753,
+    "listings": 2756,
     "season": "00",
     "tag": "Prime Gaming",
     "category": "Back",
