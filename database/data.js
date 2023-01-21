@@ -22,4 +22,4 @@ export const seasons = [
 ];
 
 export const lastUpdated = new Date(Date.UTC(2023, 0, 21, 5, 0, 0, 0));
-console.log(lastUpdated);
+// console.log(lastUpdated);
