@@ -58,7 +58,7 @@
     "minting": true,
     "mintDate": "2022-03-17T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 456.78,
+    "floorPrice": 600,
     "listings": 11,
     "season": "00",
     "artist": "James Groman",
@@ -111,8 +111,8 @@
     "minting": true,
     "mintDate": "2022-11-29T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 40.44,
-    "listings": 16,
+    "floorPrice": 46,
+    "listings": 15,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Gem Mint",
@@ -212,7 +212,7 @@
   {
     "rank": 13,
     "name": "Golden Roar",
-    "supply": 176,
+    "supply": 177,
     "burned": 124,
     "minting": true,
     "mintDate": "2022-11-29T00:00:00.000Z",
@@ -230,7 +230,7 @@
   {
     "rank": 14,
     "name": "New World Omega",
-    "supply": 180,
+    "supply": 183,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-10-04T00:00:00.000Z",
@@ -253,8 +253,8 @@
     "minting": false,
     "mintDate": "2022-06-22T00:00:00.000Z",
     "mintPrice": 349.99,
-    "floorPrice": 249.99,
-    "listings": 31,
+    "floorPrice": 238,
+    "listings": 33,
     "season": "00",
     "artist": "Burberry",
     "seasonFilter": "S00 Early Access",
@@ -287,7 +287,7 @@
     "minting": false,
     "mintDate": "2022-04-28T00:00:00.000Z",
     "mintPrice": 224.99,
-    "floorPrice": 169,
+    "floorPrice": 159,
     "listings": 33,
     "season": "00",
     "artist": "Quiccs",
@@ -339,7 +339,7 @@
     "mintDate": "2022-03-28T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 100,
-    "listings": 32,
+    "listings": 33,
     "season": "00",
     "artist": "Nathan Jurevicius",
     "tag": "NFT LA",
@@ -349,24 +349,6 @@
   },
   {
     "rank": 21,
-    "name": "Platinum Karat",
-    "supply": 366,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2022-10-20T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 10.5,
-    "listings": 48,
-    "season": "00",
-    "artist": "Mel Chang",
-    "tag": "Gem Mint",
-    "category": "Premium Grade",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/platinum-karat.png"
-  },
-  {
-    "rank": 22,
     "name": "Camo J",
     "supply": 370,
     "burned": 0,
@@ -381,6 +363,24 @@
     "seasonFilter": "S00 Pre-Alpha",
     "withdrawable": false,
     "imgPath": "/blanko-img/camo-j.png"
+  },
+  {
+    "rank": 22,
+    "name": "Platinum Karat",
+    "supply": 371,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2022-10-20T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 9,
+    "listings": 49,
+    "season": "00",
+    "artist": "Mel Chang",
+    "tag": "Gem Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/platinum-karat.png"
   },
   {
     "rank": 23,
@@ -425,7 +425,7 @@
     "mintDate": "2021-07-13T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 95,
-    "listings": 59,
+    "listings": 60,
     "season": "00",
     "artist": "Mythical",
     "tag": "First Party Pass",
@@ -443,7 +443,7 @@
     "mintDate": "2019-03-15T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 89,
-    "listings": 30,
+    "listings": 29,
     "season": "00",
     "artist": "Old Mythical",
     "tag": "SXSW",
@@ -475,8 +475,8 @@
     "minting": false,
     "mintDate": "2022-12-14T00:00:00.000Z",
     "mintPrice": 19.99,
-    "floorPrice": 16,
-    "listings": 46,
+    "floorPrice": 15,
+    "listings": 52,
     "season": "01",
     "artist": "Jon-Paul Kaiser",
     "seasonFilter": "S01",
@@ -508,8 +508,8 @@
     "minting": true,
     "mintDate": "2022-04-28T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 27.09,
-    "listings": 75,
+    "floorPrice": 28.99,
+    "listings": 73,
     "season": "00",
     "artist": "Kronk",
     "tag": "Gem Mint",
@@ -527,7 +527,7 @@
     "mintDate": "2022-11-16T00:00:00.000Z",
     "mintPrice": 14.99,
     "floorPrice": 7.99,
-    "listings": 71,
+    "listings": 72,
     "season": "01",
     "artist": "Dan Lish",
     "tag": "Pop-Tarts",
@@ -544,7 +544,7 @@
     "mintDate": "2022-11-18T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 9,
-    "listings": 37,
+    "listings": 38,
     "season": "01",
     "artist": "Pete Fowler",
     "seasonFilter": "S01",
@@ -554,13 +554,13 @@
   {
     "rank": 33,
     "name": "Hesperiad",
-    "supply": 434,
+    "supply": 449,
     "burned": 0,
     "minting": true,
     "mintDate": "2023-01-11T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 10.25,
-    "listings": 28,
+    "floorPrice": 13,
+    "listings": 24,
     "season": "01",
     "artist": "Mythical",
     "tag": "Cosmic Groove+",
@@ -577,8 +577,8 @@
     "minting": false,
     "mintDate": "2022-10-17T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 7.99,
-    "listings": 52,
+    "floorPrice": 7.98,
+    "listings": 56,
     "season": "01",
     "artist": "Junko Mizuno",
     "tag": "Junko Mizuno Mystery Box",
@@ -595,7 +595,7 @@
     "mintDate": "2022-11-17T00:00:00.000Z",
     "mintPrice": 14.99,
     "floorPrice": 7.4,
-    "listings": 62,
+    "listings": 60,
     "season": "01",
     "artist": "Dan Lish",
     "tag": "Pop-Tarts",
@@ -611,8 +611,8 @@
     "minting": false,
     "mintDate": "2022-10-17T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 6.99,
-    "listings": 39,
+    "floorPrice": 6.9,
+    "listings": 40,
     "season": "01",
     "artist": "Junko Mizuno",
     "tag": "Junko Mizuno Mystery Box",
@@ -622,24 +622,6 @@
   },
   {
     "rank": 37,
-    "name": "Cassiopeia",
-    "supply": 464,
-    "burned": 0,
-    "minting": true,
-    "mintDate": "2023-01-18T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 5.38,
-    "listings": 66,
-    "season": "01",
-    "artist": "Mythical",
-    "tag": "Cosmic Groove",
-    "seasonFilter": "S01",
-    "passFilter": "S01 Cosmic Groove",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/cassiopeia.png"
-  },
-  {
-    "rank": 38,
     "name": "Astronaught",
     "supply": 470,
     "burned": 0,
@@ -647,7 +629,7 @@
     "mintDate": "2022-11-30T00:00:00.000Z",
     "mintPrice": 14.99,
     "floorPrice": 7.5,
-    "listings": 51,
+    "listings": 53,
     "season": "01",
     "artist": "Kronk",
     "seasonFilter": "S01",
@@ -655,7 +637,7 @@
     "imgPath": "/blanko-img/astronaught.png"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "name": "Ramen San",
     "supply": 472,
     "burned": 0,
@@ -663,7 +645,7 @@
     "mintDate": "2022-10-17T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 7.99,
-    "listings": 54,
+    "listings": 56,
     "season": "01",
     "artist": "Junko Mizuno",
     "tag": "Junko Mizuno Mystery Box",
@@ -672,7 +654,7 @@
     "imgPath": "/blanko-img/ramen-san.png"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "name": "Hip Pop",
     "supply": 473,
     "burned": 0,
@@ -680,7 +662,7 @@
     "mintDate": "2022-11-15T00:00:00.000Z",
     "mintPrice": 14.99,
     "floorPrice": 8,
-    "listings": 68,
+    "listings": 67,
     "season": "01",
     "artist": "Dan Lish",
     "tag": "Pop-Tarts",
@@ -689,7 +671,7 @@
     "imgPath": "/blanko-img/hip-pop.png"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "name": "Kub Totem",
     "supply": 500,
     "burned": 0,
@@ -697,7 +679,7 @@
     "mintDate": "2022-08-17T00:00:00.000Z",
     "mintPrice": 34.99,
     "floorPrice": 14.99,
-    "listings": 62,
+    "listings": 63,
     "season": "00",
     "artist": "Mike Fudge",
     "seasonFilter": "S00 Early Access",
@@ -705,7 +687,7 @@
     "imgPath": "/blanko-img/kub-totem.png"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "name": "IceBuddy",
     "supply": 500,
     "burned": 0,
@@ -722,10 +704,26 @@
     "imgPath": "/blanko-img/icebuddy.png"
   },
   {
+    "rank": 42,
+    "name": "HRT.b33p",
+    "supply": 500,
+    "burned": 0,
+    "minting": false,
+    "mintDate": "2023-01-25T00:00:00.000Z",
+    "mintPrice": 14.99,
+    "floorPrice": 11.5,
+    "listings": 46,
+    "season": "01",
+    "artist": "Branden Wayne",
+    "seasonFilter": "S01",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/hrt-b33p.png"
+  },
+  {
     "rank": 43,
     "name": "Zeta Amanatra",
-    "supply": 520,
-    "burned": 360,
+    "supply": 529,
+    "burned": 366,
     "minting": true,
     "mintDate": "2022-10-04T00:00:00.000Z",
     "mintPrice": 0,
@@ -747,8 +745,8 @@
     "minting": false,
     "mintDate": "2022-12-07T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 6.8,
-    "listings": 55,
+    "floorPrice": 6,
+    "listings": 57,
     "season": "01",
     "artist": "Dan Lish",
     "seasonFilter": "S01",
@@ -758,13 +756,13 @@
   {
     "rank": 45,
     "name": "Zirk-n-Ziga",
-    "supply": 574,
+    "supply": 585,
     "burned": 0,
     "minting": true,
     "mintDate": "2023-01-12T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 4.2,
-    "listings": 66,
+    "listings": 61,
     "season": "01",
     "artist": "Dan Lish",
     "seasonFilter": "S01",
@@ -773,14 +771,32 @@
   },
   {
     "rank": 46,
-    "name": "Captain Adhara",
+    "name": "Cassiopeia",
     "supply": 602,
+    "burned": 0,
+    "minting": true,
+    "mintDate": "2023-01-18T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 4.44,
+    "listings": 78,
+    "season": "01",
+    "artist": "Mythical",
+    "tag": "Cosmic Groove",
+    "seasonFilter": "S01",
+    "passFilter": "S01 Cosmic Groove",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/cassiopeia.png"
+  },
+  {
+    "rank": 47,
+    "name": "Captain Adhara",
+    "supply": 606,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-12-07T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 4.9,
-    "listings": 53,
+    "floorPrice": 4.8,
+    "listings": 54,
     "season": "01",
     "artist": "Mythical",
     "tag": "Cosmic Groove+",
@@ -790,7 +806,7 @@
     "imgPath": "/blanko-img/captain-adhara.png"
   },
   {
-    "rank": 47,
+    "rank": 49,
     "name": "Sweet Gaze",
     "supply": 694,
     "burned": 0,
@@ -798,7 +814,7 @@
     "mintDate": "2022-08-24T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 8.08,
-    "listings": 78,
+    "listings": 79,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Snack Attack+",
@@ -808,7 +824,7 @@
     "imgPath": "/blanko-img/sweet-gaze.png"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "name": "Kijo",
     "supply": 700,
     "burned": 0,
@@ -816,7 +832,7 @@
     "mintDate": "2022-07-21T00:00:00.000Z",
     "mintPrice": 29.99,
     "floorPrice": 14,
-    "listings": 92,
+    "listings": 93,
     "season": "00",
     "artist": "Jon-Paul Kaiser",
     "seasonFilter": "S00 Early Access",
@@ -824,7 +840,7 @@
     "imgPath": "/blanko-img/kijo.png"
   },
   {
-    "rank": 48,
+    "rank": 50,
     "name": "Mechagodzilla",
     "supply": 703,
     "burned": 0,
@@ -832,7 +848,7 @@
     "mintDate": "2022-10-12T00:00:00.000Z",
     "mintPrice": 24.99,
     "floorPrice": 10,
-    "listings": 98,
+    "listings": 99,
     "season": "01",
     "artist": "James Groman",
     "seasonFilter": "S01",
@@ -840,7 +856,7 @@
     "imgPath": "/blanko-img/mechagodzilla.png"
   },
   {
-    "rank": 50,
+    "rank": 51,
     "name": "Multi Blanko",
     "supply": 744,
     "burned": 0,
@@ -857,7 +873,7 @@
     "imgPath": "/blanko-img/multi-blanko.png"
   },
   {
-    "rank": 51,
+    "rank": 53,
     "name": "Guilty Gardener 474",
     "supply": 747,
     "burned": 0,
@@ -873,15 +889,15 @@
     "imgPath": "/blanko-img/guilty-gardener-474.png"
   },
   {
-    "rank": 53,
+    "rank": 54,
     "name": "Tenderfoot",
     "supply": 750,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-06-30T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 9,
-    "listings": 67,
+    "floorPrice": 8,
+    "listings": 68,
     "season": "00",
     "artist": "Mythical",
     "tag": "Summer Camp Slam+",
@@ -891,15 +907,15 @@
     "imgPath": "/blanko-img/tenderfoot.png"
   },
   {
-    "rank": 54,
+    "rank": 52,
     "name": "Sharky B.",
     "supply": 750,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-08-11T00:00:00.000Z",
     "mintPrice": 299.99,
-    "floorPrice": 175,
-    "listings": 59,
+    "floorPrice": 174.99,
+    "listings": 60,
     "season": "00",
     "artist": "Burberry",
     "seasonFilter": "S00 Early Access",
@@ -907,15 +923,15 @@
     "imgPath": "/blanko-img/sharky-b.png"
   },
   {
-    "rank": 52,
+    "rank": 55,
     "name": "Attick",
     "supply": 814,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-10-26T00:00:00.000Z",
     "mintPrice": 14.99,
-    "floorPrice": 10.49,
-    "listings": 88,
+    "floorPrice": 11.98,
+    "listings": 84,
     "season": "01",
     "artist": "Dan Lish",
     "seasonFilter": "S01",
@@ -923,14 +939,14 @@
     "imgPath": "/blanko-img/attick.png"
   },
   {
-    "rank": 55,
+    "rank": 56,
     "name": "GrassGnome",
     "supply": 832,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-06-03T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 31,
+    "floorPrice": 29,
     "listings": 35,
     "season": "00",
     "artist": "ILYYW",
@@ -940,7 +956,7 @@
     "imgPath": "/blanko-img/grassgnome.png"
   },
   {
-    "rank": 56,
+    "rank": 57,
     "name": "Roughen Tumble",
     "supply": 872,
     "burned": 0,
@@ -948,7 +964,7 @@
     "mintDate": "2022-04-14T00:00:00.000Z",
     "mintPrice": 34.99,
     "floorPrice": 20,
-    "listings": 90,
+    "listings": 89,
     "season": "00",
     "artist": "Mythical",
     "seasonFilter": "S00 Early Access",
@@ -956,7 +972,7 @@
     "imgPath": "/blanko-img/roughen-tumble.png"
   },
   {
-    "rank": 57,
+    "rank": 58,
     "name": "Raulf",
     "supply": 939,
     "burned": 0,
@@ -974,24 +990,6 @@
     "imgPath": "/blanko-img/raulf.png"
   },
   {
-    "rank": 58,
-    "name": "Karat Corroded",
-    "supply": 976,
-    "burned": 730,
-    "minting": true,
-    "mintDate": "2022-10-20T00:00:00.000Z",
-    "mintPrice": 0,
-    "floorPrice": 22,
-    "listings": 36,
-    "season": "00",
-    "artist": "Mel Chang",
-    "tag": "Mint",
-    "category": "Premium Grade",
-    "seasonFilter": "S00 Early Access",
-    "withdrawable": false,
-    "imgPath": "/blanko-img/karat-corroded.png"
-  },
-  {
     "rank": 59,
     "name": "Honey Bun",
     "supply": 976,
@@ -999,8 +997,8 @@
     "minting": false,
     "mintDate": "2022-07-21T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 7,
-    "listings": 126,
+    "floorPrice": 6,
+    "listings": 128,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Snack Attack+",
@@ -1018,7 +1016,7 @@
     "mintDate": "2022-10-06T00:00:00.000Z",
     "mintPrice": 24.99,
     "floorPrice": 7.49,
-    "listings": 126,
+    "listings": 127,
     "season": "01",
     "artist": "James Groman",
     "seasonFilter": "S01",
@@ -1027,14 +1025,32 @@
   },
   {
     "rank": 61,
+    "name": "Karat Corroded",
+    "supply": 985,
+    "burned": 740,
+    "minting": true,
+    "mintDate": "2022-10-20T00:00:00.000Z",
+    "mintPrice": 0,
+    "floorPrice": 25,
+    "listings": 36,
+    "season": "00",
+    "artist": "Mel Chang",
+    "tag": "Mint",
+    "category": "Premium Grade",
+    "seasonFilter": "S00 Early Access",
+    "withdrawable": false,
+    "imgPath": "/blanko-img/karat-corroded.png"
+  },
+  {
+    "rank": 62,
     "name": "AT0M.atn.ERR",
     "supply": 986,
     "burned": 400,
     "minting": false,
     "mintDate": "2021-12-09T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 59,
-    "listings": 113,
+    "floorPrice": 50,
+    "listings": 115,
     "season": "00",
     "artist": "Mythical",
     "tag": "Mint",
@@ -1044,7 +1060,7 @@
     "imgPath": "/blanko-img/at0m-atn-err.png"
   },
   {
-    "rank": 62,
+    "rank": 63,
     "name": "Frostbyte",
     "supply": 1000,
     "burned": 0,
@@ -1052,7 +1068,7 @@
     "mintDate": "2020-12-18T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 79.97,
-    "listings": 40,
+    "listings": 41,
     "season": "00",
     "artist": "Dan Lish",
     "tag": "In-game Event",
@@ -1061,15 +1077,15 @@
     "imgPath": "/blanko-img/frostbyte.png"
   },
   {
-    "rank": 63,
+    "rank": 64,
     "name": "Get Lit deadmau5",
     "supply": 1000,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-10-27T00:00:00.000Z",
     "mintPrice": 349.99,
-    "floorPrice": 195,
-    "listings": 99,
+    "floorPrice": 185,
+    "listings": 101,
     "season": "00",
     "artist": "Dan Lish and deadmau5",
     "seasonFilter": "S00 Early Access",
@@ -1077,7 +1093,7 @@
     "imgPath": "/blanko-img/get-lit-deadmau5.png"
   },
   {
-    "rank": 64,
+    "rank": 65,
     "name": "Mudboi",
     "supply": 1000,
     "burned": 0,
@@ -1094,15 +1110,15 @@
     "imgPath": "/blanko-img/mudboi.png"
   },
   {
-    "rank": 65,
+    "rank": 66,
     "name": "Professor Meowingtons",
     "supply": 1003,
     "burned": 3,
     "minting": false,
     "mintDate": "2021-07-07T00:00:00.000Z",
     "mintPrice": 159.99,
-    "floorPrice": 77,
-    "listings": 59,
+    "floorPrice": 75,
+    "listings": 60,
     "season": "00",
     "artist": "Dan Lish and deadmau5",
     "seasonFilter": "S00 Early Access",
@@ -1110,7 +1126,7 @@
     "imgPath": "/blanko-img/professor-meowingtons.png"
   },
   {
-    "rank": 66,
+    "rank": 67,
     "name": "Skivvy Klown",
     "supply": 1038,
     "burned": 815,
@@ -1128,7 +1144,7 @@
     "imgPath": "/blanko-img/skivvy-klown.png"
   },
   {
-    "rank": 67,
+    "rank": 68,
     "name": "Roxx",
     "supply": 1091,
     "burned": 0,
@@ -1136,7 +1152,7 @@
     "mintDate": "2022-08-05T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 4.8,
-    "listings": 98,
+    "listings": 100,
     "season": "00",
     "artist": "Andrea Kang",
     "seasonFilter": "S00 Early Access",
@@ -1144,14 +1160,14 @@
     "imgPath": "/blanko-img/roxx.png"
   },
   {
-    "rank": 68,
+    "rank": 69,
     "name": "Nadine",
     "supply": 1097,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-06-03T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 3.49,
+    "floorPrice": 4.89,
     "listings": 119,
     "season": "00",
     "artist": "Mythical",
@@ -1160,7 +1176,7 @@
     "imgPath": "/blanko-img/nadine.png"
   },
   {
-    "rank": 69,
+    "rank": 70,
     "name": "Counselor Blaze",
     "supply": 1131,
     "burned": 0,
@@ -1168,7 +1184,7 @@
     "mintDate": "2022-05-25T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 5.5,
-    "listings": 160,
+    "listings": 159,
     "season": "00",
     "artist": "Melanie Chang",
     "tag": "Summer Camp Slam+",
@@ -1178,15 +1194,15 @@
     "imgPath": "/blanko-img/counselor-blaze.png"
   },
   {
-    "rank": 70,
+    "rank": 71,
     "name": "Godzilla",
     "supply": 1153,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-09-28T00:00:00.000Z",
     "mintPrice": 14.99,
-    "floorPrice": 7.99,
-    "listings": 102,
+    "floorPrice": 8.5,
+    "listings": 103,
     "season": "01",
     "artist": "James Groman",
     "seasonFilter": "S01",
@@ -1194,7 +1210,7 @@
     "imgPath": "/blanko-img/godzilla.png"
   },
   {
-    "rank": 71,
+    "rank": 72,
     "name": "Keep Rockin'",
     "supply": 1190,
     "burned": 0,
@@ -1202,7 +1218,7 @@
     "mintDate": "2022-03-24T00:00:00.000Z",
     "mintPrice": 24.99,
     "floorPrice": 9,
-    "listings": 130,
+    "listings": 129,
     "season": "00",
     "artist": "Riiisa Boogie",
     "seasonFilter": "S00 Early Access",
@@ -1210,7 +1226,7 @@
     "imgPath": "/blanko-img/keep-rockin.png"
   },
   {
-    "rank": 72,
+    "rank": 73,
     "name": "TEQ63 [GHOST WHITE]",
     "supply": 1200,
     "burned": 0,
@@ -1226,7 +1242,7 @@
     "imgPath": "/blanko-img/teq63-ghost-white.png"
   },
   {
-    "rank": 73,
+    "rank": 74,
     "name": "TEQ63 [OG BLK]",
     "supply": 1200,
     "burned": 0,
@@ -1242,7 +1258,7 @@
     "imgPath": "/blanko-img/teq63-og-blk.png"
   },
   {
-    "rank": 74,
+    "rank": 75,
     "name": "Square",
     "supply": 1266,
     "burned": 0,
@@ -1258,15 +1274,15 @@
     "imgPath": "/blanko-img/square.png"
   },
   {
-    "rank": 75,
+    "rank": 76,
     "name": "Joystick",
     "supply": 1276,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-09-15T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 8.98,
-    "listings": 119,
+    "floorPrice": 8,
+    "listings": 118,
     "season": "00",
     "artist": "Atari",
     "tag": "Atari Mystery Box",
@@ -1275,14 +1291,14 @@
     "imgPath": "/blanko-img/joystick.png"
   },
   {
-    "rank": 76,
+    "rank": 77,
     "name": "South Paw",
     "supply": 1325,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-05-05T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 5.5,
+    "floorPrice": 4,
     "listings": 134,
     "season": "00",
     "artist": "Mythical",
@@ -1293,15 +1309,15 @@
     "imgPath": "/blanko-img/south-paw.png"
   },
   {
-    "rank": 77,
+    "rank": 78,
     "name": "Kandie",
-    "supply": 1338,
+    "supply": 1340,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-09-28T00:00:00.000Z",
     "mintPrice": 11.99,
     "floorPrice": 3.97,
-    "listings": 140,
+    "listings": 139,
     "season": "01",
     "artist": "Kronk",
     "tag": "S01 Starter Bundle",
@@ -1310,7 +1326,7 @@
     "imgPath": "/blanko-img/kandie.png"
   },
   {
-    "rank": 78,
+    "rank": 79,
     "name": "Tempest",
     "supply": 1344,
     "burned": 0,
@@ -1318,7 +1334,7 @@
     "mintDate": "2022-09-15T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 5,
-    "listings": 162,
+    "listings": 163,
     "season": "00",
     "artist": "Atari",
     "tag": "Atari Mystery Box",
@@ -1327,7 +1343,7 @@
     "imgPath": "/blanko-img/tempest.png"
   },
   {
-    "rank": 79,
+    "rank": 80,
     "name": "Pep",
     "supply": 1347,
     "burned": 0,
@@ -1335,7 +1351,7 @@
     "mintDate": "2022-08-31T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 4,
-    "listings": 133,
+    "listings": 132,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Snack Attack",
@@ -1345,15 +1361,15 @@
     "imgPath": "/blanko-img/pep.png"
   },
   {
-    "rank": 80,
+    "rank": 81,
     "name": "Pong",
     "supply": 1357,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-09-15T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 7,
-    "listings": 119,
+    "floorPrice": 9,
+    "listings": 118,
     "season": "00",
     "artist": "Atari",
     "tag": "Atari Mystery Box",
@@ -1362,7 +1378,7 @@
     "imgPath": "/blanko-img/pong.png"
   },
   {
-    "rank": 81,
+    "rank": 82,
     "name": "El Coatlito",
     "supply": 1365,
     "burned": 282,
@@ -1370,7 +1386,7 @@
     "mintDate": "2022-03-09T00:00:00.000Z",
     "mintPrice": 39.99,
     "floorPrice": 29,
-    "listings": 136,
+    "listings": 135,
     "season": "00",
     "artist": "El Grand Chamaco",
     "seasonFilter": "S00 Early Access",
@@ -1378,7 +1394,7 @@
     "imgPath": "/blanko-img/el-coatlito.png"
   },
   {
-    "rank": 82,
+    "rank": 83,
     "name": "Centipede",
     "supply": 1377,
     "burned": 0,
@@ -1395,7 +1411,7 @@
     "imgPath": "/blanko-img/centipede.png"
   },
   {
-    "rank": 83,
+    "rank": 84,
     "name": "Drak",
     "supply": 1384,
     "burned": 0,
@@ -1403,7 +1419,7 @@
     "mintDate": "2022-09-28T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 3.9,
-    "listings": 178,
+    "listings": 180,
     "season": "01",
     "artist": "Mythical",
     "tag": "IKWYD Last Grave Rave+",
@@ -1413,15 +1429,15 @@
     "imgPath": "/blanko-img/drak.png"
   },
   {
-    "rank": 84,
+    "rank": 85,
     "name": "Lead Counselor Sage",
     "supply": 1444,
     "burned": 0,
     "minting": false,
     "mintDate": "2022-07-07T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 5,
-    "listings": 150,
+    "floorPrice": 4,
+    "listings": 151,
     "season": "00",
     "artist": "Dan Lish",
     "tag": "Summer Camp Slam",
@@ -1431,7 +1447,7 @@
     "imgPath": "/blanko-img/lead-counselor-sage.png"
   },
   {
-    "rank": 85,
+    "rank": 86,
     "name": "Menace",
     "supply": 1489,
     "burned": 0,
@@ -1447,7 +1463,7 @@
     "imgPath": "/blanko-img/menace.png"
   },
   {
-    "rank": 86,
+    "rank": 87,
     "name": "Frankie",
     "supply": 1504,
     "burned": 0,
@@ -1455,7 +1471,7 @@
     "mintDate": "2022-11-09T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 4,
-    "listings": 144,
+    "listings": 145,
     "season": "01",
     "artist": "Mythical",
     "tag": "IKWYD Last Grave Rave",
@@ -1465,7 +1481,7 @@
     "imgPath": "/blanko-img/frankie.png"
   },
   {
-    "rank": 87,
+    "rank": 88,
     "name": "Glitter Goth",
     "supply": 1562,
     "burned": 0,
@@ -1481,7 +1497,7 @@
     "imgPath": "/blanko-img/glitter-goth.png"
   },
   {
-    "rank": 88,
+    "rank": 89,
     "name": "Astrid Havoc",
     "supply": 1572,
     "burned": 0,
@@ -1489,7 +1505,7 @@
     "mintDate": "2021-11-13T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 12,
-    "listings": 233,
+    "listings": 234,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Grave Rave+",
@@ -1499,7 +1515,7 @@
     "imgPath": "/blanko-img/astrid-havoc.png"
   },
   {
-    "rank": 89,
+    "rank": 90,
     "name": "Sal",
     "supply": 1608,
     "burned": 0,
@@ -1515,7 +1531,7 @@
     "imgPath": "/blanko-img/sal.png"
   },
   {
-    "rank": 90,
+    "rank": 91,
     "name": "Betty Yeti",
     "supply": 1713,
     "burned": 0,
@@ -1523,7 +1539,7 @@
     "mintDate": "2021-07-01T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 8,
-    "listings": 121,
+    "listings": 122,
     "season": "00",
     "artist": "Mythical",
     "seasonFilter": "S00 Early Access",
@@ -1531,7 +1547,7 @@
     "imgPath": "/blanko-img/betty-yeti.png"
   },
   {
-    "rank": 91,
+    "rank": 92,
     "name": "Stupid Cupid",
     "supply": 1799,
     "burned": 0,
@@ -1547,7 +1563,7 @@
     "imgPath": "/blanko-img/stupid-cupid.png"
   },
   {
-    "rank": 92,
+    "rank": 93,
     "name": "Box B",
     "supply": 1859,
     "burned": 0,
@@ -1563,7 +1579,7 @@
     "imgPath": "/blanko-img/box-b.png"
   },
   {
-    "rank": 93,
+    "rank": 94,
     "name": "King Kirby",
     "supply": 1872,
     "burned": 0,
@@ -1571,7 +1587,7 @@
     "mintDate": "2022-05-06T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 7,
-    "listings": 152,
+    "listings": 153,
     "season": "00",
     "artist": "James Groman",
     "seasonFilter": "S00 Early Access",
@@ -1579,7 +1595,7 @@
     "imgPath": "/blanko-img/king-kirby.png"
   },
   {
-    "rank": 94,
+    "rank": 95,
     "name": "Mint Condition",
     "supply": 1927,
     "burned": 0,
@@ -1595,15 +1611,15 @@
     "imgPath": "/blanko-img/mint-condition.png"
   },
   {
-    "rank": 95,
+    "rank": 96,
     "name": "Burger San",
     "supply": 2000,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-08-25T00:00:00.000Z",
     "mintPrice": 29.99,
-    "floorPrice": 8,
-    "listings": 203,
+    "floorPrice": 7,
+    "listings": 204,
     "season": "00",
     "artist": "Junko Mizuno",
     "seasonFilter": "S00 Early Access",
@@ -1611,7 +1627,7 @@
     "imgPath": "/blanko-img/burger-san.png"
   },
   {
-    "rank": 96,
+    "rank": 97,
     "name": "Gorilla Samurai",
     "supply": 2000,
     "burned": 0,
@@ -1627,15 +1643,15 @@
     "imgPath": "/blanko-img/gorilla-samurai.png"
   },
   {
-    "rank": 97,
+    "rank": 98,
     "name": "Ivar Matlow",
     "supply": 2000,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-05-26T00:00:00.000Z",
     "mintPrice": 19.99,
-    "floorPrice": 15,
-    "listings": 100,
+    "floorPrice": 11,
+    "listings": 101,
     "season": "00",
     "artist": "Jon-Paul Kaiser",
     "seasonFilter": "S00 Open Beta",
@@ -1643,7 +1659,7 @@
     "imgPath": "/blanko-img/ivar-matlow.png"
   },
   {
-    "rank": 98,
+    "rank": 99,
     "name": "Lady Ishi",
     "supply": 2000,
     "burned": 0,
@@ -1659,7 +1675,7 @@
     "imgPath": "/blanko-img/lady-ishi.png"
   },
   {
-    "rank": 99,
+    "rank": 100,
     "name": "Nijiko",
     "supply": 2000,
     "burned": 0,
@@ -1667,7 +1683,7 @@
     "mintDate": "2021-06-30T00:00:00.000Z",
     "mintPrice": 29.99,
     "floorPrice": 17,
-    "listings": 122,
+    "listings": 123,
     "season": "00",
     "artist": "Junko Mizuno",
     "seasonFilter": "S00 Early Access",
@@ -1675,7 +1691,7 @@
     "imgPath": "/blanko-img/nijiko.png"
   },
   {
-    "rank": 100,
+    "rank": 101,
     "name": "Katana",
     "supply": 2031,
     "burned": 0,
@@ -1693,7 +1709,7 @@
     "imgPath": "/blanko-img/katana.png"
   },
   {
-    "rank": 101,
+    "rank": 102,
     "name": "Seafarer Oni",
     "supply": 2051,
     "burned": 0,
@@ -1709,7 +1725,7 @@
     "imgPath": "/blanko-img/seafarer-oni.png"
   },
   {
-    "rank": 102,
+    "rank": 103,
     "name": "Nelson",
     "supply": 2078,
     "burned": 0,
@@ -1727,7 +1743,7 @@
     "imgPath": "/blanko-img/nelson.png"
   },
   {
-    "rank": 103,
+    "rank": 104,
     "name": "Cabinet_Man.exe",
     "supply": 2107,
     "burned": 0,
@@ -1745,7 +1761,7 @@
     "imgPath": "/blanko-img/cabinet-man-exe.png"
   },
   {
-    "rank": 104,
+    "rank": 105,
     "name": "Kisha Demon Eater",
     "supply": 2179,
     "burned": 0,
@@ -1761,15 +1777,15 @@
     "imgPath": "/blanko-img/kisha-demon-eater.png"
   },
   {
-    "rank": 105,
+    "rank": 106,
     "name": "Braincase",
     "supply": 2237,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-05-12T00:00:00.000Z",
     "mintPrice": 14.99,
-    "floorPrice": 22,
-    "listings": 114,
+    "floorPrice": 19.99,
+    "listings": 115,
     "season": "00",
     "artist": "James Groman",
     "seasonFilter": "S00 Open Beta",
@@ -1777,7 +1793,7 @@
     "imgPath": "/blanko-img/braincase.png"
   },
   {
-    "rank": 106,
+    "rank": 107,
     "name": "Freddy Yeti",
     "supply": 2298,
     "burned": 0,
@@ -1793,7 +1809,7 @@
     "imgPath": "/blanko-img/freddy-yeti.png"
   },
   {
-    "rank": 107,
+    "rank": 108,
     "name": "Mumford",
     "supply": 2451,
     "burned": 0,
@@ -1801,7 +1817,7 @@
     "mintDate": "2021-11-10T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 5.4,
-    "listings": 264,
+    "listings": 263,
     "season": "00",
     "artist": "Dan Lish",
     "tag": "Grave Rave",
@@ -1811,7 +1827,7 @@
     "imgPath": "/blanko-img/mumford.png"
   },
   {
-    "rank": 108,
+    "rank": 109,
     "name": "TMC Crenshaw",
     "supply": 2512,
     "burned": 0,
@@ -1827,7 +1843,7 @@
     "imgPath": "/blanko-img/tmc-crenshaw.png"
   },
   {
-    "rank": 109,
+    "rank": 110,
     "name": "Manila Killa",
     "supply": 2567,
     "burned": 0,
@@ -1835,7 +1851,7 @@
     "mintDate": "2022-01-12T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 9.46,
-    "listings": 283,
+    "listings": 284,
     "season": "00",
     "artist": "Quiccs",
     "tag": "Manila Chill+",
@@ -1845,7 +1861,7 @@
     "imgPath": "/blanko-img/manila-killa.png"
   },
   {
-    "rank": 110,
+    "rank": 111,
     "name": "Tako",
     "supply": 2589,
     "burned": 0,
@@ -1862,7 +1878,7 @@
     "imgPath": "/blanko-img/tako.png"
   },
   {
-    "rank": 111,
+    "rank": 112,
     "name": "Grandmaster Jin",
     "supply": 2591,
     "burned": 0,
@@ -1870,7 +1886,7 @@
     "mintDate": "2022-03-09T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 4.55,
-    "listings": 324,
+    "listings": 327,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Get Lucky+",
@@ -1880,7 +1896,7 @@
     "imgPath": "/blanko-img/grandmaster-jin.png"
   },
   {
-    "rank": 112,
+    "rank": 113,
     "name": "Lumberjack",
     "supply": 2596,
     "burned": 0,
@@ -1896,7 +1912,7 @@
     "imgPath": "/blanko-img/lumberjack.png"
   },
   {
-    "rank": 113,
+    "rank": 114,
     "name": "Pride Dragon",
     "supply": 2620,
     "burned": 0,
@@ -1912,15 +1928,15 @@
     "imgPath": "/blanko-img/pride-dragon.png"
   },
   {
-    "rank": 114,
+    "rank": 115,
     "name": "Space Ape",
     "supply": 2638,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-02-02T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 14.99,
-    "listings": 94,
+    "floorPrice": 13.99,
+    "listings": 95,
     "season": "00",
     "artist": "James Groman",
     "seasonFilter": "S00 Open Beta",
@@ -1928,15 +1944,15 @@
     "imgPath": "/blanko-img/space-ape.png"
   },
   {
-    "rank": 115,
+    "rank": 116,
     "name": "Billy Bones Gold",
     "supply": 2699,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-10-22T00:00:00.000Z",
     "mintPrice": 99.99,
-    "floorPrice": 52,
-    "listings": 90,
+    "floorPrice": 54,
+    "listings": 89,
     "season": "00",
     "artist": "Jnok",
     "tag": "Founder's Pack",
@@ -1945,15 +1961,15 @@
     "imgPath": "/blanko-img/billy-bones-gold.png"
   },
   {
-    "rank": 116,
+    "rank": 117,
     "name": "Zeta",
     "supply": 2700,
-    "burned": 1037,
+    "burned": 1055,
     "minting": false,
     "mintDate": "2022-06-22T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 9.5,
-    "listings": 162,
+    "floorPrice": 13,
+    "listings": 159,
     "season": "00",
     "artist": "Nicky Davis",
     "tag": "NFT NYC",
@@ -1962,15 +1978,15 @@
     "imgPath": "/blanko-img/zeta.png"
   },
   {
-    "rank": 117,
+    "rank": 118,
     "name": "Fathomz",
     "supply": 2723,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-04-07T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 7.9,
-    "listings": 104,
+    "floorPrice": 6,
+    "listings": 105,
     "season": "00",
     "artist": "Pete Fowler",
     "seasonFilter": "S00 Open Beta",
@@ -1978,7 +1994,7 @@
     "imgPath": "/blanko-img/fathomz.png"
   },
   {
-    "rank": 118,
+    "rank": 119,
     "name": "TMC Stealth",
     "supply": 2792,
     "burned": 0,
@@ -1986,7 +2002,7 @@
     "mintDate": "2021-11-24T00:00:00.000Z",
     "mintPrice": 74.99,
     "floorPrice": 50,
-    "listings": 221,
+    "listings": 220,
     "season": "00",
     "artist": "Dan Lish",
     "seasonFilter": "S00 Early Access",
@@ -1994,7 +2010,7 @@
     "imgPath": "/blanko-img/tmc-stealth.png"
   },
   {
-    "rank": 119,
+    "rank": 120,
     "name": "Zantar",
     "supply": 2843,
     "burned": 0,
@@ -2010,7 +2026,7 @@
     "imgPath": "/blanko-img/zantar.png"
   },
   {
-    "rank": 120,
+    "rank": 121,
     "name": "Altidude",
     "supply": 2853,
     "burned": 0,
@@ -2026,7 +2042,7 @@
     "imgPath": "/blanko-img/altidude.png"
   },
   {
-    "rank": 121,
+    "rank": 122,
     "name": "Traffic",
     "supply": 2910,
     "burned": 0,
@@ -2042,7 +2058,7 @@
     "imgPath": "/blanko-img/traffic.png"
   },
   {
-    "rank": 122,
+    "rank": 123,
     "name": "Jaspa",
     "supply": 2972,
     "burned": 0,
@@ -2058,7 +2074,7 @@
     "imgPath": "/blanko-img/jaspa.png"
   },
   {
-    "rank": 123,
+    "rank": 124,
     "name": "Nautilus",
     "supply": 3000,
     "burned": 0,
@@ -2074,7 +2090,7 @@
     "imgPath": "/blanko-img/nautilus.png"
   },
   {
-    "rank": 124,
+    "rank": 125,
     "name": "Rock Boogie",
     "supply": 3000,
     "burned": 0,
@@ -2090,7 +2106,7 @@
     "imgPath": "/blanko-img/rock-boogie.png"
   },
   {
-    "rank": 125,
+    "rank": 126,
     "name": "Majo",
     "supply": 3029,
     "burned": 0,
@@ -2106,7 +2122,7 @@
     "imgPath": "/blanko-img/majo.png"
   },
   {
-    "rank": 126,
+    "rank": 127,
     "name": "Dazzle",
     "supply": 3038,
     "burned": 0,
@@ -2114,7 +2130,7 @@
     "mintDate": "2020-12-10T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 13,
-    "listings": 114,
+    "listings": 115,
     "season": "00",
     "artist": "Eye Spy",
     "seasonFilter": "S00 Open Beta",
@@ -2122,7 +2138,7 @@
     "imgPath": "/blanko-img/dazzle.png"
   },
   {
-    "rank": 127,
+    "rank": 128,
     "name": "Watermelonie",
     "supply": 3092,
     "burned": 0,
@@ -2138,7 +2154,7 @@
     "imgPath": "/blanko-img/watermelonie.png"
   },
   {
-    "rank": 128,
+    "rank": 129,
     "name": "Gordo",
     "supply": 3097,
     "burned": 0,
@@ -2146,7 +2162,7 @@
     "mintDate": "2021-10-13T00:00:00.000Z",
     "mintPrice": 24.99,
     "floorPrice": 7,
-    "listings": 211,
+    "listings": 210,
     "season": "00",
     "artist": "Mythical",
     "seasonFilter": "S00 Early Access",
@@ -2154,7 +2170,7 @@
     "imgPath": "/blanko-img/gordo.png"
   },
   {
-    "rank": 129,
+    "rank": 130,
     "name": "Finder of Lost Souls",
     "supply": 3109,
     "burned": 0,
@@ -2170,7 +2186,7 @@
     "imgPath": "/blanko-img/finder-of-lost-souls.png"
   },
   {
-    "rank": 130,
+    "rank": 131,
     "name": "Rougarou",
     "supply": 3329,
     "burned": 0,
@@ -2186,15 +2202,15 @@
     "imgPath": "/blanko-img/rougarou.png"
   },
   {
-    "rank": 131,
+    "rank": 132,
     "name": "Scarlet Crash",
     "supply": 3347,
-    "burned": 352,
+    "burned": 354,
     "minting": false,
     "mintDate": "2022-03-16T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 10.75,
-    "listings": 356,
+    "floorPrice": 9,
+    "listings": 358,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Get Lucky",
@@ -2204,7 +2220,7 @@
     "imgPath": "/blanko-img/scarlet-crash.png"
   },
   {
-    "rank": 132,
+    "rank": 133,
     "name": "Demanto",
     "supply": 3465,
     "burned": 0,
@@ -2220,15 +2236,15 @@
     "imgPath": "/blanko-img/demanto.png"
   },
   {
-    "rank": 133,
+    "rank": 134,
     "name": "Boss Dino",
     "supply": 3500,
     "burned": 250,
     "minting": false,
     "mintDate": "2020-10-22T00:00:00.000Z",
     "mintPrice": 149.99,
-    "floorPrice": 60,
-    "listings": 134,
+    "floorPrice": 75,
+    "listings": 133,
     "season": "00",
     "artist": "James Groman",
     "tag": "Founder's Pack",
@@ -2237,15 +2253,15 @@
     "imgPath": "/blanko-img/boss-dino.png"
   },
   {
-    "rank": 134,
+    "rank": 135,
     "name": "Peanut",
     "supply": 3502,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-11-18T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 18,
-    "listings": 157,
+    "floorPrice": 17,
+    "listings": 158,
     "season": "00",
     "artist": "Jnok",
     "seasonFilter": "S00 Private Beta",
@@ -2253,7 +2269,7 @@
     "imgPath": "/blanko-img/peanut.png"
   },
   {
-    "rank": 135,
+    "rank": 136,
     "name": "Deadward",
     "supply": 3592,
     "burned": 0,
@@ -2271,7 +2287,7 @@
     "imgPath": "/blanko-img/deadward.png"
   },
   {
-    "rank": 136,
+    "rank": 137,
     "name": "El Cha Blanko",
     "supply": 3695,
     "burned": 0,
@@ -2279,7 +2295,7 @@
     "mintDate": "2020-11-18T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 14.9,
-    "listings": 159,
+    "listings": 160,
     "season": "00",
     "artist": "Jnok",
     "seasonFilter": "S00 Private Beta",
@@ -2287,15 +2303,15 @@
     "imgPath": "/blanko-img/el-cha-blanko.png"
   },
   {
-    "rank": 137,
+    "rank": 138,
     "name": "Lolli",
     "supply": 3770,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-10-22T00:00:00.000Z",
     "mintPrice": 24.99,
-    "floorPrice": 19,
-    "listings": 82,
+    "floorPrice": 18,
+    "listings": 84,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Founder's Pack",
@@ -2304,15 +2320,15 @@
     "imgPath": "/blanko-img/lolli.png"
   },
   {
-    "rank": 138,
+    "rank": 139,
     "name": "Maximouth",
     "supply": 3773,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-11-18T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 14,
-    "listings": 148,
+    "floorPrice": 13.99,
+    "listings": 149,
     "season": "00",
     "artist": "James Groman",
     "seasonFilter": "S00 Private Beta",
@@ -2320,7 +2336,7 @@
     "imgPath": "/blanko-img/maximouth.png"
   },
   {
-    "rank": 139,
+    "rank": 140,
     "name": "Bullseye",
     "supply": 3784,
     "burned": 0,
@@ -2328,7 +2344,7 @@
     "mintDate": "2021-06-02T00:00:00.000Z",
     "mintPrice": 19.99,
     "floorPrice": 7,
-    "listings": 187,
+    "listings": 190,
     "season": "00",
     "artist": "Nicky Davis",
     "seasonFilter": "S00 Early Access",
@@ -2336,7 +2352,7 @@
     "imgPath": "/blanko-img/bullseye.png"
   },
   {
-    "rank": 140,
+    "rank": 141,
     "name": "Blankenstein",
     "supply": 3983,
     "burned": 0,
@@ -2353,7 +2369,7 @@
     "imgPath": "/blanko-img/blankenstein.png"
   },
   {
-    "rank": 141,
+    "rank": 142,
     "name": "Space Girl",
     "supply": 4130,
     "burned": 0,
@@ -2369,7 +2385,7 @@
     "imgPath": "/blanko-img/space-girl.png"
   },
   {
-    "rank": 142,
+    "rank": 143,
     "name": "Tygra",
     "supply": 4223,
     "burned": 0,
@@ -2387,7 +2403,7 @@
     "imgPath": "/blanko-img/tygra.png"
   },
   {
-    "rank": 143,
+    "rank": 144,
     "name": "Gelid Zero",
     "supply": 4465,
     "burned": 0,
@@ -2395,7 +2411,7 @@
     "mintDate": "2022-01-05T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 4.5,
-    "listings": 561,
+    "listings": 562,
     "season": "00",
     "artist": "Mythical",
     "tag": "Manila Chill",
@@ -2405,15 +2421,15 @@
     "imgPath": "/blanko-img/gelid-zero.png"
   },
   {
-    "rank": 144,
+    "rank": 145,
     "name": "Billy Bones",
     "supply": 4937,
     "burned": 0,
     "minting": false,
     "mintDate": "2020-11-18T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 42,
-    "listings": 176,
+    "floorPrice": 32,
+    "listings": 178,
     "season": "00",
     "artist": "Jnok",
     "seasonFilter": "S00 Private Beta",
@@ -2421,7 +2437,7 @@
     "imgPath": "/blanko-img/billy-bones.png"
   },
   {
-    "rank": 145,
+    "rank": 146,
     "name": "Pug Life",
     "supply": 5000,
     "burned": 616,
@@ -2429,7 +2445,7 @@
     "mintDate": "2021-09-15T00:00:00.000Z",
     "mintPrice": 49.99,
     "floorPrice": 14.99,
-    "listings": 411,
+    "listings": 412,
     "season": "00",
     "artist": "Kronk",
     "seasonFilter": "S00 Early Access",
@@ -2437,7 +2453,7 @@
     "imgPath": "/blanko-img/pug-life.png"
   },
   {
-    "rank": 146,
+    "rank": 147,
     "name": "Graf Kidd",
     "supply": 5070,
     "burned": 0,
@@ -2445,7 +2461,7 @@
     "mintDate": "2022-04-05T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 5.59,
-    "listings": 440,
+    "listings": 442,
     "season": "00",
     "artist": "Nicky Davis",
     "seasonFilter": "S00 Early Access",
@@ -2453,7 +2469,7 @@
     "imgPath": "/blanko-img/graf-kidd.png"
   },
   {
-    "rank": 147,
+    "rank": 148,
     "name": "Lil Lep",
     "supply": 5127,
     "burned": 0,
@@ -2461,7 +2477,7 @@
     "mintDate": "2022-03-03T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 3.88,
-    "listings": 614,
+    "listings": 613,
     "season": "00",
     "artist": "Dan Lish",
     "seasonFilter": "S00 Early Access",
@@ -2469,15 +2485,15 @@
     "imgPath": "/blanko-img/lil-lep.png"
   },
   {
-    "rank": 148,
+    "rank": 149,
     "name": "Visage",
     "supply": 5243,
     "burned": 0,
     "minting": true,
     "mintDate": "2022-06-09T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 3.49,
-    "listings": 240,
+    "floorPrice": 3.3,
+    "listings": 239,
     "season": "00",
     "artist": "Surell",
     "tag": "Design Challenge",
@@ -2487,15 +2503,15 @@
     "imgPath": "/blanko-img/visage.png"
   },
   {
-    "rank": 149,
+    "rank": 150,
     "name": "Mach-63",
     "supply": 5517,
     "burned": 0,
     "minting": false,
     "mintDate": "2021-12-01T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 4.74,
-    "listings": 638,
+    "floorPrice": 3.5,
+    "listings": 641,
     "season": "00",
     "artist": "Dan Lish",
     "tag": "Manila Chill+",
@@ -2505,7 +2521,7 @@
     "imgPath": "/blanko-img/mach-63.png"
   },
   {
-    "rank": 150,
+    "rank": 151,
     "name": "Heartbreaker Bunny",
     "supply": 6419,
     "burned": 0,
@@ -2513,7 +2529,7 @@
     "mintDate": "2022-02-03T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 3.44,
-    "listings": 991,
+    "listings": 993,
     "season": "00",
     "artist": "Kronk",
     "seasonFilter": "S00 Early Access",
@@ -2521,7 +2537,7 @@
     "imgPath": "/blanko-img/heartbreaker-bunny.png"
   },
   {
-    "rank": 151,
+    "rank": 152,
     "name": "Laplaz",
     "supply": 6818,
     "burned": 0,
@@ -2529,7 +2545,7 @@
     "mintDate": "2022-04-28T00:00:00.000Z",
     "mintPrice": 0,
     "floorPrice": 3.45,
-    "listings": 619,
+    "listings": 617,
     "season": "00",
     "artist": "Nathan Jurevicius",
     "tag": "In-game Event",
@@ -2538,7 +2554,7 @@
     "imgPath": "/blanko-img/laplaz.png"
   },
   {
-    "rank": 152,
+    "rank": 153,
     "name": "Dash",
     "supply": 7403,
     "burned": 0,
@@ -2554,7 +2570,7 @@
     "imgPath": "/blanko-img/dash.png"
   },
   {
-    "rank": 153,
+    "rank": 154,
     "name": "Octoid",
     "supply": 8236,
     "burned": 0,
@@ -2562,7 +2578,7 @@
     "mintDate": "2021-11-04T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 3.89,
-    "listings": 590,
+    "listings": 593,
     "season": "00",
     "artist": "Pete Fowler",
     "seasonFilter": "S00 Early Access",
@@ -2570,7 +2586,7 @@
     "imgPath": "/blanko-img/octoid.png"
   },
   {
-    "rank": 154,
+    "rank": 155,
     "name": "Krampus",
     "supply": 8754,
     "burned": 0,
@@ -2578,7 +2594,7 @@
     "mintDate": "2021-12-02T00:00:00.000Z",
     "mintPrice": 9.99,
     "floorPrice": 3.99,
-    "listings": 1131,
+    "listings": 1133,
     "season": "00",
     "artist": "Dan Lish",
     "seasonFilter": "S00 Early Access",
@@ -2586,15 +2602,15 @@
     "imgPath": "/blanko-img/krampus.png"
   },
   {
-    "rank": 155,
+    "rank": 156,
     "name": "AT0M.atn",
     "supply": 9461,
     "burned": 1964,
     "minting": false,
     "mintDate": "2021-08-05T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 10,
-    "listings": 564,
+    "floorPrice": 12.5,
+    "listings": 562,
     "season": "00",
     "artist": "Mythical",
     "seasonFilter": "S00 Early Access",
@@ -2602,14 +2618,14 @@
     "imgPath": "/blanko-img/at0m-atn.png"
   },
   {
-    "rank": 156,
+    "rank": 157,
     "name": "Klown",
     "supply": 12136,
     "burned": 2076,
     "minting": false,
     "mintDate": "2021-09-02T00:00:00.000Z",
     "mintPrice": 9.99,
-    "floorPrice": 7.99,
+    "floorPrice": 7,
     "listings": 732,
     "season": "00",
     "artist": "Kronk",
@@ -2618,15 +2634,15 @@
     "imgPath": "/blanko-img/klown.png"
   },
   {
-    "rank": 157,
+    "rank": 158,
     "name": "King Karat",
     "supply": 59373,
-    "burned": 1947,
+    "burned": 1965,
     "minting": false,
     "mintDate": "2021-12-13T00:00:00.000Z",
     "mintPrice": 0,
-    "floorPrice": 5,
-    "listings": 4211,
+    "floorPrice": 4,
+    "listings": 4224,
     "season": "00",
     "artist": "Mel Chang",
     "tag": "Prime Gaming",
