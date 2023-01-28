@@ -21,5 +21,5 @@ export const seasons = [
   { label: "Season 1" },
 ];
 
-export const lastUpdated = new Date(Date.UTC(2023, 0, 27, 8, 0, 0, 0));
+export const lastUpdated = new Date(Date.UTC(2023, 0, 28, 8, 0, 0, 0));
 // console.log(lastUpdated);
