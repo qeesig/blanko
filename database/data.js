@@ -9,6 +9,7 @@ export const partyPass = [
   { label: "S00 Snack Attack" },
   { label: "S01 IKWYD Last Grave Rave" },
   { label: "S01 Cosmic Groove" },
+  { label: "S01 Bizaarnival" },
 ];
 
 export const seasons = [
